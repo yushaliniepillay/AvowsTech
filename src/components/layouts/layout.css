@@ -1,5 +1,6 @@
 :root {
-    --mainDark: #343a40;
+    --mainDark: #0d0d0e;
+    --mainLightDark: #30383f;
     --mainGrey: rgba(109, 109, 109);
     --mainLightGrey: rgba(172, 172, 172);
     --mainWhite: #fff;
