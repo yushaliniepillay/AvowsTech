@@ -1,0 +1,28 @@
+
+.main-footer {
+    background: #4c5358;
+    padding-top: 1rem;
+    color: white;
+    padding-top: 3rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+}
+.footer-about {
+    font-size: 12pt;
+    text-align: center;
+}
+.copyright {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 16pt;
+}
+.page-container{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content-wrap{
+    flex: 1;
+}
