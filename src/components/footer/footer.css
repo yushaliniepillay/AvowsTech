@@ -1,4 +1,9 @@
-
+.avowsLogo {
+    background-image: url(../images/avowsTitle.png);
+    position: relative;
+    overflow: hidden;
+    z-index: 0
+}
 .main-footer {
     background: #2f3235;
     padding-top: 1rem;
@@ -34,4 +39,14 @@
 }
 .content-wrap{
     flex: 1;
+}
+.footer-img{
+    padding-right: 1rem;
+}
+
+.img-responsive {
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
 }

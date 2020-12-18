@@ -5,6 +5,7 @@ import "../footer/footer.css";
 
 
 function footer() {
+    var imageName = require('../images/header-slider-content/02.png')
 
     return (
         <footer>
@@ -13,8 +14,8 @@ function footer() {
                     <div className="row">
                         <div className="col-md-3 hidden-sm hidden-xs">
                             <div className="footer-img">
-                                <h4>Image</h4>
-                                {/* <img src="/img/footer-img.png" alt="" className="img-responsive" /> */}
+                                {/* <img src=".\images\header-slider\04.png" alt="" className="img-responsive" /> */}
+                                <img src={imageName} alt="" className="img-responsive" />
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-4 footer-widget">
@@ -91,7 +92,7 @@ function footer() {
                     <div className="Site-footer__primary text-center">
                         <div className="Footer-logo Footer-logo--normal">
                             <a href="/" className="Footer-logo__link" title="Avows">
-                                <img className="Footer--logo__img" data-retina="0" src="/imgages/avowsTitle.png" alt="Avows" />
+                                <img className="avowsLogo" data-retina="0" src="/imgages/avowsTitle.png" alt="Avows" />
                             </a>
                         </div>
                     </div>

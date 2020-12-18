@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
     </div>
     <div>
       <Navbar expand="lg" sticky="top">
-        <Navbar.Brand href="/">{siteTitle}</Navbar.Brand>
+        <Navbar.Brand id="avowsTitle" href="/">{siteTitle}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">
