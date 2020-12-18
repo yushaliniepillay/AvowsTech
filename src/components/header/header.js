@@ -45,7 +45,7 @@ const Header = ({ siteTitle }) => (
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">
             <Nav.Item as="li" >
-              <Link to="/home" className="nav-link" activeClassName="active">
+              <Link to="/" className="nav-link" activeClassName="active">
                 HOME
             </Link>
             </Nav.Item>

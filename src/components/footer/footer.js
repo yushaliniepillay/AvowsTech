@@ -19,8 +19,8 @@ function footer() {
                         </div>
                         <div className="col-md-3 col-sm-4 footer-widget">
                             <div className="footer-about">
-                                <h4 className="footer-title">ABOUT US 
-                                <hr className="bg-danger inline-block"/></h4> 
+                                <h4 className="footer-title">ABOUT US
+                                <hr className="bg-danger inline-block" /></h4>
                                 <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High className Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
                                 <Button >READ MORE</Button>
@@ -29,7 +29,7 @@ function footer() {
                         <div className="col-md-3 col-sm-4">
                             <section className="links-widget">
                                 <h4 className="footer-title">QUICK LINKS
-                                <hr className="bg-danger"/></h4>
+                                <hr className="bg-danger" /></h4>
                                 <ul className="list-unstyled">
                                     <li><a href="/services/technology_services">SERVICES & SOLUTIONS</a></li>
                                     <li><a href="/career">CAREER</a></li>
@@ -40,7 +40,7 @@ function footer() {
                         <div className="col-md-3 col-sm-4">
                             <section className="latest-tweets-widget">
                                 <h4 className="footer-title">CONTACT US
-                                <hr className="bg-danger"/></h4>
+                                <hr className="bg-danger" /></h4>
                                 <ul className="footer_contact">
                                     <li>Level 15-06, Tower A, The Vertical Business Suite,
                                     Avenue 3, Bangsar South, No 8, Jln Kerinchi,
@@ -55,29 +55,31 @@ function footer() {
                 </div>
             </div>
 
-            <div className="p-3 text-center bg-light text-dark">
+            <div className="footer-landmarks">
                 <div className="col-sm-12 col-md-12 footer3">
                     <div className="col-xs-12 col-sm-12 col-md-12">
-                        <div className="footer-landmarks text-center">
-                            {/* <div className="col-md-4">
-                            </div> */}
-                            <div className="col-md-1" align="center">
-                                {/* <img src="/img/icon/may_icon.png" alt="" /><br /> */}
-                                <p>MALAYSIA(HQ)</p>
-                            </div>
-                            <div className="col-md-1" align="center">
-                                {/* <img src="/img/icon/sg_icon.png" alt="" /><br /> */}
-                                <p>SINGAPORE</p>
-                            </div>
-                            <div className="col-md-1" align="center">
-                                {/* <img src="/img/icon/indo_icon.png" alt="" /><br /> */}
-                                <p>INDONESIA</p>
-                            </div>
-                            <div className="col-md-1" align="center">
-                                {/* <img src="/img/icon/usa_icon.png" alt="" /><br /> */}
-                                <p>USA</p>
-                            </div>
-                            <div className="col-md-4">
+                        <div className="footer-landmarks">
+                            <div className="row">
+                                {/* <div className="col-md-4">
+                                    </div> */}
+                                <div className="col-md-1" align="center">
+                                    {/* <img src="/img/icon/may_icon.png" alt="" /><br /> */}
+                                    <p>MALAYSIA(HQ)</p>
+                                </div>
+                                <div className="col-md-1" align="center">
+                                    {/* <img src="/img/icon/sg_icon.png" alt="" /><br /> */}
+                                    <p>SINGAPORE</p>
+                                </div>
+                                <div className="col-md-1" align="center">
+                                    {/* <img src="/img/icon/indo_icon.png" alt="" /><br /> */}
+                                    <p>INDONESIA</p>
+                                </div>
+                                <div className="col-md-1" align="center">
+                                    {/* <img src="/img/icon/usa_icon.png" alt="" /><br /> */}
+                                    <p>USA</p>
+                                </div>
+                                <div className="col-md-4">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -99,7 +101,7 @@ function footer() {
                                 <div className="col-md-12">
                                     <div className="Social-link Social-link--circle Social-link--dark Social-link--medium">
                                         <a href="https://www.facebook.com/avowstechnologies/?fref=ts" className="Social-link__item m-3" target="_blank">
-                                            <i className="fab fa-facebook fa-2x"></i></a> 
+                                            <i className="fab fa-facebook fa-2x"></i></a>
                                         <a href="https://www.linkedin.com/company/3651016?trk=prof-0-ovw-curr_pos" className="Social-link__item m-3" target="_blank">
                                             <i className="fab fa-linkedin fa-2x"></i></a>
                                         <a href="https://twitter.com/Avowstech" className="Social-link__item m-3" target="_blank">
@@ -114,7 +116,7 @@ function footer() {
                 </div>
             </div>
 
-            <div className="copyright text-center bg-dark text-light">
+            <div className="footer-copyright text-center">
                 <div id="copyright" className="text-center">
                     <p>&copy; <a href="#">Avows</a> technologies Sdn Bhd | 2020</p>
                 </div>

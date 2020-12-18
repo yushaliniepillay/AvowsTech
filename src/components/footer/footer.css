@@ -1,6 +1,6 @@
 
 .main-footer {
-    background: #4c5358;
+    background: #2f3235;
     padding-top: 1rem;
     color: white;
     padding-top: 3rem;
@@ -12,11 +12,20 @@
 .footer-about {
     font-size: 12pt;
     text-align: center;
+    margin-bottom: 2rem;
 }
-.copyright {
-    padding-top: 2rem;
+.footer-landmarks{
+    background: black;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+}
+.footer-copyright {
+    background: black;
+    color: white;
+    padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 16pt;
+    font-size: 13pt;
 }
 .page-container{
     display:flex;
