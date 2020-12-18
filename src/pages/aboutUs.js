@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import "../components/header/header.css";
 import Carousel from '../components/slider/management';
 
+// var imageName = require('../images/our_ceo.jpg')
 
 const AboutUs = () => (
   <Layout>
@@ -15,8 +16,10 @@ const AboutUs = () => (
         <div className="vc-child">
           <section className="page-title">
             <h2>DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h2>
-            <ul className="breadcrumb text-center">
-              <li >We provide enterprises with agility with   our focus on customer centric journeys
+            {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
+                  to drive their digital transformation initiatives</p> */}
+            <ul className="text-center">
+              <li className="list-unstyled">We provide enterprises with agility with our focus on customer centric journeys
                   to drive their digital transformation initiatives</li>
             </ul>
           </section>
@@ -69,7 +72,8 @@ const AboutUs = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-6 about--img">
-            <img src="../imgages/our_ceo.jpg" alt="ceo" className="img-responsive" />
+            <img src="images/our_ceo.jpg" alt="ceo" className="img-responsive" />
+            {/* <img src={imageName} alt="ceo" className="img-responsive" /> */}
           </div>
           <div className="col-md-6 team-skills">
             <h2 className="section-title text-left">OUR CEO'S MESSAGE</h2>
@@ -88,7 +92,6 @@ const AboutUs = () => (
               <br /><br /><br />
               <h6 className="text-center">- MR. ASHOK K RAMAVATH - <br />  FOUNDER &amp; GROUP CEO</h6>
             </div>
-
           </div>
         </div>
       </div>

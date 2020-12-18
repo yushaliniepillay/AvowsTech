@@ -105,7 +105,8 @@ p {
 .breadcrumb li a,
 .section-title.white,
 .section-title.white span {
-    color: #fff
+    color: #fff;
+    text-align: center;
 }
 
 .section-title.text-left {
@@ -339,8 +340,11 @@ p {
 
 
 #pageHeader {
-    background-image: url();
-    
+    background-image: url(../images/background/about-bg.jpg);
+    position: relative;
+    padding-bottom: 40px;
+    overflow: hidden;
+    z-index: 0
 }
 .vc-parent {
     width: 100%;
@@ -362,7 +366,7 @@ p {
     margin-bottom: 30px
 }
 .page-title h2 {
-    color: rgb(14, 13, 13);
+    color: rgb(235, 224, 224);
     font-size: 34px;
     font-weight: 500;
     margin-top: 100px;
@@ -469,7 +473,12 @@ p {
     overflow: hidden;
     z-index: 0
 }
+.img-responsive {
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 
+}
 #about {
     position: relative;
     padding: 0 0 45px;
