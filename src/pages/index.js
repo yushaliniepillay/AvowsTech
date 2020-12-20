@@ -49,7 +49,7 @@ const IndexPage = () => (
                 <section>
                   <h2 className="section-title">
                     <span></span>OUR STATISTICS
-              </h2>
+                  </h2>
                 </section>
               </div>
             </div>
@@ -112,7 +112,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      
+
     </div>
   </Layout>
 

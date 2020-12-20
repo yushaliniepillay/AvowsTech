@@ -24,7 +24,7 @@ function footer() {
                                 <hr className="bg-danger inline-block" /></h4>
                                 <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High className Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
-                                <Button >READ MORE</Button>
+                                <Button className="m-3" variant="danger" size="md" type="submit">READ MORE</Button>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-4">

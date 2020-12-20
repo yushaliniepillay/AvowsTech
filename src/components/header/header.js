@@ -62,22 +62,22 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="#action">DATA ANALYTICS AND AI</NavDropdown.Item>
             </NavDropdown>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/blog" className="nav-link" activeClassName="active">
                 BLOG
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/event" className="nav-link" activeClassName="active">
                 EVENTS
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/career" className="nav-link" activeClassName="active">
                 CAREER
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/contactUs" className="nav-link" activeClassName="active">
                 CONTACT US
             </Link>
             </Nav.Item>

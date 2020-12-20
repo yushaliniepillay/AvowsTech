@@ -19,8 +19,9 @@ const AboutUs = () => (
             {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
                   to drive their digital transformation initiatives</p> */}
             <ul className="text-center">
-              <li className="list-unstyled">We provide enterprises with agility with our focus on customer centric journeys
-                  to drive their digital transformation initiatives</li>
+              <li className="list-unstyled">
+                We provide enterprises with agility with our focus on customer centric journeys
+                to drive their digital transformation initiatives</li>
             </ul>
           </section>
         </div>
@@ -72,14 +73,16 @@ const AboutUs = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-6 about--img">
-            <img src="images/our_ceo.jpg" alt="ceo" className="img-responsive" />
+            <div className="ceo_image"></div>
+            {/* <img className="ceo_image" alt="ceo" /> */}
             {/* <img src={imageName} alt="ceo" className="img-responsive" /> */}
           </div>
           <div className="col-md-6 team-skills">
             <h2 className="section-title text-left">OUR CEO'S MESSAGE</h2>
             <div className="about-description">
-              <p className="justified">Our number one commitment since inception has been to delight customers by bringing in the right solutions at the right time,
-              while maintaining the quality of service. The one trait in common among Avowsians is passion. Passion for technology,  passion for
+              <p className="justified">
+                Our number one commitment since inception has been to delight customers by bringing in the right solutions at the right time,
+                while maintaining the quality of service. The one trait in common among Avowsians is passion. Passion for technology,  passion for
                 our customers, passion to be the best in everything that we do.</p><br /><br />
               <p className="justified">
                 Everyday, we strive to deliver value to our customers, investing
