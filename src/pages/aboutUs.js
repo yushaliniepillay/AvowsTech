@@ -28,6 +28,7 @@ const AboutUs = () => (
       </div>
     </div>
 
+    {/* about us */}
     <div id="about" className="page about--overlay-full">
       <div className="about-page-description">
         <div className="container">
@@ -59,6 +60,7 @@ const AboutUs = () => (
       </div>
     </div>
 
+    {/* Management slide */}
     <div className="about-page-team team-items1">
       <div className="container">
         <h2 className="section-title white">MANAGEMENT TEAM</h2>
@@ -69,6 +71,7 @@ const AboutUs = () => (
       </div>
     </div>
 
+    {/* Ceo speech */}
     <div id="about">
       <div className="container">
         <div className="row">

@@ -54,8 +54,8 @@ const Header = ({ siteTitle }) => (
                 ABOUT US
             </Link>
             </Nav.Item>
-            <NavDropdown title="SERVICE & SOLUTIONS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action">TECHNOLOGY SERVICE</NavDropdown.Item>
+            <NavDropdown title="SERVICE & SOLUTIONS" href="#" class="active" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/services/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
               <NavDropdown.Item href="#action">TESTING SERVICE</NavDropdown.Item>
               <NavDropdown.Item href="#action">CLOUD TECHNOLOGIES</NavDropdown.Item>
               <NavDropdown.Item href="#action">CYBER SECURITY</NavDropdown.Item>
@@ -67,7 +67,7 @@ const Header = ({ siteTitle }) => (
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/event" className="nav-link" activeClassName="active">
+              <Link to="/services/technology" className="nav-link" activeClassName="active">
                 EVENTS
             </Link>
             </Nav.Item>
