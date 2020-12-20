@@ -695,3 +695,207 @@ p {
 .reg--login .mdl-textfield--floating-label.is-focused .mdl-textfield__label {
     color: #737373;
 }
+
+/* contact us */
+
+#postCommentForm .mdl-textfield textarea,
+.contact-form .mdl-textfield textarea {
+    resize: none
+}
+#contact {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 0 30px
+}
+
+#contact{
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--mainLightGrey)
+}
+
+#contact .section-title {
+    color: #fff
+}
+
+.contact-form-status .alert {
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    background-color: #ff9800
+}
+
+.contact-form .mdl-textfield {
+    width: 100%
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    border-color: #fff;
+    color: #fff;
+    outline: 0
+}
+
+.contact-form button[type=submit] {
+    padding: 4px 40px;
+    margin-top: 20px;
+    height: auto
+}
+
+.contact-form label {
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 100
+}
+
+.contact-address p,
+.footer-title {
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.contact-form label:after {
+    background-color: #ff5252
+}
+
+.contact-form input.valid+label:after,
+.contact-form textarea.valid+label:after {
+    background-color: #41C35B;
+    visibility: visible;
+    width: 100%;
+    left: 0
+}
+
+.contact-form input.error+label:after,
+.contact-form textarea.error+label:after {
+    background-color: #ff5252;
+    visibility: visible;
+    width: 100%;
+    left: 0
+}
+#domainSearch form .mdl-textfield__input {
+    border-color: #fff;
+    color: #fff;
+    outline: 0
+}
+
+#domainSearch form .mdl-textfield__label {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+#domainSearch form .mdl-textfield__label:after {
+    background-color: #fff
+}
+#subscribeForm .mdl-textfield {
+    vertical-align: middle;
+    margin-right: 6px;
+    padding-bottom: 0
+}
+
+#subscribeForm input {
+    border-color: #fff;
+    color: #fff;
+    outline: 0
+}
+
+#subscribeForm label {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0
+}
+
+#subscribeForm label:after {
+    background-color: #fff;
+    bottom: 0
+}
+
+#subscribeForm button[type=submit] {
+    color: #222;
+    background-color: #fff;
+    margin-top: 25px !important;
+    height: 45px !important;
+}
+
+#postCommentForm .error+label:after {
+    background-color: #ff5252;
+    left: 0;
+    width: 100%;
+    visibility: visible
+}
+
+#postCommentForm .mdl-textfield {
+    width: 100%
+}
+
+#postCommentForm .mdl-textfield.is-invalid .mdl-textfield__input {
+    border-bottom-color: rgba(0, 0, 0, .12)
+}
+
+.mdl-textfield__input[type="number"]:hover {
+    border: none;
+    border-bottom-color: rgba(0, 0, 0, .12)
+}
+
+.mdl-textfield__input[type="email"]:hover {
+    border: none;
+    border-bottom-color: rgba(0, 0, 0, .12)
+}
+.contact-address {
+    padding: 40px 0;
+    background-color: #ff5252
+}
+
+.contact-address i.fa {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    color: #ff5252;
+    background-color: #fff;
+    font-size: 26px;
+    -webkit-transition: .25s;
+    transition: .25s
+}
+
+.contact-address i.fa:hover {
+    box-shadow: 0 2px 4.7px .3px rgba(0, 0, 0, .24)
+}
+
+.contact-address i.fa:before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.contact-address address {
+    margin-bottom: 0
+}
+
+.contact-address p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px
+}
+#contact.page .contact-address p,
+#contact.page .contact-form label,
+#contact.page .mdl-textfield__input,
+#contact.page .section-title,
+.comment-meta {
+    color: #737373
+}
+
+.frame{
+    border: 0;
+}
