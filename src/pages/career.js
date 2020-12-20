@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 const Career = () => (
     <Layout>
-        <SEO title="Blog" />
+        <SEO title="Career" />
 
         <div id="pageHeader" >
             <div className="vc-parent">

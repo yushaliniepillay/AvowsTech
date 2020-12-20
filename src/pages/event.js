@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 const Event = () => (
   <Layout>
-    <SEO title="Blog" />
+    <SEO title="Event" />
 
     <div id="pageHeader" >
       <div className="vc-parent">

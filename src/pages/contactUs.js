@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 
 const ContactUs = () => (
     <Layout>
-        <SEO title="Blog" />
+        <SEO title="Contact Us" />
 
         <div id="pageHeader" >
             <div className="vc-parent">
