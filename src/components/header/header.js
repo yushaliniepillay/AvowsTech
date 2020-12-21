@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
     </div>
     {/* second navbar */}
     <div>
-      <Navbar expand="lg" sticky="top">
+      <Navbar expand="lg" bg="light" variant="light" sticky="top">
         <Navbar.Brand id="avowsTitle" href="/">{siteTitle}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive" >
