@@ -45,7 +45,7 @@ p {
 }
 
 .nav{ 
-    padding-left: 80pt;
+    padding-left: 0pt;
     height: 65pt;
     /* padding-top: 50pt; */
 }
@@ -65,6 +65,8 @@ p {
 .caption1{
     color: var(--mainWhite);
     padding-bottom: 25em;
+    text-align: left;
+    
 }
 
 .our-mv{
