@@ -18,21 +18,27 @@ function carousel() {
                     src={url}
                 />
                 <Carousel.Caption className="caption1">
-                    <div className="row ml-auto">
-                        <div className="container col-md-6">
-                            <section className="page-title">
-                                <h2>TECHNOLOGY SERVICES</h2>
-                                <br />
-                                <h5>Enhance customer experience with optimised
-                                    software performance by aligning your IT
-                                    deliverables with business goals.</h5>
-                                <ul>
-                                    <li>Mobile and Web Development</li>
-                                    <li>Managed Services Technology Support</li>
-                                    <li>Business Software and Application Development</li>
-                                </ul>
-                            </section>
-                            <Button className="m-3" variant="danger" size="md" type="submit">VIEW DETAILS</Button>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="vc-parent">
+                                    <div class="vc-child">
+                                        <section class="header-content">
+                                            <h2>TECHNOLOGY SERVICES</h2>
+                                            <br />
+                                            <h5>Enhance customer experience with optimised
+                                                software performance by aligning your IT
+                                                deliverables with business goals.</h5>
+                                            <ul>
+                                                <li>Mobile and Web Development</li>
+                                                <li>Managed Services Technology Support</li>
+                                                <li>Business Software and Application Development</li>
+                                            </ul>
+                                        </section>
+                                        <Button className="m-3" variant="danger" size="md" type="submit" href="/technology">VIEW DETAILS</Button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </Carousel.Caption>
@@ -41,8 +47,50 @@ function carousel() {
                 <img
                     className="d-block w-100"
                     src={url2}
-                    alt="second slide"
-                />
+                    alt="second slide" />
+                {/* style="width: 998px;" */}
+                <Carousel.Caption>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="vc-parent">
+                                    <div class="vc-child">
+                                        <section class="header-content">
+                                            <h2 class="owl-fadeInUp animate-2x">TESTING AND SECURITY</h2>
+                                            <h5 class="owl-fadeInUp animate-2x">We aim to help organizations regardless
+                                                of any sizes improve their security processes, achieve compliance and
+                                                protect their data</h5>
+                                            <ul>
+                                                <li>Functional & Test Management</li>
+                                                <li>Functional Automation</li>
+                                                <li>Performance Testing</li>
+                                                <li>Security Testing</li>
+                                            </ul>
+                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/testing">VIEW DETAILS</Button>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 header-img-holder hidden-sm hidden-xs">
+                                <div class="vc-parent">
+                                    <div class="vc-child-bottom">
+                                        <figure class="header-img owl-fadeInUp">
+                                            <img src="/img/header-slider-content/02.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <div class="header--badge header--badge-1 octagon">
+                                                    <p><img src="/img/service_icon.png" width="52%" /></p>
+                                                </div>
+                                                <div class="header--badge header--badge-2 octagon">
+                                                    <p><img src="/img/service_icon1.png" width="42%" /></p>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img

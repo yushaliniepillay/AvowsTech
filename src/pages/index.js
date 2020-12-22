@@ -99,12 +99,12 @@ const IndexPage = () => (
           <div className="row">
             <div class="col-sm-7">
               <section>
-                <h4>WISH TO MAKE A CAREER WITH US?</h4>
+                <h2>WISH TO MAKE A CAREER WITH US?</h2>
               </section>
             </div>
             <div class="col-sm-5">
               <div data-form-validation="true">
-                <Button className="join_us" variant="light" size="lg" type="submit">JOIN US</Button>
+                <Button className="join_us" variant="light" size="lg" type="submit" href="/career">JOIN US</Button>
               </div>
             </div>
           </div>

@@ -21,31 +21,31 @@ function footer() {
                         <div className="col-md-3 col-sm-4 footer-widget">
                             <div className="footer-about">
                                 <h4 className="footer-title">ABOUT US
-                                <hr className="bg-danger inline-block" /></h4>
+                                <hr/></h4>
                                 <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High className Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
-                                <Button className="m-3" variant="danger" size="md" type="submit">READ MORE</Button>
+                                <Button className="m-3" variant="danger" size="md" type="submit" href="/aboutUs">READ MORE</Button>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-4">
                             <section className="links-widget">
                                 <h4 className="footer-title">QUICK LINKS
-                                <hr className="bg-danger" /></h4>
+                                <hr/></h4>
                                 <ul className="list-unstyled">
-                                    <li><a href="/services/technology_services">SERVICES & SOLUTIONS</a></li>
+                                    <li><a href="/technology">SERVICES & SOLUTIONS</a></li>
                                     <li><a href="/career">CAREER</a></li>
-                                    <li><a href="/contactus">CONTACT</a></li>
+                                    <li><a href="/contactUs">CONTACT</a></li>
                                 </ul>
                             </section>
                         </div>
                         <div className="col-md-3 col-sm-4">
                             <section className="latest-tweets-widget">
                                 <h4 className="footer-title">CONTACT US
-                                <hr className="bg-danger" /></h4>
+                                <hr /></h4>
                                 <ul className="footer_contact">
                                     <li>Level 15-06, Tower A, The Vertical Business Suite,
-                                    Avenue 3, Bangsar South, No 8, Jln Kerinchi,
-                                    59200 Kuala Lumpur, Malaysia.</li><br />
+                                        Avenue 3, Bangsar South, No 8, Jln Kerinchi,
+                                        59200 Kuala Lumpur, Malaysia.</li><br />
                                     <li>Phone: (+603) 2712 3456 </li>
                                     <li>Fax: (+603) 2712 3457</li>
                                     <li>Email: info@avowstech.com</li>
