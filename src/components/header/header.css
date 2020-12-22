@@ -62,12 +62,35 @@ p {
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    color: #fff;
 }
+
+#header,
+#header .container,
+#header .header-item,
+#header .owl-item,
+#header .owl-wrapper,
+#header .owl-wrapper-outer,
+#header .row,
+#header .row>div,
+.content-inner-wrapper {
+    height: 100%
+}
+
+#header {
+    width: 100%;
+    z-index: 0
+}
+
+
 .caption1{
     color: var(--mainWhite);
-    padding-bottom: 25em;
-    text-align: left;
-    
+    padding-bottom: 25em;    
 }
 
 .our-mv{
@@ -362,7 +385,6 @@ p {
     border-radius: 2px;
 }
 
-
 #pageHeader {
     background-image: url(../images/background/about-bg.jpg);
     position: relative;
@@ -429,7 +451,6 @@ p {
     color: #fff
 }
 
-
 .about-description {
     padding: 0 0 90px
 }
@@ -466,30 +487,6 @@ p {
     height: 32px;
 }
 
-/* #pageHeader,
-.about-page-team,
-.bg-img {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat
-}
-
-.about-page-team {
-    position: relative;
-    padding-bottom: 100px
-}
-
-.about-page-team {
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../imgages/background/about-bg.jpg);
-    z-index: -2
-} */
-
 .about-page-team {
     background-image: url(../images/background/about-bg.jpg);
     position: relative;
@@ -497,13 +494,73 @@ p {
     overflow: hidden;
     z-index: 0;
 }
+.img-responsive1 {
+    /* margin-top: -15rem; */
+    width: 100%;
+}
+
+.header-content {
+    margin-top: 300px;
+    text-align: left;
+}
+
+.header-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden
+}
+
+.header-content ul li {
+    position: relative;
+    padding-left: 20px;
+    float: left;
+    width: 50%
+}
+
+.header-content ul li:before {
+    content: " ";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #ff5252;
+    border-radius: 50%
+}
+
+.header-img {
+    position: relative;
+    display: block
+}
+
+.vc-child .header-img {
+    margin-top: 100px
+}
+
+.header-img img.img-responsive1 {
+    width: 100%
+}
+
+.header-img .header-img-inner,
+.header-img .header-img-slider {
+    position: absolute;
+    top: 9.5%;
+    left: 150px;
+    width: 261px;
+    cursor: ew-resize
+}
+
+.header-img-slider img {
+    max-height: 40.5%
+}
+
 .img-responsive {
     width: 100%;
-    height: 100%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-
 }
+
 .ceo_image {
     background-image: url(../images/our_ceo.jpg);
     width: 100%;

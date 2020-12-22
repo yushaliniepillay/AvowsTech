@@ -6,6 +6,10 @@ import "../footer/footer.css";
 
 function footer() {
     var imageName = require('../images/header-slider-content/02.png')
+    var imageMalay = require('../images/icon/may_icon.png');
+    var imageSg = require('../images/icon/sg_icon.png');
+    var imageIndo = require('../images/icon/indo_icon.png');
+    var imageUSA = require('../images/icon/usa_icon.png');
 
     return (
         <footer>
@@ -61,22 +65,22 @@ function footer() {
                     <div className="col-xs-12 col-sm-12 col-md-12">
                         <div className="footer-landmarks">
                             <div className="row">
-                                {/* <div className="col-md-4">
-                                    </div> */}
+                                <div className="col-md-4">
+                                    </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/may_icon.png" alt="" /><br /> */}
+                                    <img src={imageMalay} alt="" /><br />
                                     <p>MALAYSIA(HQ)</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/sg_icon.png" alt="" /><br /> */}
+                                    <img src={imageSg} alt="" /><br />
                                     <p>SINGAPORE</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/indo_icon.png" alt="" /><br /> */}
+                                    <img src={imageIndo} alt="" /><br />
                                     <p>INDONESIA</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/usa_icon.png" alt="" /><br /> */}
+                                    <img src={imageUSA} alt="" /><br />
                                     <p>USA</p>
                                 </div>
                                 <div className="col-md-4">
@@ -92,7 +96,7 @@ function footer() {
                     <div className="Site-footer__primary text-center">
                         <div className="Footer-logo Footer-logo--normal">
                             <a href="/" className="Footer-logo__link" title="Avows">
-                                <img className="avowsLogo" data-retina="0" src="/imgages/avowsTitle.png" alt="Avows" />
+                                <img className="avowsLogo" data-retina="0" src="../imgages/avowsTitle.png" alt="Avows" />
                             </a>
                         </div>
                     </div>
