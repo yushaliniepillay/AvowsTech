@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
         <Navbar.Brand className="small-nav-num">
           <PhoneOutlined />(+603) 2712 3456</Navbar.Brand>
         <Navbar.Brand className="small-nav-num">
-          <Link href="mailto:info@avowstech.com">
+          <Link className="link" href="mailto:info@avowstech.com">
             <MailFilled /> info@avowsteh.com
           </Link>
         </Navbar.Brand>

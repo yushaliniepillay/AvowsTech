@@ -50,3 +50,37 @@
   transform: scaleX(-1);
 
 }
+
+.footer-title {
+    font-size: 18px;
+    position: relative
+}
+
+#pageHeader:before,
+.footer-title:before {
+    position: absolute;
+    content: " "
+}
+
+.footer-title:before {
+    background: #ff5252;
+    height: 2px;
+    width: 43px;
+    bottom: 4px
+}
+.links-widget ul {
+    margin: -6px 0 0;
+    padding: 0;
+    list-style: none
+}
+
+.links-widget ul li a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    border-bottom: 1px dotted rgba(255, 255, 255, .3);
+    font-weight: 400;
+    text-transform: uppercase;
+    -webkit-transition: color .25s, border-color .25s;
+    transition: color .25s, border-color .25s
+}

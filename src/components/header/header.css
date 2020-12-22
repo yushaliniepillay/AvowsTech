@@ -42,6 +42,7 @@ p {
 }
 .small-nav-num{
     font-size: 12pt;
+    padding-left: 2rem;
 }
 
 .nav{ 
@@ -76,7 +77,9 @@ p {
     text-align: left;
     padding-top: 0pt;
 }
-
+.link{
+    color: white;
+}
 
 .links-widget ul {
     margin: -6px 0 0;
@@ -777,23 +780,6 @@ p {
 .footer-title {
     font-weight: 500;
     text-transform: uppercase
-}
-.footer-title {
-    font-size: 18px;
-    position: relative
-}
-
-#pageHeader:before,
-.footer-title:before {
-    position: absolute;
-    content: " "
-}
-
-.footer-title:before {
-    background: #ff5252;
-    height: 2px;
-    width: 43px;
-    bottom: 4px
 }
 
 .contact-form label:after {

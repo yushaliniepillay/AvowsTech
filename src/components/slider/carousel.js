@@ -15,9 +15,8 @@ function carousel() {
                 <img
                     className="d-block w-100"
                     // src="holder.js/800x400?text=First slide&bg=373940"
-                    src={url}
-                />
-                <Carousel.Caption className="caption1">
+                    src={url2} />
+                <Carousel.Caption >
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -25,7 +24,6 @@ function carousel() {
                                     <div class="vc-child">
                                         <section class="header-content">
                                             <h2>TECHNOLOGY SERVICES</h2>
-                                            <br />
                                             <h5>Enhance customer experience with optimised
                                                 software performance by aligning your IT
                                                 deliverables with business goals.</h5>
@@ -36,6 +34,24 @@ function carousel() {
                                             </ul>
                                         </section>
                                         <Button className="m-3" variant="danger" size="md" type="submit" href="/technology">VIEW DETAILS</Button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 header-img-holder hidden-sm hidden-xs">
+                                <div class="vc-parent">
+                                    <div class="vc-child-bottom">
+                                        <figure class="header-img owl-fadeInUp">
+                                            <img src="/img/header-slider-content/02.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <div class="header--badge header--badge-1 octagon">
+                                                    <p><img src="/img/service_icon.png" width="52%" /></p>
+                                                </div>
+                                                <div class="header--badge header--badge-2 octagon">
+                                                    <p><img src="/img/service_icon1.png" width="42%" /></p>
+                                                </div>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +74,7 @@ function carousel() {
                                         <section class="header-content">
                                             <h2 class="owl-fadeInUp animate-2x">TESTING AND SECURITY</h2>
                                             <h5 class="owl-fadeInUp animate-2x">We aim to help organizations regardless
-                                                of any sizes improve their security processes, achieve compliance and
+                                            of any sizes improve their security processes, achieve compliance and
                                                 protect their data</h5>
                                             <ul>
                                                 <li>Functional & Test Management</li>
@@ -95,7 +111,7 @@ function carousel() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={url3}
+                    src={url2}
                     alt="Third slide"
                 />
             </Carousel.Item>
