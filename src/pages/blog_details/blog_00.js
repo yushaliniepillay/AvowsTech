@@ -7,7 +7,7 @@ const Blog_00 = () => (
     <Layout>
         <SEO title="Blog" />
 
-        <div id="pageHeader" >
+        <div id="pageHeader1" >
             <div className="vc-parent">
                 <div className="vc-child">
                     <section className="page-title">

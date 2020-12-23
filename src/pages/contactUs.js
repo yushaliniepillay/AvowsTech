@@ -8,15 +8,15 @@ const ContactUs = () => (
     <Layout>
         <SEO title="Contact Us" />
 
-        <div id="pageHeader" >
+        <div id="pageHeader3" >
             <div className="vc-parent">
                 <div className="vc-child">
                     <section className="page-title">
                         <h2>CONTACT US</h2>
                         <ul className="text-center">
-                            <li className="list-unstyled">
-                                <Link href="/">Home</Link> /</li>
-                            <li className="list-unstyled active">Contact</li>
+                            <li className="list-unstyled text-danger">
+                                <Link className="text-white" href="/">Home /</Link> Contact</li>
+                            {/* <li className="list-unstyled active">Contact</li> */}
                         </ul>
                     </section>
                 </div>

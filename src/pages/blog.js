@@ -4,18 +4,21 @@ import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import { Button } from 'react-bootstrap';
 
+const blogImage = require('../images/blogPost/techconnect.png');
+
 const Blog = () => (
+
   <Layout>
     <SEO title="Blog" />
 
-    <div id="pageHeader" >
+    <div id="pageHeader1" >
       <div className="vc-parent">
         <div className="vc-child">
           <section className="page-title">
             <h2>BLOG</h2>
             <ul className="text-center">
-              <li className="list-unstyled">
-                <Link href="/">Home</Link> / Blog</li>
+              <li className="list-unstyled text-danger">
+                <Link className="text-white" href="/">Home /</Link> Blog</li>
               {/* <li className="list-unstyled active">Blog</li> */}
             </ul>
           </section>
@@ -38,8 +41,8 @@ const Blog = () => (
             <div className="mdl-card mdl-shadow--2dp">
               <div className="mdl-card__title">
                 <div className="post-img">
-                  <a href="#">
-                    <img src="images/blogPost/blog00_thumbnail.jpeg" alt="" className="img-responsive" />
+                  <a href="/blog_details/blog_00">
+                    <img src={blogImage} alt="" className="img-responsive" />
                   </a>
                 </div>
               </div>

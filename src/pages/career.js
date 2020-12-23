@@ -8,15 +8,15 @@ const Career = () => (
     <Layout>
         <SEO title="Career" />
 
-        <div id="pageHeader" >
+        <div id="pageHeader2" >
             <div className="vc-parent">
                 <div className="vc-child">
                     <section className="page-title">
                         <h2>CAREER</h2>
                         <ul className="text-center">
-                            <li className="list-unstyled">
-                                <Link href="/">Home</Link> /</li>
-                            <li className="list-unstyled active">Career</li>
+                            <li className="list-unstyled text-danger">
+                                <Link className="text-white" href="/">Home /</Link> Career</li>
+                            {/* <li className="list-unstyled active">Career</li> */}
                         </ul>
                     </section>
                 </div>
