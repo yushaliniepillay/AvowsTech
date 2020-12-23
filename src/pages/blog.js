@@ -15,8 +15,8 @@ const Blog = () => (
             <h2>BLOG</h2>
             <ul className="text-center">
               <li className="list-unstyled">
-                <Link href="/">Home</Link> /</li>
-              <li className="list-unstyled active">Blog</li>
+                <Link href="/">Home</Link> / Blog</li>
+              {/* <li className="list-unstyled active">Blog</li> */}
             </ul>
           </section>
         </div>
@@ -46,13 +46,19 @@ const Blog = () => (
 
               <div className="mdl-card__supporting-text">
                 <section className="post-title">
-                  <h2><a href="#">AVOWS wins Operational Excellence in IT - GBS Awards 2019</a></h2>
+                  <h2><a href="/blog_details/blog_00">AVOWS wins Operational Excellence in IT - GBS Awards 2019</a></h2>
                 </section>
                 <div className="post-metadata">
                   <p><i className="fa fa-calendar"></i>THURSDAY, 03/10/2019</p>
                 </div>
                 <div className="post-summary">
-                  <p>Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in Category of Operational Excellence in Information Technology (OPEIT). The event was graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues.The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards) and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each other at the most sought-after event of the country’s digital ecosystem.<br />&nbsp;</p>
+                  <p>Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in 
+                    Category of Operational Excellence in Information Technology (OPEIT). The event was 
+                    graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues.
+                    The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards) 
+                    and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each 
+                    other at the most sought-after event of the country’s digital ecosystem.<br />
+                  </p>
                 </div>
               </div>
               <div className="mdl-card__actions mdl-card--border clearfix">
@@ -61,7 +67,7 @@ const Blog = () => (
                     <span className="mdl-ripple"></span>
                   </span>
                 </a> */}
-                <Button className="m-3" variant="danger" size="md" type="submit">READ MORE</Button>
+                <Button className="m-3" variant="danger" size="md" type="submit" href="/blog_details/blog_00">READ MORE</Button>
               </div>
             </div>
           </div>

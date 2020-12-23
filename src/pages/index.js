@@ -28,7 +28,7 @@ const IndexPage = () => (
             <div class="tab-content">
               <article id="Massiveb89708bf8cd0504b481f18814645b64b" class="tab-pane active">
                 <h3>We have a great Mission</h3>
-                <p>“To be Recognized as<br /> the “Preferred Technology Partner of Choice” by all Customers”</p>
+                <p>“To be Recognized as <br /> the “Preferred Technology Partner of Choice” by all Customers”</p>
               </article>
               <article id="Massive7c6ca134a5bc163a5e791e5553ed28c9" class="tab-pane">
                 <h3>We have a one focused Vision</h3>

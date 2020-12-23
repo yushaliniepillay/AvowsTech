@@ -31,7 +31,7 @@ const cloud = () => (
                 <div class="row">
                     <div class="col-md-12 blog-page-content post-details">
                         <div class="post-img">
-                            <img src="/imgages/app_development_banner.jpg" alt="" class="img-responsive" />
+                            <img src="../imgages/background/testing_sub.jpg" alt="" class="img-responsive" />
                         </div>
                         <div>
                             <p class="justified"> We have a dedicated in-house “Cloud Wizarding” team who can
@@ -50,7 +50,7 @@ const cloud = () => (
                                     <div class="vc_empty_space" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
+                                    <Tabs className="tabClass" defaultActiveKey="home" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="MCE" title="Multi-Cloud Experience">
                                             <br />
                                             <strong>Multi-Cloud Experience</strong>

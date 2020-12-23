@@ -131,7 +131,7 @@ function carousel() {
                                                 <li>Cloud Migration</li>
                                                 <li>Cloud Managed Services</li>
                                             </ul>
-                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/testing">VIEW DETAILS</Button>
+                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/cloud">VIEW DETAILS</Button>
                                         </section>
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@ function carousel() {
                                                 <li>Big Data</li>
                                                 <li>Automating Business Process & Beyond</li>
                                             </ul>
-                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/testing">VIEW DETAILS</Button>
+                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/data">VIEW DETAILS</Button>
                                         </section>
                                     </div>
                                 </div>

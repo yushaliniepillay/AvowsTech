@@ -9,7 +9,8 @@ import { Tabs, Tab } from 'react-bootstrap';
 const technology = () => (
     <Layout>
         <SEO title="Technology Service" />
-        <div id="pageHeader" >
+        <div id="pageHeader" style={{ backgroundimage: `url(../components/images/background/testing_main.jpg)` }} >
+           
             <div className="vc-parent">
                 <div className="vc-child">
                     <section className="page-title">

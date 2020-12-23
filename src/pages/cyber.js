@@ -79,18 +79,18 @@ const cyber = () => (
                                         </Tab>
                                         <Tab eventKey="IAM" title="Identity and Access Management">
                                             <br />
-                                            <strong>Identity and Access Management</strong>
+                                            <strong>Identity and Access Management (IAM)</strong>
                                             <p class="p1 text-justify"><br />
-                                                <span class="s1">Through our IAM consulting services, we can evolve your IAM projects to strategic
-                                                initiatives, leveraging proven industry processes and best-in-class technologies. To help get you
-                                                to the next level, our team can:</span>
+                                                <span class="s1">Our IAM consulting services are crafted to combine best-in-class technologies with proven 
+                                                industry processes. Through this, we deliver highly secure day-to-day operations while ensuring zero 
+                                                compromise on achieving maximum efficiency. Our experts can:</span>
                                             </p>
                                             <ul><br />
-                                                <li>Conduct strategy sessions focusing on overview of IAM trends and vendors, customer business drivers and challenges</li>
-                                                <li>Assess your existing infrastructure and system architecture and establish a strategic roadmap</li>
-                                                <li>Deploy leading IAM technologies across SSO and federation, password management,
-                                                    lifecycle management, identity governance and privileged access management</li>
-                                                <li>Elevate your IAM program from tactical projects to a strategic security program</li>
+                                                <li>Conduct strategy planning session with the focus on IAM trends and vendors, customer business drivers and challenges</li>
+                                                <li>Assessing your existing infrastructure and system architecture and establish a strategic technology roadmap</li>
+                                                <li>Implement the latest IAM technologies best suited to operational requirements by taking password and lifecycle management, 
+                                                    identity governance and privileged access management into account be it through Single Sign-On (SSO) or Federated 
+                                                    Identity Management (FIM).</li>
                                             </ul>
                                         </Tab>
                                         <Tab eventKey="MSS" title="Managed Security Services">
@@ -115,14 +115,14 @@ const cyber = () => (
                                             <br />
                                             <strong>Vulnerability Assessment and Management</strong>
                                             <p class="p1 text-justify"><br />
-                                                <span class="s1">Our team of information security researchers and
-                                                scientists can provide answers and solutions to your most vexing
-                                                security challenges. This highly skilled group takes a multifaceted
-                                                approach to threat and vulnerability analysis and exhibits mastery
-                                                across a broad base of attacks. Our experts can:</span>
+                                                <span class="s1">Our team of professional information security researchers and scientists 
+                                                can provide in-depth remediation and solutions to any IT security threats within your company 
+                                                to protect your critical data assets. The team carries out a vulnerability analysis and implements a 
+                                                vulnerability management program to deal with various cybersecurity issues. Our experts can:</span>
                                             </p>
                                             <ul><br />
                                                 <li>Discover vulnerabilities and weaknesses across all types of devices</li>
+                                                <li>Reduce security risk by providing a thorough assessment of hardware and software assets</li>
                                                 <li>Test elements from a single line of code to large distributed systems</li>
                                                 <li>Access custom code analysis and reverse software engineering</li>
                                                 <li>Determine the feasibility of potential attack vectors</li>
@@ -140,23 +140,19 @@ const cyber = () => (
                                             <br />
                                             <strong>Risk Governance and Compliance</strong>
                                             <p class="p1 text-justify"><br />
-                                                <span class="s1">Being risk aware enables smarter decision-making in business. Once you have visibility
-                                                on the risks that pose a threat, you can prioritise investments, optimise current technology consumption,
-                                                and transform your security programs to address risks more effectively.</span>
+                                                <span class="s1">A business makes smarter decisions when keeping its risks in check. Once a business has visibility on 
+                                                the risk of potential threats, it can prioritise investments, optimise current technology consumption and transform its 
+                                                security programs to address risks more effectively.</span>
                                             </p>
                                             <p class="p1 text-justify"><br />
-                                                <span class="s1">Avows can help you provide remediation recommendations from a people, process and technology
-                                                perspective to make informed decisions, mitigating actions and managing risk to better protect your organisation.
-                                                We help identify the areas of greatest risk and opportunity for reward so you can focus on what matters most.</span>
+                                                <span class="s1">Avows can help your business by providing remediation recommendations from a people, process and technology 
+                                                perspective to make informed decisions. We can help design, implement and assess risk management across a spectrum of strategic, 
+                                                operational, financial and compliance considerations.</span>
                                             </p>
                                             <p class="p1 text-justify"><br />
-                                                <span class="s1">Design, implement and assess risk management capabilities across a spectrum of strategic,
-                                                operational, financial and compliance considerations</span>
-                                            </p>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">We will tailor our risk evaluation approach to your organization’s culture and risk appetite.
-                                                Security policies are an essential component of your overall risk management program. Assess the effectiveness
-                                                of your current policies and modify existing or develop new policies to more closely align with your business goals.</span>
+                                                <span class="s1">We ensure that our risk evaluation approach is aligned in a way that supports the organization’s business goals 
+                                                and culture. Security policies play a vital role in a business and we will also ensure that the data are used and 
+                                                secured properly.</span>
                                             </p>
                                         </Tab>
                                     </Tabs>

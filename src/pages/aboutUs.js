@@ -10,8 +10,9 @@ const AboutUs = () => (
   <Layout>
 
     <SEO title="About Us" />
-
+{/* style={{ backgroundImage: `url("../components/images/background/about-bg.jpg")` }} */}
     <div id="pageHeader" >
+    <img src="../images/background/about-bg.jpg" />
       <div className="vc-parent">
         <div className="vc-child">
           <section className="page-title">
