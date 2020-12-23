@@ -386,7 +386,7 @@ p {
 }
 
 #pageHeader {
-    /* background-image: url(../images/background/about-bg.jpg); */
+    background-image: url(../images/background/about-us.jpg);
     position: relative;
     padding-bottom: 40px;
     overflow: hidden;
