@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "../components/layouts/layout"
-import SEO from "../components/seo"
-import "../components/header/header.css";
+import Layout from "../../components/layouts/layout"
+import SEO from "../../components/seo"
+//import "../../components/header/header.css";
 import { Tabs, Tab } from 'react-bootstrap';
 
 // var imageName = require('../images/our_ceo.jpg')

@@ -9,7 +9,7 @@ import "../components/header/header.css";
 const Home = () => (
   <Layout>
     <SEO title="Home" />
-    <Carousel />
+    
 
     <div className="our-mv">
       <div className="button-mv">
