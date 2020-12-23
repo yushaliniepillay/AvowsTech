@@ -3,6 +3,8 @@ import Layout from "../components/layouts/layout"
 import SEO from "../components/seo";
 import Carousel from '../components/slider/carousel';
 import { Button } from 'react-bootstrap';
+import "../components/header/header.css";
+
 
 const Home = () => (
   <Layout>
@@ -28,13 +30,79 @@ const Home = () => (
         position themselves best price-performers of choice in their industries” </p>
       </article>
     </div>
-    <div className="main-statistics">
 
+    <div id="feedback">
+      <div className="feedback-wrapper">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <section>
+                <h2 className="section-title">
+                  <span></span>OUR STATISTICS
+              </h2>
+              </section>
+            </div>
+          </div>
+
+          <div className="row facts-items">
+            <div className="col-sm-3 col-xs-6 text-center">
+              <div className="facts">
+                <div className="facts-icon">
+                  <i className="fa fa-flag"></i>
+                </div>
+                <p className="facts-text">Projects Completed</p>
+                <h4>100+</h4>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center">
+              <div class="facts">
+                <div class="facts-icon">
+                  <i class="fa fa-smile-o"></i>
+                </div>
+                <p class="facts-text">Happy Clients</p>
+                <h4>50+</h4>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center">
+              <div class="facts">
+                <div class="facts-icon">
+                  <i class="fas fa-building"></i>
+                </div>
+                <p class="facts-text">Overall Offices</p>
+                <h4>4</h4>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center">
+              <div class="facts last-child">
+                <div class="facts-icon">
+                  <i class="fas fa-award"></i>
+                </div>
+                <p class="facts-text">Anniversary</p>
+                <h4>11</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div className="carrer">
-      <h3>WISH TO MAKE A CAREER WITH US?</h3>
-      <Button className="m-3" variant="light" size="lg" type="submit">JOIN US</Button>
+
+    <div id="subscribe">
+      <div className="container">
+        <div className="row">
+          <div class="col-sm-7">
+            <section>
+              <h4>WISH TO MAKE A CAREER WITH US?</h4>
+            </section>
+          </div>
+          <div class="col-sm-5">
+            <div data-form-validation="true">
+              <Button className="join_us" variant="light" size="lg" type="submit">JOIN US</Button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
 
   </Layout>
 )

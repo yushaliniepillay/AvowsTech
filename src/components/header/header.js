@@ -7,13 +7,14 @@ import { PhoneOutlined, MailFilled, FacebookFilled, LinkedinFilled, TwitterCircl
 const Header = ({ siteTitle }) => (
 
   <header>
+    {/* top navbar */}
     <div>
       <Navbar className="small-nav" bg="dark" variant="dark">
         <Navbar.Brand className="small-nav-num">
           <PhoneOutlined />(+603) 2712 3456</Navbar.Brand>
         <Navbar.Brand className="small-nav-num">
-          <Link href="mailto:info@avowstech.com">
-            <MailFilled/> info@avowsteh.com
+          <Link className="link" href="mailto:info@avowstech.com">
+            <MailFilled /> info@avowsteh.com
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
@@ -21,25 +22,26 @@ const Header = ({ siteTitle }) => (
           <Nav as="ul" className="ml-auto">
             <Nav.Item as="li" >
               <Link href="https://www.facebook.com/avowstechnologies/?fref=ts" title="Facebook" className="nav-link" activeClassName="active">
-              <FacebookFilled />
+                <FacebookFilled />
               </Link>
             </Nav.Item>
             <Nav.Item as="li" >
               <Link href="https://www.linkedin.com/company/avows-technologies-sdn-bhd/" title="Linkedin" className="nav-link" activeClassName="active">
-              <LinkedinFilled />
+                <LinkedinFilled />
               </Link>
             </Nav.Item>
             <Nav.Item as="li" >
               <Link href="https://twitter.com/Avowstech" title="Twiter" className="nav-link" activeClassName="active">
-              <TwitterCircleFilled />
+                <TwitterCircleFilled />
               </Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     </div>
-    <div>
-      <Navbar expand="lg" sticky="top">
+    {/* second navbar */}
+    <div >
+      <Navbar expand="lg" bg="light" variant="light" sticky="top">
         <Navbar.Brand id="avowsTitle" href="/">{siteTitle}</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive" >
@@ -54,30 +56,31 @@ const Header = ({ siteTitle }) => (
                 ABOUT US
             </Link>
             </Nav.Item>
-            <NavDropdown title="SERVICE & SOLUTIONS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action">TECHNOLOGY SERVICE</NavDropdown.Item>
-              <NavDropdown.Item href="#action">TESTING SERVICE</NavDropdown.Item>
-              <NavDropdown.Item href="#action">CLOUD TECHNOLOGIES</NavDropdown.Item>
-              <NavDropdown.Item href="#action">CYBER SECURITY</NavDropdown.Item>
-              <NavDropdown.Item href="#action">DATA ANALYTICS AND AI</NavDropdown.Item>
+            <NavDropdown title="SERVICE & SOLUTIONS" href="#" class="active" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
+              <NavDropdown.Item href="/testing">TESTING SERVICE</NavDropdown.Item>
+              <NavDropdown.Item href="/cloud">CLOUD TECHNOLOGIES</NavDropdown.Item>
+              <NavDropdown.Item href="/cyber">CYBER SECURITY</NavDropdown.Item>
+              <NavDropdown.Item href="/data">DATA ANALYTICS AND AI</NavDropdown.Item>
+              <NavDropdown.Item href="/ar_vr">AUGMENTED REALITY/VIRTUAL REALITY</NavDropdown.Item>
             </NavDropdown>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/blog" className="nav-link" activeClassName="active">
                 BLOG
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/event" className="nav-link" activeClassName="active">
                 EVENTS
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/career" className="nav-link" activeClassName="active">
                 CAREER
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/contactUs" className="nav-link" activeClassName="active">
                 CONTACT US
             </Link>
             </Nav.Item>

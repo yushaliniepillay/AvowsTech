@@ -6,6 +6,10 @@ import "../footer/footer.css";
 
 function footer() {
     var imageName = require('../images/header-slider-content/02.png')
+    var imageMalay = require('../images/icon/may_icon.png');
+    var imageSg = require('../images/icon/sg_icon.png');
+    var imageIndo = require('../images/icon/indo_icon.png');
+    var imageUSA = require('../images/icon/usa_icon.png');
 
     return (
         <footer>
@@ -21,31 +25,31 @@ function footer() {
                         <div className="col-md-3 col-sm-4 footer-widget">
                             <div className="footer-about">
                                 <h4 className="footer-title">ABOUT US
-                                <hr className="bg-danger inline-block" /></h4>
+                                <hr/></h4>
                                 <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High className Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
-                                <Button >READ MORE</Button>
+                                <Button className="m-3" variant="danger" size="md" type="submit" href="/aboutUs">READ MORE</Button>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-4">
                             <section className="links-widget">
                                 <h4 className="footer-title">QUICK LINKS
-                                <hr className="bg-danger" /></h4>
+                                <hr/></h4>
                                 <ul className="list-unstyled">
-                                    <li><a href="/services/technology_services">SERVICES & SOLUTIONS</a></li>
+                                    <li><a href="/technology">SERVICES & SOLUTIONS</a></li>
                                     <li><a href="/career">CAREER</a></li>
-                                    <li><a href="/contactus">CONTACT</a></li>
+                                    <li><a href="/contactUs">CONTACT</a></li>
                                 </ul>
                             </section>
                         </div>
                         <div className="col-md-3 col-sm-4">
                             <section className="latest-tweets-widget">
                                 <h4 className="footer-title">CONTACT US
-                                <hr className="bg-danger" /></h4>
+                                <hr /></h4>
                                 <ul className="footer_contact">
                                     <li>Level 15-06, Tower A, The Vertical Business Suite,
-                                    Avenue 3, Bangsar South, No 8, Jln Kerinchi,
-                                    59200 Kuala Lumpur, Malaysia.</li><br />
+                                        Avenue 3, Bangsar South, No 8, Jln Kerinchi,
+                                        59200 Kuala Lumpur, Malaysia.</li><br />
                                     <li>Phone: (+603) 2712 3456 </li>
                                     <li>Fax: (+603) 2712 3457</li>
                                     <li>Email: info@avowstech.com</li>
@@ -61,22 +65,22 @@ function footer() {
                     <div className="col-xs-12 col-sm-12 col-md-12">
                         <div className="footer-landmarks">
                             <div className="row">
-                                {/* <div className="col-md-4">
-                                    </div> */}
+                                <div className="col-md-4">
+                                    </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/may_icon.png" alt="" /><br /> */}
+                                    <img src={imageMalay} alt="" /><br />
                                     <p>MALAYSIA(HQ)</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/sg_icon.png" alt="" /><br /> */}
+                                    <img src={imageSg} alt="" /><br />
                                     <p>SINGAPORE</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/indo_icon.png" alt="" /><br /> */}
+                                    <img src={imageIndo} alt="" /><br />
                                     <p>INDONESIA</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    {/* <img src="/img/icon/usa_icon.png" alt="" /><br /> */}
+                                    <img src={imageUSA} alt="" /><br />
                                     <p>USA</p>
                                 </div>
                                 <div className="col-md-4">
@@ -92,7 +96,7 @@ function footer() {
                     <div className="Site-footer__primary text-center">
                         <div className="Footer-logo Footer-logo--normal">
                             <a href="/" className="Footer-logo__link" title="Avows">
-                                <img className="avowsLogo" data-retina="0" src="/imgages/avowsTitle.png" alt="Avows" />
+                                <img className="avowsLogo" data-retina="0" src="../imgages/avowsTitle.png" alt="Avows" />
                             </a>
                         </div>
                     </div>

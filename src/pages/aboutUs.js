@@ -4,26 +4,32 @@ import SEO from "../components/seo"
 import "../components/header/header.css";
 import Carousel from '../components/slider/management';
 
+// var imageName = require('../images/our_ceo.jpg')
 
 const AboutUs = () => (
   <Layout>
 
     <SEO title="About Us" />
-
+{/* style={{ backgroundImage: `url("../components/images/background/about-bg.jpg")` }} */}
     <div id="pageHeader" >
+    <img src="../images/background/about-bg.jpg" />
       <div className="vc-parent">
         <div className="vc-child">
           <section className="page-title">
             <h2>DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h2>
-            <ul className="breadcrumb text-center">
-              <li >We provide enterprises with agility with   our focus on customer centric journeys
-                  to drive their digital transformation initiatives</li>
+            {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
+                  to drive their digital transformation initiatives</p> */}
+            <ul className="text-center">
+              <li className="list-unstyled">
+                We provide enterprises with agility with our focus on customer centric journeys
+                to drive their digital transformation initiatives</li>
             </ul>
           </section>
         </div>
       </div>
     </div>
 
+    {/* about us */}
     <div id="about" className="page about--overlay-full">
       <div className="about-page-description">
         <div className="container">
@@ -55,6 +61,7 @@ const AboutUs = () => (
       </div>
     </div>
 
+    {/* Management slide */}
     <div className="about-page-team team-items1">
       <div className="container">
         <h2 className="section-title white">MANAGEMENT TEAM</h2>
@@ -65,17 +72,21 @@ const AboutUs = () => (
       </div>
     </div>
 
+    {/* Ceo speech */}
     <div id="about">
       <div className="container">
         <div className="row">
           <div className="col-md-6 about--img">
-            <img src="../imgages/our_ceo.jpg" alt="ceo" className="img-responsive" />
+            <div className="ceo_image"></div>
+            {/* <img className="ceo_image" alt="ceo" /> */}
+            {/* <img src={imageName} alt="ceo" className="img-responsive" /> */}
           </div>
           <div className="col-md-6 team-skills">
             <h2 className="section-title text-left">OUR CEO'S MESSAGE</h2>
             <div className="about-description">
-              <p className="justified">Our number one commitment since inception has been to delight customers by bringing in the right solutions at the right time,
-              while maintaining the quality of service. The one trait in common among Avowsians is passion. Passion for technology,  passion for
+              <p className="justified">
+                Our number one commitment since inception has been to delight customers by bringing in the right solutions at the right time,
+                while maintaining the quality of service. The one trait in common among Avowsians is passion. Passion for technology,  passion for
                 our customers, passion to be the best in everything that we do.</p><br /><br />
               <p className="justified">
                 Everyday, we strive to deliver value to our customers, investing
@@ -88,7 +99,6 @@ const AboutUs = () => (
               <br /><br /><br />
               <h6 className="text-center">- MR. ASHOK K RAMAVATH - <br />  FOUNDER &amp; GROUP CEO</h6>
             </div>
-
           </div>
         </div>
       </div>

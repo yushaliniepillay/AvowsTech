@@ -9,18 +9,20 @@ function management() {
     return (
 
             <Carousel className="carousel">
-                <Carousel.Item interval={1000}>
-                    
+                <Carousel.Item >
                     <img
                         className="d-block w-100"
                         // src="holder.js/800x400?text=First slide&bg=373940"
                         src={url} />
-                    <Carousel.Caption className="caption1">
-                        <div>Hi all</div>
+                    <Carousel.Caption >
+                            <h3>TECHNOLOGY SERVICES</h3>
+                            <br/>
+                            <p>Enhance customer experience with optimised software performance by aligning your IT deliverables with business goals.</p>
+                        
                     </Carousel.Caption>
                 </Carousel.Item>
-
-                <Carousel.Item interval={500}>
+{/* interval={4000} */}
+                <Carousel.Item >
                     <img
                         className="d-block w-100"
                         src={url}

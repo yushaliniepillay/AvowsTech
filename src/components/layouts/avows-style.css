@@ -994,10 +994,10 @@ body.navOpen #topNav.sticky>.navbar {
 }
 
 .vc-child .header-img {
-    margin-top: 90px
+    margin-top: 100px
 }
 
-.header-img img.img-responsive {
+.header-img img.img-responsive1 {
     width: 100%
 }
 
