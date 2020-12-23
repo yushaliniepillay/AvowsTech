@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo";
-import Carousel from '../components/slider/carousel';
+//import Carousel from '../components/slider/carousel';
 import { Button } from 'react-bootstrap';
 import "../components/header/header.css";
 
@@ -9,7 +9,7 @@ import "../components/header/header.css";
 const Home = () => (
   <Layout>
     <SEO title="Home" />
-    <Carousel />
+    
 
     <div className="our-mv">
       <div className="button-mv">

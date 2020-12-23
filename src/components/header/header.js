@@ -57,12 +57,12 @@ const Header = ({ siteTitle }) => (
             </Link>
             </Nav.Item>
             <NavDropdown title="SERVICE & SOLUTIONS" href="#" class="active" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
-              <NavDropdown.Item href="/testing">TESTING SERVICE</NavDropdown.Item>
-              <NavDropdown.Item href="/cloud">CLOUD TECHNOLOGIES</NavDropdown.Item>
-              <NavDropdown.Item href="/cyber">CYBER SECURITY</NavDropdown.Item>
-              <NavDropdown.Item href="/data">DATA ANALYTICS AND AI</NavDropdown.Item>
-              <NavDropdown.Item href="/ar_vr">AUGMENTED REALITY/VIRTUAL REALITY</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/testing">TESTING SERVICE</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/cloud">CLOUD TECHNOLOGIES</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/cyber">CYBER SECURITY</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/data">DATA ANALYTICS AND AI</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/ar_vr">AUGMENTED REALITY/VIRTUAL REALITY</NavDropdown.Item>
             </NavDropdown>
             <Nav.Item as="li" >
               <Link to="/blog" className="nav-link" activeClassName="active">

@@ -44,7 +44,7 @@ function carousel() {
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
-                                            <img src={slide1Icon} alt="" class="img-responsive1" />
+                                            {/* <img src={slide1Icon} alt="" class="img-responsive1" /> */}
                                             {/* <figcaption>
                                                 <div class="header--badge header--badge-1 octagon">
                                                     <p><img src="/img/service_icon.png" width="52%" /></p>
@@ -76,7 +76,7 @@ function carousel() {
                                         <section class="header-content">
                                             <h2 class="owl-fadeInUp animate-2x">TESTING AND SECURITY</h2>
                                             <h5 class="owl-fadeInUp animate-2x">We aim to help organizations regardless
-                                            of any sizes improve their security processes, achieve compliance and
+                                                of any sizes improve their security processes, achieve compliance and
                                                 protect their data</h5>
                                             <ul>
                                                 <li>Functional & Test Management</li>
@@ -93,7 +93,7 @@ function carousel() {
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
-                                            <img src={slide2Icon} alt="" class="img-responsive1" />
+                                            {/* <img src={slide2Icon} alt="" class="img-responsive1" /> */}
                                             {/* <figcaption>
                                                 <div class="header--badge header--badge-1 octagon">
                                                     <p><img src="/img/service_icon.png" width="52%" /></p>

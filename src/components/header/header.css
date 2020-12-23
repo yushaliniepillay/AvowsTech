@@ -386,11 +386,12 @@ p {
 }
 
 #pageHeader {
-    /* background-image: url(../images/background/about-bg.jpg); */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/about_us.jpg);
     position: relative;
     padding-bottom: 40px;
     overflow: hidden;
-    z-index: 0
+    z-index: 0;
+    
 }
 .vc-parent {
     width: 100%;
@@ -414,11 +415,14 @@ p {
 .page-title h2 {
     color: rgb(235, 224, 224);
     font-size: 34px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 100px;
     text-align: center;
     text-transform: uppercase;
     position: relative
+}
+.page-title ul {
+    color: rgb(235, 224, 224);
 }
 
 .page-title h2:before {
