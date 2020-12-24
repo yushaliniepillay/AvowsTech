@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import "../components/header/header.css";
-import Carousel from '../components/slider/management';
+import Carousel from '../components/slider/Management';
 
 // var imageName = require('../images/our_ceo.jpg')
 
