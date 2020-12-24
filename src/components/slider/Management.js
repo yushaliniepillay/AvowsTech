@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Carousel, Button, Modal } from 'react-bootstrap';
+import { Carousel, Button, Modal, Figure } from 'react-bootstrap';
 import '../header/header.css';
-import ApiData from "../slider/teamData";
+// import ApiData from "../slider/teamData";
 
 const Management = () => {
 
@@ -17,9 +17,6 @@ const Management = () => {
     // const sujoy = require('../images/management/Sujoy.jpg');
 
     const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
 
     const data =
         [
@@ -137,8 +134,8 @@ const Management = () => {
                                         <img key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
                                         {/* <h3><a href="#" class="mdl-card__title_a">{data.name}<br /></a></h3> */}
                                         <h4 className="text-white">{data.name}</h4>
-                                        <h5 >{data.position}</h5>
-                                        <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" onClick={handleShow}>VIEW DETAILS</Button>
+                                        <h5>{data.position}</h5>
+                                        <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" onClick={() => setShow(true)}>VIEW DETAILS</Button>
                                     </div>
                                 </div>
                             </div>
@@ -149,34 +146,34 @@ const Management = () => {
             <div>
                 {
                     data.map(data => (
-                        <Modal key={data.id} show={show} onHide={handleClose}>
+                        <Modal key={data.id} show={show} 
+                            onHide={() => setShow(false)}
+                            className="modal-500w"
+                            aria-labelledby="example-custom-modal-styling-title"
+                        >
                             <Modal.Header closeButton>
-                                <Modal.Title>MANAGEMENT TEAM</Modal.Title>
+                                <Modal.Title id="example-custom-modal-styling-title">
+                                    <p className="text-center">
+                                        <b>{data.name}</b><br />
+                                        {data.position}
+                                    </p>
+                                </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
-                                <div class="wpb_single_image wpb_content_element vc_align_center">
-                                    <figure class="wpb_wrapper vc_figure">
-                                        <div class="vc_single_image-wrapper vc_box_outline_circle  vc_box_border_grey" id="pop_img_style">
-                                            <img width="150" height="160" src={data.image} class="vc_single_image-img attachment-thumbnail" alt="Dato_Pics" />
-                                        </div>
-                                    </figure>
-
-                                </div>
-                                <p className="text-center;">
-                                    <b>{data.name}</b><br />
-                                    {data.position}
-                                </p>
-                                <ul>
-                                    <li>{data.description1}</li>
-                                    <li>{data.description1}</li>
-                                    <li>{data.description1}</li>
-                                    <li>{data.description1}</li>
-                                    <li>{data.description1}</li>
-                                </ul>
+                                <Figure className="text-center">
+                                    <Figure.Image
+                                        width={171}
+                                        height={180}
+                                        alt="171x180"
+                                        src={data.image}
+                                    />
+                                </Figure>
+                                <p>{data.description1}</p>
+                                <p>{data.description1}</p>
+                                <p>{data.description1}</p>
+                                <p>{data.description1}</p>
+                                <p>{data.description1}</p>
                             </Modal.Body>
-                            <Modal.Footer>
-                                <Button variant="secondary" onClick={handleClose}> Close</Button>
-                            </Modal.Footer>
                         </Modal>
                     ))
                 }
