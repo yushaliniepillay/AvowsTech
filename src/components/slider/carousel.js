@@ -4,20 +4,18 @@ import '../header/header.css';
 
 function carousel() {
 
-    const url = 'https://cdn.filestackcontent.com/XYrHCaFGRSaq0EPKY1S6';
-    const url1 = require('../images/header-slider/application_development.jpg');
-    const url2 = require('../images/header-slider/digital_solutions.jpg');
-    const url3 = require('../images/header-slider/business_analytic.jpg');
-    const slide1Icon = require('../images/header-slider-content/01.png');
-    const slide2Icon = require('../images/header-slider-content/02.png');
+    // const url = 'https://cdn.filestackcontent.com/XYrHCaFGRSaq0EPKY1S6';
+    // const url1 = require('../images/header-slider/application_development.jpg');
+    // const url2 = require('../images/header-slider/digital_solutions.jpg');
+    // const url3 = require('../images/header-slider/business_analytic.jpg');
+    // const slide1Icon = require('../images/header-slider-content/01.png');
+    // const slide2Icon = require('../images/header-slider-content/02.png');
 
     return (
         <Carousel className="carousel">
-            <Carousel.Item interval={1000}>
-                <img
-                    className="d-block w-100"
-                    // src="holder.js/800x400?text=First slide&bg=373940"
-                    src={url2} />
+            <Carousel.Item className="img1" interval={1000}>
+                {/* <img className="img1 d-block w-100"
+                    src={url2} /> */}
                 <Carousel.Caption >
                     <div class="container" >
                         <div class="row">
@@ -27,7 +25,7 @@ function carousel() {
                                         <section class="header-content">
                                             <h2>TECHNOLOGY SERVICES</h2>
                                             <h5>Enhance customer experience with optimised
-                                            software performance by aligning your IT
+                                                software performance by aligning your IT
                                                 deliverables with business goals.</h5>
                                             <ul>
                                                 <li>Mobile and Web Development</li>
@@ -61,11 +59,11 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img
+            <Carousel.Item className="img2"interval={1000}>
+                {/* <img
                     className="d-block w-100"
                     src={url2}
-                    alt="second slide" />
+                    alt="second slide" /> */}
                 {/* style="width: 998px;" */}
                 <Carousel.Caption>
                     <div class="container">
@@ -110,11 +108,11 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img
+            <Carousel.Item className="img3" interval={1000}>
+                {/* <img
                     className="d-block w-100"
                     src={url2}
-                    alt="Third slide" />
+                    alt="Third slide" /> */}
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">
@@ -157,11 +155,11 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={1000}>
-                <img
+            <Carousel.Item className="img4" interval={1000}>
+                {/* <img
                     className="d-block w-100"
                     src={url2}
-                    alt="Fourth slide" />
+                    alt="Fourth slide" /> */}
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">

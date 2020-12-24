@@ -4,7 +4,7 @@ import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import { Button } from 'react-bootstrap';
 
-const blogImage = require('../images/blogPost/techconnect.png');
+// const blogImage = require('../images/blogPost/techconnect.png');
 
 const Blog = () => (
 
@@ -41,8 +41,8 @@ const Blog = () => (
             <div className="mdl-card mdl-shadow--2dp">
               <div className="mdl-card__title">
                 <div className="post-img">
-                  <a href="/blog_details/blog_00">
-                    <img src={blogImage} alt="" className="img-responsive" />
+                  <a className="blog-image" href="/blog_details/blog_00" >
+                    {/* <img src={blogImage} alt="techImage" className="img-responsive" /> */}
                   </a>
                 </div>
               </div>
@@ -77,6 +77,8 @@ const Blog = () => (
         </div>
         <br />
         <br />
+
+
       </div>
     </div>
 
