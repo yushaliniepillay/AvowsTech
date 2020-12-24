@@ -34,7 +34,6 @@ const Management = () => {
                                     <h3><a href="#" class="mdl-card__title_a">DATUK SYED TAMIM MOHAMED<br /></a></h3>
                                     <h4>Director - Strategy, Avows Group</h4>
                                     <Button className="m-3" variant="danger" size="md" type="submit" onClick={handleShow}>VIEW DETAILS</Button>
-
                                     {/* </div> */}
                                 </div>
                                 <div className="col-md-3 col-md-4">
@@ -122,6 +121,7 @@ const Management = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            
             <div>
                 <Modal show={show} onHide={handleClose}>
                     <Modal.Header closeButton>
@@ -138,7 +138,7 @@ const Management = () => {
                         </div>
                         <p className="text-center;">
                             <b>DATUK SYED TAMIM MOHAMED</b><br />
-                            Director - Strategy, Avows Group
+                                Director - Strategy, Avows Group
                     </p>
                         <ul>
                             <li>Datuk Syed Tamim Mohamed is the Director of Strategy and Development for AVOWS Technologies. He has been working for the past 44 years in various capacities, both in the public and the private sectors. He began his career in the Prime Minister's Department in 1972 after graduating with a Bachelor of Economics (Honours) degree. He left the civil service to join the private sector in 1981, after obtaining his MBA. He was also trained at Harvard Business School and Mt Eliza, Australia. He is also a member of the Japanese Kankeiren Group and the Korean Development Institute </li>
