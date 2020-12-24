@@ -1,10 +1,11 @@
+import Icon from '@ant-design/icons/lib/components/AntdIcon';
 import React from 'react'
 import { Button } from 'react-bootstrap';
-//import "../layouts/avows-style1.css"
 import "../footer/footer.css";
 
 
 function footer() {
+    var icon = require('../images/avowsTitle.png')
     var imageName = require('../images/header-slider-content/02.png')
     var imageMalay = require('../images/icon/may_icon.png');
     var imageSg = require('../images/icon/sg_icon.png');
@@ -100,7 +101,7 @@ function footer() {
                     <div className="Site-footer__primary text-center">
                         <div className="Footer-logo Footer-logo--normal">
                             <a href="/" className="Footer-logo__link" title="Avows">
-                                <img className="avowsLogo" data-retina="0" src="../imgages/avowsTitle.png" alt="Avows" />
+                                <img className="avowsLogo" src={icon} alt="Avows" />
                             </a>
                         </div>
                     </div>

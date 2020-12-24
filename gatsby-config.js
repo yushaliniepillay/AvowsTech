@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,9 +25,10 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/avowsTitle.png`, // This path is relative to the root of the site. //gatsby-icon.png
+        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site. //gatsby-icon.png
       },
     },
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -126,6 +126,12 @@ img.Footer--logo__img {
     text-align: center;
 }
 
+.avowsLogo {
+    height: 2rem;
+    width: 3rem;
+    padding-bottom: 4rem;
+}
+
 .Footer-logo {
     text-align: center;
 }
@@ -135,11 +141,11 @@ img.Footer--logo__img {
 }
 
 .Site-footer--layout-2 .Site-footer__primary {
-    padding: 25px 0 0;
+    padding: 20px 0 0;
 }
 
 .Footer-logo--normal {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .Site-footer--layout-2 .Social-link {

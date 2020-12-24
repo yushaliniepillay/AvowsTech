@@ -50,7 +50,7 @@ const cloud = () => (
                                     <div class="vc_empty_space" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <Tabs className="tabClass" defaultActiveKey="home" transition={false} id="noanim-tab-example">
+                                    <Tabs className="tabClass" defaultActiveKey="MCE" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="MCE" title="Multi-Cloud Experience">
                                             <br />
                                             <strong>Multi-Cloud Experience</strong>
