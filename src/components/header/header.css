@@ -384,11 +384,66 @@ p {
     margin-top: 15px;
     border-radius: 2px;
 }
+.img1 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/application_development.jpg);
+    position: relative;
+    padding-bottom: 500px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;   
+}
+.img2 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/managed_services.jpg);
+    position: relative;
+    padding-bottom: 500px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;   
+}
+.img3 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/business_analytic.jpg);
+    position: relative;
+    padding-bottom: 500px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;   
+}
+.img4 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/digital_solutions.jpg);
+    position: relative;
+    padding-bottom: 500px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;   
+}
 
 #pageHeader {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/about_us.jpg);
     position: relative;
     padding-bottom: 40px;
+    overflow: hidden;
+    z-index: 0;
+    
+}
+#pageHeader1 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/blogPost/blog_banner.jpg);
+    position: relative;
+    padding-bottom: 40px;
+    overflow: hidden;
+    z-index: 0;   
+}
+#pageHeader2 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/career_banner.jpg);
+    position: relative;
+    padding-bottom: 40px;
+    overflow: hidden;
+    z-index: 0;
+    
+}
+#pageHeader3 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/contact_banner.jpg);
+    position: relative;
+    padding-bottom: 50px;
     overflow: hidden;
     z-index: 0;
     
@@ -565,6 +620,12 @@ p {
     transform: scaleX(-1);
 }
 
+.blog-image {
+    background-image: url(../images/blogPost/techconnect.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 .ceo_image {
     background-image: url(../images/our_ceo.jpg);
     width: 100%;
@@ -996,3 +1057,5 @@ p {
     color: white;
     border: none
 }
+
+/* management style */

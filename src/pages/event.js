@@ -8,15 +8,15 @@ const Event = () => (
   <Layout>
     <SEO title="Event" />
 
-    <div id="pageHeader" >
+    <div id="pageHeader1" >
       <div className="vc-parent">
         <div className="vc-child">
           <section className="page-title">
             <h2>EVENT</h2>
             <ul className="text-center">
-              <li className="list-unstyled">
-                <Link href="/">Home</Link> /</li>
-              <li className="list-unstyled active">Event</li>
+              <li className="list-unstyled text-danger">
+                <Link className="text-white" href="/">Home /</Link> Event</li>
+              {/* <li className="list-unstyled active">Event</li> */}
             </ul>
           </section>
         </div>

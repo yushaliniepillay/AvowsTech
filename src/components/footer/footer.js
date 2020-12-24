@@ -76,6 +76,10 @@ function footer() {
                                     <p>SINGAPORE</p>
                                 </div>
                                 <div className="col-md-1" align="center">
+                                    <img src={imageMalay} alt="" /><br />
+                                    <p>India</p>
+                                </div>
+                                <div className="col-md-1" align="center">
                                     <img src={imageIndo} alt="" /><br />
                                     <p>INDONESIA</p>
                                 </div>
