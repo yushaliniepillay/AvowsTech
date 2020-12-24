@@ -127,18 +127,21 @@ const Management = () => {
             <div>
                 <Carousel className="carousel">
                     {data.map(data => (
+
                         <Carousel.Item interval={4000}>
-                            <div className="container" >
-                                <div className="row" >
-                                    <div key={data.id} className="col-md-3 col-md-4">
-                                        <img key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
-                                        {/* <h3><a href="#" class="mdl-card__title_a">{data.name}<br /></a></h3> */}
-                                        <h4 className="text-white">{data.name}</h4>
-                                        <h5>{data.position}</h5>
-                                        <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" onClick={() => setShow(true)}>VIEW DETAILS</Button>
+                           
+                                <div className="container" >
+                                    <div className="row" >
+                                        <div key={data.id} className="col-md-3 col-md-4">
+                                            <img key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
+                                            {/* <h3><a href="#" class="mdl-card__title_a">{data.name}<br /></a></h3> */}
+                                            <h4 className="text-white">{data.name}</h4>
+                                            <h5>{data.position}</h5>
+                                            <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" onClick={() => setShow(true)}>VIEW DETAILS</Button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            
                         </Carousel.Item>
                     ))}
                 </Carousel>
@@ -146,7 +149,7 @@ const Management = () => {
             <div>
                 {
                     data.map(data => (
-                        <Modal key={data.id} show={show} 
+                        <Modal key={data.id} show={show}
                             onHide={() => setShow(false)}
                             className="modal-500w"
                             aria-labelledby="example-custom-modal-styling-title"

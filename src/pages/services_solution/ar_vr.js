@@ -53,7 +53,7 @@ const ar_vr = () => (
                                     <div class="vc_empty_space" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
+                                    <Tabs defaultActiveKey="BD" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="BD" title="AR/VR">
                                             <br />
                                             <strong>Augmented Reality/ Virtual Reality</strong>

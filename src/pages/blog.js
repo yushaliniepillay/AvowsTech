@@ -6,6 +6,7 @@ import { Button, Card } from 'react-bootstrap';
 
 
 const Blog = () => {
+  //const img = require('../pages/blog_details/image/techconnect.png');
 
   const data =
     [
@@ -13,17 +14,33 @@ const Blog = () => {
         id: "0",
         title: "AVOWS wins Operational Excellence in IT - GBS Awards 2019",
         date: "THURSDAY, 03/10/2019",
-        image: require('../images/management/Dato.jpg'),
+        image: require('../pages/blog_details/image/blog00_thumbnail.jpeg'),
         descp: "Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in Category of Operational Excellence in Information Technology (OPEIT). The event was graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues. The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards) and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each other at the most sought-after event of the country’s digital ecosystem.",
         link: "/blog_details/blog_00"
       },
       {
-        id: "2",
-        title: "AVOWS wins Operational Excellence in IT - GBS Awards 2019",
-        date: "THURSDAY, 03/10/2019",
-        image: require('../images/management/techconnect.png'),
-        descp: "Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in Category of Operational Excellence in Information Technology (OPEIT). The event was graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues. The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards) and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each other at the most sought-after event of the country’s digital ecosystem.",
-        link: "/blog_details/blog_00"
+        id: "1",
+        title: "Coding Contest Write Up",
+        date: "JULY, 07/2019",
+        image: require('../pages/blog_details/image/contest/3.jpg'),
+        descp: "Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.",
+        link: "/blog_details/blog_01"
+      },
+      {
+        id: "3",
+        title: "TechConnect 2020: Business Simplified by Technology",
+        date: "Friday, 20/12/2019",
+        image: require('../pages/blog_details/image/techconnect.png'),
+        descp: "TechConnect 2020 is a conference conducted by Avows to shed light on future trends in the IT industry in Malaysia & to provide opportunities for exchanging ideas among leading CXOs and Industry Leaders.",
+        link: "/blog_details/blog_02"
+      },
+      {
+        id: "4",
+        title: "Annual Dinner",
+        date: "2019",
+        image: require('../pages/blog_details/image/annualDinner/W1.jpeg'),
+        descp: "",
+        link: "/blog_details/blog_03"
       }
     ]
   return (
@@ -56,25 +73,27 @@ const Blog = () => {
             </div>
           </div>
 
-          {data.map(data => (
-            <Card style={{ width: '18rem', flex: '2' }} >
-              <Card.Img variant="top" src={data.image} />
-              <Card.Body>
-                <Card.Title>
-                  <section className="post-title">
-                    <h2><a href="/blog_details/blog_00">{data.title}</a></h2>
-                  </section>
-                </Card.Title>
-                <Card.Text>
-                  <p><i className="fa fa-calendar"></i>{data.date}</p>
-                  <p>{data.descp}</p>
-                </Card.Text>
-              </Card.Body>
-              <Card.Body>
-                <Button variant="primary" href={data.link} >READ MORE</Button>
-              </Card.Body>
-            </Card>
-          ))}
+          <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around'}}>
+            {data.map(data => (
+              <Card style={{ width: '18rem'}} >
+                <Card.Img variant="top" src={data.image} />
+                <Card.Body>
+                  <Card.Title>
+                    <section className="post-title">
+                      <h2><a href={data.link}>{data.title}</a></h2>
+                    </section>
+                  </Card.Title>
+                  <Card.Text>
+                    <p><i className="fa fa-calendar"></i>{data.date}</p>
+                    <p>{data.descp}</p>
+                  </Card.Text>
+                </Card.Body>
+                <Card.Body>
+                  <Button variant="primary" href={data.link} >READ MORE</Button>
+                </Card.Body>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
 

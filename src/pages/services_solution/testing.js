@@ -4,12 +4,12 @@ import SEO from "../../components/seo"
 //import "../../components/header/header.css";
 import { Tabs, Tab } from 'react-bootstrap';
 
-// var imageName = require('../images/our_ceo.jpg')
+var imageName = require('../../components/images/background/testing_sub.jpg')
 
 const testing = () => (
     <Layout>
         <SEO title="Testing Service" />
-        <div id="pageHeader" >
+        <div id="pageHeader3" >
             <div className="vc-parent">
                 <div className="vc-child">
                     <section className="page-title">
@@ -32,7 +32,7 @@ const testing = () => (
                 <div class="row">
                     <div class="col-md-12 blog-page-content post-details">
                         <div class="post-img">
-                            <img src="/imgages/app_development_banner.jpg" alt="" class="img-responsive" />
+                            <img src={imageName} alt="" class="img-responsive" />
                         </div>
 
                         <div class="vc_column-inner ">
@@ -40,7 +40,7 @@ const testing = () => (
                                 <div class="vc_empty_space" >
                                     <span class="vc_empty_space_inner"></span>
                                 </div>
-                                <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
+                                <Tabs defaultActiveKey="FTM" transition={false} id="noanim-tab-example">
                                     <Tab eventKey="FTM" title="Functional & Test Management">
                                         <br />
                                         <strong>Functional & Test Management</strong>

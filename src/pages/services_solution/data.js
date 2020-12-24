@@ -55,7 +55,7 @@ const data = () => (
                                     <div class="vc_empty_space" >
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <Tabs defaultActiveKey="home" transition={false} id="noanim-tab-example">
+                                    <Tabs defaultActiveKey="ACP" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="ACP" title="All-in-One Chatbot Platform">
                                             <br />
                                             <strong>All-in-One Chatbot Platform</strong>
