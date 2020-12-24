@@ -4,19 +4,19 @@ import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
 
 
-const Banking = () => (
+const Insurance = () => (
 
     <Layout>
-        <SEO title="Banking" />
+        <SEO title="Insurance" />
 
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">
                     <section className="page-title">
-                        <h2>BANKING & FINANCIAL SOLUTION</h2>
+                        <h2>INSURANCE</h2>
                         <ul className="text-center">
                             <li className="list-unstyled text-danger">
-                                <Link className="text-white" href="/">Home /</Link> Banking</li>
+                                <Link className="text-white" href="/">Home /</Link> Insurance</li>
                             {/* <li className="list-unstyled active">Blog</li> */}
                         </ul>
                     </section>
@@ -76,4 +76,4 @@ const Banking = () => (
 
 )
 
-export default Banking;
+export default Insurance;

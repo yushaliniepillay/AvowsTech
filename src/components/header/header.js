@@ -57,12 +57,12 @@ const Header = ({ siteTitle }) => (
             </Link>
             </Nav.Item>
             <NavDropdown title="INDUSTRIES" href="#" class="active" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/industris/banking">BANKING</NavDropdown.Item>
-              <NavDropdown.Item href="/industris/insurance">INSURANCE</NavDropdown.Item>
-              <NavDropdown.Item href="/industris/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
-              <NavDropdown.Item href="/industris/healthcare">HEALTHCARE</NavDropdown.Item>
-              <NavDropdown.Item href="/industris/manufacturing">MANUFACTURING</NavDropdown.Item>
-              <NavDropdown.Item href="/industris/energy">ENERGY</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/banking">BANKING</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/insurance">INSURANCE</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/healthcare">HEALTHCARE</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/manufacturing">MANUFACTURING</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/energy">ENERGY</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="SERVICE & SOLUTIONS" href="#" class="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>

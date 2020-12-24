@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Button } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 
 // const blogImage = require('../images/blogPost/techconnect.png');
 
@@ -36,6 +36,28 @@ const Blog = () => (
           </div>
         </div>
 
+        <Card style={{ width: '18rem' }}>
+          <Card.Img variant="top" src="/image/techconnect.png/100px180?text=Image cap" />
+          <Card.Body>
+            <Card.Title><section className="post-title">
+              <h2><a href="/blog_details/blog_00">AVOWS wins Operational Excellence in IT - GBS Awards 2019</a></h2>
+            </section>
+            </Card.Title>
+            <Card.Text>
+              <p><i className="fa fa-calendar"></i>THURSDAY, 03/10/2019</p>
+              Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in
+              Category of Operational Excellence in Information Technology (OPEIT). The event was
+              graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues.
+              The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards)
+              and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each
+              other at the most sought-after event of the country’s digital ecosystem.
+            </Card.Text>
+          </Card.Body>
+          <Card.Body>
+            <Button variant="primary" href="/blog_details/blog_00">READ MORE</Button>
+          </Card.Body>
+        </Card>
+
         <div className="row">
           <div className="col-md-4 col-sm-6 post-item">
             <div className="mdl-card mdl-shadow--2dp">
@@ -55,11 +77,11 @@ const Blog = () => (
                   <p><i className="fa fa-calendar"></i>THURSDAY, 03/10/2019</p>
                 </div>
                 <div className="post-summary">
-                  <p>Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in 
-                    Category of Operational Excellence in Information Technology (OPEIT). The event was 
-                    graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues.
-                    The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards) 
-                    and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each 
+                  <p>Big news from the Pikom Unicorn Awards 2019! Avows won a GBS Pikom award 2019 in
+                  Category of Operational Excellence in Information Technology (OPEIT). The event was
+                  graced by Dato Seri Anwar and esteemed members of Pikom and fellow IT colleagues.
+                  The awards was held for the first time in collaboration with APICTA (Asia Pacific ICT Awards)
+                  and the GBS (Global Business Services) Awards, saw more than 1,000 tech players celebrating each
                     other at the most sought-after event of the country’s digital ecosystem.<br />
                   </p>
                 </div>
