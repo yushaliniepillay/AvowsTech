@@ -75,7 +75,7 @@ const Blog = () => {
 
           <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around'}}>
             {data.map(data => (
-              <Card style={{ width: '18rem'}} >
+              <Card style={{ width: '18rem', margin: '10px'}} >
                 <Card.Img variant="top" src={data.image} />
                 <Card.Body>
                   <Card.Title>
@@ -94,6 +94,8 @@ const Blog = () => {
               </Card>
             ))}
           </div>
+
+
         </div>
       </div>
 
