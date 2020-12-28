@@ -34,39 +34,39 @@ const Blog_03 = () => {
             {
                 image: require('../blog_details/image/annualDinner/HWT_5003.jpg')
             },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0058.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0059.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0079.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0080.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0087.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0090.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0094.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0103.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0104.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0105.jpg')
-            },
-            {
-                image: require('../blog_details/image/annualDinner/IMG_0109.jpg')
-            },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0058.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0059.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0079.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0080.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0087.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0090.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0094.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0103.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0104.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0105.jpg')
+            // },
+            // {
+            //     image: require('../blog_details/image/annualDinner/IMG_0109.jpg')
+            // },
             {
                 image: require('../blog_details/image/annualDinner/W1.jpeg')
             },
