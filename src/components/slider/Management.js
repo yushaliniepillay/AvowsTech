@@ -53,7 +53,7 @@ const Management = () => {
                 id: "3",
                 name: "KANESAN VELUPPILLAI",
                 position: "Group Corporate Advisor – Strategy",
-                image: require('../images/management/ganesan.jpg'),
+                image: require('../images/management/Ganesan.jpg'),
                 description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of Mergers & Acquisitions, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
                 description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
             },
@@ -61,7 +61,7 @@ const Management = () => {
                 id: "4",
                 name: "DATO RAYMOND YEONG",
                 position: "Independent Director at Avows Group",
-                image: require('../images/management/raymond.jpg'),
+                image: require('../images/management/Raymond.jpg'),
                 description1: "Dato Raymond Yeong Kok Hee is the Independent Director of Avows Technologies. He has been working for more than 34 years in different capacities primarily focusing in IT industry. Upon returning from England in 1983, he commenced his sales and marketing management career firstly in the credit cards business and subsequently, ventured into the fast moving consumer goods ('FMCG') sector, as well as the electronics and computer equipment services industries. Dato Raymond Yeong is well-recognized and respected not only in the information technology ('IT') arena, but also in the financial services and corporate sector.",
                 description2: "Dato Raymond Yeong was formerly the consultant and hold the position of Vice President of CSC Malaysia Sdn Bhd(formerly CSA (M)berhad,a position that he has held since 1999. As a Consultant of the company, he is focussed in the areas of Managed Services, Technology consulting and Complex System Integration. His responsibilities includes leveraging of consulting and strategic outsourcing and technology management capabilities in concert with other divisions of Computer Sciences Corporation (CSC) worldwide in creating a unique integrated offering to the dynamic and rapidly growing Malaysia market",
                 description3: "He has developed and set up a significant number of strategic relationships and alliances with the senior management of the financial and governmental sector. He was an active member of the Executive and Management Review Committee of the Maybank Berhad and Computer Sciences Corporation/CSC Malaysia Sdn. Bhd., a ten (10)-year term IT sourcing engagement since 2003.",
@@ -72,7 +72,7 @@ const Management = () => {
                 id: "5",
                 name: "LEE HUI KIM",
                 position: "Group HR",
-                image: require('../images/management/kim.jpg'),
+                image: require('../images/management/Kim.jpg'),
                 description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed 10 + years of experience and has been an asset to the organisation since inception.",
                 description2: "She oversees policies and programs for the entire company as well as organizational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance",
                 description3: "She specializes in talent management and leadership development with a focus on customer relationship management as she works a team player to help sales teams to be aligned to the company goals."
@@ -81,7 +81,7 @@ const Management = () => {
                 id: "6",
                 name: "RAMESH KUMAR RAGHAVAN",
                 position: "VP-Group Operations",
-                image: require('../images/management/ramesh.jpg'),
+                image: require('../images/management/Ramesh.jpg'),
                 description1: "Ramesh brings with him 14+ years of global experience in IT strategy, talent engagement and development, CEO Advisory and stakeholder management. He specializes in operations and HR that aligns strategy, processes with business goals",
                 description2: "Ramesh has a breadth of industry expertise with proficiency building new capabilities and internal processes and has worked with leading global organisations in the past.",
                 description3: "He partners with sales to nurture client relationships and ensures highest quality of service to existing clients. He is as instrumental in advancing Avows innovative company culture as he is in fostering new talent. His passion is to develop and work on next gen digital technologies."
@@ -90,7 +90,7 @@ const Management = () => {
                 id: "7",
                 name: "SENTHIL KUMAR SUBRAMANIAN",
                 position: "Chief Technology Officer",
-                image: require('../images/management/senthil.jpg'),
+                image: require('../images/management/Senthil.jpg'),
                 description1: "Senthil Kumar Subramaniam joined Avows Technologies as its Chief Technology Officer in July 2019. Throughout his 24 years of experience in IT, he has proven to be an effective leader, adept in managing technology projects across delivery centres. This perfectly positions him at the helm of technological evolution for the company as it seeks to deliver the latest technological breakthroughs to its clients through a wide array of cutting-edge products and services.",
                 description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He served as Deputy CIO with Star Health and Allied Insurance, one of the largest Health Insurance companies in India, partnering with vendors such as Oracle, Microsoft and IBM. Prior to that, he was leading teams on various projects while assuming senior roles in Accenture IDC and 3i Infotech. ",
                 description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
@@ -98,7 +98,7 @@ const Management = () => {
                 id: "8",
                 name: "SUJOY ROY CHOWDHURY",
                 position: "VP SALES-Malaysia",
-                image: require('../images/management/sujoy.jpg'),
+                image: require('../images/management/Sujoy.jpg'),
                 description1: "Sujoy takes care of the sales business at Malaysia having more than 10+ years of Experience in IT Solutions Sales, Service Delivery Management and Pre-Sales for Global Financial Institutions in Malaysia and Singapore. He strongly believes in Customer Satisfaction for the services which is continuously boosting the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
                 description2: "He has a proven track record of success in Malaysia and focused on expanding the client base and is a key member of sales team upholding client attrition and partnerships. He’s now able to blend his love of consulting and project management to provide our clients with strong ROI."
             },
@@ -106,7 +106,7 @@ const Management = () => {
                 id: "9",
                 name: "ROHIT PATNAIK",
                 position: "Director - Finance",
-                image: require('../images/management/rohit.jpg'),
+                image: require('../images/management/Rohit.jpg'),
                 description1: "Rohit Patnaik is currently Director of Finance and Compliance at Avows Technologies. He handles finance, legal and contractual matters to ensure smooth day-to-day operations.",
                 description2: "Rohit holds an MBA in Business Management- Finance from the Business School at Xavier School of Management and a Degree in Business Technology in Electrical Engineering at the Indian Institute of Technology Bhubaneswar.",
                 description3: "Prior to joining Avows Technologies, Rohit was part of the consultant team with PwC India where he was actively involved in Financial Strategy and Advisory for various projects involving State and National Governments.",
@@ -116,7 +116,7 @@ const Management = () => {
                 id: "10",
                 name: "ENDAH SUSANTI ",
                 position: "VP Sales -Indonesia",
-                image: require('../images/management/kim.jpg'),
+                image: require('../images/management/Kim.jpg'),
                 description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
                 description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organizations across and has been a key to the company’s business continuity and growth."
             }
@@ -125,11 +125,9 @@ const Management = () => {
     return (
         <>
             <div>
-                <Carousel className="carousel">
-                    {data.map(data => (
-
+                <Carousel className="carousel"> 
+                    {data.map((data, index) => (
                         <Carousel.Item interval={4000}>
-                           
                                 <div className="container" >
                                     <div className="row" >
                                         <div key={data.id} className="col-md-3 col-md-4">
@@ -146,6 +144,7 @@ const Management = () => {
                     ))}
                 </Carousel>
             </div>
+
             <div>
                 {
                     data.map(data => (

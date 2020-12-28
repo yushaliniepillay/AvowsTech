@@ -2,12 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
-
+import { Button } from 'react-bootstrap';
 
 const Banking = () => (
 
     <Layout>
-        <SEO title="Banking" />
+        <SEO title="AVOWS" />
 
         <div id="pageHeader" >
             <div className="vc-parent">
@@ -67,6 +67,10 @@ const Banking = () => (
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="container p">
+            <Button variant="primary" href="/industries/caseStudy">Case Study</Button>{' '}
             </div>
         </div>
 
