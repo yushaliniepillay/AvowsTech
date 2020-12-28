@@ -68,7 +68,7 @@ const Blog = () => {
           <div className="row">
             <div className="col-md-12">
               <section>
-                <h2 className="section-title"><span>LATEST POST</span>RECENT BLOG POST</h2>
+                <h2 className="section-title">RECENT BLOG POST</h2>
               </section>
             </div>
           </div>
