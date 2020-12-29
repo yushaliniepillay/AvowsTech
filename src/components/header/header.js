@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
           <PhoneOutlined />(+603) 2712 3456</Navbar.Brand>
         <Navbar.Brand className="small-nav-num">
           <Link className="link" href="mailto:info@avowstech.com">
-            <MailFilled /> info@avowsteh.com
+            <MailFilled /> info@avowstech.com
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
@@ -62,7 +62,7 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="/industries/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
               <NavDropdown.Item href="/industries/healthcare">HEALTHCARE</NavDropdown.Item>
               <NavDropdown.Item href="/industries/manufacturing">MANUFACTURING</NavDropdown.Item>
-              <NavDropdown.Item href="/industries/energy">ENERGY</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/energy">OIL AND GAS</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="SERVICE & SOLUTIONS" href="#" class="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>

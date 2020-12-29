@@ -11,7 +11,8 @@ function footer() {
     var imageSg = require('../images/icon/sg_icon.png');
     var imageIndo = require('../images/icon/indo_icon.png');
     var imageUSA = require('../images/icon/usa_icon.png');
-
+    var imageIndia = require('../images/icon/taj-mahal_icon.png');
+    
     return (
         <footer>
             <div className="main-footer">
@@ -27,7 +28,7 @@ function footer() {
                             <div className="footer-about">
                                 <h4 className="footer-title">ABOUT US
                                 <hr/></h4>
-                                <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by Quality Professionals and established best practices.</p>
+                                <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
                                 <Button className="m-3" variant="danger" size="md" type="submit" href="/aboutUs">READ MORE</Button>
                             </div>
@@ -62,8 +63,8 @@ function footer() {
             </div>
 
             <div className="footer-landmarks">
-                <div className="col-sm-12 col-md-12 footer3">
-                    <div className="col-xs-12 col-sm-12 col-md-12">
+                <div className="col-sm-15 col-md-15 footer3">
+                    <div className="col-xs-15 col-sm-15 col-md-15">
                         <div className="footer-landmarks">
                             <div className="row">
                                 <div className="col-md-4">
@@ -77,8 +78,8 @@ function footer() {
                                     <p>SINGAPORE</p>
                                 </div>
                                 <div className="col-md-1" align="center">
-                                    <img src={imageMalay} alt="" /><br />
-                                    <p>India</p>
+                                    <img src={imageIndia} alt="" /><br />
+                                    <p>INDIA</p>
                                 </div>
                                 <div className="col-md-1" align="center">
                                     <img src={imageIndo} alt="" /><br />

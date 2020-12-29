@@ -9,7 +9,8 @@ const IndexPage = () => {
 
   const [state, setText] = useState({
     text: 'We have a great Mission',
-    text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”'
+    text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”',
+    
   })
  
   const onClickButton1 = () => {
@@ -34,10 +35,10 @@ const IndexPage = () => {
           <section class="round-tabs text-center Massive7ec9b024b38365f303ca5a88a3301fa0">
             <ul class="nav nav-pills nav-normal">
               <li class="active">
-                <Button variant="light" size="lg" type="submit" onClick={() => onClickButton1()} >Our Mission</Button>
+                <Button style={{background: 'danger'}} variant="light" size="lg" type="submit" onClick={() => onClickButton1()} >Our Mission</Button>
               </li>
               <li class="">
-                <Button variant="light" size="lg" type="submit" onClick={() => onClickButton2()} >Our Vission</Button>
+                <Button style={{background: 'white'}} variant="light" size="lg" type="submit" onClick={() => onClickButton2()} >Our Vission</Button>
               </li>
             </ul>
             <div class="panel-body text-center">
