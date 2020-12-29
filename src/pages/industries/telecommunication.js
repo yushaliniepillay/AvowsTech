@@ -33,8 +33,9 @@ const Telecommunication = () => {
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                            <p class="justified">
+                        <p class="justified">              
                             </p>
+  
                         </div>
 
                         <div>

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
-import { Button, Tabs, Tab, Container, Row, Col } from 'react-bootstrap';
+import { Tabs, Tab, Container, Row, Col } from 'react-bootstrap';
 import ReactPlayer from 'react-player/lazy'
 
 const Banking = () => {
