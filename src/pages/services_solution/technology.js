@@ -5,10 +5,9 @@ import SEO from "../../components/seo"
 import { Tabs, Tab } from 'react-bootstrap';
 
 
-
 const technology = () => {
 
-    var imageName //require('../../components/images/background/moblie2.jpg')
+    var imageName = require('../../components/images/background/mobile2.jpg')
     
     return (
         <Layout>
@@ -36,7 +35,7 @@ const technology = () => {
                     <div class="row">
                         <div class="col-md-12 blog-page-content post-details">
                             <div class="post-img">
-                                <img src={imageName} alt="" class="img-responsive" />
+                                <img src={imageName} alt="" class="img-responsive" style={{height: '450px'}}/>
                             </div>
                             <div>
                                 <p class="justified"> Enhance customer experience with optimised software performance by aligning your IT

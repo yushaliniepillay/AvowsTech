@@ -387,14 +387,14 @@ p {
     margin-top: 15px;
     border-radius: 2px;
 }
-.avowsLogo {
-    /* image-resolution: 1000;
+/*.avowsLogo {
+     image-resolution: 1000;
     height: 4rem;
     width: 100%;
     padding-top: 4rem;
     overflow: hidden;
-    z-index: 0;    */
-}
+    z-index: 0;    
+}*/
 
 .img1 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/application_development.jpg);
@@ -715,7 +715,8 @@ p {
 }
 
 .blog-page-content.post-details .post-img {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    margin-top: -50px;
 }
 
 .blog-page-content.post-details blockquote {

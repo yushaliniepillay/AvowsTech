@@ -58,7 +58,7 @@ const Header = ({ siteTitle }) => (
                 ABOUT US
             </Link>
             </Nav.Item>
-            <NavDropdown title="INDUSTRIES" href="#" class="active" id="basic-nav-dropdown">
+            <NavDropdown title="INDUSTRIES" href="#" activeClassName="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/industries/banking">BANKING</NavDropdown.Item>
               <NavDropdown.Item href="/industries/insurance">INSURANCE</NavDropdown.Item>
               <NavDropdown.Item href="/industries/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
@@ -66,7 +66,7 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="/industries/manufacturing">MANUFACTURING</NavDropdown.Item>
               <NavDropdown.Item href="/industries/energy">OIL AND GAS</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="SERVICE & SOLUTIONS" href="#" class="active" id="basic-nav-dropdown">
+            <NavDropdown title="SERVICE & SOLUTIONS" href="#" activeClassName="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
               <NavDropdown.Item href="/services_solution/testing">TESTING SERVICE</NavDropdown.Item>
               <NavDropdown.Item href="/services_solution/cloud">CLOUD TECHNOLOGIES</NavDropdown.Item>

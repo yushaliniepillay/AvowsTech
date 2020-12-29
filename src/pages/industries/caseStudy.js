@@ -1,10 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
 import { Col, Row } from 'react-bootstrap';
 //import { FaLinkedinIn } from "@react-icons/all-files";
-
 
 const CaseStudy = () => {
 

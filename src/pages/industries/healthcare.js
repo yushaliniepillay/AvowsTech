@@ -14,10 +14,10 @@ const HealthCare = () => {
                 <div className="vc-parent">
                     <div className="vc-child">
                         <section className="page-title">
-                            <h2>HEALTH CARE</h2>
+                            <h2>HEALTHCARE</h2>
                             <ul className="text-center">
                                 <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home / </Link> Health Care</li>
+                                    <Link className="text-white" href="/">Home / </Link> Healthcare</li>
                                 {/* <li className="list-unstyled active">Blog</li> */}
                             </ul>
                         </section>
@@ -34,12 +34,24 @@ const HealthCare = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p class="justified">
+                                The healthcare industry has proliferated on the global level, and is now going through an increased phase of consolidation. As this pace of consolidation gathers momentum, there is a pressing need for shared databases and records of medical histories of patients. This demand can only be addressed with the implementation of IT- and telecom-centric solutions. A number of technologies such as cloud computing, SaaS, and other software solutions developed specifically for the healthcare industry form an integral part of this trend. They are the key through which medical records and other applications can be effectively connected between healthcare facilities.
                             </p>
-  
+                            <h5>Professional Services</h5>
+                            <p class="justified">
+                                Avows provides you the opportunity to manage core responsibilities and collaborate with the augmented team the same way you do with your in-house developers.
+                            </p>
+                            <h5>Tech Services & Solution</h5>
+                            <p class="justified">
+                                Avows helps to design and build key platform components of the Customers’ Digital technology footprint with a  combination of our services & solutions knowledge of business processes and user-centered design principles.
+                            </p>
+                            <h5>Cloud Consulting</h5>
+                            <p class="justified">
+                                Avows offers Cloud technology expertise, resources, and tools — coupled with our extensive industry and business experience — to partner with you at every step of the journey to the Cloud.
+                            </p>
                         </div>
 
                         <div>
-                        <br />
+                            <br />
                             <h2>Case Studies</h2>
                             <Tabs defaultActiveKey="Hospital" transition={false} id="noanim-tab-example">
                                 <Tab eventKey="Hospital" title="Accelerating Supply Chain through Hospitals">

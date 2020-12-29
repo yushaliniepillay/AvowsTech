@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 //import "../../components/header/header.css";
 import { Tabs, Tab } from 'react-bootstrap';
 
-// var imageName = require('../images/our_ceo.jpg')
+var imageName = require('../../components/images/background/ar_vr1.jpg')
 
 const ar_vr = () => (
     <Layout>
@@ -31,7 +31,7 @@ const ar_vr = () => (
                 <div class="row">
                     <div class="col-md-12 blog-page-content post-details">
                         <div class="post-img">
-                            <img src="../imgages/ar_vr.png" alt="" class="img-responsive" />
+                            <img src={imageName} alt="" class="img-responsive" />
                         </div>
                         <div>
                             <p class="justified">Augmented Reality (AR) and Virtual Reality (VR) 

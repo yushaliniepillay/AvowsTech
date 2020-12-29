@@ -2,10 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const Event = () => {
-  var tech = require('../pages/blog_details/image/techconnect.png');
 
   const data =
     [

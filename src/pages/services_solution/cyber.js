@@ -4,7 +4,7 @@ import SEO from "../../components/seo"
 //import "../../components/header/header.css";
 import { Tabs, Tab } from 'react-bootstrap';
 
-// var imageName = require('../images/our_ceo.jpg')
+var imageName = require('../../components/images/background/cs1.jpg')
 
 const cyber = () => (
     <Layout>
@@ -33,7 +33,7 @@ const cyber = () => (
                 <div class="row">
                     <div class="col-md-12 blog-page-content post-details">
                         <div class="post-img">
-                            <img src="/imgages/app_development_banner.jpg" alt="" class="img-responsive" />
+                            <img src={imageName} alt="" class="img-responsive" />
                         </div>
                         <div>
                             <p class="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
