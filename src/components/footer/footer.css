@@ -1,9 +1,17 @@
 .avowsLogo {
-    background-image: url(../images/avowsTitle.png);
+    /* background-image: url(../images/avowsTitle.png); */
     position: relative;
     overflow: hidden;
     z-index: 0
 }
+
+/* .avowsLogo {
+    height: 2rem;
+    width: 3rem;
+    padding-bottom: 4rem;
+    background-color: black;
+} */
+
 .main-footer {
     background: #2f3235;
     padding-top: 1rem;
@@ -124,12 +132,6 @@
 img.Footer--logo__img {
     height: 30px !important;
     text-align: center;
-}
-
-.avowsLogo {
-    height: 2rem;
-    width: 3rem;
-    padding-bottom: 4rem;
 }
 
 .Footer-logo {

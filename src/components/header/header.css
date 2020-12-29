@@ -29,7 +29,9 @@ p {
 }
 
 #avowsTitle {
-    background-image: url(../images/avowsTitle.png);
+    /* background-image: url(../images/avowsTitle.png); */
+    /* height: 100px; */
+    padding-left: 4rem;
     position: relative;
     overflow: hidden;
     z-index: 0
@@ -386,8 +388,8 @@ p {
     border-radius: 2px;
 }
 .avowsLogo {
-    image-resolution: 1000;
-    /* height: 4rem;
+    /* image-resolution: 1000;
+    height: 4rem;
     width: 100%;
     padding-top: 4rem;
     overflow: hidden;
