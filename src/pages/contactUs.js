@@ -62,9 +62,9 @@ const ContactUs = () => {
             <div class="container">
                 <h2 class="black-color section-title">OUR OFFICES</h2>
 
-                <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     {data.map(data => (
-                        <Card style={{ width: '30rem', textAlign: "center", margin: '15px'}} >
+                        <Card style={{ width: '23rem', textAlign: "center", margin: '10px'}} >
                             <i className="fa fa-map-marker"></i>
                             <Card.Body>
                                 <Card.Title>
