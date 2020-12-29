@@ -2,13 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
-import { Button, Tabs, Tab } from 'react-bootstrap';
+import { Button, Tabs, Tab, Container, Row, Col } from 'react-bootstrap';
 import ReactPlayer from 'react-player/lazy'
 
 const Banking = () => {
 
     var v = require('../industries/video/PublicBank.mp4')
-    
+
     return (
         <Layout>
             <SEO title="AVOWS" />
@@ -111,7 +111,20 @@ const Banking = () => {
                                     </section>
                                     <section>
                                         <h3 className="text-primary">Customer Testimonial</h3>
-                                        <ReactPlayer url={v} />
+                                        <Container>
+                                            <Row>
+                                                <Col md={6}>
+                                                    <ReactPlayer url={v}
+                                                        width='100%'
+                                                        height='100%' />
+                                                </Col>
+                                                <Col md={{ span: 3, offset: 1 }}>
+                                                    <p>Speaker speaking</p>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                        <p>Name</p>
+                                        <p>Title</p>
                                     </section>
                                 </Tab>
                             </Tabs>
