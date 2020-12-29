@@ -4,6 +4,8 @@ import SEO from "../components/seo"
 import Carousel from '../components/slider/carousel';
 import { Button } from 'react-bootstrap';
 import "../components/header/header.css";
+import { FlagFilled, SmileOutlined, ShopOutlined, TrophyOutlined} from '@ant-design/icons';
+
 
 const IndexPage = () => {
 
@@ -75,7 +77,7 @@ const IndexPage = () => {
                 <div className="col-sm-3 col-xs-6 text-center">
                   <div className="facts">
                     <div className="facts-icon">
-                      <i className="fa fa-flag"></i>
+                      <i className="fa fa-flag"><FlagFilled className="fa-1x"/></i>
                     </div>
                     <p className="facts-text">Projects Completed</p>
                     <h4>100+</h4>
@@ -84,7 +86,7 @@ const IndexPage = () => {
                 <div class="col-sm-3 col-xs-6 text-center">
                   <div class="facts">
                     <div class="facts-icon">
-                      <i class="fa fa-smile-o"></i>
+                      <i class="fa fa-smile-o"><SmileOutlined className="fa-1x"/></i>
                     </div>
                     <p class="facts-text">Happy Clients</p>
                     <h4>50+</h4>
@@ -93,16 +95,16 @@ const IndexPage = () => {
                 <div class="col-sm-3 col-xs-6 text-center">
                   <div class="facts">
                     <div class="facts-icon">
-                      <i class="fas fa-building"></i>
+                      <i class="fas fa-building"><ShopOutlined className="fa-1x"/></i>
                     </div>
                     <p class="facts-text">Overall Offices</p>
-                    <h4>4</h4>
+                    <h4>5</h4>
                   </div>
                 </div>
                 <div class="col-sm-3 col-xs-6 text-center">
                   <div class="facts last-child">
                     <div class="facts-icon">
-                      <i class="fas fa-award"></i>
+                      <i class="fas fa-award"><TrophyOutlined className="fa-1x"/></i>
                     </div>
                     <p class="facts-text">Anniversary</p>
                     <h4>11</h4>
