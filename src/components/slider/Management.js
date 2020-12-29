@@ -3,11 +3,8 @@ import React, { useState } from 'react';
 // import Img from 'gatsby-image';
 import { Carousel, Button, Modal, Figure, Card } from 'react-bootstrap';
 import '../header/header.css';
-// import ApiData from "../slider/teamData";
 
 const Management = () => {
-
-    //const dato = require('../images/management/Dato.jpg');
 
     const [show, setShow] = useState(false);
 
@@ -110,7 +107,7 @@ const Management = () => {
                 id: "10",
                 name: "ENDAH SUSANTI ",
                 position: "VP Sales -Indonesia",
-                image: "", //require('../images/management/Kim.jpg'),
+                image: require('../images/management/Endah.jpg'),
                 description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
                 description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organizations across and has been a key to the company’s business continuity and growth."
             }
@@ -136,42 +133,14 @@ const Management = () => {
                             </div> */}
                             {/* <div className="container" >
                                     <div className="row" > */}
-                            <div key={index} className="col-md-3 col-md-4">
-                                <img key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
+
+                            <div key={index} className="col-md-3 col-md-4 text-center">
+                                <img style={{ width: '15rem', height: '20rem' }} key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
                                 {/* <Img fluid={props.data.imageql.childImage.fluid} /> */}
-                                {/* <h3><a href="#" class="mdl-card__title_a">{data.name}<br /></a></h3> */}
+                                <br/>
                                 <h4 className="text-white">{data.name}</h4>
                                 <h5>{data.position}</h5>
                                 <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" onClick={() => setShow(true)}>VIEW DETAILS</Button>
-                                <Modal
-                                    key={data.id} show={show}
-                                    onHide={() => setShow(false)}
-                                    size="xl"
-                                    aria-labelledby="contained-modal-title-vcenter"
-                                    centered >
-                                    <Modal.Header closeButton>
-                                        <Modal.Title className="text-center" id="example-custom-modal-styling-title">
-                                            <h3><b>{data.name}</b></h3>
-                                            <h4>{data.position}</h4>
-                                        </Modal.Title>
-                                    </Modal.Header>
-                                    <Modal.Body>
-                                        <div className="text-center">
-                                            <Figure >
-                                                <Figure.Image
-                                                    width={171}
-                                                    height={180}
-                                                    alt="171x180"
-                                                    src={data.image}
-                                                /></Figure>
-                                        </div>
-                                        <p>{data.description1}</p>
-                                        <p>{data.description2}</p>
-                                        <p>{data.description3}</p>
-                                        <p>{data.description4}</p>
-                                        <p>{data.description5}</p>
-                                    </Modal.Body>
-                                </Modal>
                             </div>
                             {/* </div>
                                     </div> */}
@@ -181,7 +150,7 @@ const Management = () => {
                 </Carousel>
             </div>
 
-            {/* <div>
+            <div>
                 {data.map((data) => (
                     <Modal
                         key={data.id} show={show}
@@ -214,7 +183,7 @@ const Management = () => {
                     </Modal>
                 ))}
 
-            </div > */}
+            </div >
 
 
         </>

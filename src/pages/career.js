@@ -41,8 +41,9 @@ const Career = () => (
                         <div class="wpb_wrapper">
                             <p>Avows hires some of the most creative and forward-thinking individuals.
                             At Avows we have people coming from a wide range of cultural, educational and geographic
-                            backgrounds and are able to work together with passion to deliver results
-                                    </p>
+                            backgrounds and are able to work together with passion to deliver results sure the coffee
+                            is served at your desk, while you continue to work.
+                            </p>
                             <br /><b>OUR PEOPLE</b><br />
                             <p>At Avows we hire and train individuals to enable them to enhance their talents to help
                             create value and foster innovation led solutions for the benefit of our customers.
@@ -71,7 +72,6 @@ const Career = () => (
                                 <li>To get ready to change – just take the challenge, innovate and change</li>
                                 <li>Try the Nirvana – bliss of continuous learning and unlearning.</li>
                                 <li>And we definitely understand your requirements for stretched coffee breaks at work – by just making</li>
-                                <li>sure the coffee is served at your desk, while you continue to work.</li>
                             </ul>
                         </div>
                     </div>

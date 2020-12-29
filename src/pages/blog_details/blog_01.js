@@ -8,14 +8,21 @@ const Blog_01 = () => {
     const data =
         [
             {
-                image: require('../blog_details/image/contest/1.jpg')
+                image: require('../blog_details/image/contest/HWT_4221.jpg')
+            },
+            {
+                image: require('../blog_details/image/contest/HWT_4186.jpg')
             },
             {
                 image: require('../blog_details/image/contest/2.jpg')
             },
             {
                 image: require('../blog_details/image/contest/3.jpg')
-            }
+            },
+            {
+                image: require('../blog_details/image/contest/1.jpg')
+            },
+            
         ]
 
     return (
@@ -27,7 +34,7 @@ const Blog_01 = () => {
                 <div className="vc-parent">
                     <div className="vc-child">
                         <section className="page-title">
-                            <h2>CODING CONTEST WRITE UP</h2>
+                            <h2>ALGO LEAGUE– THE NEXT GENERATION CODING CONTEST FOR UNIVERSITY STUDENTS IN MALAYSIA</h2>
                         </section>
                     </div>
                 </div>
