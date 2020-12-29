@@ -11,9 +11,56 @@ function carousel() {
     // const slide1Icon = require('../images/header-slider-content/01.png');
     // const slide2Icon = require('../images/header-slider-content/02.png');
 
+    const data =
+        [
+            {
+                id: "0",
+                title: "TECHNOLOGY SERVICES",
+                subTitle: "Enhance customer experience with optimised software performance by aligning your IT deliverables with business goals.",
+                image: require('../images/management/Dato.jpg'),
+                list: [
+                    "Mobile and Web Development", "Managed Services Technology Support", "Business Software and Application Development"
+                ],
+                link: "/technology",
+                bImage: 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/application_development.jpg)'
+            },
+            {
+                id: "1",
+                title: "TESTING AND SECURITY",
+                subTitle: "We aim to help organizations regardless of any sizes improve their security processes, achieve compliance and protect their data.",
+                image: require('../images/management/Dato.jpg'),
+                list: [
+                    "Functional & Test Management", "Functional Automation", "Performance Testing", "Security Testing"
+                ],
+                link: "/testing"
+            },
+            {
+                id: "2",
+                title: "CLOUD TECHNOLOGY",
+                subTitle: "We leverage the power of Cloud technologies to enable Enterprises to achieve desired results",
+                image: require('../images/management/Dato.jpg'),
+                list: [
+                    "Assessment Framework", "Cloud Migration", "Cloud Managed Services"
+                ],
+                link: "/cloud"
+            },
+            {
+                id: "3",
+                title: "DATA ANAYTICS & AI",
+                subTitle: "We are focused on combining human (AI Experts) and technical strengths to deliver enhanced value by enabling companies to work on complex cognitive tasks.",
+                image: require('../images/management/Dato.jpg'),
+                list: [
+                    "All in One Chatbot Platform", "AI + Data Science", "Big Data", "Automating Business Process & Beyond"
+                ],
+                link: "/data"
+            }
+
+        ]
+
     return (
+
         <Carousel className="carousel">
-            <Carousel.Item className="img1" interval={1000}>
+            <Carousel.Item className="img1" interval={4000}>
                 {/* <img className="img1 d-block w-100"
                     src={url2} /> */}
                 <Carousel.Caption >
@@ -38,7 +85,7 @@ function carousel() {
                                 </div>
                             </div>
 
-                            <div class="col-md-6 header-img-holder hidden-sm hidden-xs">
+                            <div class="col-md-4 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
@@ -59,7 +106,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img2"interval={1000}>
+            <Carousel.Item className="img2"interval={4000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -68,7 +115,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-8">
                                 <div class="vc-parent">
                                     <div class="vc-child">
                                         <section class="header-content">
@@ -87,7 +134,7 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 header-img-holder hidden-sm hidden-xs">
+                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
@@ -108,7 +155,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img3" interval={1000}>
+            <Carousel.Item className="img3" interval={4000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -116,7 +163,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-7">
                                 <div class="vc-parent">
                                     <div class="vc-child">
                                         <section class="header-content">
@@ -134,7 +181,7 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 header-img-holder hidden-sm hidden-xs">
+                            <div class="col-md-7 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
@@ -155,7 +202,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img4" interval={1000}>
+            <Carousel.Item className="img4" interval={4000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -163,7 +210,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-7">
                                 <div class="vc-parent">
                                     <div class="vc-child">
                                         <section class="header-content">
@@ -182,7 +229,9 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 header-img-holder hidden-sm hidden-xs">
+
+
+                            <div class="col-md-4 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
@@ -199,12 +248,32 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
 
+        // <div>
+        //     <Carousel className="carousel">
+        //         {data.map((data, index) => (
+        //             <Carousel.Item key={index} interval={4000}>
+        //                 <Carousel.Caption>
+        //                     <section className="header-content" >
+        //                         <h2>{data.title}</h2>
+        //                         <h5>{data.subtitle}</h5>
+        //                         <ul>
+        //                             <li>{data.list}</li>
+        //                         </ul>
+        //                     </section>
+        //                     <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" href={data.link}>VIEW DETAILS</Button>
+        //                 </Carousel.Caption>
+        //             </Carousel.Item>
+        //         ))}
+        //     </Carousel>
+        // </div>
     );
 }
 

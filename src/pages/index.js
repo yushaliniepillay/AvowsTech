@@ -25,6 +25,7 @@ const IndexPage = () => {
       text1: '“To become long term partners-in progress of our customers to enable their Business Transformation by providing a range of Services &amp; Solutions that deliver Value-For-Money and enhance competitiveness and provides them a opportunity to position themselves best price-performers of choice in their industries”'
     });
   };
+  
   return (
     <Layout>
       <div><SEO title="Home" /></div>

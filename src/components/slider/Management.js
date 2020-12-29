@@ -11,7 +11,6 @@ const Management = () => {
     const data =
         [
             {
-                show: true,
                 id: "0",
                 name: "DATUK SYED TAMIM MOHAMED",
                 position: "Director - Strategy, Avows Group",
