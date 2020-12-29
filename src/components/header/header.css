@@ -29,7 +29,9 @@ p {
 }
 
 #avowsTitle {
-    background-image: url(../images/avowsTitle.png);
+    /* background-image: url(../images/avowsTitle.png); */
+    /* height: 100px; */
+    padding-left: 4rem;
     position: relative;
     overflow: hidden;
     z-index: 0
@@ -386,8 +388,8 @@ p {
     border-radius: 2px;
 }
 .avowsLogo {
-    image-resolution: 1000;
-    /* height: 4rem;
+    /* image-resolution: 1000;
+    height: 4rem;
     width: 100%;
     padding-top: 4rem;
     overflow: hidden;
@@ -397,7 +399,7 @@ p {
 .img1 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/application_development.jpg);
     position: relative;
-    padding-bottom: 500px;
+    padding-top: 500px;
     width: 100%;
     overflow: hidden;
     z-index: 0;   
@@ -459,7 +461,7 @@ p {
     
 }
 #pageHeader4 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/AML2.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/testing_main.jpg);
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;

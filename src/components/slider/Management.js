@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import { graphql} from 'gatsby';
 // import Img from 'gatsby-image';
-import { Carousel, Button, Modal, Figure, Card } from 'react-bootstrap';
+import { Carousel, Button, Modal, Figure, Container, Row, Col } from 'react-bootstrap';
 import '../header/header.css';
 
 const Management = () => {
@@ -11,8 +11,7 @@ const Management = () => {
     const data =
         [
             {
-                show: true,
-                id: "0",
+                id: 0,
                 name: "DATUK SYED TAMIM MOHAMED",
                 position: "Director - Strategy, Avows Group",
                 image: require('../images/management/Dato.jpg'),
@@ -22,7 +21,7 @@ const Management = () => {
                 description4: "In the Sime Darby Group, he had served as CEO in various Divisions. His exposure in Trade and Tourism, Oil and Gas, IT, Insurance Broking, Manufacturing, Health Services, Golf Club, and Plantation was invaluable. Before he retired in 2007, he headed the team that wrote the Northern Corridor Economic Report for the government."
             },
             {
-                id: "1",
+                id: 1,
                 name: "PH CHEW",
                 position: "Director - Avows Group",
                 image: require('../images/management/Chew.jpg'),
@@ -31,7 +30,7 @@ const Management = () => {
                 description3: "PH Chew holds a Bachelor of Science (Honors) with a major in Computer Science from U.K"
             },
             {
-                id: "2",
+                id: 2,
                 name: "ASHOK K RAMAVATH",
                 position: "Group CEO at Avows Group",
                 image: require('../images/management/Ashok.jpg'),
@@ -41,7 +40,7 @@ const Management = () => {
                 description4: "An aivid Golf player and a technocrat turned commerce post graduate, Ashok is passionate to make AVOWS a strong player in the global technology industry Asia's Best Employer Brand Awards 2010"
             },
             {
-                id: "3",
+                id: 3,
                 name: "KANESAN VELUPPILLAI",
                 position: "Group Corporate Advisor – Strategy",
                 image: require('../images/management/Ganesan.jpg'),
@@ -49,7 +48,7 @@ const Management = () => {
                 description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
             },
             {
-                id: "4",
+                id: 4,
                 name: "DATO RAYMOND YEONG",
                 position: "Independent Director at Avows Group",
                 image: require('../images/management/Raymond.jpg'),
@@ -60,7 +59,7 @@ const Management = () => {
                 description5: "With his vast experience and extensive business network, Dato Raymond Yeong will contribute significantly to the AVOWS Group as a Independent Director of the company and will work with the CEO and other top management team to drive the company to greater heights."
             },
             {
-                id: "5",
+                id: 5,
                 name: "LEE HUI KIM",
                 position: "Group HR",
                 image: require('../images/management/Kim.jpg'),
@@ -69,7 +68,7 @@ const Management = () => {
                 description3: "She specializes in talent management and leadership development with a focus on customer relationship management as she works a team player to help sales teams to be aligned to the company goals."
             },
             {
-                id: "6",
+                id: 6,
                 name: "RAMESH KUMAR RAGHAVAN",
                 position: "VP-Group Operations",
                 image: require('../images/management/Ramesh.jpg'),
@@ -78,7 +77,7 @@ const Management = () => {
                 description3: "He partners with sales to nurture client relationships and ensures highest quality of service to existing clients. He is as instrumental in advancing Avows innovative company culture as he is in fostering new talent. His passion is to develop and work on next gen digital technologies."
             },
             {
-                id: "7",
+                id: 7,
                 name: "SENTHIL KUMAR SUBRAMANIAN",
                 position: "Chief Technology Officer",
                 image: require('../images/management/Senthil.jpg'),
@@ -86,7 +85,7 @@ const Management = () => {
                 description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He served as Deputy CIO with Star Health and Allied Insurance, one of the largest Health Insurance companies in India, partnering with vendors such as Oracle, Microsoft and IBM. Prior to that, he was leading teams on various projects while assuming senior roles in Accenture IDC and 3i Infotech. ",
                 description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
             }, {
-                id: "8",
+                id: 8,
                 name: "SUJOY ROY CHOWDHURY",
                 position: "VP SALES-Malaysia",
                 image: require('../images/management/Sujoy.jpg'),
@@ -94,7 +93,7 @@ const Management = () => {
                 description2: "He has a proven track record of success in Malaysia and focused on expanding the client base and is a key member of sales team upholding client attrition and partnerships. He’s now able to blend his love of consulting and project management to provide our clients with strong ROI."
             },
             {
-                id: "9",
+                id: 9,
                 name: "ROHIT PATNAIK",
                 position: "Director - Finance",
                 image: require('../images/management/Rohit.jpg'),
@@ -104,7 +103,7 @@ const Management = () => {
                 description4: "Having begun his career as a Software Engineer, Rohit take great pride in exercising the full scope of his experiences to ensure the company's Quality & Risk Management are kept in check at all times."
             },
             {
-                id: "10",
+                id: 10,
                 name: "ENDAH SUSANTI ",
                 position: "VP Sales -Indonesia",
                 image: require('../images/management/Endah.jpg'),
@@ -113,43 +112,70 @@ const Management = () => {
             }
         ]
 
-
     return (
         <>
             <div>
-                <Carousel className="carousel">
+                <Carousel className="carousel" >
                     {data.map((data, index) => (
-                        <Carousel.Item interval={4000}>
-                            {/* <div style={{ display: 'flex', order: '3' }}>
-                                <Card style={{ width: '18rem', margin: '10px' }}>
-                                    <Card.Img variant="top" src={data.image} onClick={() => setShow(true)}/>
-                                        <Card.Title>
-                                            <section className="post-title">
-                                                <h2 className="text-dark">{data.name}</h2>
-                                            </section>
-                                        </Card.Title>
-                                        <Card.Subtitle className="mb-2 text-muted">{data.position}e</Card.Subtitle>
-                                </Card>
-                            </div> */}
-                            {/* <div className="container" >
-                                    <div className="row" > */}
-
-                            <div key={index} className="col-md-3 col-md-4 text-center">
-                                <img style={{ width: '15rem', height: '20rem' }} key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
-                                {/* <Img fluid={props.data.imageql.childImage.fluid} /> */}
-                                <br/>
-                                <h4 className="text-white">{data.name}</h4>
-                                <h5>{data.position}</h5>
-                                <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" onClick={() => setShow(true)}>VIEW DETAILS</Button>
-                            </div>
-                            {/* </div>
-                                    </div> */}
-                        </Carousel.Item>
+                    <Carousel.Item interval={4000}>
+                    
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <div key={data} className="col-md-3 col-md-4 text-center" >
+                                            <img style={{ width: '15rem', height: '20rem' }} key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
+                                            {/* <Img fluid={props.data.imageql.childImage.fluid} /> */}
+                                            < br />
+                                            <h4 className="text-white">{data.name}</h4>
+                                            <h5>{data.position}</h5>
+                                            <Button
+                                                key={data.id}
+                                                className="m-3" variant="danger" size="md"
+                                                type="submit"
+                                                onClick={() => setShow(true)} >
+                                                VIEW DETAILS</Button>
+                                            <Modal
+                                                key={index} show={show}
+                                                onHide={() => setShow(false)}
+                                                size="xl"
+                                                aria-labelledby="contained-modal-title-vcenter"
+                                                centered >
+                                                <Modal.Header closeButton>
+                                                    <Modal.Title className="text-center" id="example-custom-modal-styling-title">
+                                                        <h3><b>{data.name}</b></h3>
+                                                        <h4>{data.position}</h4>
+                                                    </Modal.Title>
+                                                </Modal.Header>
+                                                <Modal.Body>
+                                                    <div className="text-center">
+                                                        <Figure >
+                                                            <Figure.Image
+                                                                width={171}
+                                                                height={180}
+                                                                alt="171x180"
+                                                                src={data.image}
+                                                            />
+                                                        </Figure>
+                                                    </div>
+                                                    <p>{data.description1}</p>
+                                                    <p>{data.description2}</p>
+                                                    <p>{data.description3}</p>
+                                                    <p>{data.description4}</p>
+                                                    <p>{data.description5}</p>
+                                                </Modal.Body>
+                                            </Modal>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        
+                    </Carousel.Item>
                     ))}
-
                 </Carousel>
+
             </div>
 
+            {/* 
             <div>
                 {data.map((data) => (
                     <Modal
@@ -181,9 +207,9 @@ const Management = () => {
                             <p>{data.description5}</p>
                         </Modal.Body>
                     </Modal>
-                ))}
+                 ))}
 
-            </div >
+            </div >  */}
 
 
         </>
@@ -204,3 +230,15 @@ export default Management;
 //         }
 //     }
 // `
+
+{/* <div style={{ display: 'flex', order: '3' }}>
+<Card style={{ width: '18rem', margin: '10px' }}>
+    <Card.Img variant="top" src={data.image} onClick={() => setShow(true)}/>
+        <Card.Title>
+            <section className="post-title">
+                <h2 className="text-dark">{data.name}</h2>
+            </section>
+        </Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">{data.position}e</Card.Subtitle>
+</Card>
+</div>  */}

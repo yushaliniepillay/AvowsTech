@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { PhoneOutlined, MailFilled, FacebookFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
+const cdc = require('../images/logo.png');
+
 
 const Header = ({ siteTitle }) => (
 
@@ -42,7 +44,7 @@ const Header = ({ siteTitle }) => (
     {/* second navbar */}
     <div >
       <Navbar expand="lg" bg="light" variant="light" sticky="top">
-        <Navbar.Brand id="avowsTitle" href="/">{siteTitle}</Navbar.Brand>
+        <Navbar.Brand  href="/"><img id="avowsTitle" src={cdc}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">

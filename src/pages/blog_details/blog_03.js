@@ -87,7 +87,7 @@ const Blog_03 = () => {
                 <div className="vc-parent">
                     <div className="vc-child">
                         <section className="page-title">
-                            <h2>ANNUAL DINNER</h2>
+                            <h2>EMPLOYEE ENGAGEMENT ACTIVITY</h2>
                         </section>
                     </div>
                 </div>
