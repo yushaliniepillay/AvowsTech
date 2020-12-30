@@ -63,7 +63,6 @@ const ar_vr = () => (
                                                 <li>AR/VR in shopping</li>
                                                 <li>Virtual Reality for training and education (insert picture/video)</li>
                                                 <li>Virtual Reality for Real Estate</li>
-                                                <li>Use Cases for Mixed Reality (If any)</li>
                                             </ul>
                                         </Tab>
                                     </Tabs>

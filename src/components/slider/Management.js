@@ -8,6 +8,10 @@ const Management = () => {
 
     const [show, setShow] = useState(false);
 
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+ 
+
     const data =
         [
             {
@@ -117,8 +121,8 @@ const Management = () => {
             <div>
                 <Carousel className="carousel" >
                     {data.map((data, index) => (
-                    <Carousel.Item interval={4000}>
-                    
+                        <Carousel.Item interval={4000}>
+
                             <Container>
                                 <Row>
                                     <Col>
@@ -132,11 +136,11 @@ const Management = () => {
                                                 key={data.id}
                                                 className="m-3" variant="danger" size="md"
                                                 type="submit"
-                                                onClick={() => setShow(true)} >
+                                                onClick={handleShow} >
                                                 VIEW DETAILS</Button>
-                                            <Modal
+                                            {/* <Modal
                                                 key={index} show={show}
-                                                onHide={() => setShow(false)}
+                                                onHide={handleClose}
                                                 size="xl"
                                                 aria-labelledby="contained-modal-title-vcenter"
                                                 centered >
@@ -163,24 +167,24 @@ const Management = () => {
                                                     <p>{data.description4}</p>
                                                     <p>{data.description5}</p>
                                                 </Modal.Body>
-                                            </Modal>
+                                            </Modal> */}
                                         </div>
                                     </Col>
                                 </Row>
                             </Container>
-                        
-                    </Carousel.Item>
+
+                        </Carousel.Item>
                     ))}
                 </Carousel>
 
             </div>
 
-            {/* 
+
             <div>
                 {data.map((data) => (
                     <Modal
                         key={data.id} show={show}
-                        onHide={() => setShow(false)}
+                        onHide={handleClose}
                         size="xl"
                         aria-labelledby="contained-modal-title-vcenter"
                         centered >
@@ -197,8 +201,8 @@ const Management = () => {
                                         width={171}
                                         height={180}
                                         alt="171x180"
-                                        src={data.image}
-                                    /></Figure>
+                                        src={data.image} />
+                                </Figure>
                             </div>
                             <p>{data.description1}</p>
                             <p>{data.description2}</p>
@@ -207,9 +211,8 @@ const Management = () => {
                             <p>{data.description5}</p>
                         </Modal.Body>
                     </Modal>
-                 ))}
-
-            </div >  */}
+                ))}
+            </div >
 
 
         </>

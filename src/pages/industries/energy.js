@@ -2,14 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Container, Row, Col, Figure } from 'react-bootstrap';
+import ReactPlayer from 'react-player/lazy'
 
 
 const Energy = () => {
 
+    var dashboard1 = require("../industries/InImage/dashboard1.jpg");
+    var dashboard2 = require("../industries/InImage/dashboard2.jpg");
+
     return (
         <Layout>
             <SEO title="AVOWS" />
+
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">
@@ -43,8 +48,19 @@ const Energy = () => {
                             <h2>Case Studies</h2>
                             <Tabs defaultActiveKey="BI" transition={false} id="noanim-tab-example">
                                 <Tab eventKey="BI" title="BI Dashboard Development">
-                                    <br />
                                     <h3><strong>BI Dashboard Development</strong></h3>
+                                    <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={dashboard1}
+                                        />
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={dashboard1}
+                                        />
+                                    </Figure>
                                     <section>
                                         <h3 className="text-primary">About the Client</h3>
                                         <p class="p1 text-justify">The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.
@@ -75,9 +91,23 @@ const Energy = () => {
                                             <li>Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request.</li>
                                         </ul>
                                     </section>
-                                    <section>
-                                        {/* <h3 className="text-primary">Customer Testimonial</h3> */}
-                                    </section>
+                                    {/* <section>
+                                        <h3 className="text-primary">Customer Testimonial</h3>
+                                        <Container>
+                                            <Row>
+                                                <Col md={6}>
+                                                    <ReactPlayer url={}
+                                                        width='100%'
+                                                        height='100%' />
+                                                </Col>
+                                                <Col md={{ span: 3, offset: 1 }}>
+                                                    <p>Speaking</p>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                        <p>name</p>
+                                        <p>title</p>
+                                    </section> */}
                                 </Tab>
 
                             </Tabs>
