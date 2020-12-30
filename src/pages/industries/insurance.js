@@ -142,7 +142,6 @@ const Insurance = () => {
                             <h2>Case Studies</h2>
                             <Tabs defaultActiveKey='CC' transition={false} id="noanim-tab-example">
                                 <Tab eventKey="CC" title="Conversational ChatBot">
-                                    <br />
                                     <h3><strong>Conversational ChatBot</strong></h3>
                                     <section>
                                         <h3 className="text-primary">About the Client</h3>

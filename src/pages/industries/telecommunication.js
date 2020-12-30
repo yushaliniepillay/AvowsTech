@@ -11,6 +11,8 @@ const Telecommunication = () => {
     var tele2 = require("../industries/InImage/mobile3.jpg");
     var tele3 = require("../industries/InImage/mobile4.jpg");
 
+
+
     return (
         <Layout>
             <SEO title="AVOWS" />
