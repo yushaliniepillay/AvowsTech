@@ -43,39 +43,6 @@ const Banking = () => {
                     "speaking something"
                 ]
 
-            },
-            {
-                id: 1,
-                key: "B",
-                title: "Merchantrade",
-                about: "Client is a Money Services Business, Digital Payment Service and Mobile Virtual Network operator provider, based in Malaysia. The company’s core business is centered on international money transfers, foreign currency exchange, wholesale banknotes, digital payment processing and mobile telecommunications. It is Asia’s Leader in Digital Payments & Communications.",
-                challenge: [
-                    "As regulatory bodies across the globe enforce stricter regulations, banks & financial institutions are facing compliance challenges. As financial activity increases along with digital means, there will be an ever-growing increase in needs to detect fraudulent money movements and patterns involving more and more digital investigations.",
-                    "Client was looking to adopt an AML solution for its banking enterprise to comply with regulatory requirements through unified and consistent watch list screening at the same time also create value through effective weeding out of fraudulent participants on its network. Some of the other concerns were to have a low maintenance solution, effective with less false alarms to help optimize usage of resources."
-                ],
-                solution: [
-                    "Avows partnered with the client to provide an AML solution that matched their requirements in term of being fully equipped to weed out unnecessary noise, effective screening and comprehensive detection of suspicious transactions in real time. Our Anti-money laundering solutions comprises of proven methodologies that we use to detect more and more behavioural characteristics to classify risks and threats as authentic. Over time, our solution is capable of learning and integrating new patterns that emerge out of newer fraudulent ways the scammers or money launderers adopt hence making it increasingly difficult for them to beat the system.",
-                    "Our solution helps this remittance institutions through all AML aspects and stages. Our integrated system offers an end-to-end anti-money laundering solution with components which can also be used as stand-alone applications. This has given an opportunity to go for one-off investment by the customer to acquire multiple peripheral solutions on top of existing core applications or systems."
-                ],
-                benefit: [
-                    "Our solution incorporates modern technologies like AI, ML and robotic automation along with audio/facial recognition and document verification to allow organizations manage their compliance 100 percent and predict fraudulent behaviour patterns which reduce unaccounted damages.",
-                    "Smart Automation with 360 degree and round the clock surveillance to combat money laundering, providing real time alerts for action.",
-                    "Achieved real-time risk visibility and accelerate screening and monitoring with industry-proven tools -",
-                    "Identity Verification",
-                    "Sanctions, PEPs and Enforcements Data",
-                    "Account and Payment Screening"
-                ],
-                image: [
-                    require('../industries/InImage/AML1.jpg'),
-                    require('../industries/InImage/AML2.jpg')
-                ],
-                video: [
-                    require('../industries/video/PublicBank.mp4'),
-                    "name",
-                    "position",
-                    "speaking something"
-                ]
-
             }
         ]
 
