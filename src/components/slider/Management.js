@@ -7,9 +7,14 @@ import '../header/header.css';
 const Management = () => {
 
     const [show, setShow] = useState(false);
+    const [modalSelected, setModalSelected] = useState(0);
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleShow = (index) => {
+        setModalSelected(index);
+        setShow(true);
+        console.log(index);
+    }
 
 
     const data =
@@ -121,8 +126,8 @@ const Management = () => {
             <Container className='ml-auto'>
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     {data.map((data, index) => (
-                        <Card style={{ width: '16rem', margin: '5px' }}>
-                            <Card.Img style={{ width: '16rem', height: '20rem' }} variant="top" src={data.image} onClick={handleShow} />
+                        <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
+                            <Card.Img style={{ width: '16rem', height: '20rem' }} variant="top" src={data.image} onClick={() => handleShow(index)} />
                             <Card.Title>
                                 <section className="post-title text-center">
                                     <h2 className="text-dark">{data.name}</h2>
@@ -131,36 +136,6 @@ const Management = () => {
                             <Card.Subtitle className="mb-2 text-muted text-center">{data.position}e</Card.Subtitle>
                             {/* <Button key={data.id} className="m-3" variant="danger" size="md"
                                 type="submit" onClick={handleShow} >VIEW DETAILS</Button> */}
-
-                            <Modal
-                                key={data.id} show={show}
-                                onHide={handleClose}
-                                size="xl"
-                                aria-labelledby="contained-modal-title-vcenter"
-                                centered >
-                                <Modal.Header closeButton>
-                                    <Modal.Title className="text-center" id="example-custom-modal-styling-title">
-                                        <h3><b>{data.name}</b></h3>
-                                        <h4>{data.position}</h4>
-                                    </Modal.Title>
-                                </Modal.Header>
-                                <Modal.Body>
-                                    <div className="text-center">
-                                        <Figure >
-                                            <Figure.Image
-                                                width={171}
-                                                height={180}
-                                                alt="171x180"
-                                                src={data.image} />
-                                        </Figure>
-                                    </div>
-                                    <p>{data.description1}</p>
-                                    <p>{data.description2}</p>
-                                    <p>{data.description3}</p>
-                                    <p>{data.description4}</p>
-                                    <p>{data.description5}</p>
-                                </Modal.Body>
-                            </Modal>
                         </Card>
                     ))}
                 </div>
@@ -225,11 +200,40 @@ const Management = () => {
                 </Carousel> */}
 
 
-            {/* <div>
-                {data.map((data) => (
+            <div>
+                <Modal
+                    key={data[modalSelected].id} show={show}
+                    onHide={handleClose}
+                    size="xl"
+                    aria-labelledby="contained-modal-title-vcenter"
+                    centered >
+                    <Modal.Header closeButton>
+                        <Modal.Title className="text-center" id="example-custom-modal-styling-title">
+                            <h3><b>{data[modalSelected].name}</b></h3>
+                            <h4>{data[modalSelected].position}</h4>
+                        </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <div className="text-center">
+                            <Figure >
+                                <Figure.Image
+                                    width={171}
+                                    height={180}
+                                    alt="171x180"
+                                    src={data[modalSelected].image} />
+                            </Figure>
+                        </div>
+                        <p>{data[modalSelected].description1}</p>
+                        <p>{data[modalSelected].description2}</p>
+                        <p>{data[modalSelected].description3}</p>
+                        <p>{data[modalSelected].description4}</p>
+                        <p>{data[modalSelected].description5}</p>
+                    </Modal.Body>
+                </Modal>
+                {/* {data.map((data) => (
                     
-                ))}
-            </div > */}
+                ))} */}
+            </div >
 
 
         </>
