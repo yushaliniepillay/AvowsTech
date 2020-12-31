@@ -5,9 +5,9 @@ import "react-animated-slider/build/horizontal.css";
 import "normalize.css/normalize.css";
 import "../slider/slider-animations.css";
 
-className Slider extends React.Component {
+const Slider = () => {
 
-    render() {
+    
         return (
             <div>
                 <Slider classNameName="slider-wrapper" autoplay={1000}>
@@ -30,7 +30,7 @@ className Slider extends React.Component {
             </div>
 
         )
-    }
+    
 
 }
 

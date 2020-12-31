@@ -2,10 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Container, Row, Col, Figure } from 'react-bootstrap';
+import ReactPlayer from 'react-player/lazy'
 
 
 const Telecommunication = () => {
+    var tele1 = require("../industries/InImage/mobile1.png");
+    var tele2 = require("../industries/InImage/mobile3.jpg");
+    var tele3 = require("../industries/InImage/mobile4.jpg");
+
+
 
     return (
         <Layout>
@@ -14,7 +20,7 @@ const Telecommunication = () => {
                 <div className="vc-parent">
                     <div className="vc-child">
                         <section className="page-title">
-                            <h2>TELECOMUNICATION</h2>
+                            <h2>TELECOMMUNICATION</h2>
                             <ul className="text-center">
                                 <li className="list-unstyled text-danger">
                                     <Link className="text-white" href="/">Home / </Link> Telecommunication</li>
@@ -33,18 +39,35 @@ const Telecommunication = () => {
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                        <p class="justified">              
+                            <p class="justified">
                             </p>
-  
+
                         </div>
 
                         <div>
-                        <br />
+                            <br />
                             <h2>Case Studies</h2>
                             <Tabs defaultActiveKey="Mobile" transition={false} id="noanim-tab-example">
                                 <Tab eventKey="Mobile" title="Self- Care Mobile App Development">
                                     <br />
                                     <h3><strong>Self- Care Mobile App Development</strong></h3>
+                                    <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={tele1}
+                                        />
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={tele2}
+                                        />
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={tele3}
+                                        />
+                                    </Figure>
                                     <section>
                                         <h3 className="text-primary">About the Client</h3>
                                         <p class="p1 text-justify">The client is a data-centric and multiple award-winning mobile
@@ -97,9 +120,23 @@ const Telecommunication = () => {
                                             <li>Enhanced Customer Experience – Ease of use among the Millennials and other age groups</li>
                                         </ul>
                                     </section>
-                                    <section>
-                                        {/* <h3 className="text-primary">Customer Testimonial</h3> */}
-                                    </section>
+                                    {/* <section>
+                                        <h3 className="text-primary">Customer Testimonial</h3>
+                                        <Container>
+                                            <Row>
+                                                <Col md={6}>
+                                                    <ReactPlayer url={}
+                                                        width='100%'
+                                                        height='100%' />
+                                                </Col>
+                                                <Col md={{ span: 3, offset: 1 }}>
+                                                    <p>Speaking</p>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                        <p>name</p>
+                                        <p>title</p>
+                                    </section> */}
                                 </Tab>
 
                             </Tabs>

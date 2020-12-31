@@ -66,7 +66,7 @@ function carousel() {
                 <Carousel.Caption >
                     <div class="container" >
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-8">
                                 <div class="vc-parent">
                                     <div class="vc-child">
                                         <section class="header-content">
@@ -85,7 +85,7 @@ function carousel() {
                                 </div>
                             </div>
 
-                            <div class="col-md-4 header-img-holder hidden-sm hidden-xs">
+                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
@@ -163,7 +163,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-8">
                                 <div class="vc-parent">
                                     <div class="vc-child">
                                         <section class="header-content">
@@ -181,7 +181,7 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-7 header-img-holder hidden-sm hidden-xs">
+                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">
@@ -210,7 +210,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-8">
                                 <div class="vc-parent">
                                     <div class="vc-child">
                                         <section class="header-content">
@@ -231,7 +231,7 @@ function carousel() {
                             </div>
 
 
-                            <div class="col-md-4 header-img-holder hidden-sm hidden-xs">
+                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <div class="vc-parent">
                                     <div class="vc-child-bottom">
                                         <figure class="header-img owl-fadeInUp">

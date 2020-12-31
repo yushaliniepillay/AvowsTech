@@ -2,9 +2,51 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Container, Row, Col, Figure } from 'react-bootstrap';
+import ReactPlayer from 'react-player/lazy'
 
 const HealthCare = () => {
+
+    var medical1 = require("../industries/InImage/medical1.jpg");
+    var medical2 = require("../industries/InImage/medical2.jpg");
+    var medical3 = require("../industries/InImage/medical4.jpg");
+
+    const data =
+        [
+            {
+                id: 0,
+                title: "",
+                about: "",
+                challenge: [
+                    "",
+                    ""
+                ],
+                solution: [
+                    "",
+                    ""
+                ],
+                benefit: [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                image: [
+                    require('../industries/InImage/AML1.jpg'),
+                    require('../industries/InImage/AML2.jpg')
+                ],
+                video: [
+                    //require('../industries/video/PublicBank.mp4'),
+                    "",
+                    "",
+                    ""
+                ]
+
+            }
+        ]
+
 
     return (
         <Layout>
@@ -57,6 +99,23 @@ const HealthCare = () => {
                                 <Tab eventKey="Hospital" title="Accelerating Supply Chain through Hospitals">
                                     <br />
                                     <h3><strong>Accelerating Supply Chain through Hospitals</strong></h3>
+                                    <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={medical1}
+                                        />
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={medical2}
+                                        />
+                                        <Figure.Image
+                                            width={300}
+                                            height={500}
+                                            src={medical3}
+                                        />
+                                    </Figure>
                                     <section>
                                         <h3 className="text-primary">About the Client</h3>
                                         <p class="p1 text-justify">A Leading Healthcare Hospital Group targeted for better forecasting
@@ -86,11 +145,11 @@ const HealthCare = () => {
                                     </p>
                                         <ul>
                                             <li>Data Science Models like Multi Variate Time Series (Vector Auto Regression), Deep Learning Techniques
-                                            like LSTM (Recurrent Neural Networks) and Advanced AI Techniques of ARIMA</li>
+                                                like LSTM (Recurrent Neural Networks) and Advanced AI Techniques of ARIMA</li>
                                             <li>Drive KPI(s) and ROI via Forecast and Machine Learning Models</li>
                                             <li>Sanitize and Integrate data from various Heterogeneous Systems into Large Volumes of
-                                            Structured, Semi-Structured, Unstructured data stored in “NoSQL storage” like Graph DB, Columnar DB,
-                                            Key-Value DB and Document DB</li>
+                                                Structured, Semi-Structured, Unstructured data stored in “NoSQL storage” like Graph DB, Columnar DB,
+                                                Key-Value DB and Document DB</li>
                                             <li>Effective Data Transformation using Python.</li>
                                             <li>Develop tools in GBQ using SQ</li>
                                         </ul>
@@ -102,14 +161,27 @@ const HealthCare = () => {
                                             Situation of Overstocking was reduced and Days of Inventory were also reduced significantly.
                                     </p>
                                     </section>
-                                    <section>
-                                        {/* <h3 className="text-primary">Customer Testimonial</h3> */}
-                                    </section>
+                                    {/* <section>
+                                        <h3 className="text-primary">Customer Testimonial</h3>
+                                        <Container>
+                                            <Row>
+                                                <Col md={6}>
+                                                    <ReactPlayer url={}
+                                                        width='100%'
+                                                        height='100%' />
+                                                </Col>
+                                                <Col md={{ span: 3, offset: 1 }}>
+                                                    <p>Speaking</p>
+                                                </Col>
+                                            </Row>
+                                        </Container>
+                                        <p>name</p>
+                                        <p>title</p>
+                                    </section> */}
                                 </Tab>
 
                             </Tabs>
                         </div>
-
 
                     </div>
                 </div>
