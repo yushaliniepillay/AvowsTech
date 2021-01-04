@@ -138,7 +138,7 @@ const Banking = () => {
                                                 <p class="p1 text-justify">{data.about}</p>
                                             </section>
                                             <section>
-                                                <h3 className="text-primary">Challenge</h3>
+                                                <h3 className="text-primary">Challenges</h3>
                                                 <p class="p1 text-justify">{data.challenge[0]}</p>
                                                 <p class="p1 text-justify">{data.challenge[1]}</p>
                                             </section>
@@ -177,8 +177,6 @@ const Banking = () => {
                                                 </Container>
                                                 <p>{data.video[1]}</p>
                                                 <p>{data.video[2]}</p>
-
-
                                             </section>
                                         </Tab>
                                     ))}

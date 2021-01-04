@@ -10,6 +10,40 @@ const Energy = () => {
 
     var dashboard1 = require("../industries/InImage/dashboard1.jpg");
     var dashboard2 = require("../industries/InImage/dashboard2.jpg");
+    const data =
+        [
+            {
+                id: 0,
+                key: "A",
+                title: "BI Dashboard Development",
+                about: "The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.",
+                challenge: [
+                    "Clients data resided in different disparate systems and lacked consistencies in bringing them together for any C level executive analysis. This resulted a very tedious exercise and took several days to achieve, hence there was an immediate need to bring data together with advanced analytics and visualization techniques to enable more insights at a faster rate and eventually enable better decision making."
+                ],
+                solution: [
+                    "Avows partnered with the client to understand the client’s organization data sets and the different systems along with data storage access points etc. to arrive at the complete blue print for organizational data from its creating to where it was residing. We then created a solution to bring all data together for analytics and process several other information for advanced dashboards for c level executives based on discussions and business requirements.",
+                    "The solution was able to bring several benefits within a short time."
+                ],
+                benefit: [
+                    "Gain a seamless environment that includes data visualization and analytics integrated with communication tools, and specialized business applications",
+                    "Capitalize on customers’ existing Microsoft technology to accelerate progress toward the next innovation in data analytics",
+                    "The customer has successfully migrated more than 46 metrics from 4 critical datasets from excel sheet into the SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform",
+                    "And empowered the analytics and business intelligence teams, formerly dependent on IT or support teams, to create and prepare the data themselves.",
+                    "Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request."
+                ],
+                image: [
+                    require("../industries/InImage/dashboard1.jpg"),
+                    require("../industries/InImage/dashboard2.jpg")
+                ],
+                video: [
+                    require('../industries/video/PublicBank.mp4'),
+                    "name",
+                    "position",
+                    "speaking something"
+                ]
+
+            }
+        ]
 
     return (
         <Layout>
@@ -46,78 +80,81 @@ const Energy = () => {
                         <div>
                             <br />
                             <h2>Case Studies</h2>
-                            <Tabs defaultActiveKey="BI" transition={false} id="noanim-tab-example">
-                                <Tab eventKey="BI" title="BI Dashboard Development">
-                                    <h3><strong>BI Dashboard Development</strong></h3>
-                                    <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
-                                        <Figure.Image
-                                            width={300}
-                                            height={500}
-                                            src={dashboard1}
-                                        />
-                                        <Figure.Image
-                                            width={300}
-                                            height={500}
-                                            src={dashboard1}
-                                        />
-                                    </Figure>
-                                    <section>
-                                        <h3 className="text-primary">About the Client</h3>
-                                        <p class="p1 text-justify">The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.
-                                        </p>
-                                    </section>
-                                    <section>
-                                        <h3 className="text-primary">Challenge</h3>
-                                        <p class="p1 text-justify">
-                                            Clients data resided in different disparate systems and lacked consistencies in bringing them together for any C level executive analysis. This resulted a very tedious exercise and took several days to achieve, hence there was an immediate need to bring data together with advanced analytics and visualization techniques to enable more insights at a faster rate and eventually enable better decision making.
-                                        </p>
-                                    </section>
-                                    <section>
-                                        <h3 className="text-primary">Solution</h3>
-                                        <p class="p1 text-justify">Avows partnered with the client to understand the client’s organization data sets and the
-                                        different systems along with data storage access points etc. to arrive at the complete blue print for organizational data from its creating to where it was residing. We then created a solution to bring all data together for analytics and process several other information for advanced dashboards for c level executives based on discussions and business requirements.
-                                        </p>
-                                        <p class="p1 text-justify">
-                                            The solution was able to bring several benefits within a short time.
-                                    </p>
-                                    </section>
-                                    <section>
-                                        <h3 className="text-primary">Benefits</h3>
-                                        <ul>
-                                            <li>Gain a seamless environment that includes data visualization and analytics integrated with communication tools, and specialized business applications</li>
-                                            <li>Capitalize on customers’ existing Microsoft technology to accelerate progress toward the next innovation in data analytics</li>
-                                            <li>The customer has successfully migrated more than 46 metrics from 4 critical datasets from excel sheet into the SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform</li>
-                                            <li>And empowered the analytics and business intelligence teams, formerly dependent on IT or support teams, to create and prepare the data themselves.</li>
-                                            <li>Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request.</li>
-                                        </ul>
-                                    </section>
-                                    {/* <section>
-                                        <h3 className="text-primary">Customer Testimonial</h3>
-                                        <Container>
-                                            <Row>
-                                                <Col md={6}>
-                                                    <ReactPlayer url={}
-                                                        width='100%'
-                                                        height='100%' />
-                                                </Col>
-                                                <Col md={{ span: 3, offset: 1 }}>
-                                                    <p>Speaking</p>
-                                                </Col>
-                                            </Row>
-                                        </Container>
-                                        <p>name</p>
-                                        <p>title</p>
-                                    </section> */}
-                                </Tab>
+                            <Tabs defaultActiveKey={data[0].key} transition={false} id="noanim-tab-example">
+                                {
+                                    data.map((data, index) => (
+                                        <Tab key={index} eventKey={data.key} title={data.title}>
+                                            <br />
+                                            <h3><strong>{data.title}</strong></h3>
+
+                                            <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                                                <Figure.Image
+                                                    key={data.image}
+                                                    width={300}
+                                                    height={500}
+                                                    src={data.image[0]}
+                                                />
+
+                                                <Figure.Image
+                                                    key={data.image}
+                                                    width={300}
+                                                    height={500}
+                                                    src={data.image[1]}
+                                                />
+                                            </Figure>
+
+                                            <section>
+                                                <h3 className="text-primary">About the Client</h3>
+                                                <p class="p1 text-justify">{data.about}</p>
+                                            </section>
+                                            <section>
+                                                <h3 className="text-primary">Challenges</h3>
+                                                <p class="p1 text-justify">{data.challenge[0]}</p>
+                                                <p class="p1 text-justify">{data.challenge[1]}</p>
+                                            </section>
+                                            <section>
+                                                <h3 className="text-primary">Solution</h3>
+                                                <p class="p1 text-justify">{data.solution[0]}</p>
+                                                <p class="p1 text-justify">{data.solution[1]}</p>
+                                            </section>
+                                            <section>
+                                                <h3 className="text-primary">Benefits</h3>
+                                                <ul>
+                                                    <li>{data.benefit[0]}</li>
+                                                    <li>{data.benefit[1]}</li>
+                                                    <li>{data.benefit[2]}</li>
+                                                    <li>{data.benefit[3]}</li>
+                                                    <li>{data.benefit[4]}</li>
+                                                </ul>
+                                            </section>
+                                            {/* <section>
+                                                <h3 className="text-primary">Customer Testimonial</h3>
+                                                <Container>
+                                                    <Row>
+                                                        <Col md={6}>
+                                                            <ReactPlayer url={data.video[0]}
+                                                                width='100%'
+                                                                height='100%' />
+                                                        </Col>
+                                                        <Col md={{ span: 3, offset: 1 }}>
+                                                            <p>{data.video[3]}</p>
+                                                        </Col>
+                                                    </Row>
+                                                </Container>
+                                                <p>{data.video[1]}</p>
+                                                <p>{data.video[2]}</p>
+                                            </section> */}
+                                        </Tab>
+                                    ))}
 
                             </Tabs>
-                        </div>
-
                     </div>
+
                 </div>
             </div>
+            </div>
 
-        </Layout>
+        </Layout >
     )
 }
 

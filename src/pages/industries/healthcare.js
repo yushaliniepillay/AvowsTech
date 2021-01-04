@@ -124,7 +124,7 @@ const HealthCare = () => {
                                     </p>
                                     </section>
                                     <section>
-                                        <h3 className="text-primary">Challenge</h3>
+                                        <h3 className="text-primary">Challenges</h3>
                                         <p class="p1 text-justify">
                                             The hospital chain wanted to have a better view and understanding of their supply chain and inventory.
                                             Data regarding inventories was lying in disparate systems and was lacking a unified view for any management

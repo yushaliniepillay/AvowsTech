@@ -150,7 +150,7 @@ const Insurance = () => {
                                         currently one of the leading insurance providers in Malaysia.</p>
                                     </section>
                                     <section>
-                                        <h3 className="text-primary">Challenge</h3>
+                                        <h3 className="text-primary">Challenges</h3>
                                         <p class="p1 text-justify">
                                             Customers are looking at creating a strong brand awareness through better customer experience
                                             by using automation and chatbots to reduce their response times. This will also help to provide
@@ -231,7 +231,7 @@ const Insurance = () => {
                                     </p>
                                     </section>
                                     <section>
-                                        <h3 className="text-primary">Challenge</h3>
+                                        <h3 className="text-primary">Challenges</h3>
                                         <p class="p1 text-justify">
                                             Client had on centralized sales dashboard and the mid-senior management were missing standardized sales data
                                             across the organization to compare and analyse. This led to delay in understanding changing in market dynamics,

@@ -77,7 +77,7 @@ const Telecommunication = () => {
                                     </p>
                                     </section>
                                     <section>
-                                        <h3 className="text-primary">Challenge</h3>
+                                        <h3 className="text-primary">Challenges</h3>
                                         <p class="p1 text-justify">
                                             The client wanted to bring unified experience across all platforms and reduce manpower involved
                                             along with simplified processes. Their Digital channels were not providing much support to their
