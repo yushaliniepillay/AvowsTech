@@ -14,7 +14,7 @@ const Banking = () => {
             {
                 id: 0,
                 key: "A",
-                title: "Anti-Money Laundering for Merchantrade",
+                title: "Anti-Money Laundering for Foreign Exchange Company",
                 about: "Client is a Money Services Business, Digital Payment Service and Mobile Virtual Network operator provider, based in Malaysia. The company’s core business is centered on international money transfers, foreign currency exchange, wholesale banknotes, digital payment processing and mobile telecommunications. It is Asia’s Leader in Digital Payments & Communications.",
                 challenge: [
                     "As regulatory bodies across the globe enforce stricter regulations, banks & financial institutions are facing compliance challenges. As financial activity increases along with digital means, there will be an ever-growing increase in needs to detect fraudulent money movements and patterns involving more and more digital investigations.",
