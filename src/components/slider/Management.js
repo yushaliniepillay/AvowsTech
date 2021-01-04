@@ -133,7 +133,7 @@ const Management = () => {
                                     <h2 className="text-dark">{data.name}</h2>
                                 </section>
                             </Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted text-center">{data.position}e</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted text-center">{data.position}</Card.Subtitle>
                             {/* <Button key={data.id} className="m-3" variant="danger" size="md"
                                 type="submit" onClick={handleShow} >VIEW DETAILS</Button> */}
                         </Card>
@@ -208,7 +208,7 @@ const Management = () => {
                     aria-labelledby="contained-modal-title-vcenter"
                     centered >
                     <Modal.Header closeButton>
-                        <Modal.Title className="text-center" id="example-custom-modal-styling-title">
+                        <Modal.Title className="text-right" id="example-custom-modal-styling-title">
                             <h3><b>{data[modalSelected].name}</b></h3>
                             <h4>{data[modalSelected].position}</h4>
                         </Modal.Title>
