@@ -59,9 +59,9 @@ const ar_vr = () => (
                                             <strong>Augmented Reality/ Virtual Reality</strong>
                                             <ul><br />
                                                 <li>3D AR/VR Model Creation Process</li>
-                                                <li>Augmented Reality & IoT (inserts picture/video)</li>
-                                                <li>AR/VR in shopping</li>
-                                                <li>Virtual Reality for training and education (insert picture/video)</li>
+                                                <li>Augmented Reality & IoT</li>
+                                                <li>AR/VR in Retail</li>
+                                                <li>Virtual Reality for training and education</li>
                                                 <li>Virtual Reality for Real Estate</li>
                                             </ul>
                                         </Tab>

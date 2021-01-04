@@ -14,7 +14,7 @@ const Banking = () => {
             {
                 id: 0,
                 key: "A",
-                title: "Anti-Money Laundering for Merchantrade",
+                title: "Anti-Money Laundering for Foreign Exchange Company",
                 about: "Client is a Money Services Business, Digital Payment Service and Mobile Virtual Network operator provider, based in Malaysia. The company’s core business is centered on international money transfers, foreign currency exchange, wholesale banknotes, digital payment processing and mobile telecommunications. It is Asia’s Leader in Digital Payments & Communications.",
                 challenge: [
                     "As regulatory bodies across the globe enforce stricter regulations, banks & financial institutions are facing compliance challenges. As financial activity increases along with digital means, there will be an ever-growing increase in needs to detect fraudulent money movements and patterns involving more and more digital investigations.",
@@ -138,7 +138,7 @@ const Banking = () => {
                                                 <p class="p1 text-justify">{data.about}</p>
                                             </section>
                                             <section>
-                                                <h3 className="text-primary">Challenge</h3>
+                                                <h3 className="text-primary">Challenges</h3>
                                                 <p class="p1 text-justify">{data.challenge[0]}</p>
                                                 <p class="p1 text-justify">{data.challenge[1]}</p>
                                             </section>
@@ -177,8 +177,6 @@ const Banking = () => {
                                                 </Container>
                                                 <p>{data.video[1]}</p>
                                                 <p>{data.video[2]}</p>
-
-
                                             </section>
                                         </Tab>
                                     ))}
