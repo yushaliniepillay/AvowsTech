@@ -1,20 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../../components/layouts/layout"
-import SEO from "../../components/seo";
-import { Tabs, Tab, Container, Row, Col, Figure } from 'react-bootstrap';
-import ReactPlayer from 'react-player/lazy'
+import Layout from "../../../components/layouts/layout"
+import SEO from "../../../components/seo";
+import { Card, Button } from 'react-bootstrap';
 
 
 const Energy = () => {
 
-    var dashboard1 = require("../industries/InImage/dashboard1.jpg");
-    var dashboard2 = require("../industries/InImage/dashboard2.jpg");
+    //var dashboard1 = require("../industries/InImage/dashboard1.jpg");
+    //var dashboard2 = require("../industries/InImage/dashboard2.jpg");
     const data =
         [
             {
                 id: 0,
                 key: "A",
+                link: "/industries/banking/biDev",
                 title: "BI Dashboard Development",
                 about: "The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.",
                 challenge: [
@@ -32,14 +32,14 @@ const Energy = () => {
                     "Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request."
                 ],
                 image: [
-                    require("../industries/InImage/dashboard1.jpg"),
-                    require("../industries/InImage/dashboard2.jpg")
+                    require("../../industries/InImage/dashboard1.jpg"),
+                    require("../../industries/InImage/dashboard2.jpg")
                 ],
                 video: [
-                    require('../industries/video/PublicBank.mp4'),
-                    "name",
-                    "position",
-                    "speaking something"
+                    // require('../../industries/video/PublicBank.mp4'),
+                    // "name",
+                    // "position",
+                    // "speaking something"
                 ]
 
             }
@@ -80,7 +80,25 @@ const Energy = () => {
                         <div>
                             <br />
                             <h2>Case Studies</h2>
-                            <Tabs defaultActiveKey={data[0].key} transition={false} id="noanim-tab-example">
+                            <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                                {data.map(data => (
+                                    <Card style={{ width: '20rem', margin: '10px' }} >
+                                        <Card.Img style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image[0]} />
+                                        <Card.Body>
+                                            <Card.Title>
+                                                <section className="post-title">
+                                                    <h2><a href={data.link}>{data.title}</a></h2>
+                                                </section>
+                                            </Card.Title>
+                                            <Card.Text>
+                                                <p className="justified">{data.about}</p>
+                                            </Card.Text>
+                                            <Button variant="primary" href={data.link} >READ MORE</Button>
+                                        </Card.Body>
+                                    </Card>
+                                ))}
+                            </div>
+                            {/* <Tabs defaultActiveKey={data[0].key} transition={false} id="noanim-tab-example">
                                 {
                                     data.map((data, index) => (
                                         <Tab key={index} eventKey={data.key} title={data.title}>
@@ -127,7 +145,7 @@ const Energy = () => {
                                                     <li>{data.benefit[4]}</li>
                                                 </ul>
                                             </section>
-                                            {/* <section>
+                                            <section>
                                                 <h3 className="text-primary">Customer Testimonial</h3>
                                                 <Container>
                                                     <Row>
@@ -143,11 +161,11 @@ const Energy = () => {
                                                 </Container>
                                                 <p>{data.video[1]}</p>
                                                 <p>{data.video[2]}</p>
-                                            </section> */}
+                                            </section> 
                                         </Tab>
                                     ))}
 
-                            </Tabs>
+                            </Tabs> */}
                     </div>
 
                 </div>

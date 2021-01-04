@@ -59,12 +59,12 @@ const Header = ({ siteTitle }) => (
             </Link>
             </Nav.Item>
             <NavDropdown title="INDUSTRIES" href="#" activeClassName="active" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/industries/banking">BANKING</NavDropdown.Item>
-              <NavDropdown.Item href="/industries/insurance">INSURANCE</NavDropdown.Item>
-              <NavDropdown.Item href="/industries/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
-              <NavDropdown.Item href="/industries/healthcare">HEALTHCARE</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/banking/banking">BANKING</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/insurance/insurance">INSURANCE</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/tele/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/health/healthcare">HEALTHCARE</NavDropdown.Item>
               <NavDropdown.Item disabled href="/industries/manufacturing">MANUFACTURING</NavDropdown.Item>
-              <NavDropdown.Item href="/industries/energy">OIL AND GAS</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/oilNgas/energy">OIL AND GAS</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="SERVICES & SOLUTIONS" href="#" activeClassName="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>

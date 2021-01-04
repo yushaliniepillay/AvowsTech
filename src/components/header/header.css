@@ -25,7 +25,7 @@ p {
 p {
     font-size: 16px;
     font-family:  'Muli', sans-serif;
-    line-height: 22px
+    line-height: 30px;
 }
 
 #avowsTitle {
@@ -537,6 +537,32 @@ p {
     transform: translateX(-50%)
 }
 
+.about-page-description .about-img,
+.page-title h1 {
+    margin-bottom: 30px
+}
+.page-title h1 {
+    color: rgb(235, 224, 224);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative
+}
+
+.page-title h1:before {
+    content: " ";
+    background-color: #ff5252;
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    left: 50%;
+    bottom: -15px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
 .breadcrumb {
     background-color: transparent;
     padding: 8px 15px 0;
@@ -859,13 +885,13 @@ p {
     transition: border-color .25s
 }
 
-.post-title1 h2 {
+.post-title h2 {
     margin: 15px 0 10px;
     font-size: 15px;
     line-height: 30px;
 }
 
-.post-title1 h2 a {
+.post-title h2 a {
     color: #303030;
     font-weight: 500;
     -webkit-transition: color .25s;
@@ -1107,4 +1133,42 @@ p {
 /* management style */
 
 
-/* tab style */
+/* card style */
+.inner{
+    overflow: hidden;
+
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+/* case studies */
+.cs_about {
+    margin-bottom: 50px;;
+}
+.cs_about h4 {
+    color: var(--mainDark);
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative
+}
+
+.cs_about h4:before {
+    content: " ";
+    background-color: #ff5252;
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    left: 3%;
+    bottom: -15px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
