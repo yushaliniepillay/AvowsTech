@@ -101,7 +101,7 @@ const Blog_03 = () => {
                                 <img src="/img/blog-posts/blog00.jpg" alt="" class="img-responsive" />
                             </div>
                             <div className="wpb_wrapper">
-                                <h4>Images from the Annual Dinner</h4>
+                                <br/>
                             </div>
                         </div>
                     </div>

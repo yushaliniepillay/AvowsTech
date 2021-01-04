@@ -208,7 +208,7 @@ const Management = () => {
                     aria-labelledby="contained-modal-title-vcenter"
                     centered >
                     <Modal.Header closeButton>
-                        <Modal.Title className="text-right" id="example-custom-modal-styling-title">
+                        <Modal.Title  id="example-custom-modal-styling-title">
                             <h3><b>{data[modalSelected].name}</b></h3>
                             <h4>{data[modalSelected].position}</h4>
                         </Modal.Title>
@@ -223,11 +223,11 @@ const Management = () => {
                                     src={data[modalSelected].image} />
                             </Figure>
                         </div>
-                        <p>{data[modalSelected].description1}</p>
-                        <p>{data[modalSelected].description2}</p>
-                        <p>{data[modalSelected].description3}</p>
-                        <p>{data[modalSelected].description4}</p>
-                        <p>{data[modalSelected].description5}</p>
+                        <p className="justified">{data[modalSelected].description1}</p>
+                        <p className="justified">{data[modalSelected].description2}</p>
+                        <p className="justified">{data[modalSelected].description3}</p>
+                        <p className="justified">{data[modalSelected].description4}</p>
+                        <p className="justified">{data[modalSelected].description5}</p>
                     </Modal.Body>
                 </Modal>
                 {/* {data.map((data) => (
