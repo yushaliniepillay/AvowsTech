@@ -9,10 +9,17 @@ import { FlagFilled, SmileOutlined, ShopOutlined, TrophyOutlined} from '@ant-des
 
 const IndexPage = () => {
 
+  const change = {
+    button: true
+  }
+  const handleClick = () => {
+    //var buttonColor = change.buttonColor === 'red' ? 'white' : 'red';
+    this.setState({button: !change.button})
+  }
+
   const [state, setText] = useState({
     text: 'We have a great Mission',
-    text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”',
-    
+    text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”'
   })
  
   const onClickButton1 = () => {
@@ -38,10 +45,10 @@ const IndexPage = () => {
           <section class="round-tabs text-center Massive7ec9b024b38365f303ca5a88a3301fa0">
             <ul class="nav nav-pills nav-normal">
               <li class="active">
-                <Button style={{background: 'danger'}} variant="light" size="lg" type="submit" onClick={() => onClickButton1()} >Our Mission</Button>
+                <Button active className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton1() && handleClick()} >Our Mission</Button>
               </li>
               <li class="">
-                <Button style={{background: 'white'}} variant="light" size="lg" type="submit" onClick={() => onClickButton2()} >Our Vission</Button>
+                <Button className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton2() && handleClick()} >Our Vission</Button>
               </li>
             </ul>
             <div class="panel-body text-center">

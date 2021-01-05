@@ -13,9 +13,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
-    font-weight: 300
+h6 {
+    font-weight: 300;
+    font-family:  'Open sans';
 }
 
 body,
@@ -23,9 +23,10 @@ p {
     color: #737373
 }
 p {
-    font-size: 16px;
-    font-family:  'Muli', sans-serif;
+    font-size: 18px;
+    font-family:  'Roboto';
     line-height: 30px;
+    font-weight: 400;
 }
 
 #avowsTitle {
@@ -55,9 +56,33 @@ p {
 
 .mr-auto{
     padding-left: 280pt;
-    font-size: 17pt;
+    font-size: 18pt;
 }
 
+.buttonTrue {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px #999;
+}
+.buttonFalse {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px #999;
+  }
 .carousel{
     display: block;
     height: fit-content;
@@ -147,7 +172,7 @@ p {
 .section-title span {
     display: block;
     color: #888989;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 14px
 }
@@ -523,6 +548,8 @@ p {
 }
 .page-title ul {
     color: rgb(235, 224, 224);
+    font-family:  'Roboto';
+    font-size: 18px;
 }
 
 .page-title h2:before {
@@ -638,7 +665,8 @@ p {
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden
+    overflow: hidden;
+    
 }
 
 .header-content ul li {
@@ -646,6 +674,7 @@ p {
     padding-left: 20px;
     float: left;
     width: 50%
+    
 }
 
 .header-content ul li:before {
@@ -760,7 +789,9 @@ p {
 
 .blog-page-content.post-details ul li {
     font-weight: 300;
-    color: #737373
+    color: #737373;
+    font-family:  'Roboto';
+    font-size: 16px;
 }
 
 .blog-page-content.post-details .post-author.mdl-card {

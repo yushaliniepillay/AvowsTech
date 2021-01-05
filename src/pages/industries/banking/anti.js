@@ -150,7 +150,7 @@ const Anti = () => {
                                                 </Col>
                                             </Row>
                                         </section>
-                                        <section className="cs_about">
+                                        {/* <section className="cs_about">
                                             <h4>Customer Testimonial</h4>
                                             <Container>
                                                 <Row>
@@ -166,7 +166,7 @@ const Anti = () => {
                                             </Container>
                                             <p>{data.video[1]}</p>
                                             <p>{data.video[2]}</p>
-                                        </section>
+                                        </section> */}
                                     </div>
                                 ))}
 

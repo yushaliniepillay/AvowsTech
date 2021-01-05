@@ -2,7 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../../components/layouts/layout"
 import SEO from "../../../components/seo";
-import { Card, Button, Breadcrumb } from 'react-bootstrap';
+import { Card, Button, Breadcrumb, Container, Row, Col } from 'react-bootstrap';
+import ReactPlayer from 'react-player/lazy'
+
 
 const Banking = () => {
 
@@ -48,6 +50,7 @@ const Banking = () => {
 
 
     return (
+
         <Layout>
             <SEO title="AVOWS" />
 
@@ -120,7 +123,7 @@ const Banking = () => {
                                         <div className="inner">
                                             <Card.Img variant="top" src={data.image[0]} />
                                         </div>
-                                       {/* style={{ width: '20rem', height: '14rem' }} */}
+                                        {/* style={{ width: '20rem', height: '14rem' }} */}
                                         <Card.Body>
                                             <Card.Title>
                                                 <section className="post-title">
@@ -132,6 +135,29 @@ const Banking = () => {
                                     </Card>
                                 ))}
                             </div>
+
+                            {data.map(data => (
+                                <div>
+                                    <br/>
+                                    <h2>Customer Testimonial</h2>
+                                    <Container>
+                                        <Row>
+                                            <Col md={6}>
+                                                <ReactPlayer url={data.video[0]}
+                                                    width='100%'
+                                                    height='100%' />
+                                            </Col>
+                                            <Col md={{ span: 3, offset: 1 }}>
+                                                <p>{data.video[3]}</p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                    <p>{data.video[1]}</p>
+                                    <p>{data.video[2]}</p>
+
+                                </div>
+                            ))}
+
                             {/* <Tabs defaultActiveKey={data[0].key} transition={false} id="noanim-tab-example">
                                 {
                                     data.map((data, index) => (
@@ -204,6 +230,7 @@ const Banking = () => {
                                     ))}
 
                             </Tabs> */}
+
                         </div>
 
                     </div>
@@ -214,6 +241,7 @@ const Banking = () => {
 
 
         </Layout>
+
     )
 }
 export default Banking;

@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../../components/layouts/layout"
 import SEO from "../../../components/seo";
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Breadcrumb, Container, Row, Col } from 'react-bootstrap';
+import ReactPlayer from 'react-player/lazy'
 
 
 const Energy = () => {
@@ -52,13 +53,16 @@ const Energy = () => {
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">
+                    <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item active>OIL AND GAS</Breadcrumb.Item>
+                        </Breadcrumb>
                         <section className="page-title">
-                            <h2>OILS AND GAS</h2>
-                            <ul className="text-center">
+                            <h2>OIL AND GAS</h2>
+                            {/* <ul className="text-center">
                                 <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Oil and Gas</li>
-                                {/* <li className="list-unstyled active">Blog</li> */}
-                            </ul>
+                                    <Link className="text-white" href="/">Home /</Link> Banking</li>
+                            </ul> */}
                         </section>
                     </div>
                 </div>
@@ -82,18 +86,18 @@ const Energy = () => {
                             <h2>Case Studies</h2>
                             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                                 {data.map(data => (
-                                    <Card style={{ width: '20rem', margin: '10px' }} >
-                                        <Card.Img style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image[0]} />
+                                    <Card className="card shadow" style={{ width: '20rem', margin: '10px' }} >
+                                        <div className="inner">
+                                            <Card.Img variant="top" src={data.image[0]} />
+                                        </div>
+                                        {/* style={{ width: '20rem', height: '14rem' }} */}
                                         <Card.Body>
                                             <Card.Title>
                                                 <section className="post-title">
                                                     <h2><a href={data.link}>{data.title}</a></h2>
                                                 </section>
                                             </Card.Title>
-                                            <Card.Text>
-                                                <p className="justified">{data.about}</p>
-                                            </Card.Text>
-                                            <Button variant="primary" href={data.link} >READ MORE</Button>
+
                                         </Card.Body>
                                     </Card>
                                 ))}
