@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../../../components/layouts/layout";
 import SEO from "../../../components/seo";
-import { Container, Row, Col, Figure } from 'react-bootstrap';
+import { Breadcrumb, Container, Row, Col, Figure, Table } from 'react-bootstrap';
 import ReactPlayer from 'react-player/lazy'
 
 const Mobile = () => {
@@ -12,13 +12,14 @@ const Mobile = () => {
                 id: 0,
                 key: "A",
                 link: "/industries/tele/mobile",
-                title: "Self- Care Mobile App Development",
+                title: "Self-Care Mobile App Development",
                 about: "The client is a data-centric and multiple award-winning mobile data service company in Malaysia. They have established their presence in all over the country with a subscriber base of 7 million mark. It has been an award-winning telco with affordable plans and a comprehensive fintech ecosystem.",
                 challenge: [
                     "The client wanted to bring unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
                 ],
                 solution: [
-                    "Avows has created a secure mobile application which was deployed for end consumers as their one stop destination for all user related information, activations, recharges, plan upgrades, utilization details, along with digital wallet. The mobile application can also be used for marketing efforts such as running consumer campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility. The application was created through a secure use channel and it also allows the organization to feature great branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.",
+                    "Avows has created a secure mobile application which was deployed for end consumers as their one stop destination for all user related information, activations, recharges, plan upgrades, utilization details, along with digital wallet. The mobile application can also be used for marketing efforts such as running consumer campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
+                    "The application was created through a secure use channel and it also allows the organization to feature great branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.",
                     "Some technical details of our solution encompass:",
                     "Development on React-Native Platform",
                     "Cloud Deployment on Google",
@@ -55,8 +56,18 @@ const Mobile = () => {
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item href="/industries/tele/telecommunication">TELECOMMUNICATION</Breadcrumb.Item>
+                            <Breadcrumb.Item active>SELF-CARE MOBILE APP DEVELOPMENT</Breadcrumb.Item>
+                        </Breadcrumb>
                         <section className="page-title">
-                            <h2>Self- Care Mobile App Development</h2>
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={4}>
+                                    <h1>Self- Care Mobile App Development</h1>
+                                </Col>
+                            </Row>
                         </section>
                     </div>
                 </div>
@@ -74,56 +85,84 @@ const Mobile = () => {
                             {
                                 data.map(data => (
                                     <div>
-                                        {/* <h3><strong>{data.title}</strong></h3> */}
+                                        <section className="cs_about">
+                                            <h4>About the Client</h4>
+                                            <p className="text-justify" >{data.about}</p>
+                                        </section>
 
+                                        <Table className="text-center" bordered="sm" borderless size="md">
+                                            <thead >
+                                                <tr>
+                                                    <th>Client</th>
+                                                    <th>Industry</th>
+                                                    <th>Service</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody >
+                                                <tr>
+                                                    <td>NaN</td>
+                                                    <td>NaN</td>
+                                                    <td>NaN</td>
+                                                </tr>
+                                            </tbody>
+                                        </Table>
+                                        <section className="cs_about">
+                                            <h4>Challenges</h4>
+                                            <Row>
+                                                <p className="text-justify">{data.challenge[0]}</p>
+
+                                            </Row>
+                                        </section>
                                         <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                                             <Figure.Image
                                                 key={data.image}
-                                                width={300}
-                                                height={500}
+                                                width={500}
+                                                height={800}
                                                 src={data.image[1]}
                                             />
                                             <Figure.Image
                                                 key={data.image}
-                                                width={300}
-                                                height={500}
+                                                width={500}
+                                                height={800}
                                                 src={data.image[2]}
                                             />
                                         </Figure>
+                                        <section className="cs_about">
+                                            <h4>Solutions</h4>
+                                            <Row>
+                                                <Col>
+                                                    <p className="text-justify">{data.solution[0]}</p>
 
-                                        <section>
-                                            <h3 className="text-primary">About the Client</h3>
-                                            <p class="p1 text-justify">{data.about}</p>
+                                                </Col>
+                                                <Col>
+                                                    <p className="text-justify">{data.solution[1]}</p>
+                                                    <p className="text-justify">{data.solution[2]}</p>
+                                                    <ul>
+                                                        <li>{data.solution[3]}</li>
+                                                        <li>{data.solution[4]}</li>
+                                                        <li>{data.solution[5]}</li>
+                                                        <li>{data.solution[6]}</li>
+                                                        <li>{data.solution[7]}</li>
+                                                        <li>{data.solution[8]}</li>
+                                                    </ul>
+                                                </Col>
+                                            </Row>
                                         </section>
-                                        <section>
-                                            <h3 className="text-primary">Challenges</h3>
-                                            <p class="p1 text-justify">{data.challenge[0]}</p>
-                                            <p class="p1 text-justify">{data.challenge[1]}</p>
+                                        <section className="cs_about">
+                                            <h4>Benefits</h4>
+                                            <Row>
+                                                <Col>
+                                                    <ul>
+                                                        <li>{data.benefit[0]}</li>
+                                                        <li>{data.benefit[1]}</li>
+                                                        <li>{data.benefit[2]}</li>
+                                                        <li>{data.benefit[3]}</li>
+                                                    </ul>
+                                                </Col>
+                                            </Row>
                                         </section>
-                                        <section>
-                                            <h3 className="text-primary">Solution</h3>
-                                            <p class="p1 text-justify">{data.solution[0]}</p>
-                                            <p class="p1 text-justify">{data.solution[1]}</p>
-                                            <ul>
-                                                <li>{data.solution[2]}</li>
-                                                <li>{data.solution[3]}</li>
-                                                <li>{data.solution[4]}</li>
-                                                <li>{data.solution[5]}</li>
-                                                <li>{data.solution[6]}</li>
-                                                <li>{data.solution[7]}</li>
-                                            </ul>
-                                        </section>
-                                        <section>
-                                            <h3 className="text-primary">Benefits</h3>
-                                            <ul>
-                                                <li>{data.benefit[0]}</li>
-                                                <li>{data.benefit[1]}</li>
-                                                <li>{data.benefit[2]}</li>
-                                                <li>{data.benefit[3]}</li>
-                                            </ul>
-                                        </section>
-                                        {/* <section>
-                                            <h3 className="text-primary">Customer Testimonial</h3>
+                                        {/* <section className="cs_about">
+                                            <h4>Customer Testimonial</h4>
                                             <Container>
                                                 <Row>
                                                     <Col md={6}>

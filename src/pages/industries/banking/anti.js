@@ -124,7 +124,7 @@ const Anti = () => {
                                                 src={data.image[1]} />
                                         </Figure>
                                         <section className="cs_about">
-                                            <h4>Solution</h4>
+                                            <h4>Solutions</h4>
                                             <Row>
                                                 <Col>
                                                     <p className="text-justify">{data.solution[0]}</p>

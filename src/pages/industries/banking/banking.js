@@ -116,8 +116,7 @@ const Banking = () => {
                         <div>
                             <br />
                             <h2>Case Studies</h2>
-
-                            <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                            <div className="ml-auto" style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                                 {data.map(data => (
                                     <Card className="card shadow" style={{ width: '20rem', margin: '10px' }} >
                                         <div className="inner">
@@ -136,10 +135,11 @@ const Banking = () => {
                                 ))}
                             </div>
 
+                            <br />
+                            <br/>
+                            <h2>Customer Testimonial</h2>
                             {data.map(data => (
                                 <div>
-                                    <br/>
-                                    <h2>Customer Testimonial</h2>
                                     <Container>
                                         <Row>
                                             <Col md={6}>

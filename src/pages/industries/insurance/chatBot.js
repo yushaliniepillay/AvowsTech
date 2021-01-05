@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../../../components/layouts/layout";
 import SEO from "../../../components/seo";
-import { Container, Row, Col, Figure } from 'react-bootstrap';
+import { Breadcrumb, Container, Row, Col, Figure, Table } from 'react-bootstrap';
 import ReactPlayer from 'react-player/lazy'
 
 
@@ -48,8 +48,18 @@ const ChatBot = () => {
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item href="/industries/insurance/insurance">INSURANCE</Breadcrumb.Item>
+                            <Breadcrumb.Item active>CONVERSATIONAL CHATBOT</Breadcrumb.Item>
+                        </Breadcrumb>
                         <section className="page-title">
-                            <h2>Conversational ChatBot</h2>
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={4}>
+                                    <h1>Conversational ChatBot</h1>
+                                </Col>
+                            </Row>
                         </section>
                     </div>
                 </div>
@@ -61,54 +71,85 @@ const ChatBot = () => {
                         <div class="col-md-12 blog-page-content post-details">
                             <div class="post-img">
                                 {/* <img src="/img/blog-posts/blog00.jpg" alt="" class="img-responsive" /> */}
-                                <br/>
+                                <br />
                             </div>
 
                             {
                                 data.map(data => (
                                     <div>
-                                        {/* <h3><strong>{data.title}</strong></h3> */}
+                                        <section className="cs_about">
+                                            <h4>About the Client</h4>
+                                            <p className="text-justify" >{data.about}</p>
+                                        </section>
 
+                                        <Table className="text-center" bordered="sm" borderless size="md">
+                                            <thead >
+                                                <tr>
+                                                    <th>Client</th>
+                                                    <th>Industry</th>
+                                                    <th>Service</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody >
+                                                <tr>
+                                                    <td>NaN</td>
+                                                    <td>NaN</td>
+                                                    <td>NaN</td>
+                                                </tr>
+                                            </tbody>
+                                        </Table>
+                                        <section className="cs_about">
+                                            <h4>Challenges</h4>
+                                            <Row>
+                                                <p className="text-justify">{data.challenge[0]}</p>
+
+                                            </Row>
+                                        </section>
                                         {/* <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                                             <Figure.Image
                                                 key={data.image}
-                                                width={300}
-                                                height={500}
+                                                width={500}
+                                                height={800}
                                                 src={data.image[1]}
                                             />
 
                                             <Figure.Image
                                                 key={data.image}
-                                                width={300}
-                                                height={500}
+                                                width={500}
+                                                height={800}
                                                 src={data.image[2]}
                                             />
                                         </Figure> */}
+                                        <section className="cs_about">
+                                            <h4>Solutions</h4>
+                                            <Row>
+                                                <Col>
+                                                    <p className="text-justify">{data.solution[0]}</p>
 
-                                        <section>
-                                            <h3 className="text-primary">About the Client</h3>
-                                            <p class="p1 text-justify">{data.about}</p>
+                                                </Col>
+                                                <Col>
+                                                    <p className="text-justify">{data.solution[1]}</p>
+
+                                                </Col>
+                                            </Row>
                                         </section>
-                                        <section>
-                                            <h3 className="text-primary">Challenges</h3>
-                                            <p class="p1 text-justify">{data.challenge[0]}</p>
-                                            <p class="p1 text-justify">{data.challenge[1]}</p>
+                                        <section className="cs_about">
+                                            <h4>Benefits</h4>
+                                            <Row>
+                                                <Col>
+                                                    <ul>
+                                                        <li>{data.benefit[0]}</li>
+                                                        <li>{data.benefit[1]}</li>
+                                                        <li>{data.benefit[2]}</li>
+                                                    </ul>
+                                                    {/* <p className="text-justify">{data.benefit[0]}</p>
+                                                    <p className="text-justify">{data.benefit[1]}</p>
+                                                    <p className="text-justify">{data.benefit[2]}</p> */}
+                                                </Col>
+                                            </Row>
                                         </section>
-                                        <section>
-                                            <h3 className="text-primary">Solution</h3>
-                                            <p class="p1 text-justify">{data.solution[0]}</p>
-                                            <p class="p1 text-justify">{data.solution[1]}</p>
-                                        </section>
-                                        <section>
-                                            <h3 className="text-primary">Benefits</h3>
-                                            <ul>
-                                                <li>{data.benefit[0]}</li>
-                                                <li>{data.benefit[1]}</li>
-                                                <li>{data.benefit[2]}</li>
-                                            </ul>
-                                        </section>
-                                        {/* <section>
-                                            <h3 className="text-primary">Customer Testimonial</h3>
+                                        {/* <section className="cs_about">
+                                            <h4>Customer Testimonial</h4>
                                             <Container>
                                                 <Row>
                                                     <Col md={6}>

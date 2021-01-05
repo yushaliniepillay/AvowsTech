@@ -15,7 +15,7 @@ const Energy = () => {
             {
                 id: 0,
                 key: "A",
-                link: "/industries/banking/biDev",
+                link: "/industries/oilNgas/biDev",
                 title: "BI Dashboard Development",
                 about: "The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.",
                 challenge: [
