@@ -1,26 +1,28 @@
 import React from "react"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo"
-//import "../../components/header/header.css";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Breadcrumb, Row, Col } from 'react-bootstrap';
 
 var imageName = require('../../components/images/background/ar_vr1.jpg')
 
 const ar_vr = () => (
+    
     <Layout>
         <SEO title="Data Analytics & AI" />
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">
+                <Breadcrumb>
+                        <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                        <Breadcrumb.Item active>AR/VR</Breadcrumb.Item>
+                    </Breadcrumb>
                     <section className="page-title">
-                        <h2>AUGMENTED REALITY/ VIRTUAL REALITY (AR/VR)</h2>
-                        {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
-                                to drive their digital transformation initiatives</p> */}
-                        <ul className="text-center">
-                            <li className="list-unstyled">
-                                
-                            </li>
-                        </ul>
+                        <Row>
+                            <Col md={4}> </Col>
+                            <Col md={4}>
+                                <h1 className="mb-5">AUGMENTED & VIRTUAL REALITY (AR/VR)</h1>
+                            </Col>
+                        </Row>
                     </section>
                 </div>
             </div>

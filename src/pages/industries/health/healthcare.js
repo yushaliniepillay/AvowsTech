@@ -58,11 +58,7 @@ const HealthCare = () => {
                             <Breadcrumb.Item active>HEALTHCARE</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
-                            <h2>HEALTHCARE</h2>
-                            {/* <ul className="text-center">
-                                <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Banking</li>
-                            </ul> */}
+                            <h1>HEALTHCARE</h1>
                         </section>
                             
                     </div>

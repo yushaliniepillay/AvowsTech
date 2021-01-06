@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../../components/layouts/layout"
 import SEO from "../../../components/seo";
-import { Card, Button, Breadcrumb, Container, Row, Col } from 'react-bootstrap';
-import ReactPlayer from 'react-player/lazy'
-
+import { Card, Breadcrumb, Container, Row, Col } from 'react-bootstrap';
 
 const Banking = () => {
 
@@ -48,6 +45,26 @@ const Banking = () => {
             }
         ]
 
+    const cust_test =
+        [
+            {
+                id: 0,
+                key: "A",
+                link: "/industries/banking/publicBank",
+                title: "Public Bank",
+                image: [
+                    require('../../industries/InImage/pb_image.jpg')
+                ],
+                video: [
+                    require('../../industries/video/PublicBank.mp4'),
+                    "name",
+                    "position",
+                    "speaking something"
+                ]
+
+            }
+        ]
+
 
     return (
 
@@ -62,11 +79,12 @@ const Banking = () => {
                             <Breadcrumb.Item active >BANKING</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
-                            <h2>BANKING & FINANCIAL SOLUTION</h2>
-                            {/* <ul className="text-center">
-                                <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Banking</li>
-                            </ul> */}
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={5}>
+                                    <h1>BANKING & FINANCIAL SOLUTION</h1>
+                                </Col>
+                            </Row>
                         </section>
                     </div>
                 </div>
@@ -136,26 +154,23 @@ const Banking = () => {
                             </div>
 
                             <br />
-                            <br/>
-                            <h2>Customer Testimonial</h2>
-                            {data.map(data => (
-                                <div>
-                                    <Container>
-                                        <Row>
-                                            <Col md={6}>
-                                                <ReactPlayer url={data.video[0]}
-                                                    width='100%'
-                                                    height='100%' />
-                                            </Col>
-                                            <Col md={{ span: 3, offset: 1 }}>
-                                                <p>{data.video[3]}</p>
-                                            </Col>
-                                        </Row>
-                                    </Container>
-                                    <p>{data.video[1]}</p>
-                                    <p>{data.video[2]}</p>
+                            <br />
+                            <h2>Customer Testimonials</h2>
+                            {cust_test.map(cust_test => (
+                                <Card className="card shadow" style={{ width: '20rem', margin: '10px' }} >
+                                    <div className="inner">
+                                        <Card.Img variant="top" src={cust_test.image} />
+                                    </div>
+                                    {/* style={{ width: '20rem', height: '14rem' }} */}
+                                    <Card.Body>
+                                        <Card.Title>
+                                            <section className="post-title">
+                                                <h2><a href={cust_test.link}>{cust_test.title}</a></h2>
+                                            </section>
+                                        </Card.Title>
 
-                                </div>
+                                    </Card.Body>
+                                </Card>
                             ))}
 
                             {/* <Tabs defaultActiveKey={data[0].key} transition={false} id="noanim-tab-example">

@@ -90,11 +90,7 @@ const Insurance = () => {
                             <Breadcrumb.Item active>INSURANCE</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
-                            <h2>INSURANCE</h2>
-                            {/* <ul className="text-center">
-                                <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Banking</li>
-                            </ul> */}
+                            <h1>INSURANCE</h1>
                         </section>
                     </div>
                 </div>

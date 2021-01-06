@@ -61,11 +61,7 @@ const Telecommunication = () => {
                             <Breadcrumb.Item active>TELECOMMUNICATION</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
-                            <h2>TELECOMMUNICATION</h2>
-                            {/* <ul className="text-center">
-                                <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Banking</li>
-                            </ul> */}
+                            <h1>TELECOMMUNICATION</h1>
                         </section>
                     </div>
                 </div>

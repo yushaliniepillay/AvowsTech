@@ -2,30 +2,44 @@ import React from "react"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo"
 //import "../../components/header/header.css";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Breadcrumb, Row, Col } from 'react-bootstrap';
 
 
 const technology = () => {
 
     var imageName = require('../../components/images/background/mobile2.jpg')
-    
+
     return (
         <Layout>
             <SEO title="Technology Service" />
             <div id="pageHeader4"  >
                 <div className="vc-parent">
                     <div className="vc-child">
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item active>TECHNOLOGY SERVICE</Breadcrumb.Item>
+                        </Breadcrumb>
                         <section className="page-title">
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={5}>
+                                    <h1 className="mb-5">TECHNOLOGY SERVICE</h1>
+                                    <p className="text-center text-white">We provide enterprises with agility with our focus on customer centric journeys
+                                    to drive their digital transformation initiatives</p>
+                                </Col>
+                            </Row>
+                        </section>
+                        {/* <section className="page-title">
                             <h2>TECHNOLOGY SERVICE</h2>
-                            {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
-                                to drive their digital transformation initiatives</p> */}
-                            <ul className="text-center">
+                             <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
+                                to drive their digital transformation initiatives</p>
+                            <ul >
                                 <li className="list-unstyled">
                                     We provide enterprises with agility with our focus on customer centric journeys
                                     to drive their digital transformation initiatives
                             </li>
                             </ul>
-                        </section>
+                        </section> */}
                     </div>
                 </div>
             </div>
@@ -35,7 +49,7 @@ const technology = () => {
                     <div className="row">
                         <div className="col-md-12 blog-page-content post-details">
                             <div className="post-img">
-                                <img src={imageName} alt="" class="img-responsive" style={{height: '550px'}}/>
+                                <img src={imageName} alt="" class="img-responsive" style={{ height: '550px' }} />
                             </div>
                             <div>
                                 <p className="justified"> Enhance customer experience with optimised software performance by aligning your IT

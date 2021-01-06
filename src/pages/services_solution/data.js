@@ -1,8 +1,7 @@
 import React from "react"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo"
-//import "../../components/header/header.css";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Breadcrumb, Row, Col } from 'react-bootstrap';
 
 var imageName = require('../../components/images/background/dataAi.jpg')
 
@@ -12,16 +11,19 @@ const data = () => (
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">
+                <Breadcrumb>
+                        <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                        <Breadcrumb.Item active>DATA ANALYTICS AND AI</Breadcrumb.Item>
+                    </Breadcrumb>
                     <section className="page-title">
-                        <h2>DATA ANALYTICS AND AI</h2>
-                        {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
-                                to drive their digital transformation initiatives</p> */}
-                        <ul className="text-center">
-                            <li className="list-unstyled">
-                                We are focused on combining human (AI Experts) a
-                                technical strengths to deliver enhanced value by enabling companies to work on complex cognitive tasks.
-                            </li>
-                        </ul>
+                        <Row>
+                            <Col md={4}> </Col>
+                            <Col md={4}>
+                                <h1 className="mb-5">DATA ANALYTICS AND AI</h1>
+                                <p className="text-center text-white">We are focused on combining human (AI Experts) a
+                                technical strengths to deliver enhanced value by enabling companies to work on complex cognitive tasks.</p>
+                            </Col>
+                        </Row>
                     </section>
                 </div>
             </div>

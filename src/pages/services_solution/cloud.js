@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo"
 //import "../../components/header/header.css";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Breadcrumb, Row, Col } from 'react-bootstrap';
 
 var imageName = require('../../components/images/background/testing_sub.jpg')
 
@@ -12,15 +12,18 @@ const cloud = () => (
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">
+                    <Breadcrumb>
+                        <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                        <Breadcrumb.Item active>CLOUD TECHNOLOGIES</Breadcrumb.Item>
+                    </Breadcrumb>
                     <section className="page-title">
-                        <h2>CLOUD TECHNOLOGIES</h2>
-                        {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
-                                to drive their digital transformation initiatives</p> */}
-                        <ul className="text-center">
-                            <li className="list-unstyled">
-                                We leverage the power of Cloud technologies to enable customers to achieve desired results
-                            </li>
-                        </ul>
+                        <Row>
+                            <Col md={4}> </Col>
+                            <Col md={5}>
+                                <h1 className="mb-5">CLOUD TECHNOLOGIES</h1>
+                                <p className="text-center text-white">We leverage the power of Cloud technologies to enable customers to achieve desired results.</p>
+                            </Col>
+                        </Row>
                     </section>
                 </div>
             </div>
@@ -31,7 +34,7 @@ const cloud = () => (
                 <div className="row">
                     <div className="col-md-12 blog-page-content post-details">
                         <div className="post-img">
-                        <img src={imageName} alt="" class="img-responsive" />
+                            <img src={imageName} alt="" class="img-responsive" />
                         </div>
                         <div>
                             <p className="justified"> We have a dedicated in-house “Cloud Wizarding” team who can

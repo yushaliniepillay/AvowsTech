@@ -58,11 +58,7 @@ const Energy = () => {
                             <Breadcrumb.Item active>OIL AND GAS</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
-                            <h2>OIL AND GAS</h2>
-                            {/* <ul className="text-center">
-                                <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Banking</li>
-                            </ul> */}
+                            <h1>OIL AND GAS</h1>
                         </section>
                     </div>
                 </div>
