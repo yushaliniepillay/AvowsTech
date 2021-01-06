@@ -42,10 +42,10 @@ const IndexPage = () => {
         <Carousel />
         <div className="container">
           <br /><br />
-          <section className="round-tabs text-center Massive7ec9b024b38365f303ca5a88a3301fa0">
+          <section className="round-tabs text-center ">
             <ul className="nav nav-pills nav-normal">
-              <li className="active">
-                <Button active className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton1() && handleClick()} >Our Mission</Button>
+              <li className="">
+                <Button className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton1() && handleClick()} >Our Mission</Button>
               </li>
               <li className="">
                 <Button className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton2() && handleClick()} >Our Vission</Button>
@@ -53,7 +53,7 @@ const IndexPage = () => {
             </ul>
             <div className="panel-body text-center">
               <div className="tab-content">
-                <article id="Massiveb89708bf8cd0504b481f18814645b64b" >
+                <article >
                   <h3>{state.text}</h3>
                   <p>{state.text1}</p>
                 </article>

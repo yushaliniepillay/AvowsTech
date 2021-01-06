@@ -63,6 +63,7 @@ function carousel() {
             <Carousel.Item className="img1" interval={4000}>
                 {/* <img className="img1 d-block w-100"
                     src={url2} /> */}
+                    
                 <Carousel.Caption >
                     <div className="container" >
                         <div className="row">
@@ -119,8 +120,8 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h2 className="owl-fadeInUp animate-2x">TESTING AND SECURITY</h2>
-                                            <h5 className="owl-fadeInUp animate-2x">We aim to help organizations regardless
+                                            <h1>TESTING AND SECURITY</h1>
+                                            <h5>We aim to help organizations regardless
                                                 of any sizes improve their security processes, achieve compliance and
                                                 protect their data</h5>
                                             <ul>
@@ -167,8 +168,8 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h2 className="owl-fadeInUp animate-2x">CLOUD TECHNOLOGY</h2>
-                                            <h5 className="owl-fadeInUp animate-2x">We leverage the power of 
+                                            <h1>CLOUD TECHNOLOGY</h1>
+                                            <h5>We leverage the power of 
                                             Cloud technologies to enable Enterprises to achieve desired 
                                             results</h5>
                                             <ul>
@@ -214,8 +215,8 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h2 className="owl-fadeInUp animate-2x">DATA ANAYTICS & AI</h2>
-                                            <h5 className="owl-fadeInUp animate-2x">We are focused on combining human (AI Experts) 
+                                            <h1>DATA ANAYTICS & AI</h1>
+                                            <h5>We are focused on combining human (AI Experts) 
                                             and technical strengths to deliver enhanced value by enabling companies to work on 
                                             complex cognitive tasks.</h5>
                                             <ul>

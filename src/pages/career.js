@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Button } from 'react-bootstrap';
+import { Breadcrumb, Row, Col } from 'react-bootstrap';
 
 const Career = () => (
     <Layout>
@@ -11,14 +11,18 @@ const Career = () => (
         <div id="pageHeader2" >
             <div className="vc-parent">
                 <div className="vc-child">
-                    <section className="page-title">
-                        <h2>CAREER</h2>
-                        <ul className="text-center">
-                            <li className="list-unstyled text-danger">
-                                <Link className="text-white" href="/">Home /</Link> Career</li>
-                            {/* <li className="list-unstyled active">Career</li> */}
-                        </ul>
-                    </section>
+                <Breadcrumb>
+                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                <Breadcrumb.Item active>CAREER</Breadcrumb.Item>
+              </Breadcrumb>
+              <section className="page-title">
+                <Row>
+                  <Col md={4}> </Col>
+                  <Col md={4}>
+                    <h1>CAREER</h1>
+                  </Col>
+                </Row>
+              </section>
                 </div>
             </div>
         </div>

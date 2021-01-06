@@ -63,8 +63,6 @@ const Anti = () => {
                                     <h1>Anti-Money Laundering for Foreign Exchange Company</h1>
                                 </Col>
                             </Row>
-
-
                         </section>
                     </div>
                 </div>

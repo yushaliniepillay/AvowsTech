@@ -66,7 +66,7 @@ p {
     text-decoration: none;
     outline: none;
     color: #000;
-    background: white;
+    background-color: white;
     border: none;
     border-radius: 15px;
     box-shadow: 0 8px #999;
@@ -78,11 +78,30 @@ p {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background: red;
+    background-color: #ec1c24;
     border: none;
     border-radius: 15px;
     box-shadow: 0 8px #999;
   }
+  .round-tabs .nav>li>Button,
+  .square-tabs .nav>li>Button {
+      position: relative;
+      display: block;
+      padding: 10px 25px;
+  }
+  
+  .round-tabs .nav-pills>li>Button {
+      color: #434343;
+      border: 1px solid #eaeaea;
+      border-radius: 30px;
+  }
+.nav-pills>li.active>Button,
+.nav-pills>li.active>Button:focus,
+.nav-pills>li.active>Button:hover {
+    color: #fff !important;
+    background-color: #ec1c24 !important;
+}
+
 .carousel{
     display: block;
     height: fit-content;
@@ -213,25 +232,9 @@ p {
     border-color: rgba(236, 28, 36, 0.16) !important;
 }
 
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav-pills>li.active>a:hover {
-    color: #fff !important;
-    background-color: #ec1c24 !important;
-}
 
-.round-tabs .nav>li>a,
-.square-tabs .nav>li>a {
-    position: relative;
-    display: block;
-    padding: 10px 25px;
-}
 
-.round-tabs .nav-pills>li>a {
-    color: #434343;
-    border: 1px solid #eaeaea;
-    border-radius: 30px;
-}
+
 
 .text-center {
     text-align: center;
@@ -657,7 +660,7 @@ p {
 }
 
 .header-content {
-    margin-top: 300px;
+    /* margin-top: 300px; */
     text-align: left;
 }
 
@@ -909,7 +912,8 @@ p {
     margin: 15px 0 10px;
     padding-left: 15px;
     border-left: 3px solid #ff5252;
-    font-size: 24px;
+    font-size: 26px;
+    font-family: "Roboto";
     line-height: 30px;
     text-transform: uppercase;
     -webkit-transition: border-color .25s;
@@ -918,7 +922,7 @@ p {
 
 .post-title h2 {
     margin: 15px 0 10px;
-    font-size: 15px;
+    font-size: 22px;
     line-height: 30px;
 }
 
@@ -929,12 +933,6 @@ p {
     transition: color .25s
 }
 
-.post-title h2 a {
-    color: #303030;
-    font-weight: 500;
-    -webkit-transition: color .25s;
-    transition: color .25s
-}
 
 .post-title h2:hover a {
     color: #ff5252

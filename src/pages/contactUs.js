@@ -1,8 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Button, Form, Card } from 'react-bootstrap';
+import { Breadcrumb, Row, Col, Button, Form, Card } from 'react-bootstrap';
+import { EnvironmentFilled, PhoneFilled, MailFilled } from '@ant-design/icons';
 
 const ContactUs = () => {
 
@@ -45,14 +46,18 @@ const ContactUs = () => {
             <div id="pageHeader3" >
                 <div className="vc-parent">
                     <div className="vc-child">
-                        <section className="page-title">
-                            <h2>CONTACT US</h2>
-                            <ul className="text-center">
-                                <li className="list-unstyled text-danger">
-                                    <Link className="text-white" href="/">Home /</Link> Contact</li>
-                                {/* <li className="list-unstyled active">Contact</li> */}
-                            </ul>
-                        </section>
+                    <Breadcrumb>
+                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                <Breadcrumb.Item active>CONTACT US</Breadcrumb.Item>
+              </Breadcrumb>
+              <section className="page-title">
+                <Row>
+                  <Col md={4}> </Col>
+                  <Col md={4}>
+                    <h1>CONTACTS</h1>
+                  </Col>
+                </Row>
+              </section>
                     </div>
                 </div>
             </div>
@@ -123,19 +128,19 @@ const ContactUs = () => {
                 <div className="container">
                     <div className="row text-center">
                         <div className="col-md-4">
-                            <i className="fa fa-map-marker"></i>
+                            <i className="fa fa-map-marker"><EnvironmentFilled /></i>
                             <address>
                                 <p>Avows Technologies SDN BHD</p>
                             </address>
                         </div>
                         <div className="col-md-4">
-                            <i className="fa fa-phone"></i>
+                            <i className="fa fa-phone"><PhoneFilled /></i>
                             <address>
                                 <p>(+603) 2712 3456</p>
                             </address>
                         </div>
                         <div className="col-md-4">
-                            <i className="fa fa-envelope"></i>
+                            <i className="fa fa-envelope"><MailFilled /></i>
                             <address>
                                 <p> info@avowstech.com</p>
                             </address>

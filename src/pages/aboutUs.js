@@ -21,7 +21,7 @@ const AboutUs = () => (
                   to drive their digital transformation initiatives</p> */}
             <ul className="text-center">
               <li className="list-unstyled">
-                We provide enterprises with agility with our focus on customer centric journeys
+                We provide enterprises with agility with our focusing on customer centric journeys
                 to drive their digital transformation initiatives</li>
             </ul>
           </section>

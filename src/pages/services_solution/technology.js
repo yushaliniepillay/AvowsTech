@@ -35,7 +35,7 @@ const technology = () => {
                     <div className="row">
                         <div className="col-md-12 blog-page-content post-details">
                             <div className="post-img">
-                                <img src={imageName} alt="" class="img-responsive" style={{height: '450px'}}/>
+                                <img src={imageName} alt="" class="img-responsive" style={{height: '550px'}}/>
                             </div>
                             <div>
                                 <p className="justified"> Enhance customer experience with optimised software performance by aligning your IT
