@@ -71,12 +71,12 @@ const Energy = () => {
             <div id="blog">
                 <div className="container">
                     <div className="row">
-                        {/* <div class="post-img">
+                        {/* <div className="post-img">
                             <img src="/img/blog-posts/blog00.jpg" alt="" class="img-responsive" />
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                            <p class="justified">
+                            <p className="justified">
                             </p>
                         </div>
 
@@ -127,17 +127,17 @@ const Energy = () => {
 
                                             <section>
                                                 <h3 className="text-primary">About the Client</h3>
-                                                <p class="p1 text-justify">{data.about}</p>
+                                                <p className="p1 text-justify">{data.about}</p>
                                             </section>
                                             <section>
                                                 <h3 className="text-primary">Challenges</h3>
-                                                <p class="p1 text-justify">{data.challenge[0]}</p>
-                                                <p class="p1 text-justify">{data.challenge[1]}</p>
+                                                <p className="p1 text-justify">{data.challenge[0]}</p>
+                                                <p className="p1 text-justify">{data.challenge[1]}</p>
                                             </section>
                                             <section>
                                                 <h3 className="text-primary">Solution</h3>
-                                                <p class="p1 text-justify">{data.solution[0]}</p>
-                                                <p class="p1 text-justify">{data.solution[1]}</p>
+                                                <p className="p1 text-justify">{data.solution[0]}</p>
+                                                <p className="p1 text-justify">{data.solution[1]}</p>
                                             </section>
                                             <section>
                                                 <h3 className="text-primary">Benefits</h3>

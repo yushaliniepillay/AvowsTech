@@ -27,18 +27,18 @@ const testing = () => (
             </div>
         </div>
 
-        <div id="blog" class="page blog-details-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 blog-page-content post-details">
-                        <div class="post-img">
+        <div id="blog" className="page blog-details-page">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12 blog-page-content post-details">
+                        <div className="post-img">
                             <img src={imageName} alt="" class="img-responsive" />
                         </div>
 
-                        <div class="vc_column-inner ">
-                            <div class="wpb_wrapper">
-                                <div class="vc_empty_space" >
-                                    <span class="vc_empty_space_inner"></span>
+                        <div className="vc_column-inner ">
+                            <div className="wpb_wrapper">
+                                <div className="vc_empty_space" >
+                                    <span className="vc_empty_space_inner"></span>
                                 </div>
                                 <Tabs defaultActiveKey="FTM" transition={false} id="noanim-tab-example">
                                     <Tab eventKey="FTM" title="Functional & Test Management">

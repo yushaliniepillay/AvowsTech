@@ -133,7 +133,7 @@ const Management = () => {
                                     <h2 className="text-dark">{data.name}</h2>
                                 </section>
                             </Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted text-center">{data.position}</Card.Subtitle>
+                s            <Card.Subtitle className="mb-2 text-muted text-center">{data.position}</Card.Subtitle>
                             {/* <Button key={data.id} className="m-3" variant="danger" size="md"
                                 type="submit" onClick={handleShow} >VIEW DETAILS</Button> */}
                         </Card>

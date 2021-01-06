@@ -79,7 +79,7 @@ const Telecommunication = () => {
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                            <p class="justified">
+                            <p className="justified">
                             </p>
 
                         </div>
@@ -129,7 +129,7 @@ const Telecommunication = () => {
                                     </Figure>
                                     <section>
                                         <h3 className="text-primary">About the Client</h3>
-                                        <p class="p1 text-justify">The client is a data-centric and multiple award-winning mobile
+                                        <p className="p1 text-justify">The client is a data-centric and multiple award-winning mobile
                                         data service company in Malaysia. They have established their presence in all over the country
                                         with a subscriber base of 7 million mark. It has been an award-winning telco with affordable plans
                                         and a comprehensive fintech ecosystem.
@@ -137,7 +137,7 @@ const Telecommunication = () => {
                                     </section>
                                     <section>
                                         <h3 className="text-primary">Challenges</h3>
-                                        <p class="p1 text-justify">
+                                        <p className="p1 text-justify">
                                             The client wanted to bring unified experience across all platforms and reduce manpower involved
                                             along with simplified processes. Their Digital channels were not providing much support to their
                                             overall sales and marketing efforts.
@@ -145,7 +145,7 @@ const Telecommunication = () => {
                                     </section>
                                     <section>
                                         <h3 className="text-primary">Solution</h3>
-                                        <p class="p1 text-justify">
+                                        <p className="p1 text-justify">
                                             Avows has created a secure mobile application which was deployed for end consumers as their one stop
                                             destination for all user related information, activations, recharges, plan upgrades, utilization details,
                                             along with digital wallet. The mobile application can also be used for marketing efforts such as running
@@ -154,7 +154,7 @@ const Telecommunication = () => {
                                             The application was created through a secure use channel and it also allows the organization to feature great
                                             branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.
                                     </p>
-                                        <p class="p1 text-justify">
+                                        <p className="p1 text-justify">
                                             Some technical details of our solution encompass:
                                     </p>
                                         <ul>
@@ -169,7 +169,7 @@ const Telecommunication = () => {
                                     <section>
                                         <image />
                                         <h3 className="text-primary">Benefits</h3>
-                                        <p class="p1 text-justify">
+                                        <p className="p1 text-justify">
                                             Through the mobile application, the client was able to realize much better customer
                                             service and was able to be a true digital service provider in a digital world.
                                     </p>

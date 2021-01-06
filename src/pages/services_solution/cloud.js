@@ -26,35 +26,35 @@ const cloud = () => (
             </div>
         </div>
 
-        <div id="blog" class="page blog-details-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 blog-page-content post-details">
-                        <div class="post-img">
+        <div id="blog" className="page blog-details-page">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12 blog-page-content post-details">
+                        <div className="post-img">
                         <img src={imageName} alt="" class="img-responsive" />
                         </div>
                         <div>
-                            <p class="justified"> We have a dedicated in-house “Cloud Wizarding” team who can
+                            <p className="justified"> We have a dedicated in-house “Cloud Wizarding” team who can
                             help transform and empower our enterprise customers Cloud Transformation Journey
                             with both solution advisory and technology expertise.
                             </p>
-                            <p class="justified"> Our cloud professional services scope includes in the areas as listed below:</p>
+                            <p className="justified"> Our cloud professional services scope includes in the areas as listed below:</p>
                             <ul>
                                 <li>Professional Cloud Consultancy & Advisory</li>
                                 <li>Cloud Integration & Migration Services</li>
                                 <li>Cloud Application Development & Deployment Services</li>
                             </ul>
                             <br />
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_empty_space" >
-                                        <span class="vc_empty_space_inner"></span>
+                            <div className="vc_column-inner ">
+                                <div className="wpb_wrapper">
+                                    <div className="vc_empty_space" >
+                                        <span className="vc_empty_space_inner"></span>
                                     </div>
                                     <Tabs className="tabClass" defaultActiveKey="MCE" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="MCE" title="Multi-Cloud Experience">
                                             <br />
                                             <strong>Multi-Cloud Experience</strong>
-                                            <p class="justified"><br />Leveraging on our in-house multi-cloud expertise to have a
+                                            <p className="justified"><br />Leveraging on our in-house multi-cloud expertise to have a
                                                 seamless experience of managing multi-tier workloads of both on-prem and cloud.
                                             </p>
                                             <ul>
@@ -67,7 +67,7 @@ const cloud = () => (
                                         <Tab eventKey="MS" title="Microsoft Office Suite Implementation">
                                             <br />
                                             <strong>Microsoft Office Suite Implementation</strong>
-                                            <p class="justified"><br />Migration and integration related
+                                            <p className="justified"><br />Migration and integration related
                                                 services scope are our key focus area within the domains of Microsoft
                                                 Office Suite.
                                             </p>
@@ -81,7 +81,7 @@ const cloud = () => (
                                         <Tab eventKey="DMC" title="Data Migration & Consultancy">
                                             <br />
                                             <strong>Data Migration & Consultancy</strong>
-                                            <p class="justified"><br />Seamless migration strategy
+                                            <p className="justified"><br />Seamless migration strategy
                                                 in order to liberate any business downtimes by mitigating risks of losing
                                                 data in their digital transformation journey.
                                             </p>

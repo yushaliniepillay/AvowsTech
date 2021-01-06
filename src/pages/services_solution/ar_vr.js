@@ -26,20 +26,20 @@ const ar_vr = () => (
             </div>
         </div>
 
-        <div id="blog" class="page blog-details-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 blog-page-content post-details">
-                        <div class="post-img">
+        <div id="blog" className="page blog-details-page">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12 blog-page-content post-details">
+                        <div className="post-img">
                             <img src={imageName} alt="" class="img-responsive" />
                         </div>
                         <div>
-                            <p class="justified">Augmented Reality (AR) and Virtual Reality (VR) 
+                            <p className="justified">Augmented Reality (AR) and Virtual Reality (VR) 
                             are the new game changers in today’s digital and physical worlds. 
                             AR/VR gives us the immersive, interactive and imaginative experience 
                             which allows you to visualize your information and content.
                             </p>
-                            <p class="justified">Paired with a device, AR is able to help a business 
+                            <p className="justified">Paired with a device, AR is able to help a business 
                             to generate more interaction with their customers by creating personalized 
                             and memorable content for industries such as retail, manufacturing, healthcare, 
                             training and education industry. VR lets you experience what it’s like to be 
@@ -48,10 +48,10 @@ const ar_vr = () => (
                             enabling real time immersive experience.
                             </p>
 
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_empty_space" >
-                                        <span class="vc_empty_space_inner"></span>
+                            <div className="vc_column-inner ">
+                                <div className="wpb_wrapper">
+                                    <div className="vc_empty_space" >
+                                        <span className="vc_empty_space_inner"></span>
                                     </div>
                                     <Tabs defaultActiveKey="BD" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="BD" title="AR/VR">

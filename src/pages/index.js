@@ -40,19 +40,19 @@ const IndexPage = () => {
       <div><SEO title="Home" /></div>
       <div>
         <Carousel />
-        <div class="container">
+        <div className="container">
           <br /><br />
-          <section class="round-tabs text-center Massive7ec9b024b38365f303ca5a88a3301fa0">
-            <ul class="nav nav-pills nav-normal">
-              <li class="active">
+          <section className="round-tabs text-center Massive7ec9b024b38365f303ca5a88a3301fa0">
+            <ul className="nav nav-pills nav-normal">
+              <li className="active">
                 <Button active className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton1() && handleClick()} >Our Mission</Button>
               </li>
-              <li class="">
+              <li className="">
                 <Button className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton2() && handleClick()} >Our Vission</Button>
               </li>
             </ul>
-            <div class="panel-body text-center">
-              <div class="tab-content">
+            <div className="panel-body text-center">
+              <div className="tab-content">
                 <article id="Massiveb89708bf8cd0504b481f18814645b64b" >
                   <h3>{state.text}</h3>
                   <p>{state.text1}</p>
@@ -90,30 +90,30 @@ const IndexPage = () => {
                     <h4>100+</h4>
                   </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 text-center">
-                  <div class="facts">
-                    <div class="facts-icon">
-                      <i class="fa fa-smile-o"><SmileOutlined className="fa-1x"/></i>
+                <div className="col-sm-3 col-xs-6 text-center">
+                  <div className="facts">
+                    <div className="facts-icon">
+                      <i className="fa fa-smile-o"><SmileOutlined className="fa-1x"/></i>
                     </div>
-                    <p class="facts-text">Happy Clients</p>
+                    <p className="facts-text">Happy Clients</p>
                     <h4>50+</h4>
                   </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 text-center">
-                  <div class="facts">
-                    <div class="facts-icon">
-                      <i class="fas fa-building"><ShopOutlined className="fa-1x"/></i>
+                <div className="col-sm-3 col-xs-6 text-center">
+                  <div className="facts">
+                    <div className="facts-icon">
+                      <i className="fas fa-building"><ShopOutlined className="fa-1x"/></i>
                     </div>
-                    <p class="facts-text">Overall Offices</p>
+                    <p className="facts-text">Overall Offices</p>
                     <h4>5</h4>
                   </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 text-center">
-                  <div class="facts last-child">
-                    <div class="facts-icon">
-                      <i class="fas fa-award"><TrophyOutlined className="fa-1x"/></i>
+                <div className="col-sm-3 col-xs-6 text-center">
+                  <div className="facts last-child">
+                    <div className="facts-icon">
+                      <i className="fas fa-award"><TrophyOutlined className="fa-1x"/></i>
                     </div>
-                    <p class="facts-text">Anniversary</p>
+                    <p className="facts-text">Anniversary</p>
                     <h4>11</h4>
                   </div>
                 </div>
@@ -125,12 +125,12 @@ const IndexPage = () => {
         <div id="subscribe">
           <div className="container">
             <div className="row">
-              <div class="col-sm-7">
+              <div className="col-sm-7">
                 <section>
                   <h2>WISH TO MAKE A CAREER WITH US?</h2>
                 </section>
               </div>
-              <div class="col-sm-5">
+              <div className="col-sm-5">
                 <div data-form-validation="true">
                   <Button className="join_us" variant="light" size="lg" type="submit" href="/career">JOIN US</Button>
                 </div>

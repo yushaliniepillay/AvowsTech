@@ -73,9 +73,9 @@ const Anti = () => {
             <div id="blog">
                 <div className="container">
                     <div className="row">
-                        <div class="col-md-12 blog-page-content post-details">
-                            <div class="post-img">
-                                {/* <img src="/img/blog-posts/blog00.jpg" alt="" class="img-responsive" /> */}
+                        <div className="col-md-12 blog-page-content post-details">
+                            <div className="post-img">
+                                {/* <img src="/img/blog-posts/blog00.jpg" alt="" className="img-responsive" /> */}
                                 <br />
                             </div>
 

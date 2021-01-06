@@ -64,13 +64,13 @@ function carousel() {
                 {/* <img className="img1 d-block w-100"
                     src={url2} /> */}
                 <Carousel.Caption >
-                    <div class="container" >
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="vc-parent">
-                                    <div class="vc-child">
-                                        <section class="header-content">
-                                            <h2>TECHNOLOGY SERVICES</h2>
+                    <div className="container" >
+                        <div className="row">
+                            <div className="col-md-8">
+                                <div className="vc-parent">
+                                    <div className="vc-child">
+                                        <section className="header-content">
+                                            <h1>TECHNOLOGY SERVICES</h1>
                                             <h5>Enhance customer experience with optimised
                                                 software performance by aligning your IT
                                                 deliverables with business goals.</h5>
@@ -85,10 +85,10 @@ function carousel() {
                                 </div>
                             </div>
 
-                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <div class="vc-parent">
-                                    <div class="vc-child-bottom">
-                                        <figure class="header-img owl-fadeInUp">
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
+                                <div className="vc-parent">
+                                    <div className="vc-child-bottom">
+                                        <figure className="header-img owl-fadeInUp">
                                             {/* <img src={slide1Icon} alt="" class="img-responsive1" /> */}
                                             {/* <figcaption>
                                                 <div class="header--badge header--badge-1 octagon">
@@ -113,14 +113,14 @@ function carousel() {
                     alt="second slide" /> */}
                 {/* style="width: 998px;" */}
                 <Carousel.Caption>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="vc-parent">
-                                    <div class="vc-child">
-                                        <section class="header-content">
-                                            <h2 class="owl-fadeInUp animate-2x">TESTING AND SECURITY</h2>
-                                            <h5 class="owl-fadeInUp animate-2x">We aim to help organizations regardless
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8">
+                                <div className="vc-parent">
+                                    <div className="vc-child">
+                                        <section className="header-content">
+                                            <h2 className="owl-fadeInUp animate-2x">TESTING AND SECURITY</h2>
+                                            <h5 className="owl-fadeInUp animate-2x">We aim to help organizations regardless
                                                 of any sizes improve their security processes, achieve compliance and
                                                 protect their data</h5>
                                             <ul>
@@ -134,16 +134,16 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <div class="vc-parent">
-                                    <div class="vc-child-bottom">
-                                        <figure class="header-img owl-fadeInUp">
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
+                                <div className="vc-parent">
+                                    <div className="vc-child-bottom">
+                                        <figure className="header-img owl-fadeInUp">
                                             {/* <img src={slide2Icon} alt="" class="img-responsive1" /> */}
                                             {/* <figcaption>
-                                                <div class="header--badge header--badge-1 octagon">
+                                                <div className="header--badge header--badge-1 octagon">
                                                     <p><img src="/img/service_icon.png" width="52%" /></p>
                                                 </div>
-                                                <div class="header--badge header--badge-2 octagon">
+                                                <div className="header--badge header--badge-2 octagon">
                                                     <p><img src="/img/service_icon1.png" width="42%" /></p>
                                                 </div>
                                             </figcaption> */}
@@ -161,14 +161,14 @@ function carousel() {
                     src={url2}
                     alt="Third slide" /> */}
                 <Carousel.Caption>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="vc-parent">
-                                    <div class="vc-child">
-                                        <section class="header-content">
-                                            <h2 class="owl-fadeInUp animate-2x">CLOUD TECHNOLOGY</h2>
-                                            <h5 class="owl-fadeInUp animate-2x">We leverage the power of 
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8">
+                                <div className="vc-parent">
+                                    <div className="vc-child">
+                                        <section className="header-content">
+                                            <h2 className="owl-fadeInUp animate-2x">CLOUD TECHNOLOGY</h2>
+                                            <h5 className="owl-fadeInUp animate-2x">We leverage the power of 
                                             Cloud technologies to enable Enterprises to achieve desired 
                                             results</h5>
                                             <ul>
@@ -181,16 +181,16 @@ function carousel() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <div class="vc-parent">
-                                    <div class="vc-child-bottom">
-                                        <figure class="header-img owl-fadeInUp">
-                                            <img src="" alt="" class="img-responsive1" />
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
+                                <div className="vc-parent">
+                                    <div className="vc-child-bottom">
+                                        <figure className="header-img owl-fadeInUp">
+                                            <img src="" alt="" className="img-responsive1" />
                                             {/* <figcaption>
-                                                <div class="header--badge header--badge-1 octagon">
+                                                <div className="header--badge header--badge-1 octagon">
                                                     <p><img src="/img/service_icon.png" width="52%" /></p>
                                                 </div>
-                                                <div class="header--badge header--badge-2 octagon">
+                                                <div className="header--badge header--badge-2 octagon">
                                                     <p><img src="/img/service_icon1.png" width="42%" /></p>
                                                 </div>
                                             </figcaption> */}
@@ -208,14 +208,14 @@ function carousel() {
                     src={url2}
                     alt="Fourth slide" /> */}
                 <Carousel.Caption>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="vc-parent">
-                                    <div class="vc-child">
-                                        <section class="header-content">
-                                            <h2 class="owl-fadeInUp animate-2x">DATA ANAYTICS & AI</h2>
-                                            <h5 class="owl-fadeInUp animate-2x">We are focused on combining human (AI Experts) 
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8">
+                                <div className="vc-parent">
+                                    <div className="vc-child">
+                                        <section className="header-content">
+                                            <h2 className="owl-fadeInUp animate-2x">DATA ANAYTICS & AI</h2>
+                                            <h5 className="owl-fadeInUp animate-2x">We are focused on combining human (AI Experts) 
                                             and technical strengths to deliver enhanced value by enabling companies to work on 
                                             complex cognitive tasks.</h5>
                                             <ul>
@@ -231,13 +231,13 @@ function carousel() {
                             </div>
 
 
-                            <div class="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <div class="vc-parent">
-                                    <div class="vc-child-bottom">
-                                        <figure class="header-img owl-fadeInUp">
-                                            <img src="" alt="" class="img-responsive1" />
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
+                                <div className="vc-parent">
+                                    <div className="vc-child-bottom">
+                                        <figure className="header-img owl-fadeInUp">
+                                            <img src="" alt="" className="img-responsive1" />
                                             {/* <figcaption>
-                                                <div class="header--badge header--badge-1 octagon">
+                                                <div className="header--badge header--badge-1 octagon">
                                                     <p><img src="/img/service_icon.png" width="52%" /></p>
                                                 </div>
                                                 <div class="header--badge header--badge-2 octagon">

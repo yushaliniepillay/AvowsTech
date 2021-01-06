@@ -103,8 +103,8 @@ const Insurance = () => {
             <div id="blog">
                 <div className="container">
                     <div className="row">
-                        {/* <div class="post-img">
-                            <img src="/img/blog-posts/blog00.jpg" alt="" class="img-responsive" />
+                        {/* <div className="post-img">
+                            <img src="/img/blog-posts/blog00.jpg" alt="" className="img-responsive" />
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
