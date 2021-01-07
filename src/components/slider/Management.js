@@ -166,7 +166,6 @@ const Management = () => {
                                 </Col>
                             </Row>
                         </Container>
-
                     </Carousel.Item>
                 ))}
             </Carousel>

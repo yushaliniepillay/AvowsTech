@@ -86,16 +86,14 @@ const SupplyChain = () => {
                                         <Table className="text-center" bordered="sm" borderless size="md">
                                             <thead >
                                                 <tr>
-                                                    <th>Client</th>
                                                     <th>Industry</th>
                                                     <th>Service</th>
                                                 </tr>
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
+                                                    <td>Healthcare</td>
+                                                    <td>Data Analytics</td>
                                                 </tr>
                                             </tbody>
                                         </Table>

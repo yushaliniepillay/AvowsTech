@@ -1,10 +1,9 @@
 import React from 'react';
 import { Carousel, Button } from 'react-bootstrap';
 import '../header/header.css';
+import { Fade } from "react-awesome-reveal";
 
 function carousel() {
-
-    // const url = 'https://cdn.filestackcontent.com/XYrHCaFGRSaq0EPKY1S6';
     // const url1 = require('../images/header-slider/application_development.jpg');
     // const url2 = require('../images/header-slider/digital_solutions.jpg');
     // const url3 = require('../images/header-slider/business_analytic.jpg');
@@ -70,7 +69,7 @@ function carousel() {
     return (
 
         <Carousel className="carousel">
-            <Carousel.Item className="img1" interval={4000}>
+            <Carousel.Item className="img1" interval={2000}>
                 {/* <img className="img1 d-block w-100"
                     src={url2} /> */}
                 <Carousel.Caption className="carousel-caption">
@@ -80,19 +79,28 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h1>TECHNOLOGY SERVICES</h1>
-                                            <br/>
-                                            <h5>Enhance customer experience with optimised
+                                            <Fade direction='left' delay={100}>
+                                                <h1>TECHNOLOGY SERVICES</h1>
+                                            </Fade>
+                                            <br />
+                                            <Fade direction='right' delay={100}>
+                                                <h5>Enhance customer experience with optimised
                                                 software performance by aligning your IT
                                                 deliverables with business goals.</h5>
-                                                <br/>
+                                            </Fade>
+                                            <br />
                                             <ul>
-                                                <li>Mobile and Web Development</li>
-                                                <li>Managed Services Technology Support</li>
-                                                <li>Software and Application Services</li>
+                                                <Fade direction='top-right' delay={100}>
+                                                    <li>Mobile and Web Development</li>
+                                                    <li>Managed Services Technology Support</li>
+                                                    <li>Software and Application Services</li>
+                                                </Fade>
                                             </ul>
+                                            <Fade direction='bottom-left' delay={100}>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/technology">VIEW DETAILS</Button>
+                                            </Fade>
                                         </section>
-                                         <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/technology">VIEW DETAILS</Button>                    
+
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +126,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img2"interval={4000}>
+            <Carousel.Item className="img2" interval={2000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -131,19 +139,27 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h1>TESTING AND SECURITY</h1>
-                                            <br/>
-                                            <h5>We aim to help organizations regardless
+                                            <Fade direction='left' delay={100}>
+                                                <h1>TESTING AND SECURITY</h1>
+                                            </Fade>
+                                            <br />
+                                            <Fade direction='right' delay={100}>
+                                                <h5>We aim to help organizations regardless
                                                 of any sizes improve their security processes, achieve compliance and
                                                 protect their data</h5>
-                                                <br/>
+                                            </Fade>
+                                            <br />
                                             <ul>
-                                                <li>Functional & Test Management</li>
-                                                <li>Functional Automation</li>
-                                                <li>Performance Testing</li>
-                                                <li>Security Testing</li>
+                                                <Fade direction='top-right' delay={100}>
+                                                    <li>Functional & Test Management</li>
+                                                    <li>Functional Automation</li>
+                                                    <li>Performance Testing</li>
+                                                    <li>Security Testing</li>
+                                                </Fade>
                                             </ul>
-                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/testing">VIEW DETAILS</Button>
+                                            <Fade direction='bottom-left' delay={100}>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/testing">VIEW DETAILS</Button>
+                                            </Fade>
                                         </section>
                                     </div>
                                 </div>
@@ -169,7 +185,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img3" interval={4000}>
+            <Carousel.Item className="img3" interval={2000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -181,18 +197,26 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h1>CLOUD TECHNOLOGY</h1>
-                                            <br/>
-                                            <h5>We leverage the power of 
-                                            Cloud technologies to enable Enterprises to achieve desired 
+                                            <Fade direction='left' delay={100}>
+                                                <h1>CLOUD TECHNOLOGY</h1>
+                                            </Fade>
+                                            <br />
+                                            <Fade direction='right' delay={100}>
+                                                <h5>We leverage the power of
+                                                Cloud technologies to enable Enterprises to achieve desired
                                             results</h5>
-                                            <br/>
+                                            </Fade>
+                                            <br />
                                             <ul>
-                                                <li>Assessment Framework</li>
-                                                <li>Cloud Migration</li>
-                                                <li>Cloud Managed Services</li>
+                                                <Fade direction='top-right' delay={100}>
+                                                    <li>Assessment Framework</li>
+                                                    <li>Cloud Migration</li>
+                                                    <li>Cloud Managed Services</li>
+                                                </Fade>
                                             </ul>
-                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/cloud">VIEW DETAILS</Button>
+                                            <Fade direction='bottom-left' delay={100}>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/cloud">VIEW DETAILS</Button>
+                                            </Fade>
                                         </section>
                                     </div>
                                 </div>
@@ -218,7 +242,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img4" interval={4000}>
+            <Carousel.Item className="img4" interval={2000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -230,19 +254,27 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h1>DATA ANAYTICS & AI</h1>
-                                            <br/>
-                                            <h5>We are focused on combining human (AI Experts) 
-                                            and technical strengths to deliver enhanced value by enabling companies to work on 
+                                            <Fade direction='left' delay={100}>
+                                                <h1>DATA ANAYTICS & AI</h1>
+                                            </Fade>
+                                            <br />
+                                            <Fade direction='right' delay={100}>
+                                                <h5>We are focused on combining human (AI Experts)
+                                                and technical strengths to deliver enhanced value by enabling companies to work on
                                             complex cognitive tasks.</h5>
-                                            <br/>
+                                            </Fade>
+                                            <br />
                                             <ul>
-                                                <li>All in One Chatbot Platform</li>
-                                                <li>AI + Data Science</li>
-                                                <li>Big Data</li>
-                                                <li>Automating Business Process & Beyond</li>
+                                                <Fade direction='top-right' delay={100}>
+                                                    <li>All in One Chatbot Platform</li>
+                                                    <li>AI + Data Science</li>
+                                                    <li>Big Data</li>
+                                                    <li>Automating Business Process & Beyond</li>
+                                                </Fade>
                                             </ul>
-                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/data">VIEW DETAILS</Button>
+                                            <Fade direction='bottom-left' delay={100}>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/data">VIEW DETAILS</Button>
+                                            </Fade>
                                         </section>
                                     </div>
                                 </div>
@@ -272,7 +304,7 @@ function carousel() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="img5" interval={4000}>
+            <Carousel.Item className="img5" interval={2000}>
                 {/* <img
                     className="d-block w-100"
                     src={url2}
@@ -284,17 +316,26 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
-                                            <h1>AUGMENTED & VIRTUAL REALITY</h1>
-                                            <br/>
-                                            <h5>We aim to provide business solutions by integrating the virtual and the real world tailored to your needs and industry</h5>
-                                            <br/>
+                                            <Fade direction='left' delay={100}>
+                                                <h1>AUGMENTED & VIRTUAL REALITY</h1>
+                                            </Fade>
+                                            <br />
+                                            <Fade direction='right' delay={100}>
+                                                <h5>We aim to provide business solutions by integrating the virtual and
+                                                the real world tailored to your needs and industry</h5>
+                                            </Fade>
+                                            <br />
                                             <ul>
-                                                <li>3D AR/VR Model Creation</li>
-                                                <li>Augmented Reality and Internet of Things</li>
-                                                <li>Virtual Reality</li>
-                                                <li>Mixed Reality</li>
+                                                <Fade direction='top-right' delay={100}>
+                                                    <li>3D AR/VR Model Creation</li>
+                                                    <li>Augmented Reality and Internet of Things</li>
+                                                    <li>Virtual Reality</li>
+                                                    <li>Mixed Reality</li>
+                                                </Fade>
                                             </ul>
-                                            <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/ar_face">VIEW DETAILS</Button>
+                                            <Fade direction='bottom-left' delay={100}>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/ar_face">VIEW DETAILS</Button>
+                                            </Fade>
                                         </section>
                                     </div>
                                 </div>

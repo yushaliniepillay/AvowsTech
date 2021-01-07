@@ -41,8 +41,7 @@ const Mobile = () => {
                 ],
                 video: [
                     require('../../industries/video/Umobile.mp4'),
-                    "Cynthia Seow",
-                    "General Manager of Transformation for Malaysia’s Multiple award-winning mobile data service provider - U Mobile , shares with us how Avows has helped them to develop and deliver customer-centric services and solutions."
+                    "Cynthia Seow, General Manager of Transformation for Malaysia’s Multiple award-winning mobile data service provider - U Mobile , shares with us how Avows has helped them to develop and deliver customer-centric services and solutions."
                 ]
 
             }
@@ -99,9 +98,9 @@ const Mobile = () => {
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
+                                                    <td>U Mobile</td>
+                                                    <td>Telecommunication</td>
+                                                    <td>Mobile App Development</td>
                                                 </tr>
                                             </tbody>
                                         </Table>
@@ -109,7 +108,6 @@ const Mobile = () => {
                                             <h4>Challenges</h4>
                                             <Row>
                                                 <p className="text-justify">{data.challenge[0]}</p>
-
                                             </Row>
                                         </section>
                                         <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
@@ -163,7 +161,10 @@ const Mobile = () => {
                                         <section className="cs_about">
                                             <h4>Customer Testimonial</h4>
                                             <Container>
+                                            <br/>
+                                            <p>{data.video[1]}</p>
                                                 <Row>
+                                                    <Col md={3}></Col>
                                                     <Col md={6}>
                                                         <ReactPlayer 
                                                         controls={true}
@@ -172,13 +173,8 @@ const Mobile = () => {
                                                             width='100%'
                                                             height='100%' />
                                                     </Col>
-                                                    <Col md={{ span: 6, offset: 0 }}>
-                                                        <p>{data.video[2]}</p>
-                                                    </Col>
                                                 </Row>
-                                            </Container>
-                                            <br/>
-                                            <p><strong>Speaker: </strong>{data.video[1]}</p>
+                                            </Container>  
                                         </section>
                                     </div>
                                 ))}

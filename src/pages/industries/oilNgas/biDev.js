@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../../components/layouts/layout";
 import SEO from "../../../components/seo";
 import { Breadcrumb, Container, Row, Col, Figure, Table } from 'react-bootstrap';
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 const Bidev = () => {
 
     const data =
@@ -11,7 +11,7 @@ const Bidev = () => {
                 id: 0,
                 key: "A",
                 link: "/industries/oilNgas/biDev",
-                title: "BI Dashboard Development",
+                title: "Data Unification enabling Business Decision Making",
                 about: "The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.",
                 challenge: [
                     "Clients data resided in different disparate systems and lacked consistencies in bringing them together for any C level executive analysis. This resulted a very tedious exercise and took several days to achieve, hence there was an immediate need to bring data together with advanced analytics and visualization techniques to enable more insights at a faster rate and eventually enable better decision making."
@@ -51,13 +51,13 @@ const Bidev = () => {
                         <Breadcrumb>
                             <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
                             <Breadcrumb.Item href="/industries/oilNgas/energy">OIL AND GAS</Breadcrumb.Item>
-                            <Breadcrumb.Item active>BI DASHBOARD DEVELOPMENT</Breadcrumb.Item>
+                            <Breadcrumb.Item active>DATA UNIFICATION ENABLING BUSINESS DECISION MAKING</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
                             <Row>
                                 <Col md={4}> </Col>
                                 <Col md={4}>
-                                    <h1>BI Dashboard Development</h1>
+                                    <h1>DATA UNIFICATION ENABLING BUSINESS DECISION MAKING</h1>
                                 </Col>
                             </Row>
                         </section>
@@ -84,16 +84,14 @@ const Bidev = () => {
                                         <Table className="text-center" bordered="sm" borderless size="md">
                                             <thead >
                                                 <tr>
-                                                    <th>Client</th>
                                                     <th>Industry</th>
                                                     <th>Service</th>
                                                 </tr>
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
+                                                    <td>Oil and Gas</td>
+                                                    <td>BI Dashboard Development</td>
                                                 </tr>
                                             </tbody>
                                         </Table>

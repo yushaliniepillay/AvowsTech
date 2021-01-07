@@ -233,25 +233,29 @@ const testing = () => {
                                                     </section>
                                                     <section>
                                                         <ul>
-                                                            <li>{security.item[0]}</li>
-                                                            <li>{security.item[1]}</li>
-                                                            <li>{security.item[2]}</li>
-                                                            <li>{security.item[3]}</li>
-                                                            <li>{security.item[4]}</li>
-                                                            <li>{security.item[5]}</li>
-                                                            <li>{security.item[6]}</li>
-                                                            <li>{security.item[7]}</li>
-                                                            <li>{security.item[8]}</li>
-                                                            <li>{security.item[9]}</li>
-                                                            <li>{security.item[10]}</li>
-                                                            <li>{security.item[11]}</li>
-                                                            <li>{security.item[12]}</li>
+                                                            {/* {security.item.map(sec => (
+                                                                <li>{sec.item}</li>
+                                                            ))} */}
                                                         </ul>
+
                                                     </section>
                                                 </Tab>
                                             ))}
                                         </Tabs>
                                         {/* </Tabs>
+                                                                <li>{security.item[0]}</li>
+                                                                <li>{security.item[1]}</li>
+                                                                <li>{security.item[2]}</li>
+                                                                <li>{security.item[3]}</li>
+                                                                <li>{security.item[4]}</li>
+                                                                <li>{security.item[5]}</li>
+                                                                <li>{security.item[6]}</li>
+                                                                <li>{security.item[7]}</li>
+                                                                <li>{security.item[8]}</li>
+                                                                <li>{security.item[9]}</li>
+                                                                <li>{security.item[10]}</li>
+                                                                <li>{security.item[11]}</li>
+                                                                <li>{security.item[12]}</li> 
                                         <Tabs defaultActiveKey="SOC" transition={false} id="noanim-tab-example">
                                             <Tab eventKey="SOC" title="Security Operations Center">
                                                 <br />

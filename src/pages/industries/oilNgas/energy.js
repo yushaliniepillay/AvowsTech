@@ -16,7 +16,7 @@ const Energy = () => {
                 id: 0,
                 key: "A",
                 link: "/industries/oilNgas/biDev",
-                title: "BI Dashboard Development",
+                title: "Data Unification enabling Business Decision Making",
                 about: "The client is an integrated oil and gas services company based in Malaysia. It has established its presence in over 20 countries, such as China, Australia, United States of America, and those in Western Africa and the Middle East, employing approximately 22,000 people.",
                 challenge: [
                     "Clients data resided in different disparate systems and lacked consistencies in bringing them together for any C level executive analysis. This resulted a very tedious exercise and took several days to achieve, hence there was an immediate need to bring data together with advanced analytics and visualization techniques to enable more insights at a faster rate and eventually enable better decision making."
@@ -53,7 +53,7 @@ const Energy = () => {
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">
-                    <Breadcrumb>
+                        <Breadcrumb>
                             <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
                             <Breadcrumb.Item active>OIL AND GAS</Breadcrumb.Item>
                         </Breadcrumb>
@@ -73,6 +73,13 @@ const Energy = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
+                                Avows specializes in various industry verticals including Oil & Gas sector. With our broad understanding on the Upstream, Downstream and B2B business operations; our technology expertise can be rightly leveraged to stretch further our client’s business outcome towards becoming a strong operational excellence powerhouse.
+                            </p>
+                            <p className="justified">
+                                Our core solution includes customized mobile/web applications, Internet of Things (IoT), Advanced Analytics & Big Data, Robotic Process Automation (RPA) & Chatbots, AI/ML, and Augmented and Virtual Reality technologies.
+                            </p>
+                            <p className="justified">
+                                We value our client objectives of attaining optimal business goals in order stay competitive in business by rightly coupling our digital transformation consultancy to continuously advocate our client’s future technology roadmap in par of excellence that reduces cost intensive processes in existing business practice.
                             </p>
                         </div>
 
@@ -166,10 +173,10 @@ const Energy = () => {
                                     ))}
 
                             </Tabs> */}
-                    </div>
+                        </div>
 
+                    </div>
                 </div>
-            </div>
             </div>
 
         </Layout >

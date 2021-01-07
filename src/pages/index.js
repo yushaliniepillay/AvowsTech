@@ -4,37 +4,39 @@ import SEO from "../components/seo"
 import Carousel from '../components/slider/carousel';
 import { Button } from 'react-bootstrap';
 import "../components/header/header.css";
-import { FlagFilled, SmileOutlined, ShopOutlined, TrophyOutlined} from '@ant-design/icons';
+import { FlagFilled, SmileOutlined, ShopOutlined, TrophyOutlined } from '@ant-design/icons';
 
 
 const IndexPage = () => {
 
-  const change = {
+  const [change, setState] = useState({
     button: true
-  }
-  const handleClick = () => {
-    //var buttonColor = change.buttonColor === 'red' ? 'white' : 'red';
-    this.setState({button: !change.button})
-  }
+  })
+
+  const [selectedButton, setSelectedButton] = useState(0);
 
   const [state, setText] = useState({
     text: 'We have a great Mission',
     text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”'
   })
- 
+
   const onClickButton1 = () => {
     setText({
       text: 'We have a great Mission',
       text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”'
-    });
+    })
+    //setState({ button: !change.button })
+    setSelectedButton(0);
   }
   const onClickButton2 = () => {
     setText({
       text: 'We have a one focused Vision',
-      text1: '“To become long term partners-in progress of our customers to enable their Business Transformation by providing a range of Services &amp; Solutions that deliver Value-For-Money and enhance competitiveness and provides them a opportunity to position themselves best price-performers of choice in their industries”'
+      text1: '“To become long term partners-in progress of our customers to enable their Business Transformation by providing a range of Services & Solutions that deliver Value-For-Money and enhance competitiveness and provides them a opportunity to position themselves best price-performers of choice in their industries”'
     });
+    //setState({ button: !change.button })
+    setSelectedButton(1);
   };
-  
+
   return (
     <Layout>
       <div><SEO title="Home" /></div>
@@ -45,10 +47,27 @@ const IndexPage = () => {
           <section className="round-tabs text-center ">
             <ul className="nav nav-pills nav-normal">
               <li className="">
-                <Button className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton1() && handleClick()} >Our Mission</Button>
+                <Button
+                  active
+                  // active={selectedButton == 0 ? 'true' : 'false'}
+                  variant={selectedButton == 0 ? 'danger' : 'light'}
+                  color='light'
+                  className={change.button ? "buttonTrue" : "buttonFalse"}
+                  size="lg"
+                  type="submit"
+                  onClick={() => onClickButton1()} >Our Mission
+                </Button>
               </li>
               <li className="">
-                <Button className={change.button ? "buttonTrue": "buttonFalse"} size="lg" type="submit" onClick={() => onClickButton2() && handleClick()} >Our Vission</Button>
+                <Button
+                  active
+                  variant={selectedButton == 1 ? 'danger' : 'light'}
+                  color='light'
+                  className={change.button ? "buttonTrue" : "buttonFalse"}
+                  size="lg"
+                  type="submit"
+                  onClick={() => onClickButton2()} >Our Vision
+                </Button>
               </li>
             </ul>
             <div className="panel-body text-center">
@@ -84,7 +103,7 @@ const IndexPage = () => {
                 <div className="col-sm-3 col-xs-6 text-center">
                   <div className="facts">
                     <div className="facts-icon">
-                      <i className="fa fa-flag"><FlagFilled className="fa-1x"/></i>
+                      <i className="fa fa-flag"><FlagFilled className="fa-1x" /></i>
                     </div>
                     <p className="facts-text">Projects Completed</p>
                     <h4>100+</h4>
@@ -93,7 +112,7 @@ const IndexPage = () => {
                 <div className="col-sm-3 col-xs-6 text-center">
                   <div className="facts">
                     <div className="facts-icon">
-                      <i className="fa fa-smile-o"><SmileOutlined className="fa-1x"/></i>
+                      <i className="fa fa-smile-o"><SmileOutlined className="fa-1x" /></i>
                     </div>
                     <p className="facts-text">Happy Clients</p>
                     <h4>50+</h4>
@@ -102,7 +121,7 @@ const IndexPage = () => {
                 <div className="col-sm-3 col-xs-6 text-center">
                   <div className="facts">
                     <div className="facts-icon">
-                      <i className="fas fa-building"><ShopOutlined className="fa-1x"/></i>
+                      <i className="fas fa-building"><ShopOutlined className="fa-1x" /></i>
                     </div>
                     <p className="facts-text">Offices</p>
                     <h4>5</h4>
@@ -111,7 +130,7 @@ const IndexPage = () => {
                 <div className="col-sm-3 col-xs-6 text-center">
                   <div className="facts last-child">
                     <div className="facts-icon">
-                      <i className="fas fa-award"><TrophyOutlined className="fa-1x"/></i>
+                      <i className="fas fa-award"><TrophyOutlined className="fa-1x" /></i>
                     </div>
                     <p className="facts-text">Anniversary</p>
                     <h4>11</h4>

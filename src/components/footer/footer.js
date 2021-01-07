@@ -39,7 +39,7 @@ function footer() {
                                 <h4 className="footer-title">QUICK LINKS
                                 <hr /></h4>
                                 <ul className="list-unstyled">
-                                    <li><a href="/technology">SERVICES & SOLUTIONS</a></li>
+                                    <li><a href="/">SERVICES & SOLUTIONS</a></li>
                                     <li><a href="/career">CAREER</a></li>
                                     <li><a href="/contactUs">CONTACT</a></li>
                                 </ul>
@@ -71,7 +71,7 @@ function footer() {
                                 <Col sm md={4}></Col>
                                 <Col sm md={1}>
                                     <img src={imageMalay} alt="" /><br />
-                                    <p style={{textAlign: 'left'}}>MALAYSIA(HQ)</p>
+                                    <p>MALAYSIA(HQ)</p>
                                 </Col>
                                 <Col sm md={1}>
                                     <img src={imageSg} alt="" /><br />

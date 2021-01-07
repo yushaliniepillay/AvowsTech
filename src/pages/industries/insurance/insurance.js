@@ -64,7 +64,7 @@ const Insurance = () => {
                     "80% of the projected traffic went started flowing through the chatbot in a very short time"
                 ],
                 image: [
-                    // require('../industries/InImage/AML1.jpg'),
+                    require('../../industries/InImage/ccbot.jpg')
                     // require('../industries/InImage/AML2.jpg')
                 ],
                 video: [

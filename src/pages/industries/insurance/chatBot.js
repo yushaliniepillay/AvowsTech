@@ -28,8 +28,8 @@ const ChatBot = () => {
                     "80% of the projected traffic went started flowing through the chatbot in a very short time"
                 ],
                 image: [
-                    // require('../industries/InImage/AML1.jpg'),
-                    // require('../industries/InImage/AML2.jpg')
+                    // require('../../industries/InImage/ccbot.jpg')
+                    // require('../../industries/InImage/AML2.jpg')
                 ],
                 video: [
                     //require('../industries/video/PublicBank.mp4'),
@@ -85,16 +85,14 @@ const ChatBot = () => {
                                         <Table className="text-center" bordered="sm" borderless size="md">
                                             <thead >
                                                 <tr>
-                                                    <th>Client</th>
                                                     <th>Industry</th>
                                                     <th>Service</th>
                                                 </tr>
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
+                                                    <td>Insurance</td>
+                                                    <td>Chatbot</td>
                                                 </tr>
                                             </tbody>
                                         </Table>

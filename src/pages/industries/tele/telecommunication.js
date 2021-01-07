@@ -56,7 +56,7 @@ const Telecommunication = () => {
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">
-                    <Breadcrumb>
+                        <Breadcrumb>
                             <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
                             <Breadcrumb.Item active>TELECOMMUNICATION</Breadcrumb.Item>
                         </Breadcrumb>
@@ -76,7 +76,21 @@ const Telecommunication = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
+                                As our motto echoes, “Turning Visions into Reality”; Avows drives a whole lot of digital transformation, adoption and consultancy activities to our broad spectrum of clients especially in the vast area of telecommunication industry.
                             </p>
+                            <p className="justified">
+                                With the recent boom in 5G technology all across the globe, Avows is set to embark on a revolutionary journey of catalyzing change by continuously merging new technology frameworks that connects all consumers with enhanced and innovative solutions that makes telecommunication industry to stay ahead of driving new business gateways to their end users.
+                            </p>
+                            <p className="justified">
+                                With advancement in 5G technology, Avows sets up our footprint in new technologies such as:
+                            </p>
+                            <ul>
+                                <li><strong>Augmented Reality (AR) & Virtual Reality (VR) </strong>– To enhance human computer interactions with advanced immersive technologies</li>
+                                <li><strong>RPA & Chatbots </strong>– To deliver the best in-class customer support and issue resolution mechanism</li>
+                                <li><strong>AI/ML & Big Data </strong>– To analyze and drive new enterprise business opportunities via data analytics with advanced AI and Machine Learning models</li>
+                                <li><strong>Cloud Technology </strong>– To make effective use of cloud services framework in order to ensure cloud economics are sustained by reducing OPEX costs</li>
+                                <li><strong>Mobile/Web Apps </strong>– Driving excellent user experience to ensure all user centric functions are consolidated in a single use of application platform</li>
+                            </ul>
 
                         </div>
 
