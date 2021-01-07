@@ -233,8 +233,8 @@ const testing = () => {
                                                     </section>
                                                     <section>
                                                         <ul>
-                                                            {/* {security.item.map(sec => (
-                                                                <li>{sec.item}</li>
+                                                            {/* {security.item.map((v, i) => (
+                                                                <li key={i}>{v}</li>
                                                             ))} */}
                                                         </ul>
 
