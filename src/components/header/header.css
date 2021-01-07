@@ -115,6 +115,10 @@ p {
     z-index: 0;
     color: #fff;
 }
+.carousel-caption {
+    top: 5rem;
+    bottom: auto;
+}
 
 #header,
 #header .container,
@@ -423,7 +427,14 @@ p {
     overflow: hidden;
     z-index: 0;    
 }*/
-
+.img0 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    position: relative;
+    padding-top: 500px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;   
+}
 .img1 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/application_development.jpg);
     position: relative;
@@ -450,6 +461,14 @@ p {
 }
 .img4 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/digital_solutions.jpg);
+    position: relative;
+    padding-bottom: 500px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;   
+}
+.img5 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/ar_face.jpg);
     position: relative;
     padding-bottom: 500px;
     width: 100%;

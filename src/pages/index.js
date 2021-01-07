@@ -104,7 +104,7 @@ const IndexPage = () => {
                     <div className="facts-icon">
                       <i className="fas fa-building"><ShopOutlined className="fa-1x"/></i>
                     </div>
-                    <p className="facts-text">Overall Offices</p>
+                    <p className="facts-text">Offices</p>
                     <h4>5</h4>
                   </div>
                 </div>

@@ -123,7 +123,7 @@ const Management = () => {
 
     return (
         <>
-            <Container className='ml-auto'>
+            {/* <Container className='ml-auto'>
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     {data.map((data, index) => (
                         <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
@@ -134,70 +134,42 @@ const Management = () => {
                                 </section>
                             </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted text-center">{data.position}</Card.Subtitle>
-                            {/* <Button key={data.id} className="m-3" variant="danger" size="md"
-                                type="submit" onClick={handleShow} >VIEW DETAILS</Button> */}
                         </Card>
                     ))}
                 </div>
-            </Container>
+            </Container> */}
 
 
-            {/* <Carousel className="carousel" >
-                    {data.map((data, index) => (
-                        <Carousel.Item interval={4000}>
-                            <Container>
-                                <Row>
-                                    <Col>
-                                        <div key={data} className="col-md-3 col-md-4 text-center" >
-                                            <img style={{ width: '15rem', height: '20rem' }} key={data.image} src={data.image} class="img-fluid mx-auto d-block" alt="img3" />
-                                            // <Img fluid={props.data.imageql.childImage.fluid} />
-                                            < br />
-                                            <h4 className="text-white">{data.name}</h4>
-                                            <h5>{data.position}</h5>
-                                            <Button
+            <Carousel className="carousel" >
+                {data.map((data, index) => (
+                    <Carousel.Item interval={4000}>
+                        <Container>
+                            <Row>
+                                <Col>
+                                    <div key={data} className="col-md-3 col-md-4 text-center" >
+                                        <img style={{ width: '15rem', height: '20rem' }} key={data.image} src={data.image} className="img-fluid mx-auto d-block" onClick={() => handleShow(index)} />
+                                        {/* <Img fluid={props.data.imageql.childImage.fluid} /> */}
+                                        < br />
+                                        <section className="post-title text-center">
+                                            <h2 className="text-light">{data.name}</h2>
+                                            <h6>{data.position}</h6>
+                                        </section>
+
+                                        {/* <Button
                                                 key={data.id}
                                                 className="m-3" variant="danger" size="md"
                                                 type="submit"
                                                 onClick={handleShow} >
-                                                VIEW DETAILS</Button>
-                                             <Modal
-                                                key={index} show={show}
-                                                onHide={handleClose}
-                                                size="xl"
-                                                aria-labelledby="contained-modal-title-vcenter"
-                                                centered >
-                                                <Modal.Header closeButton>
-                                                    <Modal.Title className="text-center" id="example-custom-modal-styling-title">
-                                                        <h3><b>{data.name}</b></h3>
-                                                        <h4>{data.position}</h4>
-                                                    </Modal.Title>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <div className="text-center">
-                                                        <Figure >
-                                                            <Figure.Image
-                                                                width={171}
-                                                                height={180}
-                                                                alt="171x180"
-                                                                src={data.image}
-                                                            />
-                                                        </Figure>
-                                                    </div>
-                                                    <p>{data.description1}</p>
-                                                    <p>{data.description2}</p>
-                                                    <p>{data.description3}</p>
-                                                    <p>{data.description4}</p>
-                                                    <p>{data.description5}</p>
-                                                </Modal.Body>
-                                            </Modal> 
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </Container>
+                                                VIEW DETAILS</Button> */}
 
-                        </Carousel.Item>
-                    ))}
-                </Carousel> */}
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Container>
+
+                    </Carousel.Item>
+                ))}
+            </Carousel>
 
 
             <div>
@@ -208,7 +180,7 @@ const Management = () => {
                     aria-labelledby="contained-modal-title-vcenter"
                     centered >
                     <Modal.Header closeButton>
-                        <Modal.Title  id="example-custom-modal-styling-title">
+                        <Modal.Title id="example-custom-modal-styling-title">
                             <h3><b>{data[modalSelected].name}</b></h3>
                             <h4>{data[modalSelected].position}</h4>
                         </Modal.Title>
