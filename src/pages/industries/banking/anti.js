@@ -95,9 +95,9 @@ const Anti = () => {
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
-                                                    <td>NaN</td>
+                                                    <td>Foreign Exchange Company</td>
+                                                    <td>Finance</td>
+                                                    <td>Money Services</td>
                                                 </tr>
                                             </tbody>
                                         </Table>
