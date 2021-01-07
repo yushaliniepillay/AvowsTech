@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../../components/layouts/layout";
 import SEO from "../../../components/seo";
 import { Breadcrumb, Container, Row, Col } from 'react-bootstrap';
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 
 const PublicBank = () => {
 
@@ -13,13 +13,13 @@ const PublicBank = () => {
                 key: "A",
                 link: "/industries/banking/publicBank",
                 title: "Public Bank",
+                about: "Client from one of the leading banks in Malaysia",
                 image: [
                     require('../../industries/InImage/pb_image.jpg')
                 ],
                 video: [
                     require('../../industries/video/PublicBank.mp4'),
                     "name",
-                    "position",
                     "speaking something"
                 ]
 
@@ -62,7 +62,8 @@ const PublicBank = () => {
                                 data.map(data => (
                                     <div>
                                         <section className="cs_about">
-                                            <h4>About the Client</h4>
+                                            {/* <h4>About the Client</h4> */}
+                                            <br/><br/>
                                             <p className="text-justify" >{data.about}</p>
                                         </section>
                                         
@@ -71,17 +72,21 @@ const PublicBank = () => {
                                             <Container>
                                                 <Row>
                                                     <Col md={6}>
-                                                        <ReactPlayer url={data.video[0]}
+                                                        <ReactPlayer 
+                                                        controls={true}
+                                                        // playing={true}
+                                                        // loop={true}
+                                                        url={data.video[0]}
                                                             width='100%'
                                                             height='100%' />
                                                     </Col>
-                                                    <Col md={{ span: 3, offset: 1 }}>
-                                                        <p>{data.video[3]}</p>
+                                                    <Col md={{ span: 5, offset: 0 }}>
+                                                        <p>{data.video[2]}</p>
                                                     </Col>
                                                 </Row>
                                             </Container>
-                                            <p>{data.video[1]}</p>
-                                            <p>{data.video[2]}</p>
+                                            <br/>
+                                            <p><strong>Speaker: </strong>{data.video[1]}</p>
                                         </section>
                                     </div>
                                 ))}

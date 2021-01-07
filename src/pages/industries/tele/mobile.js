@@ -40,10 +40,9 @@ const Mobile = () => {
                     require("../../industries/InImage/mobile4.jpg")
                 ],
                 video: [
-                    // require('../../industries/video/PublicBank.mp4'),
-                    // "name",
-                    // "position",
-                    // "speaking something"
+                    require('../../industries/video/Umobile.mp4'),
+                    "Cynthia Seow",
+                    "General Manager of Transformation for Malaysia’s Multiple award-winning mobile data service provider - U Mobile , shares with us how Avows has helped them to develop and deliver customer-centric services and solutions."
                 ]
 
             }
@@ -161,23 +160,26 @@ const Mobile = () => {
                                                 </Col>
                                             </Row>
                                         </section>
-                                        {/* <section className="cs_about">
+                                        <section className="cs_about">
                                             <h4>Customer Testimonial</h4>
                                             <Container>
                                                 <Row>
                                                     <Col md={6}>
-                                                        <ReactPlayer url={data.video[0]}
+                                                        <ReactPlayer 
+                                                        controls={true}
+                                                        // playing={true}
+                                                        url={data.video[0]}
                                                             width='100%'
                                                             height='100%' />
                                                     </Col>
-                                                    <Col md={{ span: 3, offset: 1 }}>
-                                                        <p>{data.video[3]}</p>
+                                                    <Col md={{ span: 6, offset: 0 }}>
+                                                        <p>{data.video[2]}</p>
                                                     </Col>
                                                 </Row>
                                             </Container>
-                                            <p>{data.video[1]}</p>
-                                            <p>{data.video[2]}</p>
-                                        </section> */}
+                                            <br/>
+                                            <p><strong>Speaker: </strong>{data.video[1]}</p>
+                                        </section>
                                     </div>
                                 ))}
 
