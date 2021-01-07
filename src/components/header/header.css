@@ -539,6 +539,23 @@ p {
     z-index: 0;
     
 }
+#pageHeader8 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/cust_test.jpeg);
+    position: relative;
+    padding-bottom: 50px;
+    overflow: hidden;
+    z-index: 0;
+    
+}
+#pageHeader9 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/banking.jpg);
+    position: relative;
+    padding-bottom: 40px;
+    overflow: hidden;
+    z-index: 0;
+    
+}
+
 
 .vc-parent {
     width: 100%;
