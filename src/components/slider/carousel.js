@@ -313,7 +313,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-8">
+                            <div className="col-md-7">
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
