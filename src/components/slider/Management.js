@@ -123,7 +123,7 @@ const Management = () => {
 
     return (
         <>
-            {/* <Container className='ml-auto'>
+            <Container className='ml-auto'>
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     {data.map((data, index) => (
                         <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
@@ -137,10 +137,10 @@ const Management = () => {
                         </Card>
                     ))}
                 </div>
-            </Container> */}
+            </Container>
 
 
-            <Carousel className="carousel" >
+            {/* <Carousel className="carousel" >
                 {data.map((data, index) => (
                     <Carousel.Item interval={4000}>
                         <Container>
@@ -148,27 +148,25 @@ const Management = () => {
                                 <Col>
                                     <div key={data} className="col-md-3 col-md-4 text-center" >
                                         <img style={{ width: '15rem', height: '20rem' }} key={data.image} src={data.image} className="img-fluid mx-auto d-block" onClick={() => handleShow(index)} />
-                                        {/* <Img fluid={props.data.imageql.childImage.fluid} /> */}
+                                        <Img fluid={props.data.imageql.childImage.fluid} />
                                         < br />
                                         <section className="post-title text-center">
                                             <h2 className="text-light">{data.name}</h2>
                                             <h6>{data.position}</h6>
                                         </section>
-
-                                        {/* <Button
-                                                key={data.id}
-                                                className="m-3" variant="danger" size="md"
-                                                type="submit"
-                                                onClick={handleShow} >
-                                                VIEW DETAILS</Button> */}
-
+                                        <Button
+                                            key={data.id}
+                                            className="m-3" variant="danger" size="md"
+                                            type="submit"
+                                            onClick={handleShow} >
+                                            VIEW DETAILS</Button>
                                     </div>
-                                </Col>
-                            </Row>
-                        </Container>
-                    </Carousel.Item>
+                                </Col >
+                            </Row >
+                        </Container >
+                    </Carousel.Item >
                 ))}
-            </Carousel>
+            </Carousel > */}
 
 
             <div>
@@ -201,11 +199,7 @@ const Management = () => {
                         <p className="justified">{data[modalSelected].description5}</p>
                     </Modal.Body>
                 </Modal>
-                {/* {data.map((data) => (
-                    
-                ))} */}
             </div >
-
 
         </>
     );
@@ -224,16 +218,16 @@ export default Management;
 //             }
 //         }
 //     }
-// `
+//  `
 
-{/* <div style={{ display: 'flex', order: '3' }}>
-<Card style={{ width: '18rem', margin: '10px' }}>
-    <Card.Img variant="top" src={data.image} onClick={() => setShow(true)}/>
-        <Card.Title>
-            <section className="post-title">
-                <h2 className="text-dark">{data.name}</h2>
-            </section>
-        </Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">{data.position}e</Card.Subtitle>
-</Card>
-</div>  */}
+// <div style={{ display: 'flex', order: '3' }}>
+//     <Card style={{ width: '18rem', margin: '10px' }}>
+//         <Card.Img variant="top" src={data.image} onClick={() => setShow(true)} />
+//         <Card.Title>
+//             <section className="post-title">
+//                 <h2 className="text-dark">{data.name}</h2>
+//             </section>
+//         </Card.Title>
+//         <Card.Subtitle className="mb-2 text-muted">{data.position}e</Card.Subtitle>
+//     </Card>
+// </div> 

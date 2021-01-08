@@ -3,27 +3,33 @@ import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import "../components/header/header.css";
 import Carousel from '../components/slider/Management';
+import { Breadcrumb, Row, Col } from 'react-bootstrap';
 
 // var imageName = require('../images/our_ceo.jpg')
 
 const AboutUs = () => (
-  <Layout>
 
+
+  <Layout>
     <SEO title="About Us" />
     {/* style={{ backgroundImage: `url("../components/images/background/about-bg.jpg")` }} */}
     <div id="pageHeader" >
-    {/* <img src="../images/background/about-us.jpg" /> */}
+      {/* <img src="../images/background/about-us.jpg" /> */}
       <div className="vc-parent">
         <div className="vc-child">
+          <Breadcrumb>
+            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+            <Breadcrumb.Item active>ABOUT US</Breadcrumb.Item>
+          </Breadcrumb>
           <section className="page-title">
-            <h2>DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h2>
-            {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
-                  to drive their digital transformation initiatives</p> */}
-            <ul className="text-center">
-              <li className="list-unstyled">
-                We provide enterprises with agility with our focusing on customer centric journeys
-                to drive their digital transformation initiatives</li>
-            </ul>
+            <Row>
+              <Col md={3}> </Col>
+              <Col md={6}>
+                <h1 className="mb-5">DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h1>
+                <p className="text-center text-white">We provide enterprises with agility with our focusing on customer centric journeys
+                  to drive their digital transformation initiatives</p>
+              </Col>
+            </Row>
           </section>
         </div>
       </div>

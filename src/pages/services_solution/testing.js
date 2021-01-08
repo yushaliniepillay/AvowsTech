@@ -1,13 +1,14 @@
 import React from "react"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo"
-//import "../../components/header/header.css";
 import { Tabs, Tab, Breadcrumb, Row, Col } from 'react-bootstrap';
+
 
 var imageName = require('../../components/images/background/testing_sub.jpg')
 var imageName1 = require('../../components/images/background/cs1.jpg')
 
 const testing = () => {
+
 
     const test =
         [
@@ -52,7 +53,7 @@ const testing = () => {
                 descp: [
                     "Security operations center is a centralized unit that provides real time monitoring of entire enterprise to deal with security. In these centres, the enterprise’s information and other sensitive areas like websites, databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing monitoring and fixing of threats allows triggering of actions based on threat along with notification and escalations"
                 ],
-                item: ""
+                item: []
             },
             {
                 id: 1,
@@ -61,7 +62,7 @@ const testing = () => {
                 descp: [
                     "Through our Risk Management consulting practice we offer rich domain expertise that our clients can leverage to help set up their risk practices, assess their enterprise risk at any given time, formulate risk strategies and implement risk solutions. We can assist our clients in wide variety of services creating a foundational risk practice to selecting risk tools and many more"
                 ],
-                item: ""
+                item: []
             },
             {
                 id: 2,
@@ -127,9 +128,14 @@ const testing = () => {
                     "Avows can help your business by providing remediation recommendations from a people, process and technology perspective to make informed decisions. We can help design, implement and assess risk management across a spectrum of strategic, operational, financial and compliance considerations.",
                     "We ensure that our risk evaluation approach is aligned in a way that supports the organization’s business goals and culture. Security policies play a vital role in a business and we will also ensure that the data are used and secured properly."
                 ],
-                item: ""
+                item: []
             }
         ]
+
+    var rows = [];
+    for (var i = 0; i < security.length; i++) {
+        rows.push(security.item);
+    }
 
     return (
         <Layout>
@@ -222,20 +228,20 @@ const testing = () => {
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
                                         <Tabs defaultActiveKey={security[0].key} transition={false} id="noanim-tab-example">
-                                            {security.map((security, index) => (
-                                                <Tab key={index} eventKey={security.key} title={security.title}>
+                                            {security.map((sec, index) => (
+                                                <Tab key={index} eventKey={sec.key} title={sec.title}>
                                                     <br />
-                                                    <h3><strong>{security.title}</strong></h3>
+                                                    <h3><strong>{sec.title}</strong></h3>
                                                     <section>
-                                                        <p className="text-justify">{security.descp[0]}</p>
-                                                        <p className="text-justify">{security.descp[1]}</p>
-                                                        <p className="text-justify">{security.descp[2]}</p>
+                                                        <p className="text-justify">{sec.descp[0]}</p>
+                                                        <p className="text-justify">{sec.descp[1]}</p>
+                                                        <p className="text-justify">{sec.descp[2]}</p>
                                                     </section>
                                                     <section>
                                                         <ul>
-                                                            {/* {security.item.map((v, i) => (
-                                                                <li key={i}>{v}</li>
-                                                            ))} */}
+                                                            {sec.item.map((section, i) => (
+                                                                <li key={i}>{section}</li>
+                                                            ))}
                                                         </ul>
 
                                                     </section>
@@ -243,19 +249,6 @@ const testing = () => {
                                             ))}
                                         </Tabs>
                                         {/* </Tabs>
-                                                                <li>{security.item[0]}</li>
-                                                                <li>{security.item[1]}</li>
-                                                                <li>{security.item[2]}</li>
-                                                                <li>{security.item[3]}</li>
-                                                                <li>{security.item[4]}</li>
-                                                                <li>{security.item[5]}</li>
-                                                                <li>{security.item[6]}</li>
-                                                                <li>{security.item[7]}</li>
-                                                                <li>{security.item[8]}</li>
-                                                                <li>{security.item[9]}</li>
-                                                                <li>{security.item[10]}</li>
-                                                                <li>{security.item[11]}</li>
-                                                                <li>{security.item[12]}</li> 
                                         <Tabs defaultActiveKey="SOC" transition={false} id="noanim-tab-example">
                                             <Tab eventKey="SOC" title="Security Operations Center">
                                                 <br />
