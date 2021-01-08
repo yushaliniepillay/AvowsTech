@@ -57,6 +57,7 @@ function carousel() {
                 id: "4",
                 title: "AUGMENTED & VIRTUAL REALITY",
                 subTitle: "We aim to provide business solutions by integrating the virtual and the real world tailored to your needs and industry.",
+                subT: "Solutions with immersive experience",
                 image: require('../images/header-slider/ar_face.jpg'),
                 list: [
                     "3D AR/VR Model Creation", "Augmented Reality and Internet of Things", "Virtual Reality", "Mixed Reality"
@@ -261,7 +262,7 @@ function carousel() {
                                             <Fade direction='right' delay={100}>
                                                 <h5>We are focused on combining human (AI Experts)
                                                 and technical strengths to deliver enhanced value by enabling companies to work on
-                                            complex cognitive tasks.</h5>
+                                                complex cognitive tasks.</h5>
                                             </Fade>
                                             <br />
                                             <ul>
@@ -321,6 +322,7 @@ function carousel() {
                                             </Fade>
                                             <br />
                                             <Fade direction='right' delay={100}>
+                                                <h5>Solutions with immersive experience</h5><br/>
                                                 <h5>We aim to provide business solutions by integrating the virtual and
                                                 the real world tailored to your needs and industry</h5>
                                             </Fade>
@@ -334,7 +336,7 @@ function carousel() {
                                                 </Fade>
                                             </ul>
                                             <Fade direction='bottom-left' delay={100}>
-                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/ar_face">VIEW DETAILS</Button>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/ar_vr">VIEW DETAILS</Button>
                                             </Fade>
                                         </section>
                                     </div>
