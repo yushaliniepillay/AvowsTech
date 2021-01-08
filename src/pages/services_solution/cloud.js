@@ -8,7 +8,7 @@ var imageName = require('../../components/images/background/testing_sub.jpg')
 
 const cloud = () => (
     <Layout>
-        <SEO title="Cloud Technologies" />
+        <SEO title="CLOUD TECHNOLOGIES" />
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">

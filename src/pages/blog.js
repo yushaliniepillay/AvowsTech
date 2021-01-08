@@ -46,7 +46,7 @@ const Blog = () => {
   return (
 
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="BLOG" />
 
       <div id="pageHeader1" >
         <div className="vc-parent">

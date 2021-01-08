@@ -8,7 +8,7 @@ var imageName = require('../../components/images/background/cs1.jpg')
 
 const cyber = () => (
     <Layout>
-        <SEO title="Cyber Security" />
+        <SEO title="CYBER SECURITY" />
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">

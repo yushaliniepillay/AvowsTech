@@ -27,7 +27,7 @@ const PublicBank = () => {
         ]
     return (
         <Layout>
-            <SEO title="AVOWS" />
+            <SEO title="BANKING" />
 
             <div id="pageHeader8" >
                 <div className="vc-parent">

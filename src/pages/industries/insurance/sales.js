@@ -47,7 +47,7 @@ const Sales = () => {
 
     return (
         <Layout>
-            <SEO title="AVOWS" />
+            <SEO title="INSURANCE" />
 
             <div id="pageHeader" >
                 <div className="vc-parent">

@@ -52,7 +52,7 @@ const Telecommunication = () => {
 
     return (
         <Layout>
-            <SEO title="AVOWS" />
+            <SEO title="TELECOMMUNICATION" />
             <div id="pageHeader" >
                 <div className="vc-parent">
                     <div className="vc-child">

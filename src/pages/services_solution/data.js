@@ -7,7 +7,7 @@ var imageName = require('../../components/images/background/dataAi.jpg')
 
 const data = () => (
     <Layout>
-        <SEO title="Data Analytics & AI" />
+        <SEO title="DATA ANALYTICS & AI" />
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">

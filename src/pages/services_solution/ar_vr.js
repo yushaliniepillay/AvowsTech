@@ -8,7 +8,7 @@ var imageName = require('../../components/images/background/ar_vr1.jpg')
 const ar_vr = () => (
     
     <Layout>
-        <SEO title="Data Analytics & AI" />
+        <SEO title="AR & VR" />
         <div id="pageHeader" >
             <div className="vc-parent">
                 <div className="vc-child">

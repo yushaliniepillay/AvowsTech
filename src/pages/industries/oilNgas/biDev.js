@@ -43,7 +43,7 @@ const Bidev = () => {
         ]
     return (
         <Layout>
-            <SEO title="AVOWS" />
+            <SEO title="OIL AND GAS" />
 
             <div id="pageHeader" >
                 <div className="vc-parent">

@@ -39,7 +39,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <div><SEO title="Home" /></div>
+      <div><SEO title="HOME" /></div>
       <div>
         <Carousel />
         <div className="container">

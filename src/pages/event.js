@@ -20,7 +20,7 @@ const Event = () => {
 
   return (
     <Layout>
-      <SEO title="Event" />
+      <SEO title="EVENT" />
 
       <div id="pageHeader3" >
         <div className="vc-parent">
