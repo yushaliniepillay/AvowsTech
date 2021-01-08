@@ -142,9 +142,8 @@ const Insurance = () => {
                                 {data.map(data => (
                                     <Card className="card shadow" style={{ width: '20rem', margin: '10px' }} >
                                         <div className="inner">
-                                            <Card.Img variant="top" src={data.image[0]} />
+                                            <Card.Img style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image[0]} />
                                         </div>
-                                        {/* style={{ width: '20rem', height: '14rem' }} */}
                                         <Card.Body>
                                             <Card.Title>
                                                 <section className="post-title">
