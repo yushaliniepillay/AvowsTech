@@ -2,6 +2,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 import "../footer/footer.css";
+import { Row, Col } from 'react-bootstrap';
 import { FacebookFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
 
 function footer() {
@@ -38,7 +39,7 @@ function footer() {
                                 <h4 className="footer-title">QUICK LINKS
                                 <hr /></h4>
                                 <ul className="list-unstyled">
-                                    <li><a href="/technology">SERVICES & SOLUTIONS</a></li>
+                                    <li><a href="/">SERVICES & SOLUTIONS</a></li>
                                     <li><a href="/career">CAREER</a></li>
                                     <li><a href="/contactUs">CONTACT</a></li>
                                 </ul>
@@ -50,7 +51,7 @@ function footer() {
                                 <hr /></h4>
                                 <ul className="footer_contact">
                                     <li>Level 15-06, Tower A, The Vertical Business Suite,
-                                        Avenue 3, Bangsar South, No 8, Jln Kerinchi,
+                                    Avenue 3, Bangsar South, No 8, Jln Kerinchi,
                                         59200 Kuala Lumpur, Malaysia.</li><br />
                                     <li>Phone: (+603) 2712 3456 </li>
                                     <li>Fax: (+603) 2712 3457</li>
@@ -63,37 +64,34 @@ function footer() {
             </div>
 
             <div className="footer-landmarks">
-                <div className="col-sm-15 col-md-15 footer3">
-                    <div className="col-xs-15 col-sm-15 col-md-15">
+                {/* <div className="col-sm-20 col-md-20 footer3">
+                    <div className="col-xs-20 col-sm-20 col-md-20"> */}
                         <div className="footer-landmarks">
-                            <div className="row">
-                                <div className="col-md-4">
-                                </div>
-                                <div className="col-md-1" align="center">
+                            <Row>
+                                <Col sm md={4}></Col>
+                                <Col sm md={1}>
                                     <img src={imageMalay} alt="" /><br />
                                     <p>MALAYSIA(HQ)</p>
-                                </div>
-                                <div className="col-md-1" align="center">
+                                </Col>
+                                <Col sm md={1}>
                                     <img src={imageSg} alt="" /><br />
                                     <p>SINGAPORE</p>
-                                </div>
-                                <div className="col-md-1" align="center">
+                                </Col>
+                                <Col sm md={1}>
                                     <img src={imageIndia} alt="" /><br />
                                     <p>INDIA</p>
-                                </div>
-                                <div className="col-md-1" align="center">
+                                </Col>
+                                <Col sm md={1}>
                                     <img src={imageIndo} alt="" /><br />
                                     <p>INDONESIA</p>
-                                </div>
-                                <div className="col-md-1" align="center">
+                                </Col>
+                                <Col sm md={1}>
                                     <img src={imageUSA} alt="" /><br />
                                     <p>USA</p>
-                                </div>
-                                <div className="col-md-4">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                </Col>
+                            </Row>
+                        {/* </div>
+                    </div> */}
                 </div>
             </div>
 

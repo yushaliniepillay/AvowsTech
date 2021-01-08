@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Card } from 'react-bootstrap';
+import { Breadcrumb, Row, Col, Card } from 'react-bootstrap';
 
 const Event = () => {
 
@@ -10,7 +10,7 @@ const Event = () => {
     [
       {
         id: "0",
-        title: "Techconnect",
+        title: "Techconnect 2021",
         date: "",
         image: require('../pages/blog_details/image/TechConnectDigitalBanking.png'),
         descp: "",
@@ -25,14 +25,18 @@ const Event = () => {
       <div id="pageHeader3" >
         <div className="vc-parent">
           <div className="vc-child">
-            <section className="page-title">
-              <h2>EVENT</h2>
-              <ul className="text-center">
-                <li className="list-unstyled text-danger">
-                  <Link className="text-white" href="/">Home / </Link> Event</li>
-                {/* <li className="list-unstyled active">Event</li> */}
-              </ul>
-            </section>
+          <Breadcrumb>
+                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                <Breadcrumb.Item active>EVENT</Breadcrumb.Item>
+              </Breadcrumb>
+              <section className="page-title">
+                <Row>
+                  <Col md={4}> </Col>
+                  <Col md={4}>
+                    <h1>EVENT</h1>
+                  </Col>
+                </Row>
+              </section>
           </div>
         </div>
       </div>
@@ -54,7 +58,7 @@ const Event = () => {
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                   {data.map(data => (
                     <Card style={{ width: '20rem', margin: '10px' }} >
-                      <Card.Img style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image} />
+                      <Card.Img style={{ width: '20rem' }} variant="top" src={data.image} />
                       <Card.Body>
                         <Card.Title>
                           <section className="post-title">

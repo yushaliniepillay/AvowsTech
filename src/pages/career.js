@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Button } from 'react-bootstrap';
+import { Breadcrumb, Row, Col } from 'react-bootstrap';
 
 const Career = () => (
     <Layout>
@@ -11,14 +11,18 @@ const Career = () => (
         <div id="pageHeader2" >
             <div className="vc-parent">
                 <div className="vc-child">
-                    <section className="page-title">
-                        <h2>CAREER</h2>
-                        <ul className="text-center">
-                            <li className="list-unstyled text-danger">
-                                <Link className="text-white" href="/">Home /</Link> Career</li>
-                            {/* <li className="list-unstyled active">Career</li> */}
-                        </ul>
-                    </section>
+                <Breadcrumb>
+                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                <Breadcrumb.Item active>CAREER</Breadcrumb.Item>
+              </Breadcrumb>
+              <section className="page-title">
+                <Row>
+                  <Col md={4}> </Col>
+                  <Col md={4}>
+                    <h1>CAREER</h1>
+                  </Col>
+                </Row>
+              </section>
                 </div>
             </div>
         </div>
@@ -35,10 +39,10 @@ const Career = () => (
                 </div>
                 <div className="mdl-card mdl-shadow--2dp">
                     <div className="vc_empty_space" >
-                        <span class="vc_empty_space_inner"></span>
+                        <span className="vc_empty_space_inner"></span>
                     </div>
-                    <div class="wpb_text_column wpb_content_element ">
-                        <div class="wpb_wrapper">
+                    <div className="wpb_text_column wpb_content_element ">
+                        <div className="wpb_wrapper">
                             <p>Avows hires some of the most creative and forward-thinking individuals.
                             At Avows we have people coming from a wide range of cultural, educational and geographic
                             backgrounds and are able to work together with passion to deliver results sure the coffee
@@ -82,15 +86,15 @@ const Career = () => (
 
         {/* career form */}
         <div id="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
                         <section>
-                            <h2 class="section-title"><span>Graduate Students</span>Apply here</h2>
+                            <h2 className="section-title"><span>Graduate Students</span>Apply here</h2>
                         </section>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdn3i6c2WjKctZw3VlLoNXNn2a8-L643gswpFEKwj5dBQLQSw/viewform?embedded=true" width="100%" height="2780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>

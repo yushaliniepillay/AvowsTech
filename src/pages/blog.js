@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Button, Card } from 'react-bootstrap';
+import { Breadcrumb, Row, Col, Button, Card } from 'react-bootstrap';
 
 
 const Blog = () => {
@@ -37,7 +37,7 @@ const Blog = () => {
       {
         id: "4",
         title: "Employees Engagement Activity",
-        date: "2019",
+        date: "",
         image: require('../pages/blog_details/image/annualDinner/HWT_4631.jpg'),
         descp: "",
         link: "/blog_details/blog_03"
@@ -51,14 +51,18 @@ const Blog = () => {
       <div id="pageHeader1" >
         <div className="vc-parent">
           <div className="vc-child">
-            <section className="page-title">
-              <h2>BLOG</h2>
-              <ul className="text-center">
-                <li className="list-unstyled text-danger">
-                  <Link className="text-white" href="/">Home / </Link> Blog</li>
-                {/* <li className="list-unstyled active">Blog</li> */}
-              </ul>
-            </section>
+              <Breadcrumb>
+                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                <Breadcrumb.Item active>BLOG</Breadcrumb.Item>
+              </Breadcrumb>
+              <section className="page-title">
+                <Row>
+                  <Col md={4}> </Col>
+                  <Col md={4}>
+                    <h1>BLOG</h1>
+                  </Col>
+                </Row>
+              </section>
           </div>
         </div>
       </div>
@@ -73,10 +77,10 @@ const Blog = () => {
             </div>
           </div>
 
-          <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around'}}>
+          <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
             {data.map(data => (
-              <Card style={{ width: '20rem', margin: '10px'}} >
-                <Card.Img style={{ width: '20rem', height: '14rem'}} variant="top" src={data.image} />
+              <Card style={{ width: '20rem', margin: '10px' }} >
+                <Card.Img style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image} />
                 <Card.Body>
                   <Card.Title>
                     <section className="post-title">

@@ -28,37 +28,37 @@ const cyber = () => (
             </div>
         </div>
 
-        <div id="blog" class="page blog-details-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 blog-page-content post-details">
-                        <div class="post-img">
+        <div id="blog" className="page blog-details-page">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12 blog-page-content post-details">
+                        <div className="post-img">
                             <img src={imageName} alt="" class="img-responsive" />
                         </div>
                         <div>
-                            <p class="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
+                            <p className="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
                             systems comes cyber risk. We help our clients protect their systems, data, devices, information
                             and most importantly their consumers from all kinds of attacks from intruders, malware or any
                             targeted attack. In today’s environment, organizations face tremendous risk and challenges when it
                             comes to protecting data and preventing fraud. Growing data protection needs and regulatory
                             concerns require fool proof cyber security solutions.
                             </p>
-                            <p class="justified"> With our security practitioners we at Avows give our clients the required
+                            <p className="justified"> With our security practitioners we at Avows give our clients the required
                             support and guidance to prevent and adapt to new threats. Our end to end range of cyber-security
                             solutions help cover all aspects of security right from your board rooms to back offices.
                             </p>
 
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_empty_space" >
-                                        <span class="vc_empty_space_inner"></span>
+                            <div className="vc_column-inner ">
+                                <div className="wpb_wrapper">
+                                    <div className="vc_empty_space" >
+                                        <span className="vc_empty_space_inner"></span>
                                     </div>
                                     <Tabs defaultActiveKey="SOC" transition={false} id="noanim-tab-example">
                                         <Tab eventKey="SOC" title="Security Operations Center">
                                             <br />
                                             <strong>Security Operations Center</strong>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">Security operations center is a centralized unit that provides
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">Security operations center is a centralized unit that provides
                                                 real time monitoring of entire enterprise to deal with security.
                                                 In these centres, the enterprise’s information and other sensitive areas like websites,
                                                 databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing
@@ -69,8 +69,8 @@ const cyber = () => (
                                         <Tab eventKey="CE" title="Consulting – Enterprise Risk Management">
                                             <br />
                                             <strong>Consulting – Enterprise Risk Management</strong>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">Through our Risk Management consulting practice we offer rich domain expertise
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">Through our Risk Management consulting practice we offer rich domain expertise
                                                 that our clients can leverage to help set up their risk practices, assess their enterprise risk
                                                 at any given time, formulate risk strategies and implement risk solutions. We can assist our clients
                                                 in wide variety of services creating a foundational risk practice to selecting risk tools and
@@ -80,8 +80,8 @@ const cyber = () => (
                                         <Tab eventKey="IAM" title="Identity and Access Management">
                                             <br />
                                             <strong>Identity and Access Management (IAM)</strong>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">Our IAM consulting services are crafted to combine best-in-class technologies with proven 
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">Our IAM consulting services are crafted to combine best-in-class technologies with proven 
                                                 industry processes. Through this, we deliver highly secure day-to-day operations while ensuring zero 
                                                 compromise on achieving maximum efficiency. Our experts can:</span>
                                             </p>
@@ -96,8 +96,8 @@ const cyber = () => (
                                         <Tab eventKey="MSS" title="Managed Security Services">
                                             <br />
                                             <strong>Managed Security Services</strong>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">Our managed security services are designed to serve as a remote extension of your security staff.
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">Our managed security services are designed to serve as a remote extension of your security staff.
                                                 We provide turnkey solutions for your complex information security challenges. By combining and correlating log
                                                 activity, our services help eliminate blind spots and provide visibility to what really matters. Our experienced
                                                 security professionals provide the essential expertise and infrastructure your organization needs to:</span>
@@ -114,8 +114,8 @@ const cyber = () => (
                                         <Tab eventKey="VAM" title="Vulnerability Assessment and Management">
                                             <br />
                                             <strong>Vulnerability Assessment and Management</strong>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">Our team of professional information security researchers and scientists 
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">Our team of professional information security researchers and scientists 
                                                 can provide in-depth remediation and solutions to any IT security threats within your company 
                                                 to protect your critical data assets. The team carries out a vulnerability analysis and implements a 
                                                 vulnerability management program to deal with various cybersecurity issues. Our experts can:</span>
@@ -139,18 +139,18 @@ const cyber = () => (
                                         <Tab eventKey="RGC" title="Risk Governance and Compliance">
                                             <br />
                                             <strong>Risk Governance and Compliance</strong>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">A business makes smarter decisions when keeping its risks in check. Once a business has visibility on 
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">A business makes smarter decisions when keeping its risks in check. Once a business has visibility on 
                                                 the risk of potential threats, it can prioritise investments, optimise current technology consumption and transform its 
                                                 security programs to address risks more effectively.</span>
                                             </p>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">Avows can help your business by providing remediation recommendations from a people, process and technology 
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">Avows can help your business by providing remediation recommendations from a people, process and technology 
                                                 perspective to make informed decisions. We can help design, implement and assess risk management across a spectrum of strategic, 
                                                 operational, financial and compliance considerations.</span>
                                             </p>
-                                            <p class="p1 text-justify"><br />
-                                                <span class="s1">We ensure that our risk evaluation approach is aligned in a way that supports the organization’s business goals 
+                                            <p className="p1 text-justify"><br />
+                                                <span className="s1">We ensure that our risk evaluation approach is aligned in a way that supports the organization’s business goals 
                                                 and culture. Security policies play a vital role in a business and we will also ensure that the data are used and 
                                                 secured properly.</span>
                                             </p>

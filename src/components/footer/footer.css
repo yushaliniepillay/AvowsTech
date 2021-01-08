@@ -32,6 +32,10 @@
     color: white;
     padding-top: 1rem;
     text-align: center;
+    
+}
+.footer-landmarks p {
+    font-size: small;
 }
 .footer-copyright {
     background: black;

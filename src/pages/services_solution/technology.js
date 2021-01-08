@@ -2,49 +2,63 @@ import React from "react"
 import Layout from "../../components/layouts/layout"
 import SEO from "../../components/seo"
 //import "../../components/header/header.css";
-import { Tabs, Tab } from 'react-bootstrap';
+import { Tabs, Tab, Breadcrumb, Row, Col } from 'react-bootstrap';
 
 
 const technology = () => {
 
     var imageName = require('../../components/images/background/mobile2.jpg')
-    
+
     return (
         <Layout>
             <SEO title="Technology Service" />
             <div id="pageHeader4"  >
                 <div className="vc-parent">
                     <div className="vc-child">
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item active>TECHNOLOGY SERVICE</Breadcrumb.Item>
+                        </Breadcrumb>
                         <section className="page-title">
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={5}>
+                                    <h1 className="mb-5">TECHNOLOGY SERVICE</h1>
+                                    <p className="text-center text-white">We provide enterprises with agility with our focus on customer centric journeys
+                                    to drive their digital transformation initiatives</p>
+                                </Col>
+                            </Row>
+                        </section>
+                        {/* <section className="page-title">
                             <h2>TECHNOLOGY SERVICE</h2>
-                            {/* <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
-                                to drive their digital transformation initiatives</p> */}
-                            <ul className="text-center">
+                             <p className="breadcrumb text-centre">We provide enterprises with agility with our focus on customer centric journeys
+                                to drive their digital transformation initiatives</p>
+                            <ul >
                                 <li className="list-unstyled">
                                     We provide enterprises with agility with our focus on customer centric journeys
                                     to drive their digital transformation initiatives
                             </li>
                             </ul>
-                        </section>
+                        </section> */}
                     </div>
                 </div>
             </div>
 
-            <div id="blog" class="page blog-details-page">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 blog-page-content post-details">
-                            <div class="post-img">
-                                <img src={imageName} alt="" class="img-responsive" style={{height: '450px'}}/>
+            <div id="blog" className="page blog-details-page">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 blog-page-content post-details">
+                            <div className="post-img">
+                                <img src={imageName} alt="" class="img-responsive" style={{ height: '550px' }} />
                             </div>
                             <div>
-                                <p class="justified"> Enhance customer experience with optimised software performance by aligning your IT
+                                <p className="justified"> Enhance customer experience with optimised software performance by aligning your IT
                                 deliverables with business goals. We have 11+ years’ experience in delivering next-generation services and
                                 leverage the best of Agile, DevOps and Industryleading governance model, helping you to increase innovation and
                                 business responsiveness.
                             </p>
                                 <h4>Bringing Business and IT Closer</h4>
-                                <p class="justified"> Our services span the end-to-end technology change process from inception to live,
+                                <p className="justified"> Our services span the end-to-end technology change process from inception to live,
                                 so that you can deliver value continuously and meet your users’ needs,
                                 while managing risk and maintaining quality control.
                             </p>
@@ -54,22 +68,22 @@ const technology = () => {
                                     <li>Managed Services and Technology Support</li>
                                     <li>Application Modernization</li>
                                 </ul>
-                                <p class="justified"> We offer a range of services from the development of initial application requirements to
+                                <p className="justified"> We offer a range of services from the development of initial application requirements to
                                 the global management of the entire application portfolio. Throughout the project lifecycle, our focus is on the
                                 organization and providing measurable results using next-gen approach like Agile and DevOps.
                             </p>
 
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div class="vc_empty_space" >
-                                            <span class="vc_empty_space_inner"></span>
+                                <div className="vc_column-inner ">
+                                    <div className="wpb_wrapper">
+                                        <div className="vc_empty_space" >
+                                            <span className="vc_empty_space_inner"></span>
                                         </div>
                                         <Tabs defaultActiveKey="Business" transition={false} id="noanim-tab-example">
                                             <Tab eventKey="Business" title="Business Software and Application Development">
                                                 <br />
                                                 <strong>Business Software and Application Development</strong>
-                                                <p class="p1 text-justify">
-                                                    <span class="s1">Our customer application development support both legacy and modern
+                                                <p className="p1 text-justify">
+                                                    <span className="s1">Our customer application development support both legacy and modern
                                                     platforms with deep industry expertise. Modern application development platforms include .Net, Java,
                                                 Web Services, SalesForce Automation, and many others.</span>
                                                 </p>
@@ -84,8 +98,8 @@ const technology = () => {
                                             <Tab eventKey="Mobile" title="Mobile and Web Development">
                                                 <br />
                                                 <strong>Mobile and Web Development</strong>
-                                                <p class="p1 text-justify">
-                                                    <span class="s1">Create next-gen apps designed for iOS &amp; Android starting from our
+                                                <p className="p1 text-justify">
+                                                    <span className="s1">Create next-gen apps designed for iOS &amp; Android starting from our
                                                     high-performance boiler-plate that provides maximum compatibility across hardware &amp;
                                                     software which are accessible by most mobile platforms and devices through employing multi
                                                 platform mobile development techniques.</span>
@@ -96,8 +110,8 @@ const technology = () => {
                                                     <li>Personal Digital Assistant</li>
                                                     <li>Website Design</li>
                                                 </ul>
-                                                <p class="p1 text-justify">
-                                                    <span class="s1">Our team of mobile web app developers includes qualified UX designers,
+                                                <p className="p1 text-justify">
+                                                    <span className="s1">Our team of mobile web app developers includes qualified UX designers,
                                                     visual designers and software engineers with unparalleled knowledge and experience working
                                                     with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3,
                                                     HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First
@@ -107,8 +121,8 @@ const technology = () => {
                                             <Tab eventKey="Managed" title="Managed Services Technology Support">
                                                 <br />
                                                 <strong>Managed Services Technology Support</strong>
-                                                <p class="p1 text-justify">
-                                                    <span class="s1">Avows Managed Services combine helpdesk, maintenance and enhancement
+                                                <p className="p1 text-justify">
+                                                    <span className="s1">Avows Managed Services combine helpdesk, maintenance and enhancement
                                                 services to help enterprises to improve operational continuity.</span>
                                                 </p>
                                                 <ul>
