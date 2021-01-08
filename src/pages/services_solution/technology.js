@@ -11,7 +11,7 @@ const technology = () => {
 
     return (
         <Layout>
-            <SEO title="Technology Service" />
+            <SEO title="TECHNOLOGY SERVICE" />
             <div id="pageHeader4"  >
                 <div className="vc-parent">
                     <div className="vc-child">

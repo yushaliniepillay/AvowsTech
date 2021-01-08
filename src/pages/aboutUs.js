@@ -11,7 +11,7 @@ const AboutUs = () => (
 
 
   <Layout>
-    <SEO title="About Us" />
+    <SEO title="ABOUT US" />
     {/* style={{ backgroundImage: `url("../components/images/background/about-bg.jpg")` }} */}
     <div id="pageHeader" >
       {/* <img src="../images/background/about-us.jpg" /> */}

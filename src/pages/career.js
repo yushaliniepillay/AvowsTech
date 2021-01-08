@@ -6,7 +6,7 @@ import { Breadcrumb, Row, Col } from 'react-bootstrap';
 
 const Career = () => (
     <Layout>
-        <SEO title="Career" />
+        <SEO title="CAREER" />
 
         <div id="pageHeader2" >
             <div className="vc-parent">

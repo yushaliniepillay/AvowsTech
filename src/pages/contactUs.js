@@ -41,7 +41,7 @@ const ContactUs = () => {
 
     return (
         <Layout>
-            <SEO title="Contact Us" />
+            <SEO title="CONTACT US" />
 
             <div id="pageHeader3" >
                 <div className="vc-parent">

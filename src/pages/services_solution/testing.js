@@ -132,14 +132,9 @@ const testing = () => {
             }
         ]
 
-    var rows = [];
-    for (var i = 0; i < security.length; i++) {
-        rows.push(security.item);
-    }
-
     return (
         <Layout>
-            <SEO title="Testing Service" />
+            <SEO title="TESTING & SECURITY SERVICE" />
             <div id="pageHeader3" >
                 <div className="vc-parent">
                     <div className="vc-child">

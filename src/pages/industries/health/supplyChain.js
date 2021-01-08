@@ -43,7 +43,7 @@ const SupplyChain = () => {
 
     return (
         <Layout>
-            <SEO title="AVOWS" />
+            <SEO title="HEALTHCARE" />
 
             <div id="pageHeader" >
                 <div className="vc-parent">
