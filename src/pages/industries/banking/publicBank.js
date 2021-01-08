@@ -69,8 +69,10 @@ const PublicBank = () => {
                                         
                                         <section className="cs_about">
                                             <h4>Customer Testimonial</h4>
+                                            <br/>
                                             <Container>
                                                 <Row>
+                                                <Col md={3}></Col>
                                                     <Col md={6}>
                                                         <ReactPlayer 
                                                         controls={true}
@@ -80,13 +82,8 @@ const PublicBank = () => {
                                                             width='100%'
                                                             height='100%' />
                                                     </Col>
-                                                    <Col md={{ span: 5, offset: 0 }}>
-                                                        <p>{data.video[2]}</p>
-                                                    </Col>
                                                 </Row>
                                             </Container>
-                                            <br/>
-                                            <p><strong>Speaker: </strong>{data.video[1]}</p>
                                         </section>
                                     </div>
                                 ))}

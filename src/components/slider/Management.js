@@ -133,7 +133,8 @@ const Management = () => {
                                     <h2 className="text-dark">{data.name}</h2>
                                 </section>
                             </Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted text-center">{data.position}</Card.Subtitle>
+                            <Card.Subtitle className="text-muted text-center"><p>{data.position}</p>
+                            </Card.Subtitle>
                         </Card>
                     ))}
                 </div>
