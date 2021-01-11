@@ -1259,3 +1259,14 @@ p {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
 }
+
+/* manufacturing */
+.intro h4 {
+    color: var(--mainDark);
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    /* text-transform: uppercase; */
+    position: relative
+}
