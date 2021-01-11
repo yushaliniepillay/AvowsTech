@@ -128,13 +128,18 @@ const Management = () => {
                     {data.map((data, index) => (
                         <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
                             <Card.Img style={{ width: '16rem', height: '20rem' }} variant="top" src={data.image} onClick={() => handleShow(index)} />
-                            <Card.Title>
-                                <section className="post-title text-center">
-                                    <h2 className="text-dark">{data.name}</h2>
-                                </section>
-                            </Card.Title>
-                            <Card.Subtitle className="text-muted text-center"><p>{data.position}</p>
-                            </Card.Subtitle>
+                            <Card.Body style={{ height: '6rem' }}>
+                                <Card.Title>
+                                    <section className="post-title text-center">
+                                        <h2 className="text-dark">{data.name}</h2>
+                                    </section>
+                                </Card.Title>
+                            </Card.Body>
+                            <Card.Body>
+                                <Card.Subtitle className="text-muted text-center">
+                                    <p>{data.position}</p>
+                                </Card.Subtitle>
+                            </Card.Body>
                         </Card>
                     ))}
                 </div>
