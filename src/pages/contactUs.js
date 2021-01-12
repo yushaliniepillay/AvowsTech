@@ -1,11 +1,67 @@
-import React from "react"
-//import { Link } from "gatsby"
+import React, { useState } from "react"
+import axios from 'axios';
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import { Breadcrumb, Row, Col, Button, Form, Card } from 'react-bootstrap';
 import { EnvironmentFilled, PhoneFilled, MailFilled } from '@ant-design/icons';
 
 const ContactUs = () => {
+
+    const [inputs, setInputs] = useState({
+        name: "",
+        email: "",
+        phoneNo: "",
+        service: "",
+        message: ""
+    });
+    const { name, email, phoneNo, service, message } = inputs;
+    const handleChange = e => {
+        try {
+            setInputs({ ...inputs, [e.target.name]: e.target.value });
+
+            console.log("Message.handleChange e.target.text", e.target.type);
+
+        } catch (err) {
+            console.error(err.message)
+        }
+
+    }
+
+    const onSubmitForm = async (e) => {
+        e.preventDefault();
+
+        const body = { name, email, phoneNo, service, message };
+        console.log("Message.onSubmitForm")
+
+        axios
+        .post('http://localhost:1337/contacts', {
+            name: 'name',
+            email: 'email',
+            phoneNo: 'phoneNo',
+            service: 'service',
+            message: 'message'
+        })
+        .then(response => {
+            //handle success.
+            console.log('Well done!');
+            console.log('Form sent');
+        })
+        .catch(error => {
+            //handle error.
+            console.log('An error occurred:', error);
+        })
+        // const data = new FormData()
+        // data.append("forms", inputs)
+
+        // const create_res = await axios({
+        //     method: 'POST',
+        //     url: 'http://localhost:1337/contacts',
+        //     body
+        // })
+
+        // console.log("Message.onSubmitForm create_res", create_res)
+
+    }
 
     const data =
         [
@@ -46,18 +102,18 @@ const ContactUs = () => {
             <div id="pageHeader3" >
                 <div className="vc-parent">
                     <div className="vc-child">
-                    <Breadcrumb>
-                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
-                <Breadcrumb.Item active>CONTACT US</Breadcrumb.Item>
-              </Breadcrumb>
-              <section className="page-title">
-                <Row>
-                  <Col md={4}> </Col>
-                  <Col md={4}>
-                    <h1>CONTACTS</h1>
-                  </Col>
-                </Row>
-              </section>
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item active>CONTACT US</Breadcrumb.Item>
+                        </Breadcrumb>
+                        <section className="page-title">
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={4}>
+                                    <h1>CONTACTS</h1>
+                                </Col>
+                            </Row>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -69,7 +125,7 @@ const ContactUs = () => {
 
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     {data.map(data => (
-                        <Card style={{ width: '23rem', textAlign: "center", margin: '10px'}} >
+                        <Card style={{ width: '23rem', textAlign: "center", margin: '10px' }} >
                             <i className="fa fa-map-marker"></i>
                             <Card.Body>
                                 <Card.Title>
@@ -87,30 +143,30 @@ const ContactUs = () => {
                     ))}
                 </div>
             </div>
-            <br/>
+            <br />
 
             {/* form */}
             <div id="contact" className="page contact_fields">
                 <div className="container">
                     <br />
-                    <Form>
+                    <Form onSubmit={onSubmitForm}>
                         <Form.Group controlId="formBasicNAme">
-                            <Form.Control type="text" placeholder="Name" />
+                            <Form.Control name="name" value={name} required onChange={e => handleChange(e)} type="text" placeholder="Name" />
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control name="email" value={email} required onChange={e => handleChange(e)} type="email" placeholder="Enter email" />
                         </Form.Group>
                         <Form.Group controlId="formBasicNumber">
-                            <Form.Control type="text" placeholder="Phone No" />
+                            <Form.Control name="phoneNo" value={phoneNo} required onChange={e => handleChange(e)} type="text" placeholder="Phone No" />
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
-                            <Form.Control type="text" placeholder="Service" />
+                            <Form.Control name="service" value={service} required onChange={e => handleChange(e)} type="text" placeholder="Service" />
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
-                            <Form.Control as="textarea" rows={3} type="text" placeholder="Message" />
+                            <Form.Control name="message" value={message} required onChange={e => handleChange(e)} as="textarea" rows={3} type="text" placeholder="Message" />
                         </Form.Group>
                         <div className="text-center">
-                            <Button className="m-3" variant="danger" size="md" type="submit">SEND</Button>
+                            <Button className="m-3" variant="danger" size="md" type="submit" >SEND</Button>
                         </div>
                     </Form>
                 </div>

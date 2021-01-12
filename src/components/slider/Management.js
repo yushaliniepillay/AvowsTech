@@ -135,7 +135,7 @@ const Management = () => {
                                     </section>
                                 </Card.Title>
                             </Card.Body>
-                            <Card.Body style={{ marginBottom: '-20px' }}>
+                            <Card.Body style={{ textAlign: 'top',marginBottom: '-20px' }}>
                                 <Card.Subtitle className="text-center">
                                     <h6 className='align-top'>{data.position}</h6>
                                 </Card.Subtitle>

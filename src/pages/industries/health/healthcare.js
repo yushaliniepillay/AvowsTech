@@ -88,7 +88,7 @@ const HealthCare = () => {
                             <ul>
                                 <li>Health & Education</li>
                                 <li>Hospital Management System</li>
-                                <li>Health Researc</li>
+                                <li>Health Research</li>
                                 <li>Health Data Management</li>
                             </ul>
                             <p className="justified">
