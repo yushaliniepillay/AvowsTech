@@ -74,19 +74,25 @@ const HealthCare = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                                The healthcare industry has proliferated on the global level, and is now going through an increased phase of consolidation. As this pace of consolidation gathers momentum, there is a pressing need for shared databases and records of medical histories of patients. This demand can only be addressed with the implementation of IT- and telecom-centric solutions. A number of technologies such as cloud computing, SaaS, and other software solutions developed specifically for the healthcare industry form an integral part of this trend. They are the key through which medical records and other applications can be effectively connected between healthcare facilities.
+                            Today, the technology is changing the landscape of the world and leading us towards a sophisticated technical world. The emerging role of ICT has created a huge impact on Healthcare. It enhances the quality of care, increases the patient security and data protection and reduces operating & administrative cost.
                             </p>
-                            <h5>Professional Services</h5>
                             <p className="justified">
-                                Avows provides you the opportunity to manage core responsibilities and collaborate with the augmented team the same way you do with your in-house developers.
+                            The telecommunication devices are more user friendly & used by a huge population around the world which have reduced the communication gap to a zero level. Therefore, accessibility to information has become simple using ICT and also people find themselves more relaxed while availing healthcare service.
                             </p>
-                            <h5>Tech Services & Solution</h5>
                             <p className="justified">
-                                Avows helps to design and build key platform components of the Customers’ Digital technology footprint with a  combination of our services & solutions knowledge of business processes and user-centered design principles.
+                            There are various challenges faced by the Healthcare sectors such as storing the medical record of the patient, maintaining Hospital Information System, maintenance of medical equipment, medication error and lot more. Now, the Hospitals depend on ICT to revamp the whole process of the healthcare sector. Through ICT the urban –rural disparities have been broken & shortened. If a doctor has the right communication channel it is easy to deliver treatment and care for the patient who is located anywhere around the world. The system helps the Doctor to continuously monitor the patient’s history, diagnostic report, and track the current health condition. The Doctor can also interact with patient, recommend to take medical examination and prescribe medicine.
                             </p>
-                            <h5>Cloud Consulting</h5>
                             <p className="justified">
-                                Avows offers Cloud technology expertise, resources, and tools — coupled with our extensive industry and business experience — to partner with you at every step of the journey to the Cloud.
+                                <strong>The use of ICT in healthcare can be categorized into 4 main streams such as;</strong>
+                            </p>
+                            <ul>
+                                <li>Health & Education</li>
+                                <li>Hospital Management System</li>
+                                <li>Health Researc</li>
+                                <li>Health Data Management</li>
+                            </ul>
+                            <p className="justified">
+                            In this Digital era, people can easily seek, access, learn & communicate with others within a quick span of time. This makes education accessible, available and open to all. Health education creates awareness among the public about the communicable diseases, health status, prevention measures and various current diagnostic & therapeutic procedures. This gives a freedom to the people to choose the best hospitals and doctors to approach for treatment and to have their life in a healthy way.
                             </p>
                         </div>
 

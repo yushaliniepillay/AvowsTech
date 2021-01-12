@@ -948,18 +948,12 @@ p {
     margin: 15px 0 10px;
     padding-left: 15px;
     border-left: 3px solid #ff5252;
-    font-size: 26px;
-    font-family: "Roboto";
+    font-size: 22px;
     line-height: 30px;
+    font-family: "Roboto";
     text-transform: uppercase;
     -webkit-transition: border-color .25s;
     transition: border-color .25s
-}
-
-.post-title h2 {
-    margin: 15px 0 10px;
-    font-size: 22px;
-    line-height: 30px;
 }
 
 .post-title h2 a {
@@ -968,7 +962,6 @@ p {
     -webkit-transition: color .25s;
     transition: color .25s
 }
-
 
 .post-title h2:hover a {
     color: #ff5252
@@ -1258,4 +1251,15 @@ p {
     bottom: -15px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
+}
+
+/* manufacturing */
+.intro h4 {
+    color: var(--mainDark);
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    /* text-transform: uppercase; */
+    position: relative
 }

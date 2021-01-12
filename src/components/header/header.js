@@ -63,7 +63,7 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="/industries/insurance/insurance">INSURANCE</NavDropdown.Item>
               <NavDropdown.Item href="/industries/tele/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
               <NavDropdown.Item href="/industries/health/healthcare">HEALTHCARE</NavDropdown.Item>
-              <NavDropdown.Item disabled href="/industries/manufacturing">MANUFACTURING</NavDropdown.Item>
+              <NavDropdown.Item href="/industries/manufacturing/manu">MANUFACTURING</NavDropdown.Item>
               <NavDropdown.Item href="/industries/oilNgas/energy">OIL AND GAS</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="SERVICES & SOLUTIONS" href="#" activeClassName="active" id="basic-nav-dropdown">
