@@ -51,7 +51,7 @@ const Management = () => {
             {
                 id: 3,
                 name: "KANESAN VELUPPILLAI",
-                position: "Group Corporate Advisor – Strategy",
+                position: "Group Corporate Advisor - Strategy",
                 image: require('../images/management/Ganesan.jpg'),
                 description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of Mergers & Acquisitions, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
                 description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
@@ -79,7 +79,7 @@ const Management = () => {
             {
                 id: 6,
                 name: "RAMESH KUMAR RAGHAVAN",
-                position: "VP-Group Operations",
+                position: "VP - Group Operations",
                 image: require('../images/management/Ramesh.jpg'),
                 description1: "Ramesh brings with him 14+ years of global experience in IT strategy, talent engagement and development, CEO Advisory and stakeholder management. He specializes in operations and HR that aligns strategy, processes with business goals",
                 description2: "Ramesh has a breadth of industry expertise with proficiency building new capabilities and internal processes and has worked with leading global organisations in the past.",
@@ -96,7 +96,7 @@ const Management = () => {
             }, {
                 id: 8,
                 name: "SUJOY ROY CHOWDHURY",
-                position: "VP SALES-Malaysia",
+                position: "VP Sales - Malaysia",
                 image: require('../images/management/Sujoy.jpg'),
                 description1: "Sujoy takes care of the sales business at Malaysia having more than 10+ years of Experience in IT Solutions Sales, Service Delivery Management and Pre-Sales for Global Financial Institutions in Malaysia and Singapore. He strongly believes in Customer Satisfaction for the services which is continuously boosting the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
                 description2: "He has a proven track record of success in Malaysia and focused on expanding the client base and is a key member of sales team upholding client attrition and partnerships. He’s now able to blend his love of consulting and project management to provide our clients with strong ROI."
@@ -114,7 +114,7 @@ const Management = () => {
             {
                 id: 10,
                 name: "ENDAH SUSANTI ",
-                position: "VP Sales -Indonesia",
+                position: "VP Sales - Indonesia",
                 image: require('../images/management/Endah.jpg'),
                 description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
                 description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organizations across and has been a key to the company’s business continuity and growth."
@@ -128,16 +128,16 @@ const Management = () => {
                     {data.map((data, index) => (
                         <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
                             <Card.Img style={{ width: '16rem', height: '20rem' }} variant="top" src={data.image} onClick={() => handleShow(index)} />
-                            <Card.Body style={{ height: '6rem' }}>
+                            <Card.Body style={{ height: '6rem', marginBottom: '-10px' }}>
                                 <Card.Title>
                                     <section className="post-title text-center">
                                         <h2 className="text-dark">{data.name}</h2>
                                     </section>
                                 </Card.Title>
                             </Card.Body>
-                            <Card.Body>
-                                <Card.Subtitle className="text-muted text-center">
-                                    <p>{data.position}</p>
+                            <Card.Body style={{ marginBottom: '-20px' }}>
+                                <Card.Subtitle className="text-center">
+                                    <h6 className='align-top'>{data.position}</h6>
                                 </Card.Subtitle>
                             </Card.Body>
                         </Card>
