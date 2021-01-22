@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../../../components/layouts/layout"
 import SEO from "../../../components/seo";
-import { Card, Button, Breadcrumb, Container, Row, Col } from 'react-bootstrap';
-import ReactPlayer from 'react-player/lazy'
+import { Card, Breadcrumb } from 'react-bootstrap';
 
 const Insurance = () => {
 
@@ -169,6 +167,3 @@ const Insurance = () => {
 }
 
 export default Insurance;
-
-
-{/*  */ }

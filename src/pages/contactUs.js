@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import axios from 'axios';
+//import axios from 'axios';
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import { Breadcrumb, Row, Col, Button, Form, Card } from 'react-bootstrap';
@@ -26,14 +26,15 @@ const ContactUs = () => {
 
         const body = { name, email, phoneNo, service, message };
         console.log("Message.onSubmitForm")
-        const requestURL = 'http://localhost:1337/contacts';
+        const requestURL = `http://localhost:1337/contacts`;
 
         // request(requestURL, { method: 'POST', body: this.state.value })
         fetch(requestURL, {
             method: 'POST',
-            headers: new Headers({
+            headers: {
+                "Access-Control-Allow-Origin": "*",
                 'Content-Type': 'application/json',
-              }),
+              },
             body: JSON.stringify(body)
         }).then((response) => {
             if (response.status >= 400) {
@@ -137,7 +138,8 @@ const ContactUs = () => {
                             <Card.Body>
                                 <Card.Title>
                                     <section className="post-title">
-                                        <h2><a href="#">{data.title}</a></h2>
+                                        <h2>{data.title}</h2>
+                                        {/* <h2><a href="#">{data.title}</a></h2> */}
                                     </section>
                                 </Card.Title>
                                 <Card.Text>
@@ -182,7 +184,7 @@ const ContactUs = () => {
             {/* map */}
             <div className="container-fluid">
                 <div className="row">
-                    <iframe className="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.565025466968!2d101.73319691410663!3d3.2082799976640892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3838cd5d77e5%3A0xd16ea55181170490!2sAvowstech!5e0!3m2!1sen!2s!4v1537269981617" width="100%" height="500" frameBorder="0" allowFullScreen></iframe>
+                    <iframe className="frame" title="Map of Avows Technologies" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.565025466968!2d101.73319691410663!3d3.2082799976640892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3838cd5d77e5%3A0xd16ea55181170490!2sAvowstech!5e0!3m2!1sen!2s!4v1537269981617" width="100%" height="500" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
 

@@ -1,8 +1,7 @@
 import React from 'react'
 import Layout from "../../../components/layouts/layout";
 import SEO from "../../../components/seo";
-import { Breadcrumb, Container, Row, Col, Figure, Table } from 'react-bootstrap';
-import ReactPlayer from 'react-player/lazy'
+import { Breadcrumb, Row, Col, Figure, Table } from 'react-bootstrap';
 
 
 const Sales = () => {

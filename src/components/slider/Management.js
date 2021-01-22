@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import { graphql} from 'gatsby';
 // import Img from 'gatsby-image';
-import { Carousel, Button, Modal, Figure, Container, Row, Col, Card } from 'react-bootstrap';
+import { Modal, Figure, Container, Card } from 'react-bootstrap';
 import '../header/header.css';
 
 const Management = () => {

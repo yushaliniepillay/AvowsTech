@@ -109,13 +109,13 @@ function footer() {
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="Social-link Social-link--circle Social-link--dark Social-link--medium">
-                                        <a href="https://www.facebook.com/avowstechnologies/?fref=ts" className="Social-link m-3" target="_blank">
+                                        <a href="https://www.facebook.com/avowstechnologies/?fref=ts" className="Social-link m-3" >
                                             <FacebookFilled className="fa-3x" />
                                         </a>
-                                        <a href="https://www.linkedin.com/company/3651016?trk=prof-0-ovw-curr_pos" className="Social-link m-3" target="_blank">
+                                        <a href="https://www.linkedin.com/company/3651016?trk=prof-0-ovw-curr_pos" className="Social-link m-3" >
                                             <LinkedinFilled className="fa-3x" />
                                         </a>
-                                        <a href="https://twitter.com/Avowstech" className="Social-link m-3" target="_blank">
+                                        <a href="https://twitter.com/Avowstech" className="Social-link m-3">
                                             <TwitterCircleFilled className="fa-3x" /></a>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ function footer() {
 
             <div className="footer-copyright text-center">
                 <div id="copyright" className="text-center">
-                    <p>&copy; <a href="#">Avows</a> technologies Sdn Bhd | 2020</p>
+                    <p>&copy; <a href="/">Avows</a> technologies Sdn Bhd | 2020</p>
                 </div>
             </div>
 

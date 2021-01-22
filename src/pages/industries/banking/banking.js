@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../../../components/layouts/layout"
 import SEO from "../../../components/seo";
-import { Card, Breadcrumb, Container, Row, Col } from 'react-bootstrap';
+import { Card, Breadcrumb, Row, Col } from 'react-bootstrap';
 
 const Banking = () => {
 

@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
     {/* second navbar */}
     <div >
       <Navbar expand="lg" bg="light" variant="light" sticky="top">
-        <Navbar.Brand  href="/"><img id="avowsTitle" src={cdc}/></Navbar.Brand>
+        <Navbar.Brand  href="/"><img id="avowsTitle" src={cdc} alt='title'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">
