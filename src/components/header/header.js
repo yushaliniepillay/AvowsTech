@@ -23,17 +23,17 @@ const Header = ({ siteTitle }) => (
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">
             <Nav.Item as="li" >
-              <Link href="https://www.facebook.com/avowstechnologies/?fref=ts" title="Facebook" className="nav-link" activeClassName="active">
+              <Link href="https://www.facebook.com/avowstechnologies/?fref=ts" title="Facebook" className="nav-link" activeclassname="active">
                 <FacebookFilled />
               </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link href="https://www.linkedin.com/company/avows-technologies-sdn-bhd/" title="Linkedin" className="nav-link" activeClassName="active">
+              <Link href="https://www.linkedin.com/company/avows-technologies-sdn-bhd/" title="Linkedin" className="nav-link" activeclassname="active">
                 <LinkedinFilled />
               </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link href="https://twitter.com/Avowstech" title="Twiter" className="nav-link" activeClassName="active">
+              <Link href="https://twitter.com/Avowstech" title="Twiter" className="nav-link" activeclassname="active">
                 <TwitterCircleFilled />
               </Link>
             </Nav.Item>
@@ -49,16 +49,16 @@ const Header = ({ siteTitle }) => (
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">
             <Nav.Item as="li" >
-              <Link to="/" className="nav-link" activeClassName="active">
+              <Link to="/" className="nav-link" activeclassname="active">
                 HOME
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/aboutUs" className="nav-link" activeClassName="active">
+              <Link to="/aboutUs" className="nav-link" activeclassname="active">
                 ABOUT US
             </Link>
             </Nav.Item>
-            <NavDropdown title="INDUSTRIES" href="#" activeClassName="active" id="basic-nav-dropdown">
+            <NavDropdown title="INDUSTRIES" href="#" activeclassname="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/industries/banking/banking">BANKING</NavDropdown.Item>
               <NavDropdown.Item href="/industries/insurance/insurance">INSURANCE</NavDropdown.Item>
               <NavDropdown.Item href="/industries/tele/telecommunication">TELECOMMUNICATION</NavDropdown.Item>
@@ -66,7 +66,7 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="/industries/manufacturing/manu">MANUFACTURING</NavDropdown.Item>
               <NavDropdown.Item href="/industries/oilNgas/energy">OIL AND GAS</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="SERVICES & SOLUTIONS" href="#" activeClassName="active" id="basic-nav-dropdown">
+            <NavDropdown title="SERVICES & SOLUTIONS" href="#" activeclassname="active" id="basic-nav-dropdown">
               <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
               <NavDropdown.Item href="/services_solution/testing">TESTING & SECURITY SERVICE</NavDropdown.Item>
               <NavDropdown.Item href="/services_solution/cloud">CLOUD TECHNOLOGIES</NavDropdown.Item>
@@ -75,22 +75,22 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="/services_solution/ar_vr">AUGMENTED & VIRTUAL REALITY</NavDropdown.Item>
             </NavDropdown>
             <Nav.Item as="li" >
-              <Link to="/blog" className="nav-link" activeClassName="active">
+              <Link to="/blog" className="nav-link" activeclassname="active">
                 BLOG
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/event" className="nav-link" activeClassName="active">
+              <Link to="/event" className="nav-link" activeclassname="active">
                 EVENTS
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/career" className="nav-link" activeClassName="active">
+              <Link to="/career" className="nav-link" activeclassname="active">
                 CAREER
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >
-              <Link to="/contactUs" className="nav-link" activeClassName="active">
+              <Link to="/contactUs" className="nav-link" activeclassname="active">
                 CONTACT US
             </Link>
             </Nav.Item>

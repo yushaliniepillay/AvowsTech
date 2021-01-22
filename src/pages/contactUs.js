@@ -43,10 +43,15 @@ const ContactUs = () => {
             return response.json();
         })
 
-        // const create_res = await axios({
+        // axios({
         //     method: 'POST',
         //     url: 'http://localhost:1337/contacts',
-        //     body: inputs
+        //     body: JSON.stringify(body),
+        // config: {
+        //     headers: {
+        //       'Access-Control-Allow-Origin': '*',
+        //     }
+        // }
         // })
         //     .then(response => {
         //         //handle success.
