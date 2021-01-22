@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import { graphql} from 'gatsby';
 // import Img from 'gatsby-image';
-import { Carousel, Button, Modal, Figure, Container, Row, Col, Card } from 'react-bootstrap';
+import { Modal, Figure, Container, Card } from 'react-bootstrap';
 import '../header/header.css';
 
 const Management = () => {
@@ -135,7 +135,7 @@ const Management = () => {
                                     </section>
                                 </Card.Title>
                             </Card.Body>
-                            <Card.Body style={{ marginBottom: '-20px' }}>
+                            <Card.Body style={{ textAlign: 'top',marginBottom: '-20px' }}>
                                 <Card.Subtitle className="text-center">
                                     <h6 className='align-top'>{data.position}</h6>
                                 </Card.Subtitle>

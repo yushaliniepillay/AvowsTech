@@ -9,7 +9,7 @@ import { FlagFilled, SmileOutlined, ShopOutlined, TrophyOutlined } from '@ant-de
 
 const IndexPage = () => {
 
-  const [change, setState] = useState({
+  const [change] = useState({
     button: true
   })
 
@@ -46,11 +46,11 @@ const IndexPage = () => {
           <br /><br />
           <section className="round-tabs text-center ">
             <ul className="nav nav-pills nav-normal">
-              <li className="">
+              <li>
                 <Button
                   active
                   // active={selectedButton == 0 ? 'true' : 'false'}
-                  variant={selectedButton == 0 ? 'danger' : 'light'}
+                  variant={selectedButton === 0 ? 'danger' : 'light'}
                   color='light'
                   className={change.button ? "buttonTrue" : "buttonFalse"}
                   size="lg"
@@ -58,10 +58,10 @@ const IndexPage = () => {
                   onClick={() => onClickButton1()} >Our Mission
                 </Button>
               </li>
-              <li className="">
+              <li>
                 <Button
                   active
-                  variant={selectedButton == 1 ? 'danger' : 'light'}
+                  variant={selectedButton === 1 ? 'danger' : 'light'}
                   color='light'
                   className={change.button ? "buttonTrue" : "buttonFalse"}
                   size="lg"

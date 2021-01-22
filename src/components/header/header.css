@@ -107,7 +107,7 @@ p {
     height: fit-content;
     position: relative;
     overflow: hidden;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -725,6 +725,7 @@ p {
     height: 8px;
     border: 2px solid #ff5252;
     border-radius: 50%
+    
 }
 
 .header-img {

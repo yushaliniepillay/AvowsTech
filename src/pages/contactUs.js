@@ -1,11 +1,75 @@
-import React from "react"
-//import { Link } from "gatsby"
+import React, { useState } from "react"
+//import axios from 'axios';
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import { Breadcrumb, Row, Col, Button, Form, Card } from 'react-bootstrap';
 import { EnvironmentFilled, PhoneFilled, MailFilled } from '@ant-design/icons';
 
 const ContactUs = () => {
+
+    const [inputs, setInputs] = useState({
+        name: "",
+        email: "",
+        phoneNo: "",
+        service: "",
+        message: ""
+    });
+    const { name, email, phoneNo, service, message } = inputs;
+    const handleChange = e => {
+        setInputs({ ...inputs, [e.target.name]: e.target.value });
+
+        console.log("Message.handleChange e.target.text", e.target.type);
+    }
+
+    const onSubmitForm = async (e) => {
+        e.preventDefault();
+
+        const body = { name, email, phoneNo, service, message };
+        console.log("Message.onSubmitForm")
+        const requestURL = `http://localhost:1337/contacts`;
+
+        // request(requestURL, { method: 'POST', body: this.state.value })
+        fetch(requestURL, {
+            method: 'POST',
+            headers: {
+                "Access-Control-Allow-Origin": "*",
+                'Content-Type': 'application/json',
+              },
+            body: JSON.stringify(body)
+        }).then((response) => {
+            if (response.status >= 400) {
+                throw new Error("Bad Response From Server");
+            }
+            return response.json();
+        })
+
+        // const create_res = await axios({
+        //     method: 'POST',
+        //     url: 'http://localhost:1337/contacts',
+        //     body: inputs
+        // })
+        //     .then(response => {
+        //         //handle success.
+        //         console.log('Well done!');
+        //         console.log('Form sent');
+        //     })
+        //     .catch(error => {
+        //         //handle error.
+        //         console.log('An error occurred:', error);
+        //     })
+
+        // const data = new FormData()
+        // data.append("forms", inputs)
+
+        // const create_res = await axios({
+        //     method: 'POST',
+        //     url: 'http://localhost:1337/contacts',
+        //     body
+        // })
+
+        // console.log("Message.onSubmitForm create_res", create_res)
+
+    }
 
     const data =
         [
@@ -46,18 +110,18 @@ const ContactUs = () => {
             <div id="pageHeader3" >
                 <div className="vc-parent">
                     <div className="vc-child">
-                    <Breadcrumb>
-                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
-                <Breadcrumb.Item active>CONTACT US</Breadcrumb.Item>
-              </Breadcrumb>
-              <section className="page-title">
-                <Row>
-                  <Col md={4}> </Col>
-                  <Col md={4}>
-                    <h1>CONTACTS</h1>
-                  </Col>
-                </Row>
-              </section>
+                        <Breadcrumb>
+                            <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                            <Breadcrumb.Item active>CONTACT US</Breadcrumb.Item>
+                        </Breadcrumb>
+                        <section className="page-title">
+                            <Row>
+                                <Col md={4}> </Col>
+                                <Col md={4}>
+                                    <h1>CONTACTS</h1>
+                                </Col>
+                            </Row>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -68,13 +132,14 @@ const ContactUs = () => {
                 <h2 className="black-color section-title">OUR OFFICES</h2>
 
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
-                    {data.map(data => (
-                        <Card style={{ width: '23rem', textAlign: "center", margin: '10px'}} >
+                    {data.map((data, index) => (
+                        <Card key={index} style={{ width: '23rem', textAlign: "center", margin: '10px' }} >
                             <i className="fa fa-map-marker"></i>
                             <Card.Body>
                                 <Card.Title>
                                     <section className="post-title">
-                                        <h2><a href="#">{data.title}</a></h2>
+                                        <h2>{data.title}</h2>
+                                        {/* <h2><a href="#">{data.title}</a></h2> */}
                                     </section>
                                 </Card.Title>
                                 <Card.Text>
@@ -87,30 +152,30 @@ const ContactUs = () => {
                     ))}
                 </div>
             </div>
-            <br/>
+            <br />
 
             {/* form */}
             <div id="contact" className="page contact_fields">
                 <div className="container">
                     <br />
-                    <Form>
+                    <Form onSubmit={onSubmitForm} method="post" action="#">
                         <Form.Group controlId="formBasicNAme">
-                            <Form.Control type="text" placeholder="Name" />
+                            <Form.Control name="name" value={name} required onChange={e => handleChange(e)} type="text" placeholder="Name" />
                         </Form.Group>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control name="email" value={email} required onChange={e => handleChange(e)} type="email" placeholder="Enter email" />
                         </Form.Group>
                         <Form.Group controlId="formBasicNumber">
-                            <Form.Control type="text" placeholder="Phone No" />
+                            <Form.Control name="phoneNo" value={phoneNo} required onChange={e => handleChange(e)} type="text" placeholder="Phone No" />
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
-                            <Form.Control type="text" placeholder="Service" />
+                            <Form.Control name="service" value={service} required onChange={e => handleChange(e)} type="text" placeholder="Service" />
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
-                            <Form.Control as="textarea" rows={3} type="text" placeholder="Message" />
+                            <Form.Control name="message" value={message} required onChange={e => handleChange(e)} as="textarea" rows={3} type="text" placeholder="Message" />
                         </Form.Group>
                         <div className="text-center">
-                            <Button className="m-3" variant="danger" size="md" type="submit">SEND</Button>
+                            <Button className="m-3" variant="danger" size="md" type="submit" >SEND</Button>
                         </div>
                     </Form>
                 </div>
@@ -119,7 +184,7 @@ const ContactUs = () => {
             {/* map */}
             <div className="container-fluid">
                 <div className="row">
-                    <iframe className="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.565025466968!2d101.73319691410663!3d3.2082799976640892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3838cd5d77e5%3A0xd16ea55181170490!2sAvowstech!5e0!3m2!1sen!2s!4v1537269981617" width="100%" height="500" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe className="frame" title="Map of Avows Technologies" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.565025466968!2d101.73319691410663!3d3.2082799976640892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3838cd5d77e5%3A0xd16ea55181170490!2sAvowstech!5e0!3m2!1sen!2s!4v1537269981617" width="100%" height="500" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
 
