@@ -17,8 +17,18 @@ const ContactUs = () => {
     const { name, email, phoneNo, service, message } = inputs;
     const handleChange = e => {
         setInputs({ ...inputs, [e.target.name]: e.target.value });
-
+        
         console.log("Message.handleChange e.target.text", e.target.type);
+    }
+
+    const resetForm = () => {
+        setInputs({
+            name: "",
+            email: "",
+            phoneNo: "",
+            service: "",
+            message: ""
+        })
     }
 
     const onSubmitForm = async (e) => {
@@ -26,15 +36,15 @@ const ContactUs = () => {
 
         const body = { name, email, phoneNo, service, message };
         console.log("Message.onSubmitForm")
-        const requestURL = `http://localhost:1337/contacts`;
+        const requestURL = `http://localhost:1338/contacts`;
+        console.log(JSON.stringify(body));
 
         // request(requestURL, { method: 'POST', body: this.state.value })
         fetch(requestURL, {
             method: 'POST',
             headers: {
-                "Access-Control-Allow-Origin": "*",
                 'Content-Type': 'application/json',
-              },
+            },
             body: JSON.stringify(body)
         }).then((response) => {
             if (response.status >= 400) {
@@ -42,40 +52,12 @@ const ContactUs = () => {
             }
             return response.json();
         })
-
-        // axios({
-        //     method: 'POST',
-        //     url: 'http://localhost:1337/contacts',
-        //     body: JSON.stringify(body),
-        // config: {
-        //     headers: {
-        //       'Access-Control-Allow-Origin': '*',
-        //     }
-        // }
-        // })
-        //     .then(response => {
-        //         //handle success.
-        //         console.log('Well done!');
-        //         console.log('Form sent');
-        //     })
-        //     .catch(error => {
-        //         //handle error.
-        //         console.log('An error occurred:', error);
-        //     })
-
-        // const data = new FormData()
-        // data.append("forms", inputs)
-
-        // const create_res = await axios({
-        //     method: 'POST',
-        //     url: 'http://localhost:1337/contacts',
-        //     body
-        // })
-
-        // console.log("Message.onSubmitForm create_res", create_res)
+        resetForm();
+        alert('The message sent');
 
     }
 
+    
     const data =
         [
             {
@@ -163,7 +145,7 @@ const ContactUs = () => {
             <div id="contact" className="page contact_fields">
                 <div className="container">
                     <br />
-                    <Form onSubmit={onSubmitForm} method="post" action="#">
+                    <Form onSubmit={onSubmitForm} method="post" onReset={resetForm}>
                         <Form.Group controlId="formBasicNAme">
                             <Form.Control name="name" value={name} required onChange={e => handleChange(e)} type="text" placeholder="Name" />
                         </Form.Group>
