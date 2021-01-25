@@ -111,7 +111,7 @@ function carousel() {
                             <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide1' src={slide1Icon} class="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide1' src={slide1Icon} className="img-responsive1" style={{ width: "200%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -161,7 +161,7 @@ function carousel() {
                             <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide2' src={slide2Icon} class="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide2' src={slide2Icon} className="img-responsive1" style={{ width: "200%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -209,7 +209,7 @@ function carousel() {
                             <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide3' src={slide3Icon} class="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide3' src={slide3Icon} className="img-responsive1" style={{ width: "200%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -258,7 +258,7 @@ function carousel() {
                             <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide4' src={slide4Icon} class="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide4' src={slide4Icon} className="img-responsive1" style={{ width: "200%" }} />
                                     </figure>
                                 </Fade>
                             </div>
