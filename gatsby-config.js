@@ -17,7 +17,10 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1338`,
+        apiURL: 'http://localhost:1338',
+        // process.env.DEPLOY_URL 
+        // ? ''
+        // : 'http://localhost:1338',
         contentTypes: [
           // List of the Content Types you want to be able to request from Gatsby.
           `contacts`,
@@ -39,8 +42,8 @@ module.exports = {
         icon: `src/components/images/favicon.png`, // This path is relative to the root of the site. //gatsby-icon.png
       },
     },
-    
-    
+
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
