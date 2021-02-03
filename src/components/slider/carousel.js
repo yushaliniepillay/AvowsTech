@@ -308,7 +308,7 @@ function carousel() {
                                 <div className="vc-parent">
                                     <div className="vc-child-bottom">
                                         <figure className="header-img owl-fadeInUp">
-                                            <img src="" alt="4" className="img-responsive1" />
+                                            {/* <img src="" alt="4" className="img-responsive1" /> */}
                                             {/* <figcaption>
                                                 <div className="header--badge header--badge-1 octagon">
                                                     <p><img src="/img/service_icon.png" width="52%" /></p>
