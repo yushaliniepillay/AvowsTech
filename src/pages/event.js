@@ -61,7 +61,8 @@ const Event = () => {
                       <Card.Body>
                         <Card.Title>
                           <section className="post-title">
-                            <h2><a href={data.link}>{data.title}</a></h2>
+                            <h2>{data.title}</h2>
+                            {/* <a href={data.link}></a> */}
                           </section>
                         </Card.Title>
                         <Card.Text>
