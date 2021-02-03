@@ -17,10 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: 'http://localhost:1338',
-        // process.env.DEPLOY_URL 
-        // ? ''
-        // : 'http://localhost:1338',
+        apiURL: process.env.DEPLOY_URL ? 'https://avows-strapi.herokuapp.com' :
+        'http://localhost:1337',
         contentTypes: [
           // List of the Content Types you want to be able to request from Gatsby.
           `contacts`,
