@@ -153,7 +153,7 @@ const ContactUs = () => {
                             <Form.Control name="email" value={email} required onChange={e => handleChange(e)} type="email" placeholder="Enter email" />
                         </Form.Group>
                         <Form.Group controlId="formBasicNumber">
-                            <Form.Control name="phoneNo" value={phoneNo} required onChange={e => handleChange(e)} type="text" placeholder="Phone No" />
+                            <Form.Control name="phoneNo" value={phoneNo} required onChange={e => handleChange(e)} type="number" placeholder="Phone No" />
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
                             <Form.Control name="service" value={service} required onChange={e => handleChange(e)} type="text" placeholder="Service" />
