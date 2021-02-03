@@ -69,4 +69,4 @@ yarn-error.log
 .yarn-integrity
 
 #new added
-#package-lock.json
+package-lock.json

@@ -36,7 +36,7 @@ const ContactUs = () => {
 
         const body = { name, email, phoneNo, service, message };
         console.log("Message.onSubmitForm")
-        const requestURL = `http://localhost:1338/contacts`;
+        const requestURL = `http://localhost:1337/contacts`;
         console.log(JSON.stringify(body));
 
         // request(requestURL, { method: 'POST', body: this.state.value })
