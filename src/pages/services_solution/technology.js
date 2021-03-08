@@ -9,6 +9,56 @@ const technology = () => {
 
     var imageName = require('../../components/images/background/mobile2.jpg')
 
+    const tech =
+        [
+            {
+                id: 0,
+                key: "A",
+                title: "Business Software and Application Development",
+                descp: [
+                    "Our customer application development support both legacy and modern platforms with deep industry expertise. Modern application development platforms include .Net, Java, Web Services, SalesForce Automation, and many others."
+                ],
+                item: [
+                    "Implementation Services",
+                    "Operation Services",
+                    "Packaged Applications",
+                    "Application Maintenance",
+                    "Custom Development",
+                ]
+            },
+            {
+                id: 1,
+                key: "B",
+                title: "Mobile and Web Development",
+                descp: [
+                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi platform mobile development techniques.",
+                    "Our team of mobile web app developers includes qualified UX designers, visual designers and software engineers with unparalleled knowledge and experience working with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3, HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First design approaches as well as ASP.NET mobile web development."
+                ],
+                item: [
+                    "Design Thinking",
+                    "Mobile Engineering",
+                    "Personal Digital Assistant",
+                    "Website Desig"
+                ]
+            },
+            {
+                id: 2,
+                key: "C",
+                title: "Managed Services Technology Support",
+                descp: [
+                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises to improve operational continuity."
+                ],
+                item: [
+                    "Application Helpdesk Service",
+                    "Support and Maintenance Services",
+                    "Routine and Preventive Maintenance",
+                    "Infrastructure Managed Services",
+                    "Application Enhancement and Value Add Services",
+                ]
+            }
+        ]
+
+
     return (
         <Layout>
             <SEO title="TECHNOLOGY SERVICE" />
@@ -78,61 +128,20 @@ const technology = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey="Business" transition={false} id="noanim-tab-example">
-                                            <Tab eventKey="Business" title="Business Software and Application Development">
-                                                <br />
-                                                <strong>Business Software and Application Development</strong>
-                                                <p className="p1 text-justify">
-                                                    <span className="s1">Our customer application development support both legacy and modern
-                                                    platforms with deep industry expertise. Modern application development platforms include .Net, Java,
-                                                Web Services, SalesForce Automation, and many others.</span>
-                                                </p>
-                                                <ul>
-                                                    <li>Implementation Services</li>
-                                                    <li>Operation Services</li>
-                                                    <li>Packaged Applications</li>
-                                                    <li>Application Maintenance</li>
-                                                    <li>Custom Development</li>
-                                                </ul>
-                                            </Tab>
-                                            <Tab eventKey="Mobile" title="Mobile and Web Development">
-                                                <br />
-                                                <strong>Mobile and Web Development</strong>
-                                                <p className="p1 text-justify">
-                                                    <span className="s1">Create next-gen apps designed for iOS &amp; Android starting from our
-                                                    high-performance boiler-plate that provides maximum compatibility across hardware &amp;
-                                                    software which are accessible by most mobile platforms and devices through employing multi
-                                                platform mobile development techniques.</span>
-                                                </p>
-                                                <ul>
-                                                    <li>Design Thinking</li>
-                                                    <li>Mobile Engineering</li>
-                                                    <li>Personal Digital Assistant</li>
-                                                    <li>Website Design</li>
-                                                </ul>
-                                                <p className="p1 text-justify">
-                                                    <span className="s1">Our team of mobile web app developers includes qualified UX designers,
-                                                    visual designers and software engineers with unparalleled knowledge and experience working
-                                                    with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3,
-                                                    HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First
-                                                design approaches as well as ASP.NET mobile web development.</span>
-                                                </p>
-                                            </Tab>
-                                            <Tab eventKey="Managed" title="Managed Services Technology Support">
-                                                <br />
-                                                <strong>Managed Services Technology Support</strong>
-                                                <p className="p1 text-justify">
-                                                    <span className="s1">Avows Managed Services combine helpdesk, maintenance and enhancement
-                                                services to help enterprises to improve operational continuity.</span>
-                                                </p>
-                                                <ul>
-                                                    <li>Application Helpdesk Service</li>
-                                                    <li>Support and Maintenance Services</li>
-                                                    <li>Routine and Preventive Maintenance</li>
-                                                    <li>Infrastructure Managed Services</li>
-                                                    <li>Application Enhancement and Value Add Services</li>
-                                                </ul>
-                                            </Tab>
+                                        <Tabs defaultActiveKey={tech[0].key} transition={false} id="noanim-tab-example">
+                                            {tech.map((tec, index) => (
+                                                <Tab key={index} eventKey={tec.key} title={tec.title}>
+                                                    <br />
+                                                    <h3><strong>{tec.title}</strong></h3>
+                                                    <p className="p1 text-justify">{tec.descp[0]}</p>
+                                                    <ul>
+                                                        {tec.item.map((tech, i) => (
+                                                            <li key={i}>{tech}</li>
+                                                        ))}
+                                                    </ul>
+                                                    <p className="p1 text-justify">{tec.descp[1]}</p>
+                                                </Tab>
+                                            ))}
                                         </Tabs>
 
                                     </div>
