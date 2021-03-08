@@ -587,7 +587,7 @@ p {
 }
 .page-title ul {
     color: rgb(235, 224, 224);
-    font-family:  'Roboto';
+    font-family:  'Open sans';
     font-size: 18px;
 }
 
@@ -951,7 +951,7 @@ p {
     border-left: 3px solid #ff5252;
     font-size: 22px;
     line-height: 30px;
-    font-family: "Roboto";
+    font-family: 'Open sans';
     text-transform: uppercase;
     -webkit-transition: border-color .25s;
     transition: border-color .25s

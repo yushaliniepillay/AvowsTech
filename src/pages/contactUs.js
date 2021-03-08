@@ -65,28 +65,35 @@ const ContactUs = () => {
                 title: "MALAYSIA - HQ",
                 company: "Avows Technologies SDN BHD",
                 address: "Level 15-06, Tower A, The Vertical Business Suite,Avenue 3, Bangsar South, No 8, Jln Kerinchi, 59200	Kuala Lumpur, Malaysia.",
-                number: "+603 27123456"
+                number: "Tel: +603 27123456"
             },
             {
                 id: "1",
                 title: "SINGAPORE",
                 company: "Avows Technologies Pte. Ltd.,",
                 address: "3 Temasek Avenue, Levels 21 & 34 Centennial Tower, Singapore 039190.",
-                number: "+65 6549 7000          Fax: +65 6549 7001"
+                number: "Tel: +65 6549 7000          Fax: +65 6549 7001"
             },
             {
                 id: "2",
                 title: "INDONESIA",
                 company: "PT Avows Technologies",
                 address: "Office 8, Level 18A, Jl. Jendral Sudirman kav. 52-53 South Jakarta 12190 – Indonesia",
-                number: "+62 2129608177"
+                number: "Tel: +62 2129608177"
             },
             {
                 id: "3",
                 title: "USA",
                 company: "Avows Technologies Inc.",
                 address: "4512 Legacy Drive #100 Plano, TX 75024",
-                number: "+1 201 604 3505"
+                number: "Tel: +1 201 604 3505"
+            },
+            {
+                id: "4",
+                title: "INDIA",
+                company: "Emantis IT Services PVT LTD",
+                address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabas Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
+                number: ""
             }
         ]
 
@@ -132,7 +139,7 @@ const ContactUs = () => {
                                 <Card.Text>
                                     <p>{data.company},</p>
                                     <p>{data.address}</p>
-                                    <p>Tel: {data.number}</p>
+                                    <p>{data.number}</p>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

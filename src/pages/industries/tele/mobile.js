@@ -14,6 +14,7 @@ const Mobile = () => {
                 link: "/industries/tele/mobile",
                 title: "Self-Care Mobile App Development",
                 about: "The client is a data-centric and multiple award-winning mobile data service company in Malaysia. They have established their presence in all over the country with a subscriber base of 7 million mark. It has been an award-winning telco with affordable plans and a comprehensive fintech ecosystem.",
+                
                 challenge: [
                     "The client wanted to bring unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
                 ],
@@ -98,7 +99,7 @@ const Mobile = () => {
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>U Mobile</td>
+                                                    <td>Telco</td>
                                                     <td>Telecommunication</td>
                                                     <td>Mobile App Development</td>
                                                 </tr>
