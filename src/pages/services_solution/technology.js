@@ -127,9 +127,9 @@ const technology = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={tech[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={tech[0].key} className="nav-tabs">
                                             {tech.map((tec, index) => (
-                                                <Tab key={index} eventKey={tec.key} title={tec.title}>
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={tec.key} title={tec.title}>
                                                     <br />
                                                     <h3><strong>{tec.title}</strong></h3>
                                                     <p className="p1 text-justify">{tec.descp[0]}</p>

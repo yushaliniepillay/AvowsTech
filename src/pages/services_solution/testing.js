@@ -172,9 +172,9 @@ const testing = () => {
                                     <div className="vc_empty_space" >
                                         <span className="vc_empty_space_inner"></span>
                                     </div>
-                                    <Tabs defaultActiveKey={test[0].key} transition={false} id="noanim-tab-example">
+                                    <Tabs defaultActiveKey={test[0].key}  className="nav-tabs" >
                                         {test.map((test, index) => (
-                                            <Tab key={index} eventKey={test.key} title={test.title}>
+                                            <Tab tabClassName="nav-tab" key={index} eventKey={test.key} title={test.title}>
                                                 <br />
                                                 <h3><strong>{test.title}</strong></h3>
                                                 <section>
@@ -222,10 +222,10 @@ const testing = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={security[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={security[0].key}  className="nav-tabs">
                                             {security.map((sec, index) => (
-                                                <Tab key={index} eventKey={sec.key} title={sec.title}>
-                                                    <br />
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={sec.key} title={sec.title}>
+                                                    <br /><br />
                                                     <h3><strong>{sec.title}</strong></h3>
                                                     <section>
                                                         <p className="text-justify">{sec.descp[0]}</p>

@@ -24,7 +24,7 @@ const data = () => {
                 title: "AI + Data Science",
                 descp: [
                     "Our Artificial Intelligence/Machine Learning (AI/ML) service offering goes through the process of procedural automation where it captures informative digital assets in a machine-readable format before implementing automation for complex and repetitive tasks.",
-                    "-	We are focused on AI/ML innovations and work with experts utilizing the latest in data science models and solutions that can help organizations gather insight into their operations, performance, customers and competitors."
+                    "We are focused on AI/ML innovations and work with experts utilizing the latest in data science models and solutions that can help organizations gather insight into their operations, performance, customers and competitors."
                 ],
                 item: []
             },
@@ -33,7 +33,7 @@ const data = () => {
                 key: "C",
                 title: "Big Data",
                 descp: [
-                    "-	Change the first paragraph to = Our services and concepts cater to cloud-based big data to assist our customers in solving their data conundrums, analysis, storage and in applying analytical insights to drive business growth. We help reveal hidden patterns, correlations, market trends and customer preferences that inform smart business decisions.",
+                    "Our services and concepts cater to cloud-based big data to assist our customers in solving their data conundrums, analysis, storage and in applying analytical insights to drive business growth. We help reveal hidden patterns, correlations, market trends and customer preferences that inform smart business decisions.",
                     "We help customers to uncover information such as hidden patterns, unknown correlations, market trends and customer preferences that can enhance business decision-making process."
                 ],
                 item: [
@@ -119,9 +119,9 @@ const data = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={science[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={science[0].key}  className="nav-tabs">
                                             {science.map((sc, index) => (
-                                                <Tab key={index} eventKey={sc.key} title={sc.title}>
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={sc.key} title={sc.title}>
                                                     <br />
                                                     <h3><strong>{sc.title}</strong></h3>
                                                     <p className="p1 text-justify">{sc.descp[0]}</p>

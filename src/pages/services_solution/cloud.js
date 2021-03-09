@@ -103,9 +103,9 @@ const cloud = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={cloud[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={cloud[0].key}  className="nav-tabs">
                                             {cloud.map((cll, index) => (
-                                                <Tab key={index} eventKey={cll.key} title={cll.title}>
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={cll.key} title={cll.title}>
                                                     <br />
                                                     <h3><strong>{cll.title}</strong></h3>
                                                     <p className="p1 text-justify">{cll.descp[0]}</p>

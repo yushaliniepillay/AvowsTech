@@ -13,6 +13,8 @@ import Footer from "../footer/footer";
 import ScrollArrow from "../scrollArrow";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.css';
+
 import '../header/header.css';
 import '../footer/footer.css';
 
