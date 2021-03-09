@@ -4,15 +4,15 @@ import SEO from "../../../components/seo";
 import { Breadcrumb, Container, Row, Col } from 'react-bootstrap';
 import ReactPlayer from 'react-player'
 
-const PublicBank = () => {
+const LeadingBank = () => {
 
     const data =
         [
             {
                 id: 0,
                 key: "A",
-                link: "/industries/banking/publicBank",
-                title: "Public Bank",
+                link: "/industries/banking/leadingBank",
+                title: "Leading Bank",
                 about: "Client from one of the leading banks in Malaysia",
                 image: [
                     require('../../industries/InImage/pb_image.jpg')
@@ -35,13 +35,13 @@ const PublicBank = () => {
                         <Breadcrumb>
                             <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
                             <Breadcrumb.Item href="/industries/banking/banking">BANKING</Breadcrumb.Item>
-                            <Breadcrumb.Item active>PUBLIC BANK TESTIMONIAL</Breadcrumb.Item>
+                            <Breadcrumb.Item active>LEADING BANK TESTIMONIAL</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
                             <Row>
                                 <Col md={4}> </Col>
                                 <Col md={4}>
-                                    <h1>PUBLIC BANK TESTIMONIAL</h1>
+                                    <h1>LEADING BANK TESTIMONIAL</h1>
                                 </Col>
                             </Row>
                         </section>
@@ -97,4 +97,4 @@ const PublicBank = () => {
     )
 }
 
-export default PublicBank;
+export default LeadingBank;
