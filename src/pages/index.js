@@ -42,6 +42,7 @@ const IndexPage = () => {
       <div><SEO title="HOME" /></div>
       <div>
         <Carousel />
+        
         <div className="container">
           <br /><br />
           <section className="round-tabs text-center ">

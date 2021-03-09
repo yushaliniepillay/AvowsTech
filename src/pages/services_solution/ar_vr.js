@@ -59,13 +59,12 @@ const ar_vr = () => {
                                 AR/VR gives us the immersive, interactive and imaginative experience
                                 which allows you to visualize your information and content.
                             </p>
-                                <p className="justified">Paired with a device, AR is able to help a business
-                                to generate more interaction with their customers by creating personalized
+                                <p className="justified">Paired with a device, AR is able to help 
+                                businesses generate more interaction with their customers by creating personalized
                                 and memorable content for industries such as retail, manufacturing, healthcare,
-                                training and education industry. VR lets you experience what it’s like to be
-                                anywhere and anytime - immersing yourself into a game to a country in the world.
-                                Mixed Reality (MR) interacts with both the real world and the virtual environment -
-                                enabling real time immersive experience.
+                                training and education. VR lets you experience what it’s like to be
+                                anywhere and anytime.
+                                Mixed Reality (MR) interacts with both the real world and the virtual.
                             </p>
 
                                 <div className="vc_column-inner ">
@@ -73,9 +72,9 @@ const ar_vr = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={arvr[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={arvr[0].key}  className="nav-tabs">
                                             {arvr.map((ar, index) => (
-                                                <Tab key={index} eventKey={ar.key} title={ar.title}>
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={ar.key} title={ar.title}>
                                                     <br />
                                                     <h3><strong>{ar.title}</strong></h3>
                                                     {/* <p className="p1 text-justify">{ar.descp[0]}</p> */}

@@ -13,7 +13,8 @@ const Header = ({ siteTitle }) => (
     <div>
       <Navbar className="small-nav" bg="dark" variant="dark">
         <Navbar.Brand className="small-nav-num">
-          <PhoneOutlined />(+603) 2712 3456</Navbar.Brand>
+          <PhoneOutlined />(+603) 2712 3456
+        </Navbar.Brand>
         <Navbar.Brand className="small-nav-num">
           <Link className="link" href="mailto:info@avowstech.com">
             <MailFilled /> info@avowstech.com
@@ -41,11 +42,14 @@ const Header = ({ siteTitle }) => (
         </Navbar.Collapse>
       </Navbar>
     </div>
+    
     {/* second navbar */}
     <div >
       <Navbar expand="lg" bg="light" variant="light" sticky="top">
-        <Navbar.Brand  href="/"><img id="avowsTitle" src={cdc} alt='title'/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarResponsive" />
+        <Navbar.Brand className="nav" href="/" >
+          <img id="avowsTitle" src={cdc} alt='title'/>
+        </Navbar.Brand>
+        {/* <Navbar.Toggle aria-controls="navbarResponsive" /> */}
         <Navbar.Collapse id="navbarResponsive" >
           <Nav as="ul" className="ml-auto">
             <Nav.Item as="li" >

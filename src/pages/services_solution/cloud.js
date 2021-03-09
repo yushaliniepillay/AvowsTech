@@ -15,12 +15,12 @@ const cloud = () => {
                 key: "A",
                 title: "Multi-Cloud Experience",
                 descp: [
-                    "Leveraging on our in-house multi-cloud expertise to have a seamless experience of managing multi-tier workloads of both on-prem and cloud."
+                    "Leveraging our in-house multi-cloud expertise to provide a seamless experience of managing multi-tier workloads of both on-prem and cloud."
                 ],
                 item: [
                     "Amazon Web Services",
                     "Microsoft Azure",
-                    "Microsoft Azure Stack(Hybrid Cloud)",
+                    "Microsoft Azure Stack (Hybrid Cloud)",
                     "Google Cloud Platform",
                 ]
             },
@@ -29,7 +29,7 @@ const cloud = () => {
                 key: "B",
                 title: "Microsoft Office Suite Implementation",
                 descp: [
-                    "Migration and integration related services scope are our key focus area within the domains of Microsoft Office Suite."
+                    "Migration and integration related services are our key focus areas within the domain of Microsoft Office Suite."
                 ],
                 item: [
                     "Microsoft Office 365 (Teams deployment & Configuration)",
@@ -88,10 +88,10 @@ const cloud = () => {
                             </div>
                             <div>
                                 <p className="justified"> We have a dedicated in-house “Cloud Wizarding” team who can
-                                help transform and empower our enterprise customers Cloud Transformation Journey
+                                help transform and empower our enterprise customers' Cloud Transformation Journey
                                 with both solution advisory and technology expertise.
                             </p>
-                                <p className="justified"> Our cloud professional services scope includes in the areas as listed below:</p>
+                                <p className="justified"> Our cloud professional services scope includes:</p>
                                 <ul>
                                     <li>Professional Cloud Consultancy & Advisory</li>
                                     <li>Cloud Integration & Migration Services</li>
@@ -103,9 +103,9 @@ const cloud = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={cloud[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={cloud[0].key}  className="nav-tabs">
                                             {cloud.map((cll, index) => (
-                                                <Tab key={index} eventKey={cll.key} title={cll.title}>
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={cll.key} title={cll.title}>
                                                     <br />
                                                     <h3><strong>{cll.title}</strong></h3>
                                                     <p className="p1 text-justify">{cll.descp[0]}</p>

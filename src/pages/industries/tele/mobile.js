@@ -99,7 +99,7 @@ const Mobile = () => {
                                             </thead>
                                             <tbody >
                                                 <tr>
-                                                    <td>Telco</td>
+                                                    <td>A Leading Telecom provider in Malaysia</td>
                                                     <td>Telecommunication</td>
                                                     <td>Mobile App Development</td>
                                                 </tr>

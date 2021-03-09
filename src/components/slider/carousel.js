@@ -11,7 +11,8 @@ function carousel() {
     const slide2Icon = require('../images/header-slider-content/02.png');
     const slide3Icon = require('../images/header-slider-content/03.png');
     const slide4Icon = require('../images/header-slider-content/04.png');
-
+    const slide5Icon = require('../images/header-slider-content/05.png');
+    
     // const data =
     //     [
     //         {
@@ -70,7 +71,6 @@ function carousel() {
     //     ]
 
     return (
-
         <Carousel className="carousel">
             <Carousel.Item className="img1" interval={3000}>
                 {/* <img className="img1 d-block w-100"
@@ -78,7 +78,7 @@ function carousel() {
                 <Carousel.Caption className="carousel-caption">
                     <div className="container" >
                         <div className="row">
-                            <div className="col-md-7">
+                            <div className="col-md-8">
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
@@ -99,8 +99,9 @@ function carousel() {
                                                     <li>Software and Application Services</li>
                                                 </Fade>
                                             </ul>
+                                            <br />
                                             <Fade direction='bottom-left' delay={100}>
-                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/technology">VIEW DETAILS</Button>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/technology">READ MORE</Button>
                                             </Fade>
                                         </section>
 
@@ -108,10 +109,10 @@ function carousel() {
                                 </div>
                             </div>
 
-                            <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide1' src={slide1Icon} className="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide1' src={slide1Icon} className="img-responsive1" style={{ width: "170%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -128,7 +129,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-7">
+                            <div className="col-md-8">
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
@@ -139,7 +140,7 @@ function carousel() {
                                             <Fade direction='right' delay={100}>
                                                 <h5>We aim to help organizations regardless
                                                 of any sizes improve their security processes, achieve compliance and
-                                                protect their data</h5>
+                                                protect their data.</h5>
                                             </Fade>
                                             <br />
                                             <ul>
@@ -150,18 +151,19 @@ function carousel() {
                                                     <li>Security Testing</li>
                                                 </Fade>
                                             </ul>
+                                            <br />
                                             <Fade direction='bottom-left' delay={100}>
-                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/testing">VIEW DETAILS</Button>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/testing">READ MORE</Button>
                                             </Fade>
                                         </section>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide2' src={slide2Icon} className="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide2' src={slide2Icon} className="img-responsive1" style={{ width: "170%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -178,7 +180,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-7">
+                            <div className="col-md-8">
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
@@ -187,9 +189,8 @@ function carousel() {
                                             </Fade>
                                             <br />
                                             <Fade direction='right' delay={100}>
-                                                <h5>We leverage the power of
-                                                Cloud technologies to enable Enterprises to achieve desired
-                                            results</h5>
+                                                <h5>We leverage the power of Cloud 
+                                                    technologies to enable Enterprises to achieve desired results.</h5>
                                             </Fade>
                                             <br />
                                             <ul>
@@ -199,17 +200,18 @@ function carousel() {
                                                     <li>Cloud Managed Services</li>
                                                 </Fade>
                                             </ul>
+                                            <br />
                                             <Fade direction='bottom-left' delay={100}>
-                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/cloud">VIEW DETAILS</Button>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/cloud">READ MORE</Button>
                                             </Fade>
                                         </section>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide3' src={slide3Icon} className="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide3' src={slide3Icon} className="img-responsive1" style={{ width: "190%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -225,7 +227,7 @@ function carousel() {
                 <Carousel.Caption>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-7">
+                            <div className="col-md-8">
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
@@ -247,18 +249,19 @@ function carousel() {
                                                     <li>Automating Business Process & Beyond</li>
                                                 </Fade>
                                             </ul>
+                                            <br />
                                             <Fade direction='bottom-left' delay={100}>
-                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/data">VIEW DETAILS</Button>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/data">READ MORE</Button>
                                             </Fade>
                                         </section>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="col-md-2 header-img-holder hidden-sm hidden-xs">
+                            <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
                                 <Fade direction='bottom-left' delay={600}>
                                     <figure>
-                                        <img alt='slide4' src={slide4Icon} className="img-responsive1" style={{ width: "200%" }} />
+                                        <img alt='slide4' src={slide4Icon} className="img-responsive1" style={{ width: "230%" }} />
                                     </figure>
                                 </Fade>
                             </div>
@@ -275,18 +278,19 @@ function carousel() {
                 <Carousel.Caption>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-7">
+                            <div className="col-md-8">
                                 <div className="vc-parent">
                                     <div className="vc-child">
                                         <section className="header-content">
+                                            <br/>
                                             <Fade direction='left' delay={100}>
                                                 <h1>AUGMENTED & VIRTUAL REALITY</h1>
                                             </Fade>
                                             <br />
                                             <Fade direction='right' delay={100}>
-                                                <h5>Solutions with immersive experience</h5><br />
+                                                <h5>Solutions with immersive experience.</h5>
                                                 <h5>We aim to provide business solutions by integrating the virtual and
-                                                the real world tailored to your needs and industry</h5>
+                                                the real world tailored to your needs and industry.</h5>
                                             </Fade>
                                             <br />
                                             <ul>
@@ -297,31 +301,21 @@ function carousel() {
                                                     <li>Mixed Reality</li>
                                                 </Fade>
                                             </ul>
+                                            <br />
                                             <Fade direction='bottom-left' delay={100}>
-                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/ar_vr">VIEW DETAILS</Button>
+                                                <Button className="m-3" variant="danger" size="md" type="submit" href="/services_solution/ar_vr">READ MORE</Button>
                                             </Fade>
                                         </section>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <div className="vc-parent">
-                                    <div className="vc-child-bottom">
-                                        <figure className="header-img owl-fadeInUp">
-                                            {/* <img src="" alt="4" className="img-responsive1" /> */}
-                                            {/* <figcaption>
-                                                <div className="header--badge header--badge-1 octagon">
-                                                    <p><img src="/img/service_icon.png" width="52%" /></p>
-                                                </div>
-                                                <div class="header--badge header--badge-2 octagon">
-                                                    <p><img src="/img/service_icon1.png" width="42%" /></p>
-                                                </div>
-                                            </figcaption> */}
-                                        </figure>
-                                    </div>
-                                </div>
+                                <Fade direction='bottom-left' delay={600}>
+                                    <figure>
+                                        <img alt='slide4' src={slide5Icon} className="img-responsive1" style={{ width: "170%" }} />
+                                    </figure>
+                                </Fade>
                             </div>
-
 
                         </div>
                     </div>
@@ -344,7 +338,7 @@ function carousel() {
         //                             <li>{data.list[2]}</li>
         //                             <li>{data.list[3]}</li>
         //                         </ul>
-        //                         <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" href={data.link}>VIEW DETAILS</Button>
+        //                         <Button key={data.id} className="m-3" variant="danger" size="md" type="submit" href={data.link}>READ MORE</Button>
         //                     </section>
         //                 </Carousel.Caption>
         //             </Carousel.Item>

@@ -50,7 +50,7 @@ const Banking = () => {
             {
                 id: 0,
                 key: "A",
-                link: "/industries/banking/publicBank",
+                link: "/industries/banking/leadingBank",
                 title: "Client From One of the Leading Banks in Malaysia",
                 image: [
                     require('../../industries/InImage/pb_image.jpg')

@@ -50,7 +50,7 @@ p {
 
 .nav{ 
     padding-left: 0pt;
-    height: 65pt;
+    height: 40pt;
     /* padding-top: 50pt; */
 }
 
@@ -106,18 +106,19 @@ p {
     display: block;
     height: fit-content;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
     /* margin: 0 auto; */
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 0;
+    z-index: 1000;
     color: #fff;
 }
 .carousel-caption {
-    top: 4rem;
+    top: 3rem;
     bottom: auto;
+    margin-top: -3rem;
 }
 
 #header,
@@ -1178,7 +1179,7 @@ p {
 }
 
 /* tab class*/
-#tab>:hover {
+/* #tab>:hover {
     background-color: red;
     color: white;
     border: none
@@ -1187,7 +1188,7 @@ p {
     background-color: red;
     color: white;
     border: none
-}
+} */
 
 /* management style */
 

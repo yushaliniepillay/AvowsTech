@@ -29,7 +29,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -48,8 +48,8 @@ canvas,
 progress,
 video {
   display: inline-block;
-}
-audio:not([controls]) {
+} */
+/* audio:not([controls]) {
   display: none;
   height: 0;
 }
@@ -224,7 +224,7 @@ legend {
 }
 textarea {
   overflow: auto;
-}
+} 
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -250,6 +250,7 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
+
 * {
   box-sizing: inherit;
 }
@@ -259,7 +260,7 @@ textarea {
 *:after {
   box-sizing: inherit;
 }
-h2 {
+ h2 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -459,7 +460,7 @@ noscript {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-}
+} */
 iframe {
   margin-left: 0;
   margin-right: 0;
@@ -470,7 +471,7 @@ iframe {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-address {
+/* address {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -542,14 +543,14 @@ abbr {
 acronym {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
-}
+} */
 thead {
-  text-align: left;
+  text-align: center;
 }
-td,
-th {
-  text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+
+tr, td, th {
+  text-align: center;
+  /* border-bottom: 1px solid hsla(0, 0%, 0%, 0.12); */
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
@@ -558,7 +559,8 @@ th {
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
   padding-bottom: calc(0.725rem - 1px);
-}
+} 
+/*
 th:first-child,
 td:first-child {
   padding-left: 0;
@@ -598,7 +600,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
-
+*/
 
 .scrollTop {
   font-size: 3em;
@@ -628,3 +630,30 @@ pre tt:after {
     opacity: 1.5;
   }
 }
+
+
+/* tab styling */
+/* .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: orangered;
+  background-color: #fff;
+  border-color: none;
+} */
+
+.nav-tab {
+  background-color: orangered;
+  color: white;
+  border: none  
+}
+
+.nav-tab:hover {
+  color: #fff;
+  background-color: gray;
+  border: none
+}
+
+.nav-tab.active {
+  background-color: orangered;
+  color: white;
+  border: none
+}
+/* tab styling */

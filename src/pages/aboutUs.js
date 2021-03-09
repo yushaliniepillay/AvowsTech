@@ -26,7 +26,7 @@ const AboutUs = () => (
               <Col md={3}> </Col>
               <Col md={6}>
                 <h1 className="mb-5">DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h1>
-                <p className="text-center text-white">We provide enterprises with agility with our focusing on customer centric journeys
+                <p className="text-center text-white">We provide enterprises with agility by focusing on customer centric journeys
                   to drive their digital transformation initiatives</p>
               </Col>
             </Row>

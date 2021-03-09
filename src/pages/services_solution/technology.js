@@ -16,7 +16,7 @@ const technology = () => {
                 key: "A",
                 title: "Business Software and Application Development",
                 descp: [
-                    "Our customer application development support both legacy and modern platforms with deep industry expertise. Modern application development platforms include .Net, Java, Web Services, SalesForce Automation, and many others."
+                    "Our customer application development supports both legacy and modern platforms with deep industry expertise. Modern application development platforms include .Net, Java, Web Services, SalesForce Automation, and many others."
                 ],
                 item: [
                     "Implementation Services",
@@ -31,14 +31,14 @@ const technology = () => {
                 key: "B",
                 title: "Mobile and Web Development",
                 descp: [
-                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi platform mobile development techniques.",
+                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi-platform mobile development techniques.",
                     "Our team of mobile web app developers includes qualified UX designers, visual designers and software engineers with unparalleled knowledge and experience working with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3, HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First design approaches as well as ASP.NET mobile web development."
                 ],
                 item: [
                     "Design Thinking",
                     "Mobile Engineering",
                     "Personal Digital Assistant",
-                    "Website Desig"
+                    "Website Design"
                 ]
             },
             {
@@ -46,14 +46,14 @@ const technology = () => {
                 key: "C",
                 title: "Managed Services Technology Support",
                 descp: [
-                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises to improve operational continuity."
+                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises improve operational efficiency."
                 ],
                 item: [
                     "Application Helpdesk Service",
                     "Support and Maintenance Services",
                     "Routine and Preventive Maintenance",
                     "Infrastructure Managed Services",
-                    "Application Enhancement and Value Add Services",
+                    "Application Enhancement and Value-add Services",
                 ]
             }
         ]
@@ -102,15 +102,14 @@ const technology = () => {
                                 <img src={imageName} alt="" class="img-responsive" style={{ height: '550px' }} />
                             </div>
                             <div>
-                                <p className="justified"> Enhance customer experience with optimised software performance by aligning your IT
-                                deliverables with business goals. We have 11+ years’ experience in delivering next-generation services and
-                                leverage the best of Agile, DevOps and Industryleading governance model, helping you to increase innovation and
+                                <p className="justified"> Enhance customer experience with optimised software performance by aligning IT
+                                deliverables with business goals. We have more than 11 years experience in delivering next-generation services and
+                                leveraging the best of Agile, DevOps and Industry leading governance models, helping you to increase innovation and
                                 business responsiveness.
                             </p>
                                 <h4>Bringing Business and IT Closer</h4>
-                                <p className="justified"> Our services span the end-to-end technology change process from inception to live,
-                                so that you can deliver value continuously and meet your users’ needs,
-                                while managing risk and maintaining quality control.
+                                <p className="justified"> Our services span the end-to-end technology change process from inception to live, 
+                                so that you can deliver value continuously and meet your users’ expectation, while managing risk and maintaining quality.
                             </p>
                                 <ul>
                                     <li>Digital Experience Management</li>
@@ -118,7 +117,7 @@ const technology = () => {
                                     <li>Managed Services and Technology Support</li>
                                     <li>Application Modernization</li>
                                 </ul>
-                                <p className="justified"> We offer a range of services from the development of initial application requirements to
+                                <p className="justified"> We offer a range of services from idea conception, business requirements to
                                 the global management of the entire application portfolio. Throughout the project lifecycle, our focus is on the
                                 organization and providing measurable results using next-gen approach like Agile and DevOps.
                             </p>
@@ -128,9 +127,9 @@ const technology = () => {
                                         <div className="vc_empty_space" >
                                             <span className="vc_empty_space_inner"></span>
                                         </div>
-                                        <Tabs defaultActiveKey={tech[0].key} transition={false} id="noanim-tab-example">
+                                        <Tabs defaultActiveKey={tech[0].key} className="nav-tabs">
                                             {tech.map((tec, index) => (
-                                                <Tab key={index} eventKey={tec.key} title={tec.title}>
+                                                <Tab tabClassName="nav-tab" key={index} eventKey={tec.key} title={tec.title}>
                                                     <br />
                                                     <h3><strong>{tec.title}</strong></h3>
                                                     <p className="p1 text-justify">{tec.descp[0]}</p>
