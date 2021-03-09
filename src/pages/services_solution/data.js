@@ -100,15 +100,14 @@ const data = () => {
                                 <img src={imageName} alt="" class="img-responsive" />
                             </div>
                             <div>
-                                <p className="justified">Our digital offerings support every phase of the digital journey,
-                                with complete services that span customer experience, connected products and systems as well as
-                                intelligent analytics, which provide the foundation to drive successful business outcomes
+                                <p className="justified">Our digital offerings support every phase of the digital journey. We provide
+                                complete services that span customer experience, connected products and systems,
+                                intelligent analytics which provide the foundation to drive successful business outcomes
                                 through our world-class industry expertise.
                             </p>
-                                <p className="justified">Our strategic partnerships with a few leading organisations help us
-                                shape user experiences at the enterprise customer level and customer experiences at their
-                                end-consumer level, by aligning businesses with the latest in Information Technology and
-                                deriving value from investments.
+                                <p className="justified">Our strategic partnerships with few leading organisations help them shape 
+                                user experiences at the enterprise as well as at end consumer level, by aligning businesses with 
+                                the latest in Information Technology and deriving value from investments.
                             </p>
                                 <p className="justified">We offer unparalleled industry insight, proven technology capabilities,
                                 and the unmatched depth of our firm’s professional services. This allows us to strategize,
