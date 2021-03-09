@@ -100,7 +100,7 @@ const testing = () => {
                 key: "E",
                 title: "Vulnerability Assessment and Management",
                 descp: [
-                    "Our team of professional information security researchers and scientists can provide in-depth remediation and solutions to any IT security threats within your company to protect your critical data assets. The team carries out a vulnerability analysis and implements a vulnerability management program to deal with various cyber security issues.",
+                    "Our team of professional information security researchers can provide in-depth remediation and solutions to any IT security threats within your company to protect your critical data assets. The team carries out a vulnerability analysis and implements a vulnerability management program to deal with various cyber security issues.",
                     "Our experts can:"
                 ],
                 item: [
