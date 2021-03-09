@@ -17,7 +17,7 @@ const testing = () => {
                 key: "A",
                 title: "Functional & Test Management",
                 item: [
-                    "End to End test management with high degree of quality assutance",
+                    "End-to-end test management with high degree of quality assurance",
                     "Optimal resource utilization with various industry best test tools",
                     "Rapid QA cycles with reusable test artefacts"
                 ]
@@ -28,8 +28,8 @@ const testing = () => {
                 title: "Functional Automation",
                 item: [
                     "Multiple proven functional automation frameworks for web, mobile and desktop applications",
-                    "Best suitable for applications with frequent changes",
-                    "Faster time to market with quick ROI"
+                    "Best suited for applications with frequent changes",
+                    "Faster time-to-market with quick ROI"
                 ]
             },
             {
@@ -39,7 +39,7 @@ const testing = () => {
                 item: [
                     "Performance bottleneck causal analysis to identify the specific latency",
                     "Analyse the Performance Vulnerabilities",
-                    "Creating, managing and maintaining test scripts in a timely and cost effective manner"
+                    "Creating, managing and maintaining test scripts in a timely and cost-effective manner"
                 ]
             }
         ]
@@ -60,7 +60,7 @@ const testing = () => {
                 key: "B",
                 title: "Consulting – Enterprise Risk Management",
                 descp: [
-                    "Through our Risk Management consulting practice we offer rich domain expertise that our clients can leverage to help set up their risk practices, assess their enterprise risk at any given time, formulate risk strategies and implement risk solutions. We can assist our clients in wide variety of services creating a foundational risk practice to selecting risk tools and many more"
+                    "Through our Risk Management consulting practice we offer rich domain expertise that our clients can leverage to help set up their risk practices, assess their enterprise risk at any given time, formulate risk strategies and implement risk solutions. We can assist our clients in a wide variety of services such as creating a foundational risk practice to selecting risk tools and many more."
                 ],
                 item: []
             },
@@ -73,8 +73,8 @@ const testing = () => {
                     "Our experts can:"
                 ],
                 item: [
-                    "Conduct strategy planning session with the focus on IAM trends and vendors, customer business drivers and challenges",
-                    "Assessing your existing infrastructure and system architecture and establish a strategic technology roadmap",
+                    "Conduct strategy planning sessions with the focus on IAM trends and vendors, customer business drivers and challenges",
+                    "Assess your existing infrastructure and system architecture in order to establish a strategic technology roadmap",
                     "Implement the latest IAM technologies best suited to operational requirements by taking password and lifecycle management, identity governance and privileged access management into account be it through Single Sign-On (SSO) or Federated Identity Management (FIM)"
                 ]
             },
@@ -100,7 +100,7 @@ const testing = () => {
                 key: "E",
                 title: "Vulnerability Assessment and Management",
                 descp: [
-                    "Our team of professional information security researchers and scientists can provide in-depth remediation and solutions to any IT security threats within your company to protect your critical data assets. The team carries out a vulnerability analysis and implements a vulnerability management program to deal with various cybersecurity issues.",
+                    "Our team of professional information security researchers and scientists can provide in-depth remediation and solutions to any IT security threats within your company to protect your critical data assets. The team carries out a vulnerability analysis and implements a vulnerability management program to deal with various cyber security issues.",
                     "Our experts can:"
                 ],
                 item: [
@@ -206,15 +206,15 @@ const testing = () => {
                             </div>
                             <div>
                                 <p className="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
-                            systems comes cyber risk. We help our clients protect their systems, data, devices, information
+                            systems come cyber risk. We help our clients protect their systems, data, devices, information
                             and most importantly their consumers from all kinds of attacks from intruders, malware or any
                             targeted attack. In today’s environment, organizations face tremendous risk and challenges when it
                             comes to protecting data and preventing fraud. Growing data protection needs and regulatory
-                            concerns require fool proof cyber security solutions.
+                            concerns require fool-proof cyber security solutions.
                             </p>
-                                <p className="justified"> With our security practitioners we at Avows give our clients the required
-                                support and guidance to prevent and adapt to new threats. Our end to end range of cyber-security
-                                solutions help cover all aspects of security right from your board rooms to back offices.
+                                <p className="justified"> With our security practitioners, we at Avows give our clients the required
+                                support and guidance to prevent and adapt to new threats. Our end-to-end range of cyber security
+                                solutions help cover all aspects of security right from your board-rooms to back offices.
                             </p>
 
                                 <div className="vc_column-inner ">

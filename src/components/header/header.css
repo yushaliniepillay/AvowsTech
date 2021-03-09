@@ -50,7 +50,7 @@ p {
 
 .nav{ 
     padding-left: 0pt;
-    height: 65pt;
+    height: 40pt;
     /* padding-top: 50pt; */
 }
 
@@ -112,7 +112,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 0;
+    z-index: 1000;
     color: #fff;
 }
 .carousel-caption {
