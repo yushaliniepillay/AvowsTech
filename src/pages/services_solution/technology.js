@@ -46,7 +46,7 @@ const technology = () => {
                 key: "C",
                 title: "Managed Services Technology Support",
                 descp: [
-                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises improve operational continuity."
+                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises improve operational efficiency."
                 ],
                 item: [
                     "Application Helpdesk Service",
@@ -102,15 +102,14 @@ const technology = () => {
                                 <img src={imageName} alt="" class="img-responsive" style={{ height: '550px' }} />
                             </div>
                             <div>
-                                <p className="justified"> Enhance customer experience with optimised software performance by aligning your IT
+                                <p className="justified"> Enhance customer experience with optimised software performance by aligning IT
                                 deliverables with business goals. We have more than 11 years experience in delivering next-generation services and
                                 leveraging the best of Agile, DevOps and Industry leading governance models, helping you to increase innovation and
                                 business responsiveness.
                             </p>
                                 <h4>Bringing Business and IT Closer</h4>
-                                <p className="justified"> Our services span the end-to-end technology change process from inception to live,
-                                so that you can deliver value continuously and meet your users’ needs,
-                                while managing risk and maintaining quality control.
+                                <p className="justified"> Our services span the end-to-end technology change process from inception to live, 
+                                so that you can deliver value continuously and meet your users’ expectation, while managing risk and maintaining quality.
                             </p>
                                 <ul>
                                     <li>Digital Experience Management</li>
@@ -118,7 +117,7 @@ const technology = () => {
                                     <li>Managed Services and Technology Support</li>
                                     <li>Application Modernization</li>
                                 </ul>
-                                <p className="justified"> We offer a range of services from the development of initial application requirements to
+                                <p className="justified"> We offer a range of services from idea conception, business requirements to
                                 the global management of the entire application portfolio. Throughout the project lifecycle, our focus is on the
                                 organization and providing measurable results using next-gen approach like Agile and DevOps.
                             </p>
