@@ -16,7 +16,7 @@ const technology = () => {
                 key: "A",
                 title: "Business Software and Application Development",
                 descp: [
-                    "Our customer application development support both legacy and modern platforms with deep industry expertise. Modern application development platforms include .Net, Java, Web Services, SalesForce Automation, and many others."
+                    "Our customer application development supports both legacy and modern platforms with deep industry expertise. Modern application development platforms include .Net, Java, Web Services, SalesForce Automation, and many others."
                 ],
                 item: [
                     "Implementation Services",
@@ -31,14 +31,14 @@ const technology = () => {
                 key: "B",
                 title: "Mobile and Web Development",
                 descp: [
-                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi platform mobile development techniques.",
+                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi-platform mobile development techniques.",
                     "Our team of mobile web app developers includes qualified UX designers, visual designers and software engineers with unparalleled knowledge and experience working with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3, HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First design approaches as well as ASP.NET mobile web development."
                 ],
                 item: [
                     "Design Thinking",
                     "Mobile Engineering",
                     "Personal Digital Assistant",
-                    "Website Desig"
+                    "Website Design"
                 ]
             },
             {
@@ -46,14 +46,14 @@ const technology = () => {
                 key: "C",
                 title: "Managed Services Technology Support",
                 descp: [
-                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises to improve operational continuity."
+                    "Avows Managed Services combine helpdesk, maintenance and enhancement services to help enterprises improve operational continuity."
                 ],
                 item: [
                     "Application Helpdesk Service",
                     "Support and Maintenance Services",
                     "Routine and Preventive Maintenance",
                     "Infrastructure Managed Services",
-                    "Application Enhancement and Value Add Services",
+                    "Application Enhancement and Value-add Services",
                 ]
             }
         ]
@@ -103,8 +103,8 @@ const technology = () => {
                             </div>
                             <div>
                                 <p className="justified"> Enhance customer experience with optimised software performance by aligning your IT
-                                deliverables with business goals. We have 11+ years’ experience in delivering next-generation services and
-                                leverage the best of Agile, DevOps and Industryleading governance model, helping you to increase innovation and
+                                deliverables with business goals. We have more than 11 years experience in delivering next-generation services and
+                                leveraging the best of Agile, DevOps and Industry leading governance models, helping you to increase innovation and
                                 business responsiveness.
                             </p>
                                 <h4>Bringing Business and IT Closer</h4>
