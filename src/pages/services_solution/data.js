@@ -14,7 +14,7 @@ const data = () => {
                 key: "A",
                 title: "All-in-One Chatbot Platform",
                 descp: [
-                    "Avows helps organisations to build a powerful AI-driven customer engagement channel to deliver a seamless customer experience, improve efficiencies and create a business impact using AI, ML, NLP and other cutting edge technologies"
+                    "Avows helps organizations to build a powerful AI-driven customer engagement channel to deliver a seamless customer experience, improve efficiencies and create business impact using AI, ML, NLP and other cutting-edge technologies"
                 ],
                 item: []
             },
@@ -24,7 +24,7 @@ const data = () => {
                 title: "AI + Data Science",
                 descp: [
                     "Our Artificial Intelligence/Machine Learning (AI/ML) service offering goes through the process of procedural automation where it captures informative digital assets in a machine-readable format before implementing automation for complex and repetitive tasks.",
-                    "We are focused on the innovations of AI/ML and we work with the experts together with the latest in data science models and solutions that can help organizations to gather insights about their operations, performance, customers and competitors."
+                    "-	We are focused on AI/ML innovations and work with experts utilizing the latest in data science models and solutions that can help organizations gather insight into their operations, performance, customers and competitors."
                 ],
                 item: []
             },
@@ -33,7 +33,7 @@ const data = () => {
                 key: "C",
                 title: "Big Data",
                 descp: [
-                    "Our services and concepts cater to cloud-based big data to help our customers to solve their data dilemmas, managing operational efficiency, cost optimization, decision making to improve business, new revenue opportunities and applying insights from this analysis in order to drive business growth.",
+                    "-	Change the first paragraph to = Our services and concepts cater to cloud-based big data to assist our customers in solving their data conundrums, analysis, storage and in applying analytical insights to drive business growth. We help reveal hidden patterns, correlations, market trends and customer preferences that inform smart business decisions.",
                     "We help customers to uncover information such as hidden patterns, unknown correlations, market trends and customer preferences that can enhance business decision-making process."
                 ],
                 item: [
@@ -46,13 +46,13 @@ const data = () => {
                         sub: "Collect and manage data in a single, unified landscape to lower data sprawl, solve complex issues, and simplify application delivery."
                     },
                     {
-                        name:  "Data Modeling",
+                        name: "Data Modeling",
                         sub: "Discover, refine, enrich, and govern any type or volume of data across hybrid and distributed landscapes, while ensuring quality and availability."
                     },
                     {
                         name: "Data Visualization",
                         sub: "Consolidate, sanitize, and reconcile business data - learn how you can overcome data fragmentation and activate the power of your data by integrating disparate sources in the cloud, on premise, and across devices."
-                    }     
+                    }
                 ]
             },
             {
@@ -62,7 +62,7 @@ const data = () => {
                 descp: [
                     "We offer a range of solutions to automate your business processes by various technologies such as robotic process automation with machine learning, blockchain and data analytics, alongside traditional efficiency tools.",
                     "This results in reduced human error, manual work, process completion times and associated costs which gives scalability to business growth with available resources.",
-                    "With our professional IT team at Avows, we design our state-of-the-art Robotic Automation capabilities in line with your daily process to mitigate your business workforce from mundane and repetitive tasks. We help to achieve maximum human and digital efficiency by automating critical business processes. This will also help to improve the operational performance of our customers and provide a faster and more accurate system which results in better customer satisfaction."
+                    "With our professional IT team at Avows, we design our state-of-the-art Robotic Automation capabilities in line with your daily process to mitigate your business workforce from mundane and repetitive tasks. We help to achieve maximum human and digital efficiency by automating critical business processes. This will also help to improve the operational performance of your customers and to provide a faster and more accurate system which results in better customer satisfaction."
                 ],
                 item: []
             }
@@ -83,7 +83,7 @@ const data = () => {
                                 <Col md={4}> </Col>
                                 <Col md={4}>
                                     <h1 className="mb-5">DATA ANALYTICS AND AI</h1>
-                                    <p className="text-center text-white">We are focused on combining human (AI Experts) a
+                                    <p className="text-center text-white">We are focused on combining human (AI Experts) and
                                 technical strengths to deliver enhanced value by enabling companies to work on complex cognitive tasks.</p>
                                 </Col>
                             </Row>
@@ -100,17 +100,17 @@ const data = () => {
                                 <img src={imageName} alt="" class="img-responsive" />
                             </div>
                             <div>
-                                <p className="justified">Our digital offerings supports every phase of the digital journey,
-                                with complete services that span customer experience, connected products and systems and
+                                <p className="justified">Our digital offerings support every phase of the digital journey,
+                                with complete services that span customer experience, connected products and systems as well as
                                 intelligent analytics, which provide the foundation to drive successful business outcomes
                                 through our world-class industry expertise.
                             </p>
-                                <p className="justified">Our strategic partnerships with few leading organisations help us
+                                <p className="justified">Our strategic partnerships with a few leading organisations help us
                                 shape user experiences at the enterprise customer level and customer experiences at their
-                                end consumer level, by aligning businesses with the latest in Information Technology and
+                                end-consumer level, by aligning businesses with the latest in Information Technology and
                                 deriving value from investments.
                             </p>
-                                <p className="justified">We offer unparalleled industry insight,proven technology capabilities,
+                                <p className="justified">We offer unparalleled industry insight, proven technology capabilities,
                                 and the unmatched depth of our firm’s professional services. This allows us to strategize,
                                 design, and implement customer solutions for our clients better than any of our competition.
                             </p>
@@ -130,9 +130,10 @@ const data = () => {
                                                     <p className="p1 text-justify">{sc.descp[2]}</p>
                                                     <ul>
                                                         {sc.item.map((science, i) => (
-                                                            <li key={i}>{science.name}
-                                                            <p>{science.sub}</p>
-                                                            </li>                                           
+                                                            <li style={{ fontSize: '15pt', color: 'black' }} key={i}>
+                                                                <strong>{science.name}</strong>
+                                                                <p>{science.sub}</p>
+                                                            </li>
                                                         ))}
                                                     </ul>
                                                 </Tab>
