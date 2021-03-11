@@ -129,7 +129,7 @@ const data = () => {
                                                     <p className="p1 text-justify">{sc.descp[2]}</p>
                                                     <ul>
                                                         {sc.item.map((science, i) => (
-                                                            <li style={{ fontSize: '15pt' }} key={i}>
+                                                            <li style={{ fontSize: '14pt' }} key={i}>
                                                                 <strong>{science.name}</strong>
                                                                 <p>{science.sub}</p>
                                                             </li>

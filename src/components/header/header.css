@@ -215,7 +215,7 @@ p {
 }
 
 .section-title.text-left:before {
-    left: 0;
+    left: 25%;
     -webkit-transform: translateX(0);
     transform: translateX(0)
 }

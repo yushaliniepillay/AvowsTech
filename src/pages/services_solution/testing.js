@@ -140,13 +140,13 @@ const testing = () => {
                     <div className="vc-child">
                         <Breadcrumb>
                             <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
-                            <Breadcrumb.Item active>TESTING & SECURITY SERVICE</Breadcrumb.Item>
+                            <Breadcrumb.Item active>TESTING & SECURITY SERVICES</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
                             <Row>
                                 <Col md={4}> </Col>
                                 <Col md={5}>
-                                    <h1 className="mb-5">TESTING & SECURITY SERVICE</h1>
+                                    <h1 className="mb-5">TESTING & SECURITY SERVICES</h1>
                                     <p className="text-center text-white">We aim to help organizations regardless of any sizes improve
                                     their security processes, achieve compliance and protect your data</p>
                                 </Col>
@@ -162,7 +162,7 @@ const testing = () => {
                     <div className="row">
                         <div className="col-md-12 blog-page-content post-details">
                             <section className="services">
-                                <h4>TESTING SERVICE</h4>
+                                <h4>TESTING SERVICES</h4>
                             </section>
                             <div className="post-img">
                                 <img src={imageName} alt="" class="img-responsive" />
@@ -172,7 +172,7 @@ const testing = () => {
                                     <div className="vc_empty_space" >
                                         <span className="vc_empty_space_inner"></span>
                                     </div>
-                                    <Tabs defaultActiveKey={test[0].key}  className="nav-tabs" >
+                                    <Tabs defaultActiveKey={test[0].key} className="nav-tabs" >
                                         {test.map((test, index) => (
                                             <Tab tabClassName="nav-tab" key={index} eventKey={test.key} title={test.title}>
                                                 <br />
@@ -199,7 +199,7 @@ const testing = () => {
                     <div className="row">
                         <div className="col-md-12 blog-page-content post-details">
                             <section className="services">
-                                <h4>SECURITY SERVICE</h4>
+                                <h4>SECURITY SERVICES</h4>
                             </section>
                             <div className="post-img">
                                 <img src={imageName1} alt="" class="img-responsive" />

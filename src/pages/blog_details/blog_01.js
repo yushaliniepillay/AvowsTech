@@ -48,10 +48,7 @@ const Blog_01 = () => {
                                 <img src="/img/blog-posts/blog00.jpg" alt="" className="img-responsive" />
                             </div>
                             <div className="wpb_wrapper">
-                                <p>Algo League– The next generation Coding Contest for University Students in Malaysia
-                            </p>
-
-                                <p>July 2019 - Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.
+                                <p>July, 2019 - Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.
                             </p>
 
                                 <p>Meant to enhance awareness of Emergent Tech in Malaysia, Algo League aims to provide a platform for college & university students to demonstrate their analytical and problem-solving skills. This contest also provides students with the opportunity to be recognized by potential employers.
