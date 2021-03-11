@@ -148,7 +148,7 @@ const testing = () => {
                                 <Col md={5}>
                                     <h1 className="mb-5">TESTING & SECURITY SERVICE</h1>
                                     <p className="text-center text-white">We aim to help organizations regardless of any sizes improve
-                                    their security processes, achieve compliance and protect their data</p>
+                                    their security processes, achieve compliance and protect your data</p>
                                 </Col>
                             </Row>
                         </section>
@@ -233,7 +233,7 @@ const testing = () => {
                                                         <p className="text-justify">{sec.descp[2]}</p>
                                                     </section>
                                                     <section>
-                                                        <ul>
+                                                        <ul style={{ fontSize: '18pt' }}>
                                                             {sec.item.map((section, i) => (
                                                                 <li key={i}>{section}</li>
                                                             ))}

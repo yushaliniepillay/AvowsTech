@@ -20,7 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   /* font-family: georgia, serif; */
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -29,7 +29,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
-/* article,
+ article,
 aside,
 details,
 figcaption,
@@ -43,6 +43,8 @@ section,
 summary {
   display: block;
 }
+
+/*
 audio,
 canvas,
 progress,

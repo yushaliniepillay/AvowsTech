@@ -310,11 +310,11 @@ function carousel() {
                                 </div>
                             </div>
                             <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <Fade direction='bottom-left' delay={600}>
+                                {/* <Fade direction='bottom-left' delay={600}>
                                     <figure>
                                         <img alt='slide4' src={slide5Icon} className="img-responsive1" style={{ width: "170%" }} />
                                     </figure>
-                                </Fade>
+                                </Fade> */}
                             </div>
 
                         </div>
