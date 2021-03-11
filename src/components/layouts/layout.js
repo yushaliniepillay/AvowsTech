@@ -17,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../header/header.css';
 import '../footer/footer.css';
-import '../layouts/layout.css';
+//import '../layouts/layout.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
