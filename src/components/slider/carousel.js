@@ -11,7 +11,7 @@ function carousel() {
     const slide2Icon = require('../images/header-slider-content/02.png');
     const slide3Icon = require('../images/header-slider-content/03.png');
     const slide4Icon = require('../images/header-slider-content/04.png');
-    const slide5Icon = require('../images/header-slider-content/05.png');
+    // const slide5Icon = require('../images/header-slider-content/05.png');
     
     // const data =
     //     [
