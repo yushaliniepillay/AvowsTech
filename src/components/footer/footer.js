@@ -29,7 +29,7 @@ function footer() {
                             <div className="footer-about">
                                 <h4 className="footer-title">ABOUT US
                                 <hr /></h4>
-                                <p className="justified">Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
+                                <p style={{ color: 'white' }}className="justified" >Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
                                 <Button className="m-3" variant="danger" size="md" type="submit" href="/aboutUs">READ MORE</Button>
                             </div>
