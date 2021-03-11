@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 import Header from "../header/header";
 import Footer from "../footer/footer";
-import ScrollArrow from "../scrollArrow";
+// import ScrollArrow from "../scrollArrow";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import 'bootstrap/dist/css/bootstrap.css';

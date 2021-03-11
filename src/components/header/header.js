@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
   <header>
     {/* top navbar */}
     <div>
-      <Navbar className="small-nav" bg="dark" variant="dark">
+      <Navbar className="small-nav " bg="dark" variant="dark">
         <Navbar.Brand className="small-nav-num">
           <PhoneOutlined />(+603) 2712 3456
         </Navbar.Brand>
@@ -41,16 +41,14 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
     
     {/* second navbar */}
-    <div >
-      <Navbar expand="lg" bg="light" variant="light" sticky="top">
+      <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg" >
         <Navbar.Brand className="nav" href="/" >
           <img id="avowsTitle" src={cdc} alt='title'/>
         </Navbar.Brand>
-        {/* <Navbar.Toggle aria-controls="navbarResponsive" /> */}
-        <Navbar.Collapse id="navbarResponsive" >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav as="ul" className="ml-auto">
             <Nav.Item as="li" >
               <Link to="/" className="nav-link" activeclassname="active">
@@ -101,7 +99,7 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+      </div>
   </header>
 )
 

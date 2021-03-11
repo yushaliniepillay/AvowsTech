@@ -11,7 +11,7 @@ function carousel() {
     const slide2Icon = require('../images/header-slider-content/02.png');
     const slide3Icon = require('../images/header-slider-content/03.png');
     const slide4Icon = require('../images/header-slider-content/04.png');
-    const slide5Icon = require('../images/header-slider-content/05.png');
+    // const slide5Icon = require('../images/header-slider-content/05.png');
     
     // const data =
     //     [
@@ -310,11 +310,11 @@ function carousel() {
                                 </div>
                             </div>
                             <div className="col-md-3 header-img-holder hidden-sm hidden-xs">
-                                <Fade direction='bottom-left' delay={600}>
+                                {/* <Fade direction='bottom-left' delay={600}>
                                     <figure>
                                         <img alt='slide4' src={slide5Icon} className="img-responsive1" style={{ width: "170%" }} />
                                     </figure>
-                                </Fade>
+                                </Fade> */}
                             </div>
 
                         </div>

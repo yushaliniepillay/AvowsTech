@@ -71,6 +71,7 @@ const IndexPage = () => {
                 </Button>
               </li>
             </ul>
+            <br/><br />
             <div className="panel-body text-center">
               <div className="tab-content">
                 <article >

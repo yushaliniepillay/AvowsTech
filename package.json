@@ -49,6 +49,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+
+    "heroku-postbuild": "gatsby build",
+
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -61,5 +64,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+  ,
+  "engines": {
+    "node": "^8.0.0",
+    "yarn": "^1.2.1"
   }
 }
