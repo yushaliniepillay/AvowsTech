@@ -70,3 +70,4 @@ yarn-error.log
 
 #new added
 package-lock.json
+node_modules
