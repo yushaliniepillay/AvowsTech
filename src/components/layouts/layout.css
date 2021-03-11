@@ -642,14 +642,14 @@ pre tt:after {
   border-color: none;
 } */
 
-.nav-tab{
+.nav-tab {
   background-color: red;
   color: white;
   border: none  
 }
 
 .nav-tab:hover {
-  color: red;
+  color: #fff;
   background-color: gray;
   border: none
 }
@@ -659,4 +659,5 @@ pre tt:after {
   color: white;
   border: none
 }
+
 /* tab styling */
