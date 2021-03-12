@@ -62,7 +62,7 @@ const Management = () => {
             {
                 id: 4,
                 name: "RAMESH KUMAR RAGHAVAN",
-                position: "VP - Group Operations",
+                position: "COO - Group Operations",
                 image: require('../images/management/Ramesh.jpg'),
                 description1: "Ramesh brings with him 14+ years of global experience in IT strategy, talent engagement and development, CEO Advisory and stakeholder management. He specialises in operations and HR that aligns strategy, processes with business goals",
                 description2: "Ramesh has a breadth of industry expertise with proficiency building new capabilities and internal processes and has worked with leading global organisations in the past.",
@@ -88,7 +88,7 @@ const Management = () => {
             {
                 id: 7,
                 name: "SUJOY ROY CHOWDHURY",
-                position: "VP Sales - Malaysia",
+                position: "Country Head - IT Services Sales & Partner Alliances, Malaysia",
                 image: require('../images/management/Sujoy.jpg'),
                 description1: "Sujoy takes care of the sales business at Malaysia having more than 10+ years of Experience in IT Solutions Sales, Service Delivery Management and Pre-Sales for Global Financial Institutions in Malaysia and Singapore. He strongly believes in Customer Satisfaction for the services which is continuously boosting the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
                 description2: "He has a proven track record of success in Malaysia and focused on expanding the client base and is a key member of sales team upholding client attrition and partnerships. He’s now able to blend his love of consulting and project management to provide our clients with strong ROI."
@@ -96,7 +96,7 @@ const Management = () => {
             {
                 id: 8,
                 name: "ENDAH SUSANTI ",
-                position: "VP Sales - Indonesia",
+                position: "ountry Head - IT Services Sales & Partner Alliances, Indonesia",
                 image: require('../images/management/Endah.jpg'),
                 description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
                 description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organisations across and has been a key to the company’s business continuity and growth."
