@@ -187,7 +187,7 @@ const Management = () => {
                     <Modal.Header closeButton>
                         <Modal.Title id="example-custom-modal-styling-title">
                             <h3><b>{data[modalSelected].name}</b></h3>
-                            <h4>{data[modalSelected].position}</h4>
+                            <h4>{data[modalSelected].position}, Avows Group</h4>
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
