@@ -40,24 +40,6 @@ const Management = () => {
             },
             {
                 id: 2,
-                name: "ASHOK K RAMAVATH",
-                position: "Group CEO at Avows Group",
-                image: require('../images/management/Ashok.jpg'),
-                description1: "AVOWS TECHNOLOGIES was founded by Mr. Ashok K Ramavath, the pioneering and visionary entrepreneur, in the year 2008. Mr. Ashok brings with him 20 years of rich and wide experience in technology and business consulting. With his keen interest in developing next generation leadership, he has built strong technology teams in AVOWS from scratch to cater to the challenging and growing requirements of its clients in South East Asia. . His key strengths in terms of achieving best results in service delivery and financial performance enabled AVOWS to build large & strong teams of 100+ in the past.",
-                description2: "Ashok is on the managing committee of CIIM (Consortium of Indian Industries in Malaysia) and is a firm believer in Corporate Social Responsibility. He initiated focused interactions with industry leaders to generate high value solutions and service offerings in the IT & ITES space from AVOWS and also helped to on board leaders from various industries aligned with the vision and core values of the organization to expand the core service offerings and continuously innovate value to the clients. AVOWS is head-quarted in Kuala Lumpur, Malaysia with its offices/development centers in Singapore, Indonesia, India and USA.",
-                description3: "Ashok was recognized for his contribution to HR during the Asia’s Best Employer Brand awards in 2010. Ashok was also recognized as “CEO of the Year 2013”.",
-                description4: "An aivid Golf player and a technocrat turned commerce post graduate, Ashok is passionate to make AVOWS a strong player in the global technology industry Asia's Best Employer Brand Awards 2010"
-            },
-            {
-                id: 3,
-                name: "KANESAN VELUPPILLAI",
-                position: "Group Corporate Advisor - Strategy",
-                image: require('../images/management/Ganesan.jpg'),
-                description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of Mergers & Acquisitions, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
-                description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
-            },
-            {
-                id: 4,
                 name: "DATO RAYMOND YEONG",
                 position: "Independent Director at Avows Group",
                 image: require('../images/management/Raymond.jpg'),
@@ -68,16 +50,17 @@ const Management = () => {
                 description5: "With his vast experience and extensive business network, Dato Raymond Yeong will contribute significantly to the AVOWS Group as a Independent Director of the company and will work with the CEO and other top management team to drive the company to greater heights."
             },
             {
-                id: 5,
-                name: "LEE HUI KIM",
-                position: "Group HR",
-                image: require('../images/management/Kim.jpg'),
-                description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed 10 + years of experience and has been an asset to the organisation since inception.",
-                description2: "She oversees policies and programs for the entire company as well as organizational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance",
-                description3: "She specializes in talent management and leadership development with a focus on customer relationship management as she works a team player to help sales teams to be aligned to the company goals."
+                id: 3,
+                name: "ASHOK K RAMAVATH",
+                position: "Group CEO at Avows Group",
+                image: require('../images/management/Ashok.jpg'),
+                description1: "AVOWS TECHNOLOGIES was founded by Mr. Ashok K Ramavath, the pioneering and visionary entrepreneur, in the year 2008. Mr. Ashok brings with him 20 years of rich and wide experience in technology and business consulting. With his keen interest in developing next generation leadership, he has built strong technology teams in AVOWS from scratch to cater to the challenging and growing requirements of its clients in South East Asia. . His key strengths in terms of achieving best results in service delivery and financial performance enabled AVOWS to build large & strong teams of 100+ in the past.",
+                description2: "Ashok is on the managing committee of CIIM (Consortium of Indian Industries in Malaysia) and is a firm believer in Corporate Social Responsibility. He initiated focused interactions with industry leaders to generate high value solutions and service offerings in the IT & ITES space from AVOWS and also helped to on board leaders from various industries aligned with the vision and core values of the organization to expand the core service offerings and continuously innovate value to the clients. AVOWS is head-quarted in Kuala Lumpur, Malaysia with its offices/development centers in Singapore, Indonesia, India and USA.",
+                description3: "Ashok was recognized for his contribution to HR during the Asia’s Best Employer Brand awards in 2010. Ashok was also recognized as “CEO of the Year 2013”.",
+                description4: "An aivid Golf player and a technocrat turned commerce post graduate, Ashok is passionate to make AVOWS a strong player in the global technology industry Asia's Best Employer Brand Awards 2010"
             },
             {
-                id: 6,
+                id: 4,
                 name: "RAMESH KUMAR RAGHAVAN",
                 position: "VP - Group Operations",
                 image: require('../images/management/Ramesh.jpg'),
@@ -86,20 +69,37 @@ const Management = () => {
                 description3: "He partners with sales to nurture client relationships and ensures highest quality of service to existing clients. He is as instrumental in advancing Avows innovative company culture as he is in fostering new talent. His passion is to develop and work on next gen digital technologies."
             },
             {
-                id: 7,
+                id: 5,
                 name: "SENTHIL KUMAR SUBRAMANIAN",
                 position: "Chief Technology Officer",
                 image: require('../images/management/Senthil.jpg'),
                 description1: "Senthil Kumar Subramaniam joined Avows Technologies as its Chief Technology Officer in July 2019. Throughout his 24 years of experience in IT, he has proven to be an effective leader, adept in managing technology projects across delivery centres. This perfectly positions him at the helm of technological evolution for the company as it seeks to deliver the latest technological breakthroughs to its clients through a wide array of cutting-edge products and services.",
                 description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He served as Deputy CIO with Star Health and Allied Insurance, one of the largest Health Insurance companies in India, partnering with vendors such as Oracle, Microsoft and IBM. Prior to that, he was leading teams on various projects while assuming senior roles in Accenture IDC and 3i Infotech. ",
                 description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
-            }, {
-                id: 8,
+            },
+            {
+                id: 6,
+                name: "KANESAN VELUPPILLAI",
+                position: "Group Corporate Advisor - Strategy",
+                image: require('../images/management/Ganesan.jpg'),
+                description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of Mergers & Acquisitions, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
+                description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
+            },
+            {
+                id: 7,
                 name: "SUJOY ROY CHOWDHURY",
                 position: "VP Sales - Malaysia",
                 image: require('../images/management/Sujoy.jpg'),
                 description1: "Sujoy takes care of the sales business at Malaysia having more than 10+ years of Experience in IT Solutions Sales, Service Delivery Management and Pre-Sales for Global Financial Institutions in Malaysia and Singapore. He strongly believes in Customer Satisfaction for the services which is continuously boosting the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
                 description2: "He has a proven track record of success in Malaysia and focused on expanding the client base and is a key member of sales team upholding client attrition and partnerships. He’s now able to blend his love of consulting and project management to provide our clients with strong ROI."
+            },
+            {
+                id: 8,
+                name: "ENDAH SUSANTI ",
+                position: "VP Sales - Indonesia",
+                image: require('../images/management/Endah.jpg'),
+                description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
+                description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organizations across and has been a key to the company’s business continuity and growth."
             },
             {
                 id: 9,
@@ -113,11 +113,12 @@ const Management = () => {
             },
             {
                 id: 10,
-                name: "ENDAH SUSANTI ",
-                position: "VP Sales - Indonesia",
-                image: require('../images/management/Endah.jpg'),
-                description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
-                description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organizations across and has been a key to the company’s business continuity and growth."
+                name: "LEE HUI KIM",
+                position: "Group HR",
+                image: require('../images/management/Kim.jpg'),
+                description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed 10 + years of experience and has been an asset to the organisation since inception.",
+                description2: "She oversees policies and programs for the entire company as well as organizational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance",
+                description3: "She specializes in talent management and leadership development with a focus on customer relationship management as she works a team player to help sales teams to be aligned to the company goals."
             }
         ]
 
@@ -128,16 +129,16 @@ const Management = () => {
                     {data.map((data, index) => (
                         <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
                             <Card.Img style={{ width: '16rem', height: '20rem' }} variant="top" src={data.image} onClick={() => handleShow(index)} />
-                            <Card.Body style={{ height: '6rem', marginBottom: '-10px' }}>
+                            <Card.Body style={{ height: '6rem', marginBottom: '-7px' }}>
                                 <Card.Title>
                                     <section className="post-title text-center">
                                         <h2 className="text-dark">{data.name}</h2>
                                     </section>
                                 </Card.Title>
                             </Card.Body>
-                            <Card.Body style={{ textAlign: 'top',marginBottom: '-20px' }}>
+                            <Card.Body style={{ textAlign: 'top', marginBottom: '-20px' }}>
                                 <Card.Subtitle className="text-center">
-                                    <h6 className='align-top'>{data.position}</h6>
+                                    <h5 className='align-top'>{data.position}</h5>
                                 </Card.Subtitle>
                             </Card.Body>
                         </Card>

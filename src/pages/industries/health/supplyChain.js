@@ -10,7 +10,7 @@ const SupplyChain = () => {
                 id: 0,
                 link: "/industries/health/supplyChain",
                 title: "Accelerating Supply Chain through Hospitals",
-                about: "A Leading Healthcare Hospital Group targeted for better forecasting and managing the Supply Chain effectively. The client is the largest hospital chain in SEA with more than 5,000 employees.",
+                about: "A leading healthcare hospital group targeted for better forecasting and managing the supply chain effectively. The client is the largest hospital chain in SEA with more than 5,000 employees.",
                 challenge: [
                     "The hospital chain wanted to have a better view and understanding of their supply chain and inventory. Data regarding inventories was lying in disparate systems and was lacking a unified view for any management executive analysis and decision making."
                 ],
@@ -99,8 +99,7 @@ const SupplyChain = () => {
                                         <section className="cs_about">
                                             <h4>Challenges</h4>
                                             <Row>
-                                                <p className="text-justify">{data.challenge[0]}</p>
-                                                
+                                                <Col><p className="text-justify">{data.challenge[0]}</p></Col>
                                             </Row>
                                         </section>
                                         <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
@@ -122,7 +121,6 @@ const SupplyChain = () => {
                                             <Row>
                                                 <Col>
                                                     <p className="text-justify">{data.solution[0]}</p>
-
                                                 </Col>
                                                 <Col>
                                                     <p className="text-justify">{data.solution[1]}</p>

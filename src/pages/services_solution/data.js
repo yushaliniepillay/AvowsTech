@@ -105,7 +105,7 @@ const data = () => {
                                 intelligent analytics which provide the foundation to drive successful business outcomes
                                 through our world-class industry expertise.
                             </p>
-                                <p className="justified">Our strategic partnerships with few leading organisations help them shape 
+                                <p className="justified">Our strategic partnerships with leading organisations help them shape 
                                 user experiences at the enterprise as well as at end consumer level, by aligning businesses with 
                                 the latest in Information Technology and deriving value from investments.
                             </p>

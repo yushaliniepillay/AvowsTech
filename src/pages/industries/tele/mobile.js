@@ -19,8 +19,8 @@ const Mobile = () => {
                     "The client wanted to bring unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
                 ],
                 solution: [
-                    "Avows has created a secure mobile application which was deployed for end consumers as their one stop destination for all user related information, activations, recharges, plan upgrades, utilization details, along with digital wallet. The mobile application can also be used for marketing efforts such as running consumer campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
-                    "The application was created through a secure use channel and it also allows the organization to feature great branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.",
+                    "Avows has created a secure mobile application which was deployed for end consumers as their one stop destination for all user related information, activations, recharges, plan upgrades, utilisation details, along with digital wallet. The mobile application can also be used for marketing efforts such as running consumer campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
+                    "The application was created through a secure use channel and it also allows the organisation to feature great branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.",
                     "Some technical details of our solution encompass:",
                     "Development on React-Native Platform",
                     "Cloud Deployment on Google",
@@ -108,7 +108,7 @@ const Mobile = () => {
                                         <section className="cs_about">
                                             <h4>Challenges</h4>
                                             <Row>
-                                                <p className="text-justify">{data.challenge[0]}</p>
+                                                <Col><p className="text-justify">{data.challenge[0]}</p></Col>
                                             </Row>
                                         </section>
                                         <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>

@@ -69,8 +69,8 @@ const Header = ({ siteTitle }) => (
               <NavDropdown.Item href="/industries/oilNgas/energy">OIL AND GAS</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="SERVICES & SOLUTIONS" href="#" activeclassname="active" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICE</NavDropdown.Item>
-              <NavDropdown.Item href="/services_solution/testing">TESTING & SECURITY SERVICE</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/technology">TECHNOLOGY SERVICES</NavDropdown.Item>
+              <NavDropdown.Item href="/services_solution/testing">TESTING & SECURITY SERVICES</NavDropdown.Item>
               <NavDropdown.Item href="/services_solution/cloud">CLOUD TECHNOLOGIES</NavDropdown.Item>
               {/* <NavDropdown.Item href="/services_solution/cyber">CYBER SECURITY</NavDropdown.Item> */}
               <NavDropdown.Item href="/services_solution/data">DATA ANALYTICS AND AI</NavDropdown.Item>
@@ -79,6 +79,11 @@ const Header = ({ siteTitle }) => (
             <Nav.Item as="li" >
               <Link to="/blog" className="nav-link" activeclassname="active">
                 BLOG
+            </Link>
+            </Nav.Item>
+            <Nav.Item as="li" >
+              <Link to="/partners" className="nav-link" activeclassname="active">
+                PARTNERS
             </Link>
             </Nav.Item>
             <Nav.Item as="li" >

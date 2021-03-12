@@ -34,7 +34,7 @@ const Blog_01 = () => {
                 <div className="vc-parent">
                     <div className="vc-child">
                         <section className="page-title">
-                            <h2>ALGO LEAGUE– THE NEXT GENERATION CODING CONTEST FOR UNIVERSITY STUDENTS IN MALAYSIA</h2>
+                            <h2>ALGO LEAGUE– THE NEXT-GENERATION CODING CONTEST FOR UNIVERSITY STUDENTS IN MALAYSIA</h2>
                         </section>
                     </div>
                 </div>
@@ -48,19 +48,19 @@ const Blog_01 = () => {
                                 <img src="/img/blog-posts/blog00.jpg" alt="" className="img-responsive" />
                             </div>
                             <div className="wpb_wrapper">
-                                <p>July, 2019 - Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.
+                                <p>July, 2019 - Algo League is the next-generation Coding Contest organised by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.
                             </p>
 
-                                <p>Meant to enhance awareness of Emergent Tech in Malaysia, Algo League aims to provide a platform for college & university students to demonstrate their analytical and problem-solving skills. This contest also provides students with the opportunity to be recognized by potential employers.
+                                <p>Meant to enhance awareness of Emergent Tech in Malaysia, Algo League aims to provide a platform for college and university students to demonstrate their analytical and problem-solving skills. This contest also provides students with the opportunity to be recognised by potential employers.
                             </p>
 
-                                <p>During the very first iteration of this annual contest, Algo League 1.0 was conducted in two phases on 22 July 2019 (Phase 1 – Multiple Choice Questions) and 25 July 2019 (Phase 2 – Coding). Nearly three hundred (300) students from seven (7) prominent Universities all over Malaysia have participated in this contest has presented a display of talent and innovative thinking.
+                                <p>During the very first iteration of this annual contest, Algo League 1.0 was conducted in two phases on 22 July 2019 (Phase 1 – Multiple Choice Questions) and 25 July 2019 (Phase 2 – Coding). Nearly three hundred (300) students from seven (7) prominent Universities all over Malaysia have participated in this contest presenting a display of talent and innovative thinking.
                             </p>
 
                                 <p>Phase 1, consisting of 50 multiple choice questions, tested the participants on their technical knowledge, while Phase 2 presented a set of problem statements to the participants, who had to analyse and use appropriate programming language to come up with solutions. The top winners were selected after tallying the combination of points from these two phases.
                             </p>
 
-                                <p>We are proud and honoured to declare that three individuals stood out among the ranks of all the ingenious & enterprising young engineers who took part in Algo League 1.0. Low Sheng Rong from Multimedia University was the undisputed champion of Algo League 1.0, winning with a cash prize of RM1500. He was followed by Wong Kai Le from Sunway University and Chuah Seong Rong from Tunku Abdul Rahman University College.
+                                <p>We are proud and honoured to declare that three individuals stood out among the ranks of all the ingenious and enterprising young engineers who took part in Algo League 1.0. Low Sheng Rong from Multimedia University was the undisputed champion of Algo League 1.0, winning with a cash prize of RM1500. He was followed by Wong Kai Le from Sunway University and Chuah Seong Rong from Tunku Abdul Rahman University College.
                             </p>
 
                                 <p>The prize-giving ceremony was held on 20 December 2019 during Avows Tech-Connect 2020 event, the flagship outreach program of Avows.
