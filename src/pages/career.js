@@ -44,8 +44,7 @@ const Career = () => (
                         <div className="wpb_wrapper">
                             <p>Avows hires some of the most creative and forward-thinking individuals.
                             At Avows we have people coming from a wide range of cultural, educational and geographic
-                            backgrounds and are able to work together with passion to deliver results sure the coffee
-                            is served at your desk, while you continue to work.
+                            backgrounds and are able to work together with passion to deliver results.
                             </p>
                             <br /><b>OUR PEOPLE</b><br />
                             <p>At Avows we hire and train individuals to enable them to enhance their talents to help
@@ -53,7 +52,7 @@ const Career = () => (
                             Our people come from diverse, multidisciplinary skills, with strong educational background.
                             As an employee-owned company, we encourage an entrepreneurial spirit that helps us to respond
                             quickly and successfully to new opportunities and consistently improve our processes and
-                            methodologies, often resulting in detailed analysis and recommendations to our clients.
+                            methodologies, often resulting in detailed analysis and productive recommendations to our clients.
                                     </p>
                             <br />
                             <p>Employee development is fostered through a collaborative, intellectually challenging work
@@ -61,7 +60,7 @@ const Career = () => (
                                     </p>
                             <br /><b>OUR CULTURE</b><br />
                             <p>
-                                Avows aims to be an inclusive organization where everyone is treated with respect and dignity, and where there is equal opportunity
+                                Avows aims to be an inclusive organisation where everyone is treated with respect and dignity, and where there is equal opportunity
                                 for all. We pledge to respect and value the diversity of all our staff and clients. This means that all of Avows’ staff understand
                                 and respect the diverse work force and user community and everyone has the right to be treated with dignity and equality regardless
                                 of race, nationality, sex etc. and supports the ‘Equal Opportunity’ policy all times. Corporate culture at Avows gives its employees
@@ -71,10 +70,10 @@ const Career = () => (
                             <br /><b>WHY JOIN AVOWS?</b><br /><br />
                             <ul>
                                 <li>Be sure not to miss the fun at office everyday – for us work is definitely fun</li>
-                                <li>To get incentivized every day, for dreaming and not forgetting to dare your dreams</li>
+                                <li>To get incentivised every day, for dreaming and to dare your dreams</li>
                                 <li>To get ready to change – just take the challenge, innovate and change</li>
                                 <li>Try the Nirvana – bliss of continuous learning and unlearning.</li>
-                                <li>And we definitely understand your requirements for stretched coffee breaks at work – by just making</li>
+                                <li>And we definitely understand your requirements for stretched coffee breaks at work</li>
                             </ul>
                         </div>
                     </div>

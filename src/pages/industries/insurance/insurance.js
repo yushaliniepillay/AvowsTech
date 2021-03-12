@@ -16,7 +16,7 @@ const Insurance = () => {
                 title: "Sales and Distribution Dashboard",
                 about: "Client is an insurance firm with operations in Malaysia. The Client offers life, investment-linked, group scheme, retirement, savings, and healthcare insurance services in Malaysia.",
                 challenge: [
-                    "Client had on centralized sales dashboard and the mid-senior management were missing standardized sales data across the organization to compare and analyse. This led to delay in understanding changing in market dynamics, they were looking for a system to bring out standard data making it easier to identify changing forces on the ground and take quick steps to align themselves with these dynamics."
+                    "Client had on centralised sales dashboard and the mid-senior management were missing standardized sales data across the organisation to compare and analyse. This led to delay in understanding changing in market dynamics, they were looking for a system to bring out standard data making it easier to identify changing forces on the ground and take quick steps to align themselves with these dynamics."
                 ],
                 solution: [
                     "Avows created a native mobile application available both for android and iOS for sales reports and dashboards which were available based on access. We brought together data from different places and after careful discussions with business finalized parameters and metrics that were to be reported at different levels. Through this sales report were made available at immediate access in real time to authorized associates, these reports were classified based on product types, categories, regions, channel and several other details.",
@@ -53,8 +53,8 @@ const Insurance = () => {
                     "Customers are looking at creating a strong brand awareness through better customer experience by using automation and chatbots to reduce their response times. This will also help to provide faster and easier end users resolution. They have identified customer service as an area of opportunity and partnered with Avows to implement innovative solutions to achieve operational excellence."
                 ],
                 solution: [
-                    "We implemented a conversational Chatbot which could assist their consumers in gathering information related to their insurance policies or other product related information immediately through the Chatbot. The Chatbot was deployed in English and local Bahasa Melayu languages to create a further impact in resolving the issues with linguistic convenience as well. Our Chatbot solution is a comprehensive solution which can cater to client’s marketing, sales, lead capture, customer services as well as help customers raise tickets quickly without any hassle. The Chatbot can also be used internally within organizations for IT services, HR services etc.",
-                    "Chatbot is built with the help of leading technologies and has been built with models that allow it to learn and improve as it goes by. Use of Natural Language Processing (NLP) techniques along with AI ML allows the bot to remain personalized and human so that end consumers get a more personalized feeling when implemented in an auto mode. It can also be deployed in assist mode, where actual customer service representatives can use Chatbot, these are faster to respond and provide easy and quick summary for reference at all times leading to good understanding and quicker resolution and response times."
+                    "We implemented a conversational Chatbot which could assist their users in gathering information related to their insurance policies or other product related information immediately through the Chatbot. The Chatbot was deployed in English and local Bahasa Melayu languages to create a further impact in resolving the issues with linguistic convenience as well. Our Chatbot solution is a comprehensive solution which can cater to client’s marketing, sales, lead capture, customer services as well as help customers raise tickets quickly without any hassle. The Chatbot can also be used internally within organisations for IT services, HR services etc.",
+                    "Chatbot is built with the help of leading technologies and has been built with models that allow it to learn and improve as it goes by. Use of Natural Language Processing (NLP) techniques along with AI ML allows the bot to remain personalized and human so that end users get a more personalized feeling when implemented in an auto mode. It can also be deployed in assist mode, where actual customer service representatives can use Chatbot, these are faster to respond and provide easy and quick summary for reference at all times leading to good understanding and quicker resolution and response times."
                 ],
                 benefit: [
                     "Customers are able to overall enhance service levels for their customer services by 33%",
@@ -102,9 +102,9 @@ const Insurance = () => {
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                            <p class="justified">Avows has a very strong presence across Insurance sector,
-                            we have partnered and provided services across most of the leading Insurance
-                            companies across Malaysia to several of our clients since our existence from 2008.
+                            <p class="justified">Avows has a very strong presence across Insurance sector.
+                            We have partnered and provided services across most of the leading Insurance
+                            companies in Malaysia since our inception from 2008.
                      </p>
                             <p>Innovative Digital solutions have made a break through across the technological
                             landscape of several of our clients and we are enabling them with the requisite

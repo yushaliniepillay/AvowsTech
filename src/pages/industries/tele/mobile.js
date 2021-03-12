@@ -13,14 +13,14 @@ const Mobile = () => {
                 key: "A",
                 link: "/industries/tele/mobile",
                 title: "Self-Care Mobile App Development",
-                about: "The client is a data-centric and multiple award-winning mobile data service company in Malaysia. They have established their presence in all over the country with a subscriber base of 7 million mark. It has been an award-winning telco with affordable plans and a comprehensive fintech ecosystem.",
+                about: "The client is a multiple award-winning data-centric mobile data service company in Malaysia. They have established their presence in all over the country with a subscriber base of 7 million users. It has been an award-winning telco with affordable plans and a comprehensive fintech ecosystem.",
                 
                 challenge: [
-                    "The client wanted to bring unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
+                    "The client wanted to bring a unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
                 ],
                 solution: [
-                    "Avows has created a secure mobile application which was deployed for end consumers as their one stop destination for all user related information, activations, recharges, plan upgrades, utilisation details, along with digital wallet. The mobile application can also be used for marketing efforts such as running consumer campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
-                    "The application was created through a secure use channel and it also allows the organisation to feature great branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.",
+                    "Avows has created a secure mobile application which was deployed for end users as their one stop destination for all user related information, activations, recharges, plan upgrades, utilisation details, along with digital wallet. The mobile application can also be used for marketing efforts such as running user campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
+                    "The application was created through a secure user-channel and and it also provides the organization with branding opportunities & allowing it to be seen as a modern digital-savvy service provider, true to users' choice.",
                     "Some technical details of our solution encompass:",
                     "Development on React-Native Platform",
                     "Cloud Deployment on Google",
@@ -30,7 +30,7 @@ const Mobile = () => {
                     "Digital Wallet Implementation & E-KYC"
                 ],
                 benefit: [
-                    "Through the mobile application, the client was able to realize much better customer service and was able to be a true digital service provider in a digital world.",
+                    "Clients are able to realize much better customer service and was able to be a true digital service provider in a digital world.",
                     "The client experienced a year-on-year increase of revenue by 15%",
                     "Cost Optimization - Cloud Infrastructure & On-Demand Scalability",
                     "Enhanced Customer Experience – Ease of use among the Millennials and other age groups"
@@ -42,7 +42,7 @@ const Mobile = () => {
                 ],
                 video: [
                     require('../../industries/video/Umobile.mp4'),
-                    "Cynthia Seow, General Manager of Transformation for Malaysia’s Multiple award-winning mobile data service provider - U Mobile , shares with us how Avows has helped them to develop and deliver customer-centric services and solutions."
+                    "Cynthia Seow, General Manager of Transformation for Malaysia’s Multiple award-winning mobile data service provider, shares with us how Avows has helped them to develop and deliver customer-centric services and solutions."
                 ]
 
             }

@@ -17,7 +17,7 @@ const ContactUs = () => {
     const { name, email, phoneNo, service, message } = inputs;
     const handleChange = e => {
         setInputs({ ...inputs, [e.target.name]: e.target.value });
-        
+
         console.log("Message.handleChange e.target.text", e.target.type);
     }
 
@@ -57,7 +57,7 @@ const ContactUs = () => {
 
     }
 
-    
+
     const data =
         [
             {
@@ -92,8 +92,15 @@ const ContactUs = () => {
                 id: "4",
                 title: "INDIA",
                 company: "Emantis IT Services PVT LTD",
-                address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabas Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
+                address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabs Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
                 number: ""
+            },
+            {
+                id: "5",
+                title: "DUBAI",
+                company: "Avows Technologies DMCC",
+                address: "Unit No 1291, DMCC Business Centre, Level No. 1, Jewellery & Gemplex 3 Dubai, United Arab Emirates",
+                number: "Tel: +5864 80920"
             }
         ]
 
@@ -163,7 +170,23 @@ const ContactUs = () => {
                             <Form.Control name="phoneNo" value={phoneNo} required onChange={e => handleChange(e)} type="number" placeholder="Phone No" />
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
-                            <Form.Control name="service" value={service} required onChange={e => handleChange(e)} type="text" placeholder="Service" />
+                             <Form.Control name="service" required 
+                            onChange={e => handleChange(e)} 
+                            type="text" 
+                            placeholder="Service" />
+                            {/* <Form.Control as="select" required
+                                value={service}
+                                onChange={e => handleChange(e)}
+                                option={option}
+                                type="text"
+                                placeholder="Service" >
+                                <option readOnly>Service</option>
+                                <option value='request a proposal'>Request a proposal</option>
+                                <option value='job applicant'>Job applicant</option>
+                                <option value='partnership opportunity'>Partnership opportunity</option>
+                                <option value='learn more about Avows Technologies services'>Learn more about Avows Technologies services</option>
+                                <option value='others'>Others</option>
+                            </Form.Control> */}
                         </Form.Group>
                         <Form.Group controlId="formBasicText">
                             <Form.Control name="message" value={message} required onChange={e => handleChange(e)} as="textarea" rows={3} type="text" placeholder="Message" />
@@ -209,7 +232,7 @@ const ContactUs = () => {
             </div>
 
 
-        </Layout>
+        </Layout >
     )
 }
 export default ContactUs;

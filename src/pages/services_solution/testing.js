@@ -51,7 +51,7 @@ const testing = () => {
                 key: "A",
                 title: "Security Operations Center",
                 descp: [
-                    "Security operations center is a centralized unit that provides real time monitoring of entire enterprise to deal with security. In these centres, the enterprise’s information and other sensitive areas like websites, databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing monitoring and fixing of threats allows triggering of actions based on threat along with notification and escalations"
+                    "Security operations center is a centralised unit that provides real time monitoring of the entire enterprise to deal with security. In these centres, the enterprise’s information and other sensitive areas like websites, databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing monitoring and fixing of threats allows triggering of actions based on threat along with notification and escalations"
                 ],
                 item: []
             },
@@ -84,14 +84,14 @@ const testing = () => {
                 title: "Managed Security Services",
                 descp: [
                     "Our managed security services are designed to serve as a remote extension of your security staff. We provide turnkey solutions for your complex information security challenges. By combining and correlating log activity, our services help eliminate blind spots and provide visibility to what really matters.",
-                    "Our experienced security professionals provide the essential expertise and infrastructure your organization needs to:"
+                    "Our experienced security professionals provide the essential expertise and infrastructure your organisation needs to:"
                 ],
                 item: [
                     "Effectively monitor the security of your environment",
                     "Improve your security posture efficiently and effectively",
                     "Achieve greater visibility and simplify reporting",
                     "Quickly identify, analyse and respond to potential security threats",
-                    "Maximize your security technology investment",
+                    "maximise your security technology investment",
                     "Focus existing staff on your core business needs"
                 ]
             },
@@ -126,7 +126,7 @@ const testing = () => {
                 descp: [
                     "A business makes smarter decisions when keeping its risks in check. Once a business has visibility on the risk of potential threats, it can prioritise investments, optimise current technology consumption and transform its security programs to address risks more effectively.",
                     "Avows can help your business by providing remediation recommendations from a people, process and technology perspective to make informed decisions. We can help design, implement and assess risk management across a spectrum of strategic, operational, financial and compliance considerations.",
-                    "We ensure that our risk evaluation approach is aligned in a way that supports the organization’s business goals and culture. Security policies play a vital role in a business and we will also ensure that the data are used and secured properly."
+                    "We ensure that our risk evaluation approach is aligned in a way that supports the organisation’s business goals and culture. Security policies play a vital role in a business and we will also ensure that the data are used and secured properly."
                 ],
                 item: []
             }
@@ -147,7 +147,7 @@ const testing = () => {
                                 <Col md={4}> </Col>
                                 <Col md={5}>
                                     <h1 className="mb-5">TESTING & SECURITY SERVICES</h1>
-                                    <p className="text-center text-white">We aim to help organizations regardless of any sizes improve
+                                    <p className="text-center text-white">We aim to help organisations regardless of any sizes improve
                                     their security processes, achieve compliance and protect your data</p>
                                 </Col>
                             </Row>
@@ -207,8 +207,8 @@ const testing = () => {
                             <div>
                                 <p className="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
                             systems come cyber risk. We help our clients protect their systems, data, devices, information
-                            and most importantly their consumers from all kinds of attacks from intruders, malware or any
-                            targeted attack. In today’s environment, organizations face tremendous risk and challenges when it
+                            and most importantly their users from any other targeted attack, malware and any.
+                            targeted attack. In today’s environment, organisations face tremendous risk and challenges when it
                             comes to protecting data and preventing fraud. Growing data protection needs and regulatory
                             concerns require fool-proof cyber security solutions.
                             </p>

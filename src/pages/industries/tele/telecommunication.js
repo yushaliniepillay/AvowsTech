@@ -18,7 +18,7 @@ const Telecommunication = () => {
                     "The client wanted to bring unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
                 ],
                 solution: [
-                    "Avows has created a secure mobile application which was deployed for end consumers as their one stop destination for all user related information, activations, recharges, plan upgrades, utilization details, along with digital wallet. The mobile application can also be used for marketing efforts such as running consumer campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility. The application was created through a secure use channel and it also allows the organization to feature great branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.",
+                    "Avows has created a secure mobile application which was deployed for end users as their one stop destination for all user related information, activations, recharges, plan upgrades, utilization details, along with digital wallet. The mobile application can also be used for marketing efforts such as running user campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility. The application was created through a secure use channel and it also allows the organisation to feature great branding opportunity which is seen as a modern digital savvy service provider true to users choice.",
                     "Some technical details of our solution encompass:",
                     "Development on React-Native Platform",
                     "Cloud Deployment on Google",
@@ -74,10 +74,10 @@ const Telecommunication = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                                As our motto echoes, “Turning Visions into Reality”; Avows drives a whole lot of digital transformation, adoption and consultancy activities to our broad spectrum of clients especially in the vast area of telecommunication industry.
+                                As our motto echoes, “Turning Visions into Reality” - Avows drives a whole lot of digital transformation, adoption and consultancy activities to our broad spectrum of clients especially in the vast area of telecommunication industry.
                             </p>
                             <p className="justified">
-                                With the recent boom in 5G technology all across the globe, Avows is set to embark on a revolutionary journey of catalysing change by continuously merging new technology frameworks connecting all consumers.
+                                With the recent boom in 5G technology all across the globe, Avows is set to embark on a revolutionary journey of catalysing change by continuously merging new technology frameworks connecting all users.
                             </p>
                             <p className="justified">
                                 With advancement in 5G technology, Avows sets up our footprint in new technologies such as:
@@ -153,13 +153,13 @@ const Telecommunication = () => {
                                     <section>
                                         <h3 className="text-primary">Solution</h3>
                                         <p className="p1 text-justify">
-                                            Avows has created a secure mobile application which was deployed for end consumers as their one stop
+                                            Avows has created a secure mobile application which was deployed for end users as their one stop
                                             destination for all user related information, activations, recharges, plan upgrades, utilization details,
                                             along with digital wallet. The mobile application can also be used for marketing efforts such as running
-                                            consumer campaigns, communicate plans and offers to customers and many more. A content management system
+                                            user campaigns, communicate plans and offers to customers and many more. A content management system
                                             was created for the clients end use and provided cost optimization through cloud hosting and accessibility.
-                                            The application was created through a secure use channel and it also allows the organization to feature great
-                                            branding opportunity which is seen as a modern digital savvy service provider true to consumers choice.
+                                            The application was created through a secure use channel and it also allows the organisation to feature great
+                                            branding opportunity which is seen as a modern digital savvy service provider true to users choice.
                                     </p>
                                         <p className="p1 text-justify">
                                             Some technical details of our solution encompass:

@@ -14,7 +14,7 @@ const data = () => {
                 key: "A",
                 title: "All-in-One Chatbot Platform",
                 descp: [
-                    "Avows helps organizations to build a powerful AI-driven customer engagement channel to deliver a seamless customer experience, improve efficiencies and create business impact using AI, ML, NLP and other cutting-edge technologies"
+                    "Avows helps organisations to build a powerful AI-driven customer engagement channel to deliver a seamless customer experience, improve efficiencies and create business impact using AI, ML, NLP and other cutting-edge technologies"
                 ],
                 item: []
             },
@@ -24,7 +24,7 @@ const data = () => {
                 title: "AI + Data Science",
                 descp: [
                     "Our Artificial Intelligence/Machine Learning (AI/ML) service offering goes through the process of procedural automation where it captures informative digital assets in a machine-readable format before implementing automation for complex and repetitive tasks.",
-                    "We are focused on AI/ML innovations and work with experts utilizing the latest in data science models and solutions that can help organizations gather insight into their operations, performance, customers and competitors."
+                    "We are focused on AI/ML innovations and work with experts utilizing the latest in data science models and solutions that can help organisations gather insight into their operations, performance, customers and competitors."
                 ],
                 item: []
             },
@@ -106,7 +106,7 @@ const data = () => {
                                 through our world-class industry expertise.
                             </p>
                                 <p className="justified">Our strategic partnerships with leading organisations help them shape 
-                                user experiences at the enterprise as well as at end consumer level, by aligning businesses with 
+                                user experiences at the enterprise as well as at end user level, by aligning businesses with 
                                 the latest in Information Technology and deriving value from investments.
                             </p>
                                 <p className="justified">We offer unparalleled industry insight, proven technology capabilities,

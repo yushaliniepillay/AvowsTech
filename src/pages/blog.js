@@ -11,14 +11,6 @@ const Blog = () => {
     [
       {
         id: "0",
-        title: "Algo League– The next generation Coding Contest for University Students in Malaysia",
-        date: "JULY, 07/2019",
-        image: require('../pages/blog_details/image/contest/3.jpg'),
-        descp: "Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.",
-        link: "/blog_details/blog_01"
-      },
-      {
-        id: "1",
         title: "AVOWS wins Operational Excellence in IT - GBS Awards 2019",
         date: "THURSDAY, 03/10/2019",
         image: require('../pages/blog_details/image/blog00_thumbnail.jpeg'),
@@ -26,7 +18,15 @@ const Blog = () => {
         link: "/blog_details/blog_00"
       },
       {
-        id: "3",
+        id: "1",
+        title: "Algo League– The next generation Coding Contest for University Students in Malaysia",
+        date: "FRIDAY, 20/12/2019",
+        image: require('../pages/blog_details/image/contest/3.jpg'),
+        descp: "Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.",
+        link: "/blog_details/blog_01"
+      },
+      {
+        id: "2",
         title: "TechConnect 2020: Business Simplified by Technology",
         date: "FRIDAY, 20/12/2019",
         image: require('../pages/blog_details/image/techconnect.png'),
@@ -34,7 +34,7 @@ const Blog = () => {
         link: "/blog_details/blog_02"
       },
       {
-        id: "4",
+        id: "2",
         title: "Employees Engagement Activity",
         date: "",
         image: require('../pages/blog_details/image/annualDinner/HWT_4631.jpg'),

@@ -38,8 +38,8 @@ const cyber = () => (
                         <div>
                             <p className="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
                             systems comes cyber risk. We help our clients protect their systems, data, devices, information
-                            and most importantly their consumers from all kinds of attacks from intruders, malware or any
-                            targeted attack. In today’s environment, organizations face tremendous risk and challenges when it
+                            and most importantly their users from all kinds of attacks from intruders, malware or any
+                            targeted attack. In today’s environment, organisations face tremendous risk and challenges when it
                             comes to protecting data and preventing fraud. Growing data protection needs and regulatory
                             concerns require fool proof cyber security solutions.
                             </p>
@@ -58,7 +58,7 @@ const cyber = () => (
                                             <br />
                                             <strong>Security Operations Center</strong>
                                             <p className="p1 text-justify"><br />
-                                                <span className="s1">Security operations center is a centralized unit that provides
+                                                <span className="s1">Security operations center is a centralised unit that provides
                                                 real time monitoring of entire enterprise to deal with security.
                                                 In these centres, the enterprise’s information and other sensitive areas like websites,
                                                 databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing
@@ -100,14 +100,14 @@ const cyber = () => (
                                                 <span className="s1">Our managed security services are designed to serve as a remote extension of your security staff.
                                                 We provide turnkey solutions for your complex information security challenges. By combining and correlating log
                                                 activity, our services help eliminate blind spots and provide visibility to what really matters. Our experienced
-                                                security professionals provide the essential expertise and infrastructure your organization needs to:</span>
+                                                security professionals provide the essential expertise and infrastructure your organisation needs to:</span>
                                             </p>
                                             <ul><br />
                                                 <li>Effectively monitor the security of your environment</li>
                                                 <li>Improve your security posture efficiently and effectively</li>
                                                 <li>Achieve greater visibility and simplify reporting</li>
                                                 <li>Quickly identify, analyse and respond to potential security threats</li>
-                                                <li>Maximize your security technology investment</li>
+                                                <li>maximise your security technology investment</li>
                                                 <li>Focus existing staff on your core business needs</li>
                                             </ul>
                                         </Tab>
@@ -150,7 +150,7 @@ const cyber = () => (
                                                 operational, financial and compliance considerations.</span>
                                             </p>
                                             <p className="p1 text-justify"><br />
-                                                <span className="s1">We ensure that our risk evaluation approach is aligned in a way that supports the organization’s business goals 
+                                                <span className="s1">We ensure that our risk evaluation approach is aligned in a way that supports the organisation’s business goals 
                                                 and culture. Security policies play a vital role in a business and we will also ensure that the data are used and 
                                                 secured properly.</span>
                                             </p>

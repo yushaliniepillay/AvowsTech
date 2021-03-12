@@ -6,13 +6,15 @@ import { Row, Col } from 'react-bootstrap';
 import { FacebookFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
 
 function footer() {
-    var icon = require('../images/logo.png')
+    var icon = require('../images/logo.png');
+    var icon1 = require('../images//logos/Avows.png')
     var imageName = require('../images/header-slider-content/02.png')
     var imageMalay = require('../images/icon/may_icon.png');
     var imageSg = require('../images/icon/sg_icon.png');
     var imageIndo = require('../images/icon/indo_icon.png');
     var imageUSA = require('../images/icon/usa_icon.png');
     var imageIndia = require('../images/icon/taj-mahal_icon.png');
+    var imageDubai = require('../images/icon/burj-khalifa.png')
 
     return (
         <footer>
@@ -29,7 +31,7 @@ function footer() {
                             <div className="footer-about">
                                 <h4 className="footer-title">ABOUT US
                                 <hr /></h4>
-                                <p style={{ color: 'white' }}className="justified" >Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India and USA using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
+                                <p style={{ color: 'white' }}className="justified" >Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development & Support services to customers in Malaysia, Indonesia, Singapore, India, USA and Dubai using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
                                 <Button className="m-3" variant="danger" size="md" type="submit" href="/aboutUs">READ MORE</Button>
                             </div>
@@ -68,26 +70,30 @@ function footer() {
                     <div className="col-xs-20 col-sm-20 col-md-20"> */}
                         <div className="footer-landmarks">
                             <Row>
-                                <Col sm md={4}></Col>
+                                <Col sm md={3}></Col>
                                 <Col sm md={1}>
-                                    <img src={imageMalay} alt="" /><br />
-                                    <p>MALAYSIA(HQ)</p>
-                                </Col>
-                                <Col sm md={1}>
-                                    <img src={imageSg} alt="" /><br />
-                                    <p>SINGAPORE</p>
-                                </Col>
-                                <Col sm md={1}>
-                                    <img src={imageIndia} alt="" /><br />
-                                    <p>INDIA</p>
-                                </Col>
-                                <Col sm md={1}>
-                                    <img src={imageIndo} alt="" /><br />
+                                    <img src={imageIndo} alt="" />
                                     <p>INDONESIA</p>
                                 </Col>
                                 <Col sm md={1}>
-                                    <img src={imageUSA} alt="" /><br />
+                                    <img src={imageIndia} alt="" />
+                                    <p>INDIA</p>
+                                </Col>
+                                <Col sm md={1}>
+                                    <img src={imageMalay} alt="" />
+                                    <p>MALAYSIA(HQ)</p>
+                                </Col>
+                                <Col sm md={1}>
+                                    <img src={imageSg} alt="" />
+                                    <p>SINGAPORE</p>
+                                </Col>
+                                <Col sm md={1}>
+                                    <img src={imageUSA} alt="" />
                                     <p>USA</p>
+                                </Col>
+                                <Col sm md={1}>
+                                    <img src={imageDubai} alt="" />
+                                    <p>DUBAI</p>
                                 </Col>
                             </Row>
                         {/* </div>
@@ -129,7 +135,7 @@ function footer() {
 
             <div className="footer-copyright text-center">
                 <div id="copyright" className="text-center">
-                    <p>&copy; <a href="/">Avows</a> technologies Sdn Bhd | 2020</p>
+                    <p>&copy; <a href="/">Avows</a> Technologies Sdn Bhd | 2021</p>
                 </div>
             </div>
 
