@@ -119,7 +119,7 @@ const technology = () => {
                                 </ul>
                                 <p className="justified"> We offer a range of services from idea conception, business requirements to
                                 the global management of the entire application portfolio. Throughout the project lifecycle, our focus is on the
-                                organization and providing measurable results using next-gen approach like Agile and DevOps.
+                                organisation and providing measurable results using next-gen approach like Agile and DevOps.
                             </p>
 
                                 <div className="vc_column-inner ">

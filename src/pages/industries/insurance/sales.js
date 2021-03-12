@@ -13,12 +13,12 @@ const Sales = () => {
                 key: "SDD",
                 link: "/industries/insurance/sales",
                 title: "Sales and Distribution Dashboard",
-                about: "Client is an insurance firm with operations in Malaysia. The Client offers life, investment-linked, group scheme, retirement, savings, and healthcare insurance services in Malaysia.",
+                about: "Client is an insurance firm with operations in Malaysia. The client offers life, investment-linked, group scheme, retirement, savings, and healthcare insurance services in Malaysia.",
                 challenge: [
-                    "Client had on centralised sales dashboard and the mid-senior management were missing standardised sales data across the organisation to compare and analyse. This led to delay in understanding changing in market dynamics, they were looking for a system to bring out standard data making it easier to identify changing forces on the ground and take quick steps to align themselves with these dynamics."
+                    "Client had a centralised sales dashboard and the mid-senior management were missing standardised sales data across the organisation to compare and analyse. This led to delay understanding changing market dynamics. Thus, they were looking for a system on a immediate basis in real time to bring out standard data making it easier to identify changing forces on the ground and take quick steps to align themselves with these dynamics."
                 ],
                 solution: [
-                    "Avows created a native mobile application available both for android and iOS for sales reports and dashboards which were available based on access. We brought together data from different places and after careful discussions with business finalised parameters and metrics that were to be reported at different levels. Through this sales report were made available at immediate access in real time to authorised associates, these reports were classified based on product types, categories, regions, channel and several other details.",
+                    "Avows created a native mobile application available both for android and iOS for sales reports and dashboards which were available based on access. We brought together data from different places, and after careful discussions with business partners finalised parameters and metrics that were to be reported at different levels. Through this, sales report available on a immediate basis real time. Classified based on product types, categories, regions, channel and several other details.",
                     "Some technical details of our solutions:",
                     "Implementation of ETL : Pentaho",
                     "Data Warehouse MS SQL",
@@ -26,8 +26,8 @@ const Sales = () => {
                     "Native Mobile App"
                 ],
                 benefit: [
-                    "Sales management had access to more transparent data in real time which allowed them to manage their teams closely",
-                    "Quick Decision by Sales Leaders to drive 3x sales productivity"
+                    "Sales management had access to manage their teams more efficiently",
+                    "Sales leaders were able to make decisions more quickly and improve sales productivity by 3 times"
                 ],
                 image: [
                     require('../../industries/InImage/Sales1.jpg'),

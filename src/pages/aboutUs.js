@@ -26,7 +26,7 @@ const AboutUs = () => (
               <Col md={3}> </Col>
               <Col md={6}>
                 <h1 className="mb-5">DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h1>
-                <p className="text-center text-white">We provide enterprises with agility by focusing on customer centric journeys
+                <p className="text-center text-white">We provide enterprises with the agility by focusing on customer centric journeys
                   to drive your digital transformation initiatives</p>
               </Col>
             </Row>
@@ -51,14 +51,11 @@ const AboutUs = () => (
               </div>
               <div className="wpb_text_column wpb_content_element ">
                 <div className="wpb_wrapper">
-                  <p>Avows is an IT Services and Solutions company with our professionals combining innovative thinking with unrivalled industry and domain
-                     expertise to offer our clients consulting expertise, complex technology and package integration, transformation delivery, and managed services, 
-                     to move their organizations forward. Through our collaborative and efficient approach, we help our clients successfully innovate, increase revenue, m
-                     anage risk and regulatory change, reduce costs, and enhance controls.</p>
+                  <p>Innovation requires Excellence- and we at Avows have kept this mantra at the heart of our business since our very inception.
+Since 2008, Avows has served a diverse range of Clients- ranging from innovative nimble Start-ups to dynamic & dependable Fortune 500 companies. Through our unrivalled industry expertise and consulting experience in Digital IT Services and Solutions, we have helped our clients successfully innovate, increase revenue, manage risk and change, reduce costs, and enhance controls-all without sacrificing flexibility.</p>
 
-                  <p>Founded in 2008, Avows serves global IT companies and the leading software vendors in Communications & Technology, Banking & Financial Services, 
-                    Insurance, Telecommunications, and Media, Information & Entertainment industries. We build and support applications and platforms for our clients that 
-                    create competitive advantage and bring true value to the customer.</p>
+                  <p>Our network reaches across Asia & beyond, with dozens of dedicated personnel working at the forefront of the latest emergent technologies, and millions of people across the world have interacted with or been benefitted by the Avows difference in one way or the other.
+Avows strives to do more- for our customers, our associates and our communities, wherever we operate globally. We are fueled by fresh challenges, keen to go the extra mile, and bring true value to our Customers- so that together we can make a better world for everyone.</p>
                 </div>
               </div>
               <div className="vc_empty_space" >
@@ -107,7 +104,7 @@ const AboutUs = () => (
                 eyes set on achieving larger goals.</p><br /><br />
               <p className="justified">
                 I am excited about the future at Avows Technologies, the people, the products, the passion.
-                Come let’s make vision into reality.</p>
+                Let’s make vision into reality.</p>
               <br /><br /><br />
               <h6 className="text-center">- MR. ASHOK K RAMAVATH - <br />  FOUNDER &amp; GROUP CEO</h6>
             </div>

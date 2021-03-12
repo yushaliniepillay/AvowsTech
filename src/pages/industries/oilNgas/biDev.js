@@ -18,13 +18,13 @@ const Bidev = () => {
                     "Client's data resided in disparate systems and lacked consistencies for any C-level executive analysis. This resulted in a very tedious exercise which took several days to achieve. Hence, an immediate need to bring data together with advanced analytics and visualisation techniques to enable quicker insights and better decision making."
                 ],
                 solution: [
-                    "Avows partnered with the client to understand the client’s organization data sets and the different systems along with data storage access points to arrive at the complete blue print for organisational data from its creating to where it was residing.",
+                    "Avows partnered with the client to understand the client’s organisation data sets and the different systems along with data storage access points to arrive at the complete blue print for organisational data from its creating to where it was residing.",
                     "We then created a solution to bring all data together for analytics and for advanced dashboards for C-level executives."
                 ],
                 benefit: [
                     "Gain a seamless environment that includes data visualisation and analytics integrated with communication tools, and specialised business applications.",
-                    "Capitalize on customers’ existing Microsoft technology to accelerate progress towards the next innovation in data analytics.",
-                    "The customer has successfully migrated more than 46 metrics across 4 critical datasets from spreadsheet into the SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform.",
+                    "Capitalize on customers’ existing Microsoft based technology to accelerate progress towards the next innovation in data analytics.",
+                    "The customer has successfully migrated more than 46 metrics across 4 critical datasets from spreadsheet into a SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform.",
                     "Analytics and business intelligence teams, formerly dependent on IT or support teams are now able to create and prepare the data themselves.",
                     "Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request."
                 ],

@@ -24,7 +24,7 @@ const Banking = () => {
                     "Our solution helps this remittance institutions through all AML aspects and stages. Our integrated system offers an end-to-end anti-money laundering solution with components which can also be used as stand-alone applications. This has given an opportunity to go for one-off investment by the customer to acquire multiple peripheral solutions on top of existing core applications or systems."
                 ],
                 benefit: [
-                    "Our solution incorporates modern technologies like AI, ML and robotic automation along with audio/facial recognition and document verification to allow organizations manage their compliance 100 percent and predict fraudulent behaviour patterns which reduce unaccounted damages.",
+                    "Our solution incorporates modern technologies like AI, ML and robotic automation along with audio/facial recognition and document verification to allow organisations manage their compliance 100 percent and predict fraudulent behaviour patterns which reduce unaccounted damages.",
                     "Smart Automation with 360 degree and round the clock surveillance to combat money laundering, providing real time alerts for action.",
                     "Achieved real-time risk visibility and accelerate screening and monitoring with industry-proven tools -",
                     "Identity Verification",
@@ -98,19 +98,19 @@ const Banking = () => {
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                            <p class="justified">Banking has been a traditional consumer of IT services and a key priority
-                            area for Avows, the recent significant developments in Digital and new
-                            technologies has spurred a growth in the demand for impeccable service
-                            providers across Malaysia, we cater to all businesses be it retail banking,
+                            <p class="justified">Banking has been a traditional user of IT services and a key priority
+                            area for Avows. The recent significant developments in Digital and new
+                            technologies has spurred a growth in demand for impeccable service
+                            providers across Malaysia, allowing us to cater to all businesses - retail banking,
                             lending services, NBFC’s, capital markets, fixed income etc.
                             </p>
-                            <p>Banking Industry has been at the forefront of technology adoption, over
-                            the past few years the way consumers interact with financial institutions
-                            has changed a lot, thanks to the several digitization efforts taken by the
+                            <p>Banking Industry has been at the forefront of technology adoption. Over
+                            the past few years, the way users interact with financial institutions
+                            has changed a lot thanks to the several digitization efforts taken by
                             banks and other financial institutions. With the onset of Industrial Revolution 4.0
-                            and 5G banking services, these are going to take new shapes further more.
-                            At Avows we partner with clients in their Technology journey to enable them
-                            to excel in their business and help them provide the best to their end consumers.
+                            and 5G banking services, these will take new shapes in the future as well. 
+                            At Avows we partner with clients in their Digital Transformation Journey to enable them
+                            to excel in their business and provide the best to their end users.
                             </p>
                             <p>Our Services and Solutions:</p>
                             <ul>
@@ -121,7 +121,7 @@ const Banking = () => {
                                 <li>Custom Application Development</li>
                                 <li>Application Maintenance Services</li>
                                 <li>Mobile banking</li>
-                                <li>Enterprise Applications Implementations, Integrations and upgrades</li>
+                                <li>Enterprise Applications Implementations, Integrations and Upgrades</li>
                                 <li>Data and Analytics</li>
                                 <li>Business Intelligence</li>
                                 <li>Core Platforms</li>

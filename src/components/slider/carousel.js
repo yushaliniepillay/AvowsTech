@@ -29,7 +29,7 @@ function carousel() {
     //         {
     //             id: "1",
     //             title: "TESTING AND SECURITY",
-    //             subTitle: "We aim to help organizations regardless of any sizes improve their security processes, achieve compliance and protect their data.",
+    //             subTitle: "We aim to help organisations regardless of any sizes improve their security processes, achieve compliance and protect their data.",
     //             image: require('../images/header-slider/managed_services.jpg'),
     //             list: [
     //                 "Functional & Test Management", "Functional Automation", "Performance Testing", "Security Testing"
@@ -138,7 +138,7 @@ function carousel() {
                                             </Fade>
                                             <br />
                                             <Fade direction='right' delay={100}>
-                                                <h5>We aim to help organizations regardless
+                                                <h5>We aim to help organisations regardless
                                                 of any sizes improve their security processes, achieve compliance and
                                                 protect their data.</h5>
                                             </Fade>

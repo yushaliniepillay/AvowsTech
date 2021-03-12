@@ -15,7 +15,7 @@ const SupplyChain = () => {
                     "The hospital chain wanted to have a better view and understanding of their supply chain and inventory. Data regarding inventories was lying in disparate systems and was lacking a unified view for any management executive analysis and decision making."
                 ],
                 solution: [
-                    "Through our supply chain visibility solution, Avows was able to bring data across together with a view of inventory available at each locations. The system was further equipped with AI ML techniques to forecast future inventories helping decision makers take inventory related decision such as placing an order at an appropriate time. The solution was aimed at solving ageing of inventory issues as well to eliminating wastages in perishable and manage by intelligent decision and usage of data.",
+                    "Through our supply chain visibility solution, Avows was able to bring data across together with a view of inventory available at each locations. The system was further equipped with AI ML techniques to fore-cast future inventories helping decision makers take inventory related decision such as placing an order at an appropriate time. The solution was aimed at solving ageing of inventory issues as well to eliminating wastages in perishable and manage by intelligent decision and usage of data.",
                     "Some Salient features of our Supply Chain Solution:",
                     "Data Science Models like Multi Variate Time Series (Vector Auto Regression), Deep Learning Techniques like LSTM (Recurrent Neural Networks) and Advanced AI Techniques of ARIMA",
                     "Sanitize and Integrate data from various Heterogeneous Systems into Large Volumes of Structured, Semi-Structured, Unstructured data stored in “NoSQL storage” like Graph DB, Columnar DB, Key-Value DB and Document DB",
@@ -23,7 +23,7 @@ const SupplyChain = () => {
                     "Develop tools in GBQ using SQ"
                 ],
                 benefit: [
-                    "Situation of Overstocking was reduced and Days of Inventory were also reduced significantly."
+                    "Problems of Overstocking was reduced and number of days of inventory were also reduced significantly."
                 ],
                 image: [
                     require('../../industries/InImage/medical1.jpg'),
