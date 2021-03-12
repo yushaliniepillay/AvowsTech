@@ -41,9 +41,9 @@ const Blog_00 = () => (
                             </p>
 
                             <p>Looking Ahead Creating remarkable experiences isn’t only something our team is devoted 
-                                to; it’s a value that’s internalized throughout our entire team. Sure, we’re basking 
+                                to; it’s a value that’s internalised throughout our entire team. Sure, we’re basking 
                                 in the euphoria of these recognitions but we’re also extremely humbled. We can’t 
-                                emphasize it enough when we say we owe it all to YOU – this just pushes us to focus 
+                                emphasise it enough when we say we owe it all to YOU – this just pushes us to focus 
                                 even harder on helping you succeed.
                             </p>
 
@@ -51,7 +51,7 @@ const Blog_00 = () => (
                                 (which was previously known as the OM Excellence Awards); where OM expanded the Awards 
                                 to include regional players and in place with regional benchmarks and moving up the value 
                                 chain. The Awards initiative were introduced in 2011 by OM as part of the Industry’s 
-                                endeavour at recognizing and rewarding excellence in the Global Business Services and 
+                                endeavour at recognising and rewarding excellence in the Global Business Services and 
                                 Outsourcing space. The Awards which enters it’s ninth year, is aimed at users and service 
                                 providers who have individually and collectively pursued global best practises in crafting 
                                 sustainable value by leveraging on GBS & outsourcing models.

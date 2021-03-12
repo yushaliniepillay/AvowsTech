@@ -19,7 +19,7 @@ const Mobile = () => {
                     "The client wanted to bring a unified experience across all platforms and reduce manpower involved along with simplified processes. Their Digital channels were not providing much support to their overall sales and marketing efforts."
                 ],
                 solution: [
-                    "Avows has created a secure mobile application which was deployed for end users as their one stop destination for all user related information, activations, recharges, plan upgrades, utilisation details, along with digital wallet. The mobile application can also be used for marketing efforts such as running user campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
+                    "Avows has created a secure mobile application which was deployed for end users as their one stop destination for all user related information, activations, recharges, plan upgrades, utilisation details, along with digital wallet. The mobile application can also be used for marketing efforts such as running user campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimisation through cloud hosting and accessibility.",
                     "The application was created through a secure user-channel and and it also provides the organisation with branding opportunities & allowing it to be seen as a modern digital-savvy service provider, true to users' choice.",
                     "Some technical details of our solution encompass:",
                     "Development on React-Native Platform",
@@ -30,9 +30,9 @@ const Mobile = () => {
                     "Digital Wallet Implementation & E-KYC"
                 ],
                 benefit: [
-                    "Clients are able to realize much better customer service and was able to be a true digital service provider in a digital world.",
+                    "Clients are able to realise much better customer service and was able to be a true digital service provider in a digital world.",
                     "The client experienced a year-on-year increase of revenue by 15%",
-                    "Cost Optimization - Cloud Infrastructure & On-Demand Scalability",
+                    "Cost Optimisation - Cloud Infrastructure & On-Demand Scalability",
                     "Enhanced Customer Experience – Ease of use among the Millennials and other age groups"
                 ],
                 image: [

@@ -18,7 +18,7 @@ const testing = () => {
                 title: "Functional & Test Management",
                 item: [
                     "End-to-end test management with high degree of quality assurance",
-                    "Optimal resource utilization with various industry best test tools",
+                    "Optimal resource utilisation with various industry best test tools",
                     "Rapid QA cycles with reusable test artefacts"
                 ]
             },
@@ -75,7 +75,7 @@ const testing = () => {
                 item: [
                     "Conduct strategy planning sessions with the focus on IAM trends and vendors, customer business drivers and challenges",
                     "Assess your existing infrastructure and system architecture in order to establish a strategic technology roadmap",
-                    "Implement the latest IAM technologies best suited to operational requirements by taking password and lifecycle management, identity governance and privileged access management into account be it through Single Sign-On (SSO) or Federated Identity Management (FIM)"
+                    "Implement the latest IAM technologies best suited to operational requirements by taking password and lifecycle management, identity governance and privilege access management into account be it through Single Sign-On (SSO) or Federated Identity Management (FIM)"
                 ]
             },
             {

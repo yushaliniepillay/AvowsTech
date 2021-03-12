@@ -17,7 +17,7 @@ const Banking = () => {
                 about: "Client is a Money Services Business, Digital Payment Service and Mobile Virtual Network operator provider, based in Malaysia. The company’s core business is centered on international money transfers, foreign currency exchange, wholesale banknotes, digital payment processing and mobile telecommunications. It is Asia’s Leader in Digital Payments & Communications.",
                 challenge: [
                     "As regulatory bodies across the globe enforce stricter regulations, banks & financial institutions are facing compliance challenges. As financial activity increases along with digital means, there will be an ever-growing increase in needs to detect fraudulent money movements and patterns involving more and more digital investigations.",
-                    "Client was looking to adopt an AML solution for its banking enterprise to comply with regulatory requirements through unified and consistent watch list screening at the same time also create value through effective weeding out of fraudulent participants on its network. Some of the other concerns were to have a low maintenance solution, effective with less false alarms to help optimize usage of resources."
+                    "Client was looking to adopt an AML solution for its banking enterprise to comply with regulatory requirements through unified and consistent watch list screening at the same time also create value through effective weeding out of fraudulent participants on its network. Some of the other concerns were to have a low maintenance solution, effective with less false alarms to help optimise usage of resources."
                 ],
                 solution: [
                     "Avows partnered with the client to provide an AML solution that matched their requirements in term of being fully equipped to weed out unnecessary noise, effective screening and comprehensive detection of suspicious transactions in real time. Our Anti-money laundering solutions comprises of proven methodologies that we use to detect more and more behavioural characteristics to classify risks and threats as authentic. Over time, our solution is capable of learning and integrating new patterns that emerge out of newer fraudulent ways the scammers or money launderers adopt hence making it increasingly difficult for them to beat the system.",
@@ -106,7 +106,7 @@ const Banking = () => {
                             </p>
                             <p>Banking Industry has been at the forefront of technology adoption. Over
                             the past few years, the way users interact with financial institutions
-                            has changed a lot thanks to the several digitization efforts taken by
+                            has changed a lot thanks to the several digitisation efforts taken by
                             banks and other financial institutions. With the onset of Industrial Revolution 4.0
                             and 5G banking services, these will take new shapes in the future as well. 
                             At Avows we partner with clients in their Digital Transformation Journey to enable them

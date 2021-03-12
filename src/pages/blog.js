@@ -22,7 +22,7 @@ const Blog = () => {
         title: "Algo League– The next generation Coding Contest for University Students in Malaysia",
         date: "FRIDAY, 20/12/2019",
         image: require('../pages/blog_details/image/contest/3.jpg'),
-        descp: "Algo League is the next-generation Coding Contest organized by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.",
+        descp: "Algo League is the next-generation Coding Contest organised by Avows Technologies in partnership with Digital Native Agenda (DNA23), designed especially to address the needs of a Digital Malaysia.",
         link: "/blog_details/blog_01"
       },
       {

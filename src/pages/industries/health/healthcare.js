@@ -20,7 +20,7 @@ const HealthCare = () => {
                     "Through our supply chain visibility solution, Avows was able to bring data across together with a view of inventory available at each locations. The system was further equipped with AI ML techniques to forecast future inventories helping decision makers take inventory related decision such as placing an order at an appropriate time. The solution was aimed at solving ageing of inventory issues as well to eliminating wastages in perishable and manage by intelligent decision and usage of data.",
                     "Some Salient features of our Supply Chain Solution:",
                     "Data Science Models like Multi Variate Time Series (Vector Auto Regression), Deep Learning Techniques like LSTM (Recurrent Neural Networks) and Advanced AI Techniques of ARIMA",
-                    "Sanitize and Integrate data from various Heterogeneous Systems into Large Volumes of Structured, Semi-Structured, Unstructured data stored in “NoSQL storage” like Graph DB, Columnar DB, Key-Value DB and Document DB",
+                    "Sanitise and Integrate data from various Heterogeneous Systems into Large Volumes of Structured, Semi-Structured, Unstructured data stored in “NoSQL storage” like Graph DB, Columnar DB, Key-Value DB and Document DB",
                     "Effective Data Transformation using Python.",
                     "Develop tools in GBQ using SQ"
                 ],
@@ -80,7 +80,7 @@ const HealthCare = () => {
                             There are various challenges faced by the Healthcare sectors such as storing medical records of the patients, maintaining Hospital Information System, maintenance of medical equipment, controlling errors in medication and a lot more. Now hospitals depend on ICT to revamp the whole process of the healthcare sector. Through ICT, the urban–rural disparities have been shortened, if not broken. If a doctor has the right communications channel it is easy to deliver treatment and the patient who can be located anywhere across the world. The system helps the doctor to continuously monitor the patient’s status, diagnostic, and their current health condition. The doctor can also interact with patients, make recommendations for medical examination, and prescribe medicine.
                             </p>
                             <p className="justified">
-                            The use of ICT in healthcare can be categorized into 4 main areas namely;
+                            The use of ICT in healthcare can be categorised into 4 main areas namely;
                             </p>
                             <ul>
                                 <li>Health and Education</li>
