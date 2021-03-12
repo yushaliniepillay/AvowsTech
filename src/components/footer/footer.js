@@ -6,7 +6,8 @@ import { Row, Col } from 'react-bootstrap';
 import { FacebookFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
 
 function footer() {
-    var icon = require('../images/logo.png')
+    var icon = require('../images/logo.png');
+    var icon1 = require('../images//logos/Avows.png')
     var imageName = require('../images/header-slider-content/02.png')
     var imageMalay = require('../images/icon/may_icon.png');
     var imageSg = require('../images/icon/sg_icon.png');
