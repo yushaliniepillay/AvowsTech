@@ -31,7 +31,7 @@ const technology = () => {
                 key: "B",
                 title: "Mobile and Web Development",
                 descp: [
-                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi-platform mobile development techniques.",
+                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware and software which are accessible by most mobile platforms and devices through employing multi-platform mobile development techniques.",
                     "Our team of mobile web app developers includes qualified UX designers, visual designers and software engineers with unparalleled knowledge and experience working with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3, HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First design approaches as well as ASP.NET mobile web development."
                 ],
                 item: [

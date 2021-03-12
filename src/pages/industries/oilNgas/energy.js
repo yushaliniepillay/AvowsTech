@@ -25,7 +25,7 @@ const Energy = () => {
                 ],
                 benefit: [
                     "Gain a seamless environment that includes data visualization and analytics integrated with communication tools, and specialized business applications",
-                    "Capitalize on customers’ existing Microsoft technology to accelerate progress toward the next innovation in data analytics",
+                    "capitalise on customers’ existing Microsoft technology to accelerate progress toward the next innovation in data analytics",
                     "The customer has successfully migrated more than 46 metrics from 4 critical datasets from excel sheet into the SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform",
                     "And empowered the analytics and business intelligence teams, formerly dependent on IT or support teams, to create and prepare the data themselves.",
                     "Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request."
@@ -71,7 +71,7 @@ const Energy = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                                Avows specialises in various industry verticals including Oil & Gas sector. With our broad understanding on the Upstream, Downstream and B2B business operations; our technology expertise can be rightly leveraged to further our client’s business outcome to become an operational excellence powerhouse.
+                                Avows specialises in various industry verticals including oil and gas sector. With our broad understanding on the Upstream, Downstream and B2B business operations; our technology expertise can be rightly leveraged to further our client’s business outcome to become an operational excellence powerhouse.
                             </p>
                             <p className="justified">
                                 Our core solution includes customised mobile/web applications, Internet of Things (IoT), Advanced Analytics & Big Data, Robotic Process Automation (RPA) & Chatbots, AI/ML, and Augmented and Virtual Reality technologies.

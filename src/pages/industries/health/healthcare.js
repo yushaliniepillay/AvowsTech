@@ -71,7 +71,7 @@ const HealthCare = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                            Technology is changing the landscape of the world and leading us to a more sophisticated future technical world. The emerging role of ICT has had a huge impact on Heaslthcare. It enhances the quality of care, increases patient security and data protection, and reduces operating and administrative expenses.
+                            Technology is changing the landscape of the world and leading us to a more sophisticated future technical world. The emerging role of ICT has had a huge impact on healthcare. It enhances the quality of care, increases patient security and data protection, and reduces operating and administrative expenses.
                             </p>
                             <p className="justified">
                             Telecommunication devices are more user-friendly and used by huge population across the world. Which have almost eliminated the communication gaps. Therefore, accessibility to information has become simple using ICT and people find themselves more relaxed while availing healthcare service.

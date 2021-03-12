@@ -20,7 +20,7 @@ const Mobile = () => {
                 ],
                 solution: [
                     "Avows has created a secure mobile application which was deployed for end users as their one stop destination for all user related information, activations, recharges, plan upgrades, utilisation details, along with digital wallet. The mobile application can also be used for marketing efforts such as running user campaigns, communicate plans and offers to customers and many more. A content management system was created for the clients end use and provided cost optimization through cloud hosting and accessibility.",
-                    "The application was created through a secure user-channel and and it also provides the organization with branding opportunities & allowing it to be seen as a modern digital-savvy service provider, true to users' choice.",
+                    "The application was created through a secure user-channel and and it also provides the organisation with branding opportunities & allowing it to be seen as a modern digital-savvy service provider, true to users' choice.",
                     "Some technical details of our solution encompass:",
                     "Development on React-Native Platform",
                     "Cloud Deployment on Google",

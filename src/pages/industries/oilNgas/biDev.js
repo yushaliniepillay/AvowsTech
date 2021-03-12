@@ -23,8 +23,8 @@ const Bidev = () => {
                 ],
                 benefit: [
                     "Gain a seamless environment that includes data visualisation and analytics integrated with communication tools, and specialised business applications.",
-                    "Capitalize on customers’ existing Microsoft based technology to accelerate progress towards the next innovation in data analytics.",
-                    "The customer has successfully migrated more than 46 metrics across 4 critical datasets from spreadsheet into a SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform.",
+                    "Capitalise on customers’ existing Microsoft based technology to accelerate progress towards the next innovation in data analytics.",
+                    "The customer has successfully migrated more than 46 metrics across 4 critical datasets from Spreadsheet into a SAP BW Platform for their daily, weekly and monthly reporting empowered by our design principles on Power BI platform.",
                     "Analytics and business intelligence teams, formerly dependent on IT or support teams are now able to create and prepare the data themselves.",
                     "Direct business and executive committee to access the data. The data which took 6 days for tabulation is now available for C level reporting on the day of request."
                 ],

@@ -91,7 +91,7 @@ const testing = () => {
                     "Improve your security posture efficiently and effectively",
                     "Achieve greater visibility and simplify reporting",
                     "Quickly identify, analyse and respond to potential security threats",
-                    "maximise your security technology investment",
+                    "Maximise your security technology investment",
                     "Focus existing staff on your core business needs"
                 ]
             },
@@ -205,7 +205,7 @@ const testing = () => {
                                 <img src={imageName1} alt="" class="img-responsive" />
                             </div>
                             <div>
-                                <p className="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
+                                <p className="justified"><strong>Cyber Security</strong> - With evergrowing digital technologies and IT
                             systems come cyber risk. We help our clients protect their systems, data, devices, information
                             and most importantly their users from any other targeted attack, malware and any.
                             targeted attack. In today’s environment, organisations face tremendous risk and challenges when it
