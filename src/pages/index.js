@@ -126,7 +126,7 @@ const IndexPage = () => {
                       <i className="fas fa-building"><ShopOutlined className="fa-1x" /></i>
                     </div>
                     <p className="facts-text">Offices</p>
-                    <h4>5</h4>
+                    <h4>6</h4>
                   </div>
                 </div>
                 <div className="col-sm-3 col-xs-6 text-center">
@@ -135,7 +135,7 @@ const IndexPage = () => {
                       <i className="fas fa-award"><TrophyOutlined className="fa-1x" /></i>
                     </div>
                     <p className="facts-text">Anniversary</p>
-                    <h4>11</h4>
+                    <h4>12</h4>
                   </div>
                 </div>
               </div>
