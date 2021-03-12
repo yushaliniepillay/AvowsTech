@@ -52,11 +52,11 @@ const Partners = () => {
         },
         {
             id: 11,
-            image: require('../components/images/logos/brisk-infosec.png'),
+            image: require('../components/images/logos/tm-one.png'),
         },
         {
             id: 12,
-            image: require('../components/images/logos/tm-one.png'),
+            image: require('../components/images/logos/brisk-infosec.png'),
         },
         {
             id: 13,
