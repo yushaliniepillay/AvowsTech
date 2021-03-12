@@ -33,7 +33,7 @@ p {
 #avowsTitle {
     /* background-image: url(../images/avowsTitle.png); */
     /* height: 100px; */
-    padding-left: 4rem;
+    padding-left: 2rem;
     position: relative;
     overflow: hidden;
     z-index: 0
@@ -485,81 +485,99 @@ p {
     position: relative;
     padding-bottom: 40px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader1 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/blogPost/blog_banner.jpg);
     position: relative;
     padding-bottom: 40px;
     overflow: hidden;
-    z-index: 0;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 #pageHeader2 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/career_banner.jpg);
     position: relative;
     padding-bottom: 40px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 #pageHeader3 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/testing_main.jpg);
     position: relative;
     padding-bottom: 50px;
-    overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader4 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/testing_main.jpg);
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader5 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/contact_banner.jpg);
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader6 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/contact_banner.jpg);
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader7 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/contact_banner.jpg);
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader8 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/cust_test.jpeg);
     position: relative;
     padding-bottom: 50px;
     overflow: hidden;
-    z-index: 0;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #pageHeader9 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/banking.jpg);
     position: relative;
     padding-bottom: 40px;
     overflow: hidden;
-    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
-
+#pageHeader10 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/partners_page.jpg);
+    position: relative;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .vc-parent {
     width: 100%;
@@ -1250,9 +1268,11 @@ p {
     content: " ";
     background-color: #ff5252;
     position: absolute;
-    height: 2px;
-    width: 80px;
-    left: 3%;
+    height: 3px;
+    width: 60px;
+    margin-left: 1.3em;
+    align-content: left;
+    /* left: 10%; */
     bottom: -15px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)

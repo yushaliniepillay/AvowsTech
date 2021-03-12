@@ -71,13 +71,13 @@ const Energy = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                                Avows specializes in various industry verticals including Oil & Gas sector. With our broad understanding on the Upstream, Downstream and B2B business operations; our technology expertise can be rightly leveraged to stretch further our client’s business outcome towards becoming a strong operational excellence powerhouse.
+                                Avows specialises in various industry verticals including Oil & Gas sector. With our broad understanding on the Upstream, Downstream and B2B business operations; our technology expertise can be rightly leveraged to further our client’s business outcome towards becoming an operational excellence powerhouse.
                             </p>
                             <p className="justified">
-                                Our core solution includes customized mobile/web applications, Internet of Things (IoT), Advanced Analytics & Big Data, Robotic Process Automation (RPA) & Chatbots, AI/ML, and Augmented and Virtual Reality technologies.
+                                Our core solution includes customised mobile/web applications, Internet of Things (IoT), Advanced Analytics & Big Data, Robotic Process Automation (RPA) & Chatbots, AI/ML, and Augmented and Virtual Reality technologies.
                             </p>
                             <p className="justified">
-                                We value our client objectives of attaining optimal business goals in order stay competitive in business by rightly coupling our digital transformation consultancy to continuously advocate our client’s future technology roadmap in par of excellence that reduces cost intensive processes in existing business practice.
+                                We value our client objectives of attaining optimal business goals in order to stay competitive in business by coupling our digital transformation consultancy to continuously advocate our client’s future technology roadmap that reduces cost intensive processes in existing business practice.
                             </p>
                         </div>
 

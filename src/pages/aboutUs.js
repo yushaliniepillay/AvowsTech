@@ -27,7 +27,7 @@ const AboutUs = () => (
               <Col md={6}>
                 <h1 className="mb-5">DELIVERING INTELLIGENT AUTOMATION FOR ENTERPRISE</h1>
                 <p className="text-center text-white">We provide enterprises with agility by focusing on customer centric journeys
-                  to drive their digital transformation initiatives</p>
+                  to drive your digital transformation initiatives</p>
               </Col>
             </Row>
           </section>
@@ -51,8 +51,14 @@ const AboutUs = () => (
               </div>
               <div className="wpb_text_column wpb_content_element ">
                 <div className="wpb_wrapper">
-                  <p>Avows is a IT services and Solutions company with Our professionals combining innovative thinking with unrivalled industry and domain expertise to offer our clients consulting expertise, complex technology and package integration, transformation delivery, and managed services, to move their organizations forward. Through our collaborative and efficient approach, we help our clients successfully innovate, increase revenue, manage risk and regulatory change, reduce costs, and enhance controls.</p>
-                  <p>Founded in 2008, Avows serves global IT companies and the leading software vendors in Communications &amp; Technology, Banking &amp; Financial Services, Insurance, Telecommunications, and Media, Information &amp; Entertainment industries. We build and support applications and platforms for our clients that create competitive advantage and bring true value to the customer.</p>
+                  <p>Avows is an IT Services and Solutions company with our professionals combining innovative thinking with unrivalled industry and domain
+                     expertise to offer our clients consulting expertise, complex technology and package integration, transformation delivery, and managed services, 
+                     to move their organizations forward. Through our collaborative and efficient approach, we help our clients successfully innovate, increase revenue, m
+                     anage risk and regulatory change, reduce costs, and enhance controls.</p>
+
+                  <p>Founded in 2008, Avows serves global IT companies and the leading software vendors in Communications & Technology, Banking & Financial Services, 
+                    Insurance, Telecommunications, and Media, Information & Entertainment industries. We build and support applications and platforms for our clients that 
+                    create competitive advantage and bring true value to the customer.</p>
                 </div>
               </div>
               <div className="vc_empty_space" >

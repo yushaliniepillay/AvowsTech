@@ -71,25 +71,25 @@ const HealthCare = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                            Today, the technology is changing the landscape of the world and leading us towards a sophisticated technical world. The emerging role of ICT has created a huge impact on Healthcare. It enhances the quality of care, increases the patient security and data protection and reduces operating & administrative cost.
+                            Today, the technology is changing the landscape of the world and leading us towards a sophisticated technical world. The emerging role of ICT has created a huge impact on Healthcare. It enhances the quality of care, increases the patient security and data protection and reduces operating and administrative.
                             </p>
                             <p className="justified">
-                            The telecommunication devices are more user friendly & used by a huge population around the world which have reduced the communication gap to a zero level. Therefore, accessibility to information has become simple using ICT and also people find themselves more relaxed while availing healthcare service.
+                            The telecommunication devices are more user-friendly and used by a huge population around the world which have change reduced to eliminated the communication gap. Therefore, accessibility to information has become simple using ICT and also people find themselves more relaxed while availing healthcare service.
                             </p>
                             <p className="justified">
-                            There are various challenges faced by the Healthcare sectors such as storing the medical record of the patient, maintaining Hospital Information System, maintenance of medical equipment, medication error and lot more. Now, the Hospitals depend on ICT to revamp the whole process of the healthcare sector. Through ICT the urban –rural disparities have been broken & shortened. If a doctor has the right communication channel it is easy to deliver treatment and care for the patient who is located anywhere around the world. The system helps the Doctor to continuously monitor the patient’s history, diagnostic report, and track the current health condition. The Doctor can also interact with patient, recommend to take medical examination and prescribe medicine.
+                            There are various challenges faced by the Healthcare sectors such as storing the medical record of the patient, maintaining Hospital Information System, maintenance of medical equipment, medication error and lot more. Now, the hospitals depend on ICT to revamp the whole process of the healthcare sector. Through ICT, the urban–rural disparities have been broken and shortened. If a doctor has the right communications channel it is easy to deliver treatment and care for the patient who is located anywhere around the world. The system helps the doctor to continuously monitor the patient’s history, diagnostic report, and track their current health condition. The doctor can also interact with patients, make recommendations for medical examination and prescribe medicine.
                             </p>
                             <p className="justified">
-                                <strong>The use of ICT in healthcare can be categorized into 4 main streams such as;</strong>
+                            The use of ICT in healthcare can be categorized into 4 main areas such as;
                             </p>
                             <ul>
-                                <li>Health & Education</li>
+                                <li>Health and Education</li>
                                 <li>Hospital Management System</li>
                                 <li>Health Research</li>
                                 <li>Health Data Management</li>
                             </ul>
                             <p className="justified">
-                            In this Digital era, people can easily seek, access, learn & communicate with others within a quick span of time. This makes education accessible, available and open to all. Health education creates awareness among the public about the communicable diseases, health status, prevention measures and various current diagnostic & therapeutic procedures. This gives a freedom to the people to choose the best hospitals and doctors to approach for treatment and to have their life in a healthy way.
+                            In this digital era, people can easily seek, access, learn and communicate with others within a quick span of time. This makes education accessible, available and open to all. Health education creates awareness among the public about the communicable diseases, health status, prevention measures and various current diagnostic and therapeutic procedures. This gives a freedom to the people to choose the best hospitals and doctors to approach for treatment and to have their life in a healthy way.
                             </p>
                         </div>
 

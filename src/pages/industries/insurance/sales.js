@@ -15,10 +15,10 @@ const Sales = () => {
                 title: "Sales and Distribution Dashboard",
                 about: "Client is an insurance firm with operations in Malaysia. The Client offers life, investment-linked, group scheme, retirement, savings, and healthcare insurance services in Malaysia.",
                 challenge: [
-                    "Client had on centralized sales dashboard and the mid-senior management were missing standardized sales data across the organization to compare and analyse. This led to delay in understanding changing in market dynamics, they were looking for a system to bring out standard data making it easier to identify changing forces on the ground and take quick steps to align themselves with these dynamics."
+                    "Client had on centralised sales dashboard and the mid-senior management were missing standardised sales data across the organisation to compare and analyse. This led to delay in understanding changing in market dynamics, they were looking for a system to bring out standard data making it easier to identify changing forces on the ground and take quick steps to align themselves with these dynamics."
                 ],
                 solution: [
-                    "Avows created a native mobile application available both for android and iOS for sales reports and dashboards which were available based on access. We brought together data from different places and after careful discussions with business finalized parameters and metrics that were to be reported at different levels. Through this sales report were made available at immediate access in real time to authorized associates, these reports were classified based on product types, categories, regions, channel and several other details.",
+                    "Avows created a native mobile application available both for android and iOS for sales reports and dashboards which were available based on access. We brought together data from different places and after careful discussions with business finalised parameters and metrics that were to be reported at different levels. Through this sales report were made available at immediate access in real time to authorised associates, these reports were classified based on product types, categories, regions, channel and several other details.",
                     "Some technical details of our solutions:",
                     "Implementation of ETL : Pentaho",
                     "Data Warehouse MS SQL",
@@ -27,7 +27,7 @@ const Sales = () => {
                 ],
                 benefit: [
                     "Sales management had access to more transparent data in real time which allowed them to manage their teams closely",
-                    "Quick Decision by Sales Leaders to drive 3X sales productivity"
+                    "Quick Decision by Sales Leaders to drive 3x sales productivity"
                 ],
                 image: [
                     require('../../industries/InImage/Sales1.jpg'),
@@ -102,7 +102,7 @@ const Sales = () => {
                                         <section className="cs_about">
                                             <h4>Challenges</h4>
                                             <Row>
-                                                <p className="text-justify">{data.challenge[0]}</p>
+                                                <Col><p className="text-justify">{data.challenge[0]}</p></Col>
                                             </Row>
                                         </section>
                                         <Figure style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
@@ -143,8 +143,12 @@ const Sales = () => {
                                             <h4>Benefits</h4>
                                             <Row>
                                                 <Col>
-                                                    <p className="text-justify">{data.benefit[0]}</p>
-                                                    <p className="text-justify">{data.benefit[1]}</p>
+                                                <ul>
+                                                        <li>{data.benefit[0]}</li>
+                                                        <li>{data.benefit[1]}</li>
+                                                    </ul>
+                                                    <p className="text-justify">{data.benefit[6]}</p>
+                                                    <p className="text-justify"></p>
                                                 </Col>
                                             </Row>
                                         </section>

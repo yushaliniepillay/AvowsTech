@@ -108,7 +108,7 @@ const technology = () => {
                                 business responsiveness.
                             </p>
                                 <h4>Bringing Business and IT Closer</h4>
-                                <p className="justified"> Our services span the end-to-end technology change process from inception to live, 
+                                <p className="justified"> Our services span the end-to-end technology change process from inception to go-live, 
                                 so that you can deliver value continuously and meet your users’ expectation, while managing risk and maintaining quality.
                             </p>
                                 <ul>
