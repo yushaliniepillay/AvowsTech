@@ -24,7 +24,7 @@ const data = () => {
                 title: "AI + Data Science",
                 descp: [
                     "Our Artificial Intelligence/Machine Learning (AI/ML) service offering goes through the process of procedural automation where it captures informative digital assets in a machine-readable format before implementing automation for complex and repetitive tasks.",
-                    "We are focused on AI/ML innovations and work with experts utilizing the latest in data science models and solutions that can help organisations gather insight into their operations, performance, customers and competitors."
+                    "We are focused on AI/ML innovations and work with experts utilising the latest in data science models and solutions that can help organisations gather insight into their operations, performance, customers and competitors."
                 ],
                 item: []
             },
@@ -50,8 +50,8 @@ const data = () => {
                         sub: "Discover, refine, enrich, and govern any type or volume of data across hybrid and distributed landscapes, while ensuring quality and availability."
                     },
                     {
-                        name: "Data Visualization",
-                        sub: "Consolidate, sanitize, and reconcile business data - learn how you can overcome data fragmentation and activate the power of your data by integrating disparate sources in the cloud, on premise, and across devices."
+                        name: "Data Visualisation",
+                        sub: "Consolidate, sanitise, and reconcile business data - learn how you can overcome data fragmentation and activate the power of your data by integrating disparate sources in the cloud, on premise, and across devices."
                     }
                 ]
             },
@@ -110,7 +110,7 @@ const data = () => {
                                 the latest in Information Technology and deriving value from investments.
                             </p>
                                 <p className="justified">We offer unparalleled industry insight, proven technology capabilities,
-                                and the unmatched depth of our firm’s professional services. This allows us to strategize,
+                                and the unmatched depth of our firm’s professional services. This allows us to strategise,
                                 design, and implement customer solutions for our clients better than any of our competition.
                             </p>
 

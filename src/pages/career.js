@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
@@ -10,18 +11,18 @@ const Career = () => (
         <div id="pageHeader2" >
             <div className="vc-parent">
                 <div className="vc-child">
-                <Breadcrumb>
-                <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
-                <Breadcrumb.Item active>CAREER</Breadcrumb.Item>
-              </Breadcrumb>
-              <section className="page-title">
-                <Row>
-                  <Col md={4}> </Col>
-                  <Col md={4}>
-                    <h1>CAREER</h1>
-                  </Col>
-                </Row>
-              </section>
+                    <Breadcrumb>
+                        <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
+                        <Breadcrumb.Item active>CAREER</Breadcrumb.Item>
+                    </Breadcrumb>
+                    <section className="page-title">
+                        <Row>
+                            <Col md={4}> </Col>
+                            <Col md={4}>
+                                <h1>CAREER</h1>
+                            </Col>
+                        </Row>
+                    </section>
                 </div>
             </div>
         </div>
@@ -56,7 +57,7 @@ const Career = () => (
                                     </p>
                             <br />
                             <p>Employee development is fostered through a collaborative, intellectually challenging work
-                            environment that emphasizes mutual respect, leadership, and measured risk-taking.
+                            environment that emphasises mutual respect, leadership, and measured risk-taking.
                                     </p>
                             <br /><b>OUR CULTURE</b><br />
                             <p>
@@ -75,26 +76,34 @@ const Career = () => (
                                 <li>Try the Nirvana – bliss of continuous learning and unlearning.</li>
                                 <li>And we definitely understand your requirements for stretched coffee breaks at work</li>
                             </ul>
+                            <br/>
+                            <p>If you think you have what it takes to stand out in the vast technology landscape, come show us what you've got!</p>
+                            <p>Send us your resume at
+                                 <Link href="mailto:info@avowstech.com">
+                                    info@avowstech.com
+                                </Link> and we'll contact you to set up an interview if you're selected.
+                            </p>
+
                         </div>
+
                     </div>
                 </div>
-
             </div>
         </div>
 
         {/* career form */}
         <div id="blog">
             <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
+                {/*  <div className="row">
+                   <div className="col-md-12">
                         <section>
                             <h2 className="section-title"><span>Graduate Students</span>Apply here</h2>
                         </section>
-                    </div>
+                    </div> 
                 </div>
-                <div className="row">
+                 <div className="row">
                     <iframe title="Avows Career" src="https://docs.google.com/forms/d/e/1FAIpQLSdn3i6c2WjKctZw3VlLoNXNn2a8-L643gswpFEKwj5dBQLQSw/viewform?embedded=true" width="100%" height="2800" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
-                </div>
+                </div> */}
             </div>
         </div>
 

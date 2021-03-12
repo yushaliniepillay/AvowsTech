@@ -22,7 +22,7 @@ const Management = () => {
             {
                 id: 0,
                 name: "DATUK SYED TAMIM MOHAMED",
-                position: "Director - Strategy, Avows Group",
+                position: "Director - Strategy",
                 image: require('../images/management/Dato.jpg'),
                 description1: "Datuk Syed Tamim Mohamed is the Director of Strategy and Development for AVOWS Technologies. He has been working for the past 44 years in various capacities, both in the public and the private sectors. He began his career in the Prime Minister's Department in 1972 after graduating with a Bachelor of Economics (Honours) degree. He left the civil service to join the private sector in 1981, after obtaining his MBA. He was also trained at Harvard Business School and Mt Eliza, Australia. He is also a member of the Japanese Kankeiren Group and the Korean Development Institute",
                 description2: "He served the PERNAS Group between 1981 and 1986 before joining the Sime Darby Group in 1986. He retired from the Sime Darby Group after serving slightly more than 20 years.",
@@ -32,18 +32,18 @@ const Management = () => {
             {
                 id: 1,
                 name: "PH CHEW",
-                position: "Director - Avows Group",
+                position: "Director",
                 image: require('../images/management/Chew.jpg'),
-                description1: "PH Chew as the company’s director, provides advices on business and technical areas to the company. He is also the Executive Director for Matrix Streams Sdn Bhd which specializes in the development, sales and implementation of Islamic Core Banking and Treasury Management System. Both companies have built the synergy and complement to each other businesses.",
+                description1: "PH Chew as the company’s director, provides advices on business and technical areas to the company. He is also the Executive Director for Matrix Streams Sdn Bhd which specialises in the development, sales and implementation of Islamic Core Banking and Treasury Management System. Both companies have built the synergy and complement to each other businesses.",
                 description2: "He started his career with Maybank Berhad in 1983. Prior to AVOWS, PH Chew has worked as a Technical Director and have served in senior positions with various local national corporations in Malaysia in providing software systems design, development and implementation across several different industries including banking, hospital management and human resource management. He has more than 38 years of working experience in the IT Industry.",
                 description3: "PH Chew holds a Bachelor of Science (Honors) with a major in Computer Science from U.K"
             },
             {
                 id: 2,
                 name: "DATO RAYMOND YEONG",
-                position: "Independent Director at Avows Group",
+                position: "Independent Director",
                 image: require('../images/management/Raymond.jpg'),
-                description1: "Dato Raymond Yeong Kok Hee is the Independent Director of Avows Technologies. He has been working for more than 34 years in different capacities primarily focusing in IT industry. Upon returning from England in 1983, he commenced his sales and marketing management career firstly in the credit cards business and subsequently, ventured into the fast moving user goods ('FMCG') sector, as well as the electronics and computer equipment services industries. Dato Raymond Yeong is well-recognized and respected not only in the information technology ('IT') arena, but also in the financial services and corporate sector.",
+                description1: "Dato Raymond Yeong Kok Hee is the Independent Director of Avows Technologies. He has been working for more than 34 years in different capacities primarily focusing in IT industry. Upon returning from England in 1983, he commenced his sales and marketing management career firstly in the credit cards business and subsequently, ventured into the fast moving user goods ('FMCG') sector, as well as the electronics and computer equipment services industries. Dato Raymond Yeong is well-recognised and respected not only in the information technology ('IT') arena, but also in the financial services and corporate sector.",
                 description2: "Dato Raymond Yeong was formerly the consultant and hold the position of Vice President of CSC Malaysia Sdn Bhd(formerly CSA (M)berhad,a position that he has held since 1999. As a Consultant of the company, he is focussed in the areas of Managed Services, Technology consulting and Complex System Integration. His responsibilities includes leveraging of consulting and strategic outsourcing and technology management capabilities in concert with other divisions of Computer Sciences Corporation (CSC) worldwide in creating a unique integrated offering to the dynamic and rapidly growing Malaysia market",
                 description3: "He has developed and set up a significant number of strategic relationships and alliances with the senior management of the financial and governmental sector. He was an active member of the Executive and Management Review Committee of the Maybank Berhad and Computer Sciences Corporation/CSC Malaysia Sdn. Bhd., a ten (10)-year term IT sourcing engagement since 2003.",
                 description4: "In addition Dato Raymond Yeong sits on the Board of WZ Satu Berhad on 26 Oct 2007 as an independent Non-executive director. He is a member of the Audit committee, remuneration committee and Nomination committee. Dato Raymond Yeong contributes to the strategic growth of the company for many years.",
@@ -52,11 +52,11 @@ const Management = () => {
             {
                 id: 3,
                 name: "ASHOK K RAMAVATH",
-                position: "Group CEO at Avows Group",
+                position: "Group CEO",
                 image: require('../images/management/Ashok.jpg'),
                 description1: "AVOWS TECHNOLOGIES was founded by Mr. Ashok K Ramavath, the pioneering and visionary entrepreneur, in the year 2008. Mr. Ashok brings with him 20 years of rich and wide experience in technology and business consulting. With his keen interest in developing next generation leadership, he has built strong technology teams in AVOWS from scratch to cater to the challenging and growing requirements of its clients in South East Asia. . His key strengths in terms of achieving best results in service delivery and financial performance enabled AVOWS to build large & strong teams of 100+ in the past.",
                 description2: "Ashok is on the managing committee of CIIM (Consortium of Indian Industries in Malaysia) and is a firm believer in Corporate Social Responsibility. He initiated focused interactions with industry leaders to generate high value solutions and service offerings in the IT & ITES space from AVOWS and also helped to on board leaders from various industries aligned with the vision and core values of the organisation to expand the core service offerings and continuously innovate value to the clients. AVOWS is head-quarted in Kuala Lumpur, Malaysia with its offices/development centers in Singapore, Indonesia, India and USA.",
-                description3: "Ashok was recognized for his contribution to HR during the Asia’s Best Employer Brand awards in 2010. Ashok was also recognized as “CEO of the Year 2013”.",
+                description3: "Ashok was recognised for his contribution to HR during the Asia’s Best Employer Brand awards in 2010. Ashok was also recognised as “CEO of the Year 2013”.",
                 description4: "An aivid Golf player and a technocrat turned commerce post graduate, Ashok is passionate to make AVOWS a strong player in the global technology industry Asia's Best Employer Brand Awards 2010"
             },
             {
@@ -64,7 +64,7 @@ const Management = () => {
                 name: "RAMESH KUMAR RAGHAVAN",
                 position: "VP - Group Operations",
                 image: require('../images/management/Ramesh.jpg'),
-                description1: "Ramesh brings with him 14+ years of global experience in IT strategy, talent engagement and development, CEO Advisory and stakeholder management. He specializes in operations and HR that aligns strategy, processes with business goals",
+                description1: "Ramesh brings with him 14+ years of global experience in IT strategy, talent engagement and development, CEO Advisory and stakeholder management. He specialises in operations and HR that aligns strategy, processes with business goals",
                 description2: "Ramesh has a breadth of industry expertise with proficiency building new capabilities and internal processes and has worked with leading global organisations in the past.",
                 description3: "He partners with sales to nurture client relationships and ensures highest quality of service to existing clients. He is as instrumental in advancing Avows innovative company culture as he is in fostering new talent. His passion is to develop and work on next gen digital technologies."
             },
@@ -75,7 +75,7 @@ const Management = () => {
                 image: require('../images/management/Senthil.jpg'),
                 description1: "Senthil Kumar Subramaniam joined Avows Technologies as its Chief Technology Officer in July 2019. Throughout his 24 years of experience in IT, he has proven to be an effective leader, adept in managing technology projects across delivery centres. This perfectly positions him at the helm of technological evolution for the company as it seeks to deliver the latest technological breakthroughs to its clients through a wide array of cutting-edge products and services.",
                 description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He served as Deputy CIO with Star Health and Allied Insurance, one of the largest Health Insurance companies in India, partnering with vendors such as Oracle, Microsoft and IBM. Prior to that, he was leading teams on various projects while assuming senior roles in Accenture IDC and 3i Infotech. ",
-                description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
+                description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategising the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
             },
             {
                 id: 6,
@@ -118,7 +118,7 @@ const Management = () => {
                 image: require('../images/management/Kim.jpg'),
                 description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed 10 + years of experience and has been an asset to the organisation since inception.",
                 description2: "She oversees policies and programs for the entire company as well as organisational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance",
-                description3: "She specializes in talent management and leadership development with a focus on customer relationship management as she works a team player to help sales teams to be aligned to the company goals."
+                description3: "She specialises in talent management and leadership development with a focus on customer relationship management as she works a team player to help sales teams to be aligned to the company goals."
             }
         ]
 
@@ -139,6 +139,7 @@ const Management = () => {
                             <Card.Body style={{ textAlign: 'top', marginBottom: '-20px' }}>
                                 <Card.Subtitle className="text-center">
                                     <h5 className='align-top'>{data.position}</h5>
+                                    <h5 className='align-top'>Avows Group</h5>
                                 </Card.Subtitle>
                             </Card.Body>
                         </Card>

@@ -57,10 +57,10 @@ const ar_vr = () => {
                                 <p className="justified">Augmented Reality (AR) and Virtual Reality (VR)
                                 are the new game changers in today’s digital and physical worlds.
                                 AR/VR gives us the immersive, interactive and imaginative experience
-                                which allows you to visualize your information and content.
+                                which allows you to visualise your information and content.
                             </p>
                                 <p className="justified">Paired with a device, AR is able to help 
-                                businesses generate more interaction with their customers by creating personalized
+                                businesses generate more interaction with their customers by creating personalised
                                 and memorable content for industries such as retail, manufacturing, healthcare,
                                 training and education. VR lets you experience what it’s like to be
                                 anywhere and anytime.

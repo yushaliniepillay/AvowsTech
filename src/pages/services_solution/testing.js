@@ -18,7 +18,7 @@ const testing = () => {
                 title: "Functional & Test Management",
                 item: [
                     "End-to-end test management with high degree of quality assurance",
-                    "Optimal resource utilization with various industry best test tools",
+                    "Optimal resource utilisation with various industry best test tools",
                     "Rapid QA cycles with reusable test artefacts"
                 ]
             },
@@ -75,7 +75,7 @@ const testing = () => {
                 item: [
                     "Conduct strategy planning sessions with the focus on IAM trends and vendors, customer business drivers and challenges",
                     "Assess your existing infrastructure and system architecture in order to establish a strategic technology roadmap",
-                    "Implement the latest IAM technologies best suited to operational requirements by taking password and lifecycle management, identity governance and privileged access management into account be it through Single Sign-On (SSO) or Federated Identity Management (FIM)"
+                    "Implement the latest IAM technologies best suited to operational requirements by taking password and lifecycle management, identity governance and privilege access management into account be it through Single Sign-On (SSO) or Federated Identity Management (FIM)"
                 ]
             },
             {
@@ -91,7 +91,7 @@ const testing = () => {
                     "Improve your security posture efficiently and effectively",
                     "Achieve greater visibility and simplify reporting",
                     "Quickly identify, analyse and respond to potential security threats",
-                    "maximise your security technology investment",
+                    "Maximise your security technology investment",
                     "Focus existing staff on your core business needs"
                 ]
             },
@@ -205,7 +205,7 @@ const testing = () => {
                                 <img src={imageName1} alt="" class="img-responsive" />
                             </div>
                             <div>
-                                <p className="justified"><strong>Cyber Security</strong> - With ever growing digital technologies and IT
+                                <p className="justified"><strong>Cyber Security</strong> - With evergrowing digital technologies and IT
                             systems come cyber risk. We help our clients protect their systems, data, devices, information
                             and most importantly their users from any other targeted attack, malware and any.
                             targeted attack. In today’s environment, organisations face tremendous risk and challenges when it

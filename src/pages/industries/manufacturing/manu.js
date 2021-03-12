@@ -43,9 +43,9 @@ const Manu = () => {
                             </p>
 
                             {/* <section className="intro">
-                                <strong><p>Maximizing Efficiency</p></strong>
+                                <strong><p>Maximising Efficiency</p></strong>
                                 <p className="justified">
-                                    One of the first ways that technology can improve your manufacturing business is by maximizing efficiency. This means that technology is able to ensure time is used in the best manner possible by cutting down production times and automating tedious as well as time-consuming tasks. An example of technology that could improve your business is 3D printing. This technology is transforming the manufacturing industry as it can reduce design to production time, reduce manufacturing lead time, reduce waste, and ensure greater flexibility in production. In fact, 3D printing is becoming so effective, workers in the manufacturing industry are worried they’re going to be replaced.
+                                    One of the first ways that technology can improve your manufacturing business is by maximising efficiency. This means that technology is able to ensure time is used in the best manner possible by cutting down production times and automating tedious as well as time-consuming tasks. An example of technology that could improve your business is 3D printing. This technology is transforming the manufacturing industry as it can reduce design to production time, reduce manufacturing lead time, reduce waste, and ensure greater flexibility in production. In fact, 3D printing is becoming so effective, workers in the manufacturing industry are worried they’re going to be replaced.
                             </p>
                             </section> */}
 

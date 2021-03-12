@@ -17,13 +17,13 @@ const IndexPage = () => {
 
   const [state, setText] = useState({
     text: 'We have a great Mission',
-    text1: '“To be recognized as the “Preferred Technology Partner of Choice” by all Customers”'
+    text1: '“To be recognised as the “Preferred Technology Partner of Choice” by all Customers”'
   })
 
   const onClickButton1 = () => {
     setText({
       text: 'We have a great Mission',
-      text1: '“To be Recognized as the “Preferred Technology Partner of Choice” by all Customers”'
+      text1: '“To be recognised as the “Preferred Technology Partner of Choice” by all Customers”'
     })
     //setState({ button: !change.button })
     setSelectedButton(0);

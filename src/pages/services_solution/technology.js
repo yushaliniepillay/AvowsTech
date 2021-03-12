@@ -31,7 +31,7 @@ const technology = () => {
                 key: "B",
                 title: "Mobile and Web Development",
                 descp: [
-                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware & software which are accessible by most mobile platforms and devices through employing multi-platform mobile development techniques.",
+                    "Create next-gen apps designed for iOS & Android starting from our high-performance boiler-plate that provides maximum compatibility across hardware and software which are accessible by most mobile platforms and devices through employing multi-platform mobile development techniques.",
                     "Our team of mobile web app developers includes qualified UX designers, visual designers and software engineers with unparalleled knowledge and experience working with JavaScript-based frameworks (like ReactJS, AngularJS, Ember.js, Backbone.js), CSS3, HTML5, jQuery Mobile, jQTouch, Sencha, SproutCore, PhoneGap, Responsive Web and Mobile First design approaches as well as ASP.NET mobile web development."
                 ],
                 item: [
@@ -115,7 +115,7 @@ const technology = () => {
                                     <li>Digital Experience Management</li>
                                     <li>Business Software and Application Development</li>
                                     <li>Managed Services and Technology Support</li>
-                                    <li>Application Modernization</li>
+                                    <li>Application Modernisation</li>
                                 </ul>
                                 <p className="justified"> We offer a range of services from idea conception, business requirements to
                                 the global management of the entire application portfolio. Throughout the project lifecycle, our focus is on the

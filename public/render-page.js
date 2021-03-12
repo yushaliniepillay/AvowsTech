@@ -8045,7 +8045,7 @@ reservedProps.forEach(function (name) {
 });
 var CAMELIZE = /[\-\:]([a-z])/g;
 
-var capitalize = function (token) {
+var capitalise = function (token) {
   return token[1].toUpperCase();
 }; // This is a list of all SVG attributes that need special casing, namespacing,
 // or boolean value assignment. Regular attributes that just accept strings
@@ -8058,7 +8058,7 @@ var capitalize = function (token) {
 // you'll need to set attributeName to name.toLowerCase()
 // instead in the assignment below.
 ].forEach(function (attributeName) {
-  var name = attributeName.replace(CAMELIZE, capitalize);
+  var name = attributeName.replace(CAMELIZE, capitalise);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
   attributeName, null, // attributeNamespace
   false);
@@ -8068,7 +8068,7 @@ var capitalize = function (token) {
 // you'll need to set attributeName to name.toLowerCase()
 // instead in the assignment below.
 ].forEach(function (attributeName) {
-  var name = attributeName.replace(CAMELIZE, capitalize);
+  var name = attributeName.replace(CAMELIZE, capitalise);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
   attributeName, 'http://www.w3.org/1999/xlink', false);
 }); // String SVG attributes with the xml namespace.
@@ -8077,7 +8077,7 @@ var capitalize = function (token) {
 // you'll need to set attributeName to name.toLowerCase()
 // instead in the assignment below.
 ].forEach(function (attributeName) {
-  var name = attributeName.replace(CAMELIZE, capitalize);
+  var name = attributeName.replace(CAMELIZE, capitalise);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
   attributeName, 'http://www.w3.org/XML/1998/namespace', false);
 }); // These attribute exists both in HTML and SVG.
@@ -11040,8 +11040,8 @@ function processSimpleEventPluginPairsByPriority(eventTypes, priority) {
   for (var i = 0; i < eventTypes.length; i += 2) {
     var topEvent = eventTypes[i];
     var event = eventTypes[i + 1];
-    var capitalizedEvent = event[0].toUpperCase() + event.slice(1);
-    var onEvent = 'on' + capitalizedEvent;
+    var capitalisedEvent = event[0].toUpperCase() + event.slice(1);
+    var onEvent = 'on' + capitalisedEvent;
     var config = {
       phasedRegistrationNames: {
         bubbled: onEvent,
@@ -11410,7 +11410,7 @@ function hyphenateStyleName(name) {
 var warnValidStyle = function () {};
 
 {
-  // 'msTransform' is correct, but the other prefixes should be capitalized
+  // 'msTransform' is correct, but the other prefixes should be capitalised
   var badVendoredStyleNamePattern = /^(?:webkit|moz|o)[A-Z]/;
   var msPattern$1 = /^-ms-/;
   var hyphenPattern = /-(.)/g; // style values shouldn't contain a semicolon
@@ -11759,7 +11759,7 @@ var possibleStandardNames = {
   alt: 'alt',
   as: 'as',
   async: 'async',
-  autocapitalize: 'autoCapitalize',
+  autocapitalise: 'autocapitalise',
   autocomplete: 'autoComplete',
   autocorrect: 'autoCorrect',
   autofocus: 'autoFocus',
