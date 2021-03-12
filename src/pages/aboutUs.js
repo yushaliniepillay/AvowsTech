@@ -51,11 +51,11 @@ const AboutUs = () => (
               </div>
               <div className="wpb_text_column wpb_content_element ">
                 <div className="wpb_wrapper">
-                  <p>Innovation requires Excellence- and we at Avows have kept this mantra at the heart of our business since our very inception.
+                  <p>Innovation requires Excellence - and we at Avows have kept this mantra at the heart of our business since our very inception.
 Since 2008, Avows has served a diverse range of Clients- ranging from innovative nimble Start-ups to dynamic & dependable Fortune 500 companies. Through our unrivalled industry expertise and consulting experience in Digital IT Services and Solutions, we have helped our clients successfully innovate, increase revenue, manage risk and change, reduce costs, and enhance controls-all without sacrificing flexibility.</p>
 
-                  <p>Our network reaches across Asia & beyond, with dosens of dedicated personnel working at the forefront of the latest emergent technologies, and millions of people across the world have interacted with or been benefitted by the Avows difference in one way or the other.
-Avows strives to do more- for our customers, our associates and our communities, wherever we operate globally. We are fueled by fresh challenges, keen to go the extra mile, and bring true value to our Customers- so that together we can make a better world for everyone.</p>
+                  <p>Our network reaches across Asia & beyond, with dozens of dedicated personnel working at the forefront of the latest emergent technologies, and millions of people across the world have interacted with or been benefitted by the Avows difference in one way or the other.
+Avows strives to do more - for our customers, our associates and our communities, wherever we operate globally. We are fueled by fresh challenges, keen to go the extra mile, and bring true value to our Customers- so that together we can make a better world for everyone.</p>
                 </div>
               </div>
               <div className="vc_empty_space" >

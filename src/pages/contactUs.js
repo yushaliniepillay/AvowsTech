@@ -64,7 +64,7 @@ const ContactUs = () => {
                 id: "0",
                 title: "MALAYSIA - HQ",
                 company: "Avows Technologies SDN BHD",
-                address: "Level 15-06, Tower A, The Vertical Business Suite,Avenue 3, Bangsar South, No 8, Jln Kerinchi, 59200	Kuala Lumpur, Malaysia.",
+                address: "Level 15-06, Tower A, The Vertical Business Suite, Avenue 3, Bangsar South, No 8, Jln Kerinchi, 59200	Kuala Lumpur, Malaysia.",
                 number: "Tel: +603 27123456"
             },
             {
