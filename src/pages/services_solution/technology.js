@@ -73,7 +73,7 @@ const technology = () => {
                             <Row>
                                 <Col md={4}> </Col>
                                 <Col md={5}>
-                                    <h1 className="mb-5">TECHNOLOGY SERVICE</h1>
+                                    <h1 className="mb-5">TECHNOLOGY SERVICES</h1>
                                     <p className="text-center text-white">We provide enterprises with agility with our focus on customer centric journeys
                                     to drive your digital transformation initiatives</p>
                                 </Col>
