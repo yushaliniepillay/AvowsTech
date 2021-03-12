@@ -22,7 +22,7 @@ const Management = () => {
             {
                 id: 0,
                 name: "DATUK SYED TAMIM MOHAMED",
-                position: "Director - Strategy",
+                position: "Director of Strategy",
                 image: require('../images/management/Dato.jpg'),
                 description1: "Datuk Syed Tamim Mohamed is the Director of Strategy and Development for AVOWS Technologies. He has been working for the past 44 years in various capacities, both in the public and the private sectors. He began his career in the Prime Minister's Department in 1972 after graduating with a Bachelor of Economics (Honours) degree. He left the civil service to join the private sector in 1981, after obtaining his MBA. He was also trained at Harvard Business School and Mt Eliza, Australia. He is also a member of the Japanese Kankeiren Group and the Korean Development Institute",
                 description2: "He served the PERNAS Group between 1981 and 1986 before joining the Sime Darby Group in 1986. He retired from the Sime Darby Group after serving slightly more than 20 years.",
@@ -62,7 +62,7 @@ const Management = () => {
             {
                 id: 4,
                 name: "RAMESH KUMAR RAGHAVAN",
-                position: "COO - Group Operations",
+                position: "Group COO ",
                 image: require('../images/management/Ramesh.jpg'),
                 description1: "Ramesh brings with him 14+ years of global experience in IT strategy, talent engagement and development, CEO Advisory and stakeholder management. He specialises in operations and HR that aligns strategy, processes with business goals",
                 description2: "Ramesh has a breadth of industry expertise with proficiency building new capabilities and internal processes and has worked with leading global organisations in the past.",
@@ -71,7 +71,7 @@ const Management = () => {
             {
                 id: 5,
                 name: "SENTHIL KUMAR SUBRAMANIAN",
-                position: "Chief Technology Officer",
+                position: "Group CTO",
                 image: require('../images/management/Senthil.jpg'),
                 description1: "Senthil Kumar Subramaniam joined Avows Technologies as its Chief Technology Officer in July 2019. Throughout his 24 years of experience in IT, he has proven to be an effective leader, adept in managing technology projects across delivery centres. This perfectly positions him at the helm of technological evolution for the company as it seeks to deliver the latest technological breakthroughs to its clients through a wide array of cutting-edge products and services.",
                 description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He served as Deputy CIO with Star Health and Allied Insurance, one of the largest Health Insurance companies in India, partnering with vendors such as Oracle, Microsoft and IBM. Prior to that, he was leading teams on various projects while assuming senior roles in Accenture IDC and 3i Infotech. ",
@@ -80,7 +80,7 @@ const Management = () => {
             {
                 id: 6,
                 name: "KANESAN VELUPPILLAI",
-                position: "Group Corporate Advisor - Strategy",
+                position: "Corporate Advisor - Strategy",
                 image: require('../images/management/Ganesan.jpg'),
                 description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of Mergers & Acquisitions, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
                 description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
@@ -96,7 +96,7 @@ const Management = () => {
             {
                 id: 8,
                 name: "ENDAH SUSANTI ",
-                position: "ountry Head - IT Services Sales & Partner Alliances, Indonesia",
+                position: "Country Head - IT Services Sales & Partner Alliances, Indonesia",
                 image: require('../images/management/Endah.jpg'),
                 description1: "Endah has amassed 16+ years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – undertaking Account Management & Customer Relationship Management ideal professions for her. She also partners with operations team for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
                 description2: "Endah is responsible for sales In Indonesia, ensuring that the teams have the tools, training and motivation to successfully bring the power of Avows to organisations across and has been a key to the company’s business continuity and growth."
@@ -104,7 +104,7 @@ const Management = () => {
             {
                 id: 9,
                 name: "ROHIT PATNAIK",
-                position: "Director - Finance",
+                position: "Director of Finance",
                 image: require('../images/management/Rohit.jpg'),
                 description1: "Rohit Patnaik is currently Director of Finance and Compliance at Avows Technologies. He handles finance, legal and contractual matters to ensure smooth day-to-day operations.",
                 description2: "Rohit holds an MBA in Business Management- Finance from the Business School at Xavier School of Management and a Degree in Business Technology in Electrical Engineering at the Indian Institute of Technology Bhubaneswar.",
@@ -114,7 +114,7 @@ const Management = () => {
             {
                 id: 10,
                 name: "LEE HUI KIM",
-                position: "Group HR",
+                position: "Human Resource",
                 image: require('../images/management/Kim.jpg'),
                 description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed 10 + years of experience and has been an asset to the organisation since inception.",
                 description2: "She oversees policies and programs for the entire company as well as organisational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance",
