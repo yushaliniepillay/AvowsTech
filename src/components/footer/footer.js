@@ -14,7 +14,7 @@ function footer() {
     var imageIndo = require('../images/icon/indo_icon.png');
     var imageUSA = require('../images/icon/usa_icon.png');
     var imageIndia = require('../images/icon/taj-mahal_icon.png');
-    var imageDubai = require('../images/icon/burj-khalifa.png')
+    var imageUAE = require('../images/icon/burj-khalifa.png')
 
     return (
         <footer>
@@ -31,7 +31,7 @@ function footer() {
                             <div className="footer-about">
                                 <h4 className="footer-title">ABOUT US
                                 <hr /></h4>
-                                <p style={{ color: 'white' }}className="justified" >Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development and Support services to customers in Malaysia, Indonesia, Singapore, India, USA and Dubai using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
+                                <p style={{ color: 'white' }}className="justified" >Avows Technologies founded in 2008 provides IT Consulting, Software Implementation, Development and Support services to customers in Malaysia, Indonesia, Singapore, India, USA and UAE using a Global Delivery Model backed by High Quality Talent and established best practices.</p>
                                 {/* <a href="/aboutus" className="read-more mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent">Read More</a> */}
                                 <Button className="m-3" variant="danger" size="md" type="submit" href="/aboutUs">READ MORE</Button>
                             </div>
@@ -92,8 +92,8 @@ function footer() {
                                     <p>USA</p>
                                 </Col>
                                 <Col sm md={1}>
-                                    <img src={imageDubai} alt="" />
-                                    <p>DUBAI</p>
+                                    <img src={imageUAE} alt="" />
+                                    <p>UAE</p>
                                 </Col>
                             </Row>
                         {/* </div>

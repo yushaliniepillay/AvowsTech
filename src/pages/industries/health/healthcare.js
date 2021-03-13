@@ -71,16 +71,16 @@ const HealthCare = () => {
                         <br />
                         <div className="wpb_wrapper">
                             <p className="justified">
-                            Technology is changing the landscape of the world, leading us to a more sophisticated future. The emerging role of ICT has had a huge impact on healthcare. It enhances the quality of care, increases patient security and data protection, and reduces operating and administrative expenses.
+                            Technology is changing the landscape of the world, leading us to a more sophisticated future. The emerging role of technology has had a huge impact on healthcare. It enhances the quality of care, increases patient security and data protection, and reduces operating and administrative expenses.
                             </p>
                             <p className="justified">
-                            Telecommunication devices are more user-friendly and used by populations across the world, which has almost eliminated communication gaps. Therefore, accessibility to information has become simpler through ICT and people find themselves more relaxed while availing healthcare service.
+                            Telecommunication devices are more user-friendly and used by populations across the world, which has almost eliminated communication gaps. Therefore, accessibility to information has become simpler through technology and people find themselves more relaxed while availing healthcare services.
                             </p>
                             <p className="justified">
-                            There are various challenges faced by the Healthcare sectors- such as storing medical records of the patients, maintaining Hospital Information System, maintenance of medical equipment, controlling errors in medication, and a lot more. Now hospitals depend on ICT to revamp the whole process of the healthcare sector. Through ICT, urban–rural disparities have been shortened, if not broken. If a doctor has the right communications channel, it is easy to deliver treatment to the patient, who can be located anywhere across the world. The system helps the doctor to continuously monitor the patient’s status, diagnostics, and current health condition. The doctor can also interact with patients, make recommendations for medical examination, and prescribe medicine.
+                            There are various challenges faced by the Healthcare sector - such as storing medical records of the patients, maintaining Hospital Information System, maintenance of medical equipment, controlling errors in medication, and a lot more. Now hospitals depend on technology to revamp the whole process of the healthcare sector. Through technology, urban–rural disparities have been shortened, if not broken. If a doctor has the right communications channel, it is easy to deliver treatment to the patient, who can be located anywhere across the world. The system helps the doctor to continuously monitor the patient’s status, diagnostics, and current health condition. The doctor can also interact with patients, make recommendations for medical examinations, and prescription of medicine.
                             </p>
                             <p className="justified">
-                            The use of ICT in healthcare can be categorised into 4 main areas namely;
+                            The use of technology in healthcare can be categorised into 4 main areas namely;
                             </p>
                             <ul>
                                 <li>Health and Education</li>

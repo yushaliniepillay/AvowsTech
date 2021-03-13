@@ -155,13 +155,13 @@ const Banking = () => {
 
                             <br />
                             <br />
-                            <h2>Customer Testimonials</h2>
+                            {/* <h2>Customer Testimonials</h2>
                             {cust_test.map(cust_test => (
                                 <Card className="card shadow" style={{ width: '20rem', margin: '10px' }} >
                                     <div className="inner">
                                         <Card.Img variant="top" src={cust_test.image} />
                                     </div>
-                                    {/* style={{ width: '20rem', height: '14rem' }} */}
+                                    {/* style={{ width: '20rem', height: '14rem' }}
                                     <Card.Body>
                                         <Card.Title>
                                             <section className="post-title">
@@ -171,7 +171,7 @@ const Banking = () => {
 
                                     </Card.Body>
                                 </Card>
-                            ))}
+                            ))} */} 
 
                             {/* <Tabs defaultActiveKey={data[0].key} transition={false} id="noanim-tab-example">
                                 {

@@ -4,22 +4,23 @@ import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import { Breadcrumb, Row, Col } from 'react-bootstrap';
 
-const Career = () => (
+const Careers = () => (
+    
     <Layout>
-        <SEO title="CAREER" />
+        <SEO title="CAREERS" />
 
         <div id="pageHeader2" >
             <div className="vc-parent">
                 <div className="vc-child">
                     <Breadcrumb>
                         <Breadcrumb.Item href="/">HOME</Breadcrumb.Item>
-                        <Breadcrumb.Item active>CAREER</Breadcrumb.Item>
+                        <Breadcrumb.Item active>CAREERS</Breadcrumb.Item>
                     </Breadcrumb>
                     <section className="page-title">
                         <Row>
                             <Col md={4}> </Col>
                             <Col md={4}>
-                                <h1>CAREER</h1>
+                                <h1>CAREERS</h1>
                             </Col>
                         </Row>
                     </section>
@@ -64,7 +65,7 @@ const Career = () => (
                                 Avows aims to be an inclusive organisation where everyone is treated with respect and dignity, with equal opportunity
                                  for all. We pledge to respect and value the diversity of all our staff and clients, where all of Avows’ staff 
                                  understand and respect the diverse communities we operate in and where everyone has the right to be treated with
-                                  dignity regardless of race, nationality, sex etc., in light of the Avows ‘Equal Opportunity’ policy all times.
+                                  dignity regardless of race, nationality, gender etc., in light of the Avows ‘Equal Opportunity’ policy all times.
                                    Corporate culture at Avows gives its employees the personal freedom to decide and accomplish on what they want to 
                                    achieve as their individual goals, while supporting the objectives of the company.
                              </p>
@@ -73,7 +74,7 @@ const Career = () => (
                                 <li>Be sure not to miss the fun at office everyday – for us work is definitely fun</li>
                                 <li>To get incentivised every day, for dreaming and to dare your dreams</li>
                                 <li>To get ready to change – just take the challenge, innovate and change</li>
-                                <li>Try the Nirvana – bliss of continuous learning and unlearning.</li>
+                                <li>Try the Nirvana – bliss of continuous learning and unlearning</li>
                                 <li>And we definitely understand your requirements for stretched coffee breaks at work</li>
                             </ul>
                             <br/>
@@ -111,4 +112,4 @@ const Career = () => (
     </Layout>
 )
 
-export default Career
+export default Careers;

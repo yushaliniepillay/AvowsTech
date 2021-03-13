@@ -47,20 +47,22 @@ const Partners = () => {
             image: require('../components/images/logos/microsoft.png'),
         },
         {
-            id: 10,
+            id: 11,
+            image: require('../components/images/logos/tm-one.png'),
+        }
+    ]
+    const logo1 = [
+        {
+            id: 0,
             image: require('../components/images/logos/ibm.png'),
         },
         {
-            id: 11,
-            image: require('../components/images/logos/tm-one.png'),
-        },
-        {
-            id: 12,
+            id: 1,
             image: require('../components/images/logos/brisk-infosec.png'),
         },
         {
-            id: 13,
-            image: require('../components/images/logos/3i-infotech.png'),
+            id: 2,
+            image: require('../components/images/logos/3i-infotech.png')
         }
     ]
 
@@ -94,7 +96,14 @@ const Partners = () => {
                     <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
                     {logo.map((logo, index) => (
                         <figure>
-                            <img alt='logo1' src={logo.image} className="img-responsive1" style={{ paddingLeft: '0rem', paddingBottom: '2rem', width: "70%" }} />
+                            <img alt='logo1' src={logo.image} className="img-responsive1" style={{ paddingLeft: '0rem', paddingBottom: '2rem', width: "50%" }} />
+                        </figure>
+                        ))}
+                    </div>
+                    <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                    {logo1.map((logo1, index) => (
+                        <figure>
+                            <img alt='logo1' src={logo1.image} className="img-responsive1" style={{ paddingLeft: '0rem', paddingBottom: '2rem', width: "40%" }} />
                         </figure>
                         ))}
                     </div>

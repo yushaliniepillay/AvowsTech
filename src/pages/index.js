@@ -153,7 +153,7 @@ const IndexPage = () => {
               </div>
               <div className="col-sm-5">
                 <div data-form-validation="true">
-                  <Button className="join_us" variant="light" size="lg" type="submit" href="/career">JOIN US</Button>
+                  <Button className="join_us" variant="light" size="lg" type="submit" href="/careers">JOIN US</Button>
                 </div>
               </div>
             </div>

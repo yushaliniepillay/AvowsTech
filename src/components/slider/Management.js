@@ -94,17 +94,18 @@ const Management = () => {
             },
             {
                 id: 7,
-                name: "SUJOY ROY CHOWDHURY",
-                position: "Country Head - IT Services Sales & Partner Alliances, Malaysia",
-                position1:"Country Head - IT Services Sales & Partner Alliances, Malaysia",
-                image: require('../images/management/Sujoy.jpg'),
-                description1: "Sujoy oversees the services and sales business in Malaysia. He has more than 16 years of experience in IT Services & Solutions Sales which includes Service Delivery Management and Pre-Sales for Global Financial Institutions, Telecommunications as well as other industries predominantly in Malaysia and APAC. He strongly believes that customer satisfaction continuously boost the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
-                description2: "He has a proven track record of success in Malaysia and is focused on expanding the client base. He is a key member of the sales team and is responsible for upholding client attrition and partnerships. He is now able to blend his experience of consulting and project management to provide our clients with strong ROI."
+                name: "LEE HUI KIM",
+                position: "Human Resource",
+                position1:"Human Resource",
+                image: require('../images/management/Kim.jpg'),
+                description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed over 10 years of experience and has been an asset to the organisation since inception.",
+                description2: "She oversees policies and programs for the entire company as well as organisational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance.",
+                description3: "She specialises in talent management and leadership development with a focus on customer relationship management as she works as a team player to help the sales team to be aligned to the company goals."
             },
             {
                 id: 8,
                 name: "ENDAH SUSANTI ",
-                position: "Country Head - IT Services Sales & Partner Alliances, Indonesia",
+                position: "Country Head - Sales & Partner Alliances, Indonesia",
                 position1:"Country Head - IT Services Sales & Partner Alliances, Indonesia",
                 image: require('../images/management/Endah.jpg'),
                 description1: "Endah has amassed over 16 years of Sales & Marketing experience in Indonesia. Her passion includes interacting with people and driving relationships – making Account Management & Customer Relationship Management ideal professions for her. She also collaborates with operations teams for business execution and has worked with some leading organisations in the past with an extensive history of being part of successful sales teams.",
@@ -123,14 +124,13 @@ const Management = () => {
             },
             {
                 id: 10,
-                name: "LEE HUI KIM",
-                position: "Human Resource",
-                position1:"Human Resource",
-                image: require('../images/management/Kim.jpg'),
-                description1: "Kim leads our global HR Operations team and is focused on culture and talent acquisition. Kim has amassed over 10 years of experience and has been an asset to the organisation since inception.",
-                description2: "She oversees policies and programs for the entire company as well as organisational planning and development, recruiting, training, employee relations, compensation, benefits and health. She has been a key strategist for the group company development and implementing corporate governance, security and regulatory compliance.",
-                description3: "She specialises in talent management and leadership development with a focus on customer relationship management as she works as a team player to help the sales team to be aligned to the company goals."
-            }
+                name: "SUJOY ROY CHOWDHURY",
+                position: "Country Head - Sales & Partner Alliances, Malaysia",
+                position1:"Country Head - IT Services Sales & Partner Alliances, Malaysia",
+                image: require('../images/management/Sujoy.jpg'),
+                description1: "Sujoy oversees the services and sales business in Malaysia. He has more than 16 years of experience in IT Services & Solutions Sales which includes Service Delivery Management and Pre-Sales for Global Financial Institutions, Telecommunications as well as other industries predominantly in Malaysia and APAC. He strongly believes that customer satisfaction continuously boost the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
+                description2: "He has a proven track record of success in Malaysia and is focused on expanding the client base. He is a key member of the sales team and is responsible for upholding client attrition and partnerships. He is now able to blend his experience of consulting and project management to provide our clients with strong ROI."
+            },
         ]
 
     return (
@@ -147,10 +147,10 @@ const Management = () => {
                                     </section>
                                 </Card.Title>
                             </Card.Body>
-                            <Card.Body style={{ textAlign: 'top', marginBottom: '-20px' }}>
+                            <Card.Body style={{ textAlign: 'top', marginBottom: '-5px' }}>
                                 <Card.Subtitle className="text-center">
                                     <h5 className='align-top'>{data.position}</h5>
-                                    <h5 className='align-top'>Avows Group</h5>
+                                    {/* <h5 className='align-top'>Avows Group</h5> */}
                                 </Card.Subtitle>
                             </Card.Body>
                         </Card>

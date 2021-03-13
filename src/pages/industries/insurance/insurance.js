@@ -102,15 +102,13 @@ const Insurance = () => {
                         </div> */}
                         <br />
                         <div className="wpb_wrapper">
-                            <p class="justified">Avows has a very strong presence across Insurance sector.
-                            We have partnered and provided services across most of the leading Insurance
-                            companies in Malaysia since our inception from 2008.
-                     </p>
-                            <p>Innovative Digital solutions have made a break through across the technological
-                            landscape of several of our clients and we are enabling them with the requisite
-                            technology support like new age application development, analytics, Telematics,
-                            Automation solution etc. Our rich Insurance domain experience helps us understand
-                            our clients most intricate business problems and provides adequate solutions.
+                            <p class="justified">Avows has a very strong presence across the Insurance sector.
+                            We have partnered and provided services to most of the leading Insurance companies in Malaysia since our inception in 2008.
+                        </p>
+                            <p>Innovative Digital solutions have made a breakthrough across the technological landscape, allowing us to enable our 
+                                clients with the requisite technology support- such as new-age Application development, Data Analytics, Telematics, 
+                                Automation Solutions etc. Our rich Insurance domain experience helps us understand our clients' most intricate business 
+                                problems and provide adequate solutions.
                             </p>
                             <p>Our Services and Solutions:</p>
                             <ul>
