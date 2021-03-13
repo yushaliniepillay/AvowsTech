@@ -33,7 +33,13 @@ p {
 #avowsTitle {
     /* background-image: url(../images/avowsTitle.png); */
     /* height: 100px; */
-    padding-left: 2rem;
+    margin-bottom: 0rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    line-height: 100px; /* whatever the fixed height of the bar is */
+vertical-align: middle;
+    max-height: 100px;
+    max-width: 270px;
     position: relative;
     overflow: hidden;
     z-index: 0
