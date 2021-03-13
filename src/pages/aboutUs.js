@@ -73,7 +73,7 @@ Avows strives to do more - for our customers, our associates and our communities
     {/* Management slide */}
     <div className="about-page-team team-items1">
       <div className="container">
-        <h2 className="section-title white">MANAGEMENT TEAM</h2>
+        <h2 className="section-title white">MANAGEMENT TEAM - AVOWS GROUP</h2>
         <div>
           <Carousel />
         </div>

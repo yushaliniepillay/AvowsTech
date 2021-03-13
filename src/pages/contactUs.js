@@ -97,9 +97,9 @@ const ContactUs = () => {
             },
             {
                 id: "5",
-                title: "DUBAI",
+                title: "UAE",
                 company: "Avows Technologies DMCC",
-                address: "Unit No 1291, DMCC Business Centre, Level No. 1, Jewellery & Gemplex 3 Dubai, United Arab Emirates",
+                address: "Unit No 1291, DMCC Business Centre, Level No. 1, Jewellery & Gemplex 3 UAE, United Arab Emirates",
                 number: "Tel: +5864 80920"
             }
         ]

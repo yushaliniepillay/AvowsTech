@@ -827,7 +827,7 @@ var StaticQuery = function StaticQuery(props) {
       query = props.query,
       render = props.render,
       children = props.children;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StaticQueryContext.user, null, function (staticQueryData) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StaticQueryContext.Consumer, null, function (staticQueryData) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StaticQueryDataRenderer, {
       data: data,
       query: query,
@@ -5665,7 +5665,7 @@ var ScrollContainerImplementation = /*#__PURE__*/function (_React$Component) {
 var ScrollContainer = function ScrollContainer(props) {
   return /*#__PURE__*/React.createElement(_router.Location, null, function (_ref) {
     var location = _ref.location;
-    return /*#__PURE__*/React.createElement(_scrollHandler.ScrollContext.user, null, function (context) {
+    return /*#__PURE__*/React.createElement(_scrollHandler.ScrollContext.Consumer, null, function (context) {
       return /*#__PURE__*/React.createElement(ScrollContainerImplementation, (0, _extends2.default)({}, props, {
         context: context,
         location: location
@@ -6440,7 +6440,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
   };
 
   /**
-   * inlined Object.is polyfill to avoid requiring users ship their own
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
    * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
    */
   /*eslint-disable no-self-compare*/
@@ -7388,7 +7388,7 @@ var HostComponent = 5;
 var HostText = 6;
 var Fragment = 7;
 var Mode = 8;
-var Contextuser = 9;
+var ContextConsumer = 9;
 var ContextProvider = 10;
 var ForwardRef = 11;
 var Profiler = 12;
@@ -8045,7 +8045,7 @@ reservedProps.forEach(function (name) {
 });
 var CAMELIZE = /[\-\:]([a-z])/g;
 
-var capitalise = function (token) {
+var capitalize = function (token) {
   return token[1].toUpperCase();
 }; // This is a list of all SVG attributes that need special casing, namespacing,
 // or boolean value assignment. Regular attributes that just accept strings
@@ -8058,7 +8058,7 @@ var capitalise = function (token) {
 // you'll need to set attributeName to name.toLowerCase()
 // instead in the assignment below.
 ].forEach(function (attributeName) {
-  var name = attributeName.replace(CAMELIZE, capitalise);
+  var name = attributeName.replace(CAMELIZE, capitalize);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
   attributeName, null, // attributeNamespace
   false);
@@ -8068,7 +8068,7 @@ var capitalise = function (token) {
 // you'll need to set attributeName to name.toLowerCase()
 // instead in the assignment below.
 ].forEach(function (attributeName) {
-  var name = attributeName.replace(CAMELIZE, capitalise);
+  var name = attributeName.replace(CAMELIZE, capitalize);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
   attributeName, 'http://www.w3.org/1999/xlink', false);
 }); // String SVG attributes with the xml namespace.
@@ -8077,7 +8077,7 @@ var capitalise = function (token) {
 // you'll need to set attributeName to name.toLowerCase()
 // instead in the assignment below.
 ].forEach(function (attributeName) {
-  var name = attributeName.replace(CAMELIZE, capitalise);
+  var name = attributeName.replace(CAMELIZE, capitalize);
   properties[name] = new PropertyInfoRecord(name, STRING, false, // mustUseProperty
   attributeName, 'http://www.w3.org/XML/1998/namespace', false);
 }); // These attribute exists both in HTML and SVG.
@@ -8459,7 +8459,7 @@ function getComponentName(type) {
   if (typeof type === 'object') {
     switch (type.$$typeof) {
       case REACT_CONTEXT_TYPE:
-        return 'Context.user';
+        return 'Context.Consumer';
 
       case REACT_PROVIDER_TYPE:
         return 'Context.Provider';
@@ -8499,7 +8499,7 @@ function describeFiber(fiber) {
     case HostText:
     case Fragment:
     case ContextProvider:
-    case Contextuser:
+    case ContextConsumer:
       return '';
 
     default:
@@ -11040,8 +11040,8 @@ function processSimpleEventPluginPairsByPriority(eventTypes, priority) {
   for (var i = 0; i < eventTypes.length; i += 2) {
     var topEvent = eventTypes[i];
     var event = eventTypes[i + 1];
-    var capitalisedEvent = event[0].toUpperCase() + event.slice(1);
-    var onEvent = 'on' + capitalisedEvent;
+    var capitalizedEvent = event[0].toUpperCase() + event.slice(1);
+    var onEvent = 'on' + capitalizedEvent;
     var config = {
       phasedRegistrationNames: {
         bubbled: onEvent,
@@ -11410,7 +11410,7 @@ function hyphenateStyleName(name) {
 var warnValidStyle = function () {};
 
 {
-  // 'msTransform' is correct, but the other prefixes should be capitalised
+  // 'msTransform' is correct, but the other prefixes should be capitalized
   var badVendoredStyleNamePattern = /^(?:webkit|moz|o)[A-Z]/;
   var msPattern$1 = /^-ms-/;
   var hyphenPattern = /-(.)/g; // style values shouldn't contain a semicolon
@@ -11759,7 +11759,7 @@ var possibleStandardNames = {
   alt: 'alt',
   as: 'as',
   async: 'async',
-  autocapitalise: 'autocapitalise',
+  autocapitalize: 'autoCapitalize',
   autocomplete: 'autoComplete',
   autocorrect: 'autoCorrect',
   autofocus: 'autoFocus',
@@ -16501,7 +16501,7 @@ var EnterLeaveEventPlugin = {
 };
 
 /**
- * inlined Object.is polyfill to avoid requiring users ship their own
+ * inlined Object.is polyfill to avoid requiring consumers ship their own
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
  */
 function is(x, y) {
@@ -17277,7 +17277,7 @@ var shouldIgnoreFiber = function (fiber) {
     case HostPortal:
     case Fragment:
     case ContextProvider:
-    case Contextuser:
+    case ContextConsumer:
     case Mode:
       return true;
 
@@ -19787,7 +19787,7 @@ function adoptClassInstance(workInProgress, instance) {
 }
 
 function constructClassInstance(workInProgress, ctor, props) {
-  var isLegacyContextuser = false;
+  var isLegacyContextConsumer = false;
   var unmaskedContext = emptyContextObject;
   var context = emptyContextObject;
   var contextType = ctor.contextType;
@@ -19795,7 +19795,7 @@ function constructClassInstance(workInProgress, ctor, props) {
   {
     if ('contextType' in ctor) {
       var isValid = // Allow null for conditional declaration
-      contextType === null || contextType !== undefined && contextType.$$typeof === REACT_CONTEXT_TYPE && contextType._context === undefined; // Not a <Context.user>
+      contextType === null || contextType !== undefined && contextType.$$typeof === REACT_CONTEXT_TYPE && contextType._context === undefined; // Not a <Context.Consumer>
 
       if (!isValid && !didWarnAboutInvalidateContextType.has(ctor)) {
         didWarnAboutInvalidateContextType.add(ctor);
@@ -19808,8 +19808,8 @@ function constructClassInstance(workInProgress, ctor, props) {
         } else if (contextType.$$typeof === REACT_PROVIDER_TYPE) {
           addendum = ' Did you accidentally pass the Context.Provider instead?';
         } else if (contextType._context !== undefined) {
-          // <Context.user>
-          addendum = ' Did you accidentally pass the Context.user instead?';
+          // <Context.Consumer>
+          addendum = ' Did you accidentally pass the Context.Consumer instead?';
         } else {
           addendum = ' However, it is set to an object with keys {' + Object.keys(contextType).join(', ') + '}.';
         }
@@ -19824,8 +19824,8 @@ function constructClassInstance(workInProgress, ctor, props) {
   } else {
     unmaskedContext = getUnmaskedContext(workInProgress, ctor, true);
     var contextTypes = ctor.contextTypes;
-    isLegacyContextuser = contextTypes !== null && contextTypes !== undefined;
-    context = isLegacyContextuser ? getMaskedContext(workInProgress, unmaskedContext) : emptyContextObject;
+    isLegacyContextConsumer = contextTypes !== null && contextTypes !== undefined;
+    context = isLegacyContextConsumer ? getMaskedContext(workInProgress, unmaskedContext) : emptyContextObject;
   } // Instantiate twice to help detect side-effects.
 
 
@@ -19892,7 +19892,7 @@ function constructClassInstance(workInProgress, ctor, props) {
   // ReactFiberContext usually updates this cache but can't for newly-created instances.
 
 
-  if (isLegacyContextuser) {
+  if (isLegacyContextConsumer) {
     cacheContext(workInProgress, unmaskedContext, context);
   }
 
@@ -25204,7 +25204,7 @@ function updateContextProvider(current, workInProgress, renderExpirationTime) {
         return bailoutOnAlreadyFinishedWork(current, workInProgress, renderExpirationTime);
       }
     } else {
-      // The context value changed. Search for matching users and schedule
+      // The context value changed. Search for matching consumers and schedule
       // them to update.
       propagateContextChange(workInProgress, context, changedBits, renderExpirationTime);
     }
@@ -25215,27 +25215,27 @@ function updateContextProvider(current, workInProgress, renderExpirationTime) {
   return workInProgress.child;
 }
 
-var hasWarnedAboutUsingContextAsuser = false;
+var hasWarnedAboutUsingContextAsConsumer = false;
 
-function updateContextuser(current, workInProgress, renderExpirationTime) {
+function updateContextConsumer(current, workInProgress, renderExpirationTime) {
   var context = workInProgress.type; // The logic below for Context differs depending on PROD or DEV mode. In
-  // DEV mode, we create a separate object for Context.user that acts
+  // DEV mode, we create a separate object for Context.Consumer that acts
   // like a proxy to Context. This proxy object adds unnecessary code in PROD
-  // so we use the old behaviour (Context.user references Context) to
+  // so we use the old behaviour (Context.Consumer references Context) to
   // reduce size and overhead. The separate object references context via
   // a property called "_context", which also gives us the ability to check
   // in DEV mode if this property exists or not and warn if it does not.
 
   {
     if (context._context === undefined) {
-      // This may be because it's a Context (rather than a user).
+      // This may be because it's a Context (rather than a Consumer).
       // Or it may be because it's older React where they're the same thing.
       // We only want to warn if we're sure it's a new React.
-      if (context !== context.user) {
-        if (!hasWarnedAboutUsingContextAsuser) {
-          hasWarnedAboutUsingContextAsuser = true;
+      if (context !== context.Consumer) {
+        if (!hasWarnedAboutUsingContextAsConsumer) {
+          hasWarnedAboutUsingContextAsConsumer = true;
 
-          error('Rendering <Context> directly is not supported and will be removed in ' + 'a future major release. Did you mean to render <Context.user> instead?');
+          error('Rendering <Context> directly is not supported and will be removed in ' + 'a future major release. Did you mean to render <Context.Consumer> instead?');
         }
       }
     } else {
@@ -25248,7 +25248,7 @@ function updateContextuser(current, workInProgress, renderExpirationTime) {
 
   {
     if (typeof render !== 'function') {
-      error('A context user was rendered with multiple children, or a child ' + "that isn't a function. A context user expects a single child " + 'that is a function. If you did pass a function, make sure there ' + 'is no trailing or leading whitespace around it.');
+      error('A context consumer was rendered with multiple children, or a child ' + "that isn't a function. A context consumer expects a single child " + 'that is a function. If you did pass a function, make sure there ' + 'is no trailing or leading whitespace around it.');
     }
   }
 
@@ -25533,7 +25533,7 @@ function beginWork(current, workInProgress, renderExpirationTime) {
     } else {
       // An update was scheduled on this fiber, but there are no new props
       // nor legacy context. Set this to false. If an update queue or context
-      // user produces a changed value, it will set this to true. Otherwise,
+      // consumer produces a changed value, it will set this to true. Otherwise,
       // the component will assume the children have not changed and bail out.
       didReceiveUpdate = false;
     }
@@ -25615,8 +25615,8 @@ function beginWork(current, workInProgress, renderExpirationTime) {
     case ContextProvider:
       return updateContextProvider(current, workInProgress, renderExpirationTime);
 
-    case Contextuser:
-      return updateContextuser(current, workInProgress, renderExpirationTime);
+    case ContextConsumer:
+      return updateContextConsumer(current, workInProgress, renderExpirationTime);
 
     case MemoComponent:
       {
@@ -25843,7 +25843,7 @@ function completeWork(current, workInProgress, renderExpirationTime) {
     case Fragment:
     case Mode:
     case Profiler:
-    case Contextuser:
+    case ContextConsumer:
     case MemoComponent:
       return null;
 
@@ -30875,8 +30875,8 @@ key, pendingProps, owner, mode, expirationTime) {
                 break getTag;
 
               case REACT_CONTEXT_TYPE:
-                // This is a user
-                fiberTag = Contextuser;
+                // This is a consumer
+                fiberTag = ContextConsumer;
                 break getTag;
 
               case REACT_FORWARD_REF_TYPE:
@@ -33380,7 +33380,7 @@ function typeOf(object) {
 
 var AsyncMode = REACT_ASYNC_MODE_TYPE;
 var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-var Contextuser = REACT_CONTEXT_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
 var ContextProvider = REACT_PROVIDER_TYPE;
 var Element = REACT_ELEMENT_TYPE;
 var ForwardRef = REACT_FORWARD_REF_TYPE;
@@ -33407,7 +33407,7 @@ function isAsyncMode(object) {
 function isConcurrentMode(object) {
   return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
 }
-function isContextuser(object) {
+function isContextConsumer(object) {
   return typeOf(object) === REACT_CONTEXT_TYPE;
 }
 function isContextProvider(object) {
@@ -33443,7 +33443,7 @@ function isSuspense(object) {
 
 exports.AsyncMode = AsyncMode;
 exports.ConcurrentMode = ConcurrentMode;
-exports.Contextuser = Contextuser;
+exports.ContextConsumer = ContextConsumer;
 exports.ContextProvider = ContextProvider;
 exports.Element = Element;
 exports.ForwardRef = ForwardRef;
@@ -33456,7 +33456,7 @@ exports.StrictMode = StrictMode;
 exports.Suspense = Suspense;
 exports.isAsyncMode = isAsyncMode;
 exports.isConcurrentMode = isConcurrentMode;
-exports.isContextuser = isContextuser;
+exports.isContextConsumer = isContextConsumer;
 exports.isContextProvider = isContextProvider;
 exports.isElement = isElement;
 exports.isForwardRef = isForwardRef;

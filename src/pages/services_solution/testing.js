@@ -51,7 +51,7 @@ const testing = () => {
                 key: "A",
                 title: "Security Operations Center",
                 descp: [
-                    "Security operations center is a centralised unit that provides real time monitoring of the entire enterprise to deal with security. In these centres, the enterprise’s information and other sensitive areas like websites, databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing monitoring and fixing of threats allows triggering of actions based on threat along with notification and escalations"
+                    "Security Operations Center is a centralised unit that provides real time monitoring of the entire enterprise to deal with security. In these centres, the enterprise’s information and other sensitive areas like websites, databases, servers, networks etc are monitored, assessed and defended. SOC apart from allowing monitoring and fixing of threats allows triggering of actions based on threat along with notification and escalations"
                 ],
                 item: []
             },
@@ -210,7 +210,7 @@ const testing = () => {
                             and most importantly their users from any other targeted attack, malware and any.
                             targeted attack. In today’s environment, organisations face tremendous risk and challenges when it
                             comes to protecting data and preventing fraud. Growing data protection needs and regulatory
-                            concerns require fool-proof cyber security solutions.
+                            concerns require foolproof cyber security solutions.
                             </p>
                                 <p className="justified"> With our security practitioners, we at Avows give our clients the required
                                 support and guidance to prevent and adapt to new threats. Our end-to-end range of cyber security
