@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
-import { Breadcrumb, Row, Col, Container, Table } from 'react-bootstrap';
+import { Breadcrumb, Row, Col, Container } from 'react-bootstrap';
 
 const Partners = () => {
 
@@ -20,66 +20,66 @@ const Partners = () => {
     const brisk = require('../components/images/logos/brisk-infosec.png');
     const infotech = require('../components/images/logos/3i-infotech.png');
 
-    const logo = [
-        {
-            id: 0,
-            image: require('../components/images/logos/modefin.png'),
-        },
-        {
-            id: 1,
-            image: require('../components/images/logos/infrasoft.png'),
-        },
-        {
-            id: 2,
-            image: require('../components/images/logos/ec-council.png'),
-        },
-        {
-            id: 3,
-            image: require('../components/images/logos/haptik.png'),
-        },
-        {
-            id: 4,
-            image: require('../components/images/logos/zoho.png'),
-        },
-        {
-            id: 5,
-            image: require('../components/images/logos/g-cloud.png'),
-        },
-        {
-            id: 6,
-            image: require('../components/images/logos/risk-edge.png'),
-        },
-        {
-            id: 7,
-            image: require('../components/images/logos/mambu.png'),
-        },
-        {
-            id: 8,
-            image: require('../components/images/logos/wannatalk.png'),
-        },
-        {
-            id: 9,
-            image: require('../components/images/logos/microsoft.png'),
-        },
-        {
-            id: 11,
-            image: require('../components/images/logos/tm-one.png'),
-        }
-    ]
-    const logo1 = [
-        {
-            id: 0,
-            image: require('../components/images/logos/ibm.png'),
-        },
-        {
-            id: 1,
-            image: require('../components/images/logos/brisk-infosec.png'),
-        },
-        {
-            id: 2,
-            image: require('../components/images/logos/3i-infotech.png')
-        }
-    ]
+    // const logo = [
+    //     {
+    //         id: 0,
+    //         image: require('../components/images/logos/modefin.png'),
+    //     },
+    //     {
+    //         id: 1,
+    //         image: require('../components/images/logos/infrasoft.png'),
+    //     },
+    //     {
+    //         id: 2,
+    //         image: require('../components/images/logos/ec-council.png'),
+    //     },
+    //     {
+    //         id: 3,
+    //         image: require('../components/images/logos/haptik.png'),
+    //     },
+    //     {
+    //         id: 4,
+    //         image: require('../components/images/logos/zoho.png'),
+    //     },
+    //     {
+    //         id: 5,
+    //         image: require('../components/images/logos/g-cloud.png'),
+    //     },
+    //     {
+    //         id: 6,
+    //         image: require('../components/images/logos/risk-edge.png'),
+    //     },
+    //     {
+    //         id: 7,
+    //         image: require('../components/images/logos/mambu.png'),
+    //     },
+    //     {
+    //         id: 8,
+    //         image: require('../components/images/logos/wannatalk.png'),
+    //     },
+    //     {
+    //         id: 9,
+    //         image: require('../components/images/logos/microsoft.png'),
+    //     },
+    //     {
+    //         id: 11,
+    //         image: require('../components/images/logos/tm-one.png'),
+    //     }
+    // ]
+    // const logo1 = [
+    //     {
+    //         id: 0,
+    //         image: require('../components/images/logos/ibm.png'),
+    //     },
+    //     {
+    //         id: 1,
+    //         image: require('../components/images/logos/brisk-infosec.png'),
+    //     },
+    //     {
+    //         id: 2,
+    //         image: require('../components/images/logos/3i-infotech.png')
+    //     }
+    // ]
 
     return (
 

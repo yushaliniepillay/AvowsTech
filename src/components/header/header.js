@@ -4,7 +4,7 @@ import React from "react"
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { PhoneOutlined, MailFilled, FacebookFilled, LinkedinFilled, TwitterCircleFilled } from '@ant-design/icons';
 const cdc = require('../images/logo.png');
-const cdc1 = require('../images/logos/Avows.png');
+//const cdc1 = require('../images/logos/Avows.png');
 
 const Header = ({ siteTitle }) => (
 

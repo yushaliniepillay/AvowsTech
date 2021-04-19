@@ -45,25 +45,25 @@ const Banking = () => {
             }
         ]
 
-    const cust_test =
-        [
-            {
-                id: 0,
-                key: "A",
-                link: "/industries/banking/leadingBank",
-                title: "Client From One of the Leading Banks in Malaysia",
-                image: [
-                    require('../../industries/InImage/pb_image.jpg')
-                ],
-                video: [
-                    require('../../industries/video/PublicBank.mp4'),
-                    "name",
-                    "position",
-                    "speaking something"
-                ]
+    // const cust_test =
+    //     [
+    //         {
+    //             id: 0,
+    //             key: "A",
+    //             link: "/industries/banking/leadingBank",
+    //             title: "Client From One of the Leading Banks in Malaysia",
+    //             image: [
+    //                 require('../../industries/InImage/pb_image.jpg')
+    //             ],
+    //             video: [
+    //                 require('../../industries/video/PublicBank.mp4'),
+    //                 "name",
+    //                 "position",
+    //                 "speaking something"
+    //             ]
 
-            }
-        ]
+    //         }
+    //     ]
 
 
     return (
