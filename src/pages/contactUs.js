@@ -36,7 +36,8 @@ const ContactUs = () => {
 
         const body = { name, email, phoneNo, service, message };
         console.log("Message.onSubmitForm")
-        const requestURL = `https://avows-strapi.herokuapp.com/contacts`;
+        const requestURL = `http://localhost:1337/contacts`;
+        //`https://avows-strapi.herokuapp.com/contacts`;
         console.log(JSON.stringify(body));
 
         // request(requestURL, { method: 'POST', body: this.state.value })
