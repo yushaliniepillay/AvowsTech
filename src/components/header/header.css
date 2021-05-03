@@ -30,7 +30,7 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
   }
-  @media only screen and (min-width: 768px) {
+  @media (min-width: 400px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -781,6 +781,8 @@ p {
     text-align: justify !important;
     color: #7e7e7e;
     line-height: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .vc_empty_space{
@@ -1332,6 +1334,7 @@ p {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%)
 }
+
 /* case studies */
 .cs_about {
     margin-bottom: 50px;;
