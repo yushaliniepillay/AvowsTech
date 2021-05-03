@@ -1,3 +1,51 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  @media (min-width: 1000px) {
+    .navbar-expand-lg {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }  
+  }
+@media (min-width: 1000px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.4rem;
+    padding-left: .5rem;
+}
+}
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}  
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
 :root {
     --mainDark: #0d0d0e;
     --mainLightDark: #3e3f41;
@@ -24,7 +72,7 @@ p {
 }
 ul, li,
 p {
-    font-size: 18px;
+    font-size: 15px;
     font-family:  'Roboto';
     line-height: 30px;
     font-weight: 400;
@@ -34,12 +82,12 @@ p {
     /* background-image: url(../images/avowsTitle.png); */
     /* height: 100px; */
     margin-bottom: 0rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
     padding-bottom: 2rem;
     line-height: 100px; /* whatever the fixed height of the bar is */
-vertical-align: middle;
+    vertical-align: middle;
     max-height: 100px;
-    max-width: 270px;
+    max-width: 200px;
     position: relative;
     overflow: hidden;
     z-index: 0
