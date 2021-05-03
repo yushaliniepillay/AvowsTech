@@ -15,7 +15,7 @@
 }
 }
 
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -72,7 +72,7 @@ p {
 }
 ul, li,
 p {
-    font-size: 15px;
+    font-size: 18px;
     font-family:  'Roboto';
     line-height: 30px;
     font-weight: 400;
@@ -159,7 +159,8 @@ p {
 
 .carousel{
     display: block;
-    height: fit-content;
+    height: fit-content; 
+    /* height: calc(var(--vh, 1vh) * 100); */
     position: relative;
     overflow-y: hidden;
     /* overflow: hidden; */
@@ -172,7 +173,7 @@ p {
     color: #fff;
 }
 .carousel-caption {
-    top: 3rem;
+    top: 2rem;
     bottom: auto;
     margin-top: -2rem;
    
@@ -485,6 +486,8 @@ p {
     overflow: hidden;
     z-index: 0;    
 }*/
+
+
 .img0 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
     position: relative;
@@ -499,6 +502,11 @@ p {
     padding-top: 500px;
     width: 100%;
     overflow: hidden;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: 0;   
 }
 .img2 {
@@ -507,6 +515,11 @@ p {
     padding-bottom: 500px;
     width: 100%;
     overflow: hidden;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: 0;   
 }
 .img3 {
@@ -515,14 +528,24 @@ p {
     padding-bottom: 500px;
     width: 100%;
     overflow: hidden;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: 0;   
 }
 .img4 {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/header-slider/digital_solutions.jpg);
     position: relative;
-    padding-bottom: 500px;
+    padding-bottom:500px;
     width: 100%;
     overflow: hidden;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: 0;   
 }
 .img5 {
@@ -531,6 +554,11 @@ p {
     padding-bottom: 500px;
     width: 100%;
     overflow: hidden;
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     z-index: 0;   
 }
 

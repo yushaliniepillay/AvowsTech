@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => (
       </Navbar>
     
     {/* second navbar */}
-      <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg" >
+      <Navbar bg="light" variant="light" sticky="top" collapseOnSelect expand="lg md" >
         <Navbar.Brand className="nav" href="/" >
           <img id="avowsTitle" src={cdc} alt='title'/>
         </Navbar.Brand>
