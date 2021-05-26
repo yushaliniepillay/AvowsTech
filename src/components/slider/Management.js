@@ -68,7 +68,7 @@ const Management = () => {
                 name: "VINOD KUMAR SINGH",
                 position: "Group COO ",
                 position1:"Chief Operations Officer",
-                image: require('../images/management/Vinod S1.jpg'),
+                image: require('../images/management/Vinod S.jpg'),
                 description1: "Vinod K. Singh joined Avows in April 2021 bringing with him over three decades worth of experience in Software Development and Consulting. He is responsible for Operation Excellence, Pre-sales and the Delivery Business Unit. ",
                 description2: "Vinod is a Technology Business Leader in user experiences, internet travel and e-commerce. He has served on the Board of leading IT companies.",
                 description3: "Prior to joining Avows, Vinod was the Senior Vice President for NTT Malaysia Digital Business Solutions Sdn Bhd where he was heading the pre-sales function in Malaysia and was responsible for identifying key market segments in providing relevant products and solutions.",
@@ -89,7 +89,7 @@ const Management = () => {
                 name: "SEETHARAM SUBRAMANYAM",
                 position: "Group CHRO ",
                 position1:"Chief Human Resource Officer",
-                image: require('../images/management/Seetharam1.jpg'),
+                image: require('../images/management/Seetharam.jpg'),
                 description1: "Seetharam comes with over three decades of industry experience – predominantly in the IT Human Resource space which includes a significant global stint with the North American region and the Middle East. He has worked with Deloitte in USA and India, Satyam Computers, Computer Sciences Corporation, Birlasoft, CSS Corporation – to name a few. ",
                 description2: "Seetharam is a thought leader and an enterprising professional in driving the people agenda to facilitate business targets. He has managed human capital function, talent acquisition, workforce management and talent development. He has strong hands-on experience and process expertise building and managing teams across regions. He has played lead roles in design, integration and implementation of the HR function throughout different business models, domains, competencies and geographies.",
                 description3: "He is currently based out of Hyderabad and is in the midst of establishing our business operations in India. With his vast experience, he is developing our Business Human Resource strategy in line with the overall business plan and strategic direction of the organization."
