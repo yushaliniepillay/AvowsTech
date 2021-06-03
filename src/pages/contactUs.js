@@ -68,6 +68,13 @@ const ContactUs = () => {
                 number: "Tel: +603 27123456"
             },
             {
+                id: "0",
+                title: "MALAYSIA",
+                company: "Avows IT Outsourcing SDN BHD",
+                address: "Unit 15-07, Tower A, The Vertical Business Suite, Avenue 3, Bangsar South, No 8, Jln Kerinchi, 59200	Kuala Lumpur, Malaysia.",
+                number: "Tel: +603 27129999"
+            },
+            {
                 id: "1",
                 title: "SINGAPORE",
                 company: "Avows Technologies Pte. Ltd.,",
