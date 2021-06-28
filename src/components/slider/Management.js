@@ -94,16 +94,16 @@ const Management = () => {
                 description2: "Seetharam is a thought leader and an enterprising professional in driving the people agenda to facilitate business targets. He has managed human capital function, talent acquisition, workforce management and talent development. He has strong hands-on experience and process expertise building and managing teams across regions. He has played lead roles in design, integration and implementation of the HR function throughout different business models, domains, competencies and geographies.",
                 description3: "He is currently based out of Hyderabad and is in the midst of establishing our business operations in India. With his vast experience, he is developing our Business Human Resource strategy in line with the overall business plan and strategic direction of the organization."
             },
-            {
-                id: 7,
-                name: "SENTHIL KUMAR SUBRAMANIAN",
-                position: "Group CTO",
-                position1:"Chief Technology Officer",
-                image: require('../images/management/Senthil.jpg'),
-                description1: "Senthil Kumar Subramanian joined Avows Technologies as its Chief Technology Officer in July 2019. Throughout his 25 years of experience in IT, he has proven to be an effective leader, adept in managing technology projects across delivery centres. This perfectly positions him at the helm of technological evolution for the company as it seeks to deliver the latest technological breakthroughs to its clients through a wide array of cutting-edge products and services.",
-                description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He has served as next in CIO for one of the largest Health Insurance company. He also holds vast experience in delivery and implementation of large BFSI & Telco projects across various regions. Prior to that, he was leading teams on various projects while assuming senior roles in a few global IT services and  consulting company. ",
-                description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
-            },
+            // {
+            //     id: 7,
+            //     name: "SENTHIL KUMAR SUBRAMANIAN",
+            //     position: "Group CTO",
+            //     position1:"Chief Technology Officer",
+            //     image: require('../images/management/Senthil.jpg'),
+            //     description1: "Senthil Kumar Subramanian joined Avows Technologies as its Chief Technology Officer in July 2019. Throughout his 25 years of experience in IT, he has proven to be an effective leader, adept in managing technology projects across delivery centres. This perfectly positions him at the helm of technological evolution for the company as it seeks to deliver the latest technological breakthroughs to its clients through a wide array of cutting-edge products and services.",
+            //     description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He has served as next in CIO for one of the largest Health Insurance company. He also holds vast experience in delivery and implementation of large BFSI & Telco projects across various regions. Prior to that, he was leading teams on various projects while assuming senior roles in a few global IT services and  consulting company. ",
+            //     description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
+            // },
             {
                 id: 8,
                 name: "KANESAN VELUPPILLAI",
