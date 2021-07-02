@@ -143,15 +143,15 @@ const Management = () => {
                 description3: "Prior to joining Avows Technologies, Rohit was part of PwC India where he was actively involved in Financial Strategy and Advisory for various projects involving State and National Governments.",
                 description4: "Having begun his career as a Software Engineer, Rohit takes great pride in exercising the full scope of his experiences to ensure the company's Quality & Risk Management are kept in check at all times."
             },
-            {
-                id: 12,
-                name: "SUJOY ROY CHOWDHURY",
-                position: "Country Head - Sales & Partner Alliances, Malaysia",
-                position1:"Country Head - IT Services Sales & Partner Alliances, Malaysia",
-                image: require('../images/management/Sujoy.jpg'),
-                description1: "Sujoy oversees the services and sales business in Malaysia. He has more than 16 years of experience in IT Services & Solutions Sales which includes Service Delivery Management and Pre-Sales for Global Financial Institutions, Telecommunications as well as other industries predominantly in Malaysia and APAC. He strongly believes that customer satisfaction continuously boost the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
-                description2: "He has a proven track record of success in Malaysia and is focused on expanding the client base. He is a key member of the sales team and is responsible for upholding client attrition and partnerships. He is now able to blend his experience of consulting and project management to provide our clients with strong ROI."
-            },
+            // {
+            //     id: 12,
+            //     name: "SUJOY ROY CHOWDHURY",
+            //     position: "Country Head - Sales & Partner Alliances, Malaysia",
+            //     position1:"Country Head - IT Services Sales & Partner Alliances, Malaysia",
+            //     image: require('../images/management/Sujoy.jpg'),
+            //     description1: "Sujoy oversees the services and sales business in Malaysia. He has more than 16 years of experience in IT Services & Solutions Sales which includes Service Delivery Management and Pre-Sales for Global Financial Institutions, Telecommunications as well as other industries predominantly in Malaysia and APAC. He strongly believes that customer satisfaction continuously boost the business top line and success, strengthening the company’s ongoing growth and commitment to current and future excellence.",
+            //     description2: "He has a proven track record of success in Malaysia and is focused on expanding the client base. He is a key member of the sales team and is responsible for upholding client attrition and partnerships. He is now able to blend his experience of consulting and project management to provide our clients with strong ROI."
+            // },
         ]
 
     return (
