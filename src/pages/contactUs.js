@@ -92,6 +92,13 @@ const ContactUs = () => {
             {
                 id: "4",
                 title: "INDIA",
+                company: "Emantis IT Services PVT LTD",
+                address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabs Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
+                number: ""
+            },
+            {
+                id: "4",
+                title: "INDIA",
                 company: "Avows IT Solutions Private Limited",
                 address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabs Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
                 number: "Tel: 040 44334230"
