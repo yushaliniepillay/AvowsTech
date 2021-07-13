@@ -67,13 +67,7 @@ const ContactUs = () => {
                 address: "Level 15-06, Tower A, The Vertical Business Suite, Avenue 3, Bangsar South, No 8, Jln Kerinchi, 59200	Kuala Lumpur, Malaysia.",
                 number: "Tel: +603 27123456"
             },
-            {
-                id: "0",
-                title: "MALAYSIA",
-                company: "Avows IT Outsourcing SDN BHD",
-                address: "Unit 15-07, Tower A, The Vertical Business Suite, Avenue 3, Bangsar South, No 8, Jln Kerinchi, 59200	Kuala Lumpur, Malaysia.",
-                number: "Tel: +603 27129999"
-            },
+           
             {
                 id: "1",
                 title: "SINGAPORE",
@@ -98,9 +92,9 @@ const ContactUs = () => {
             {
                 id: "4",
                 title: "INDIA",
-                company: "Emantis IT Services PVT LTD",
+                company: "Avows IT Solutions Private Limited",
                 address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabs Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
-                number: ""
+                number: "Tel: 040 44334230"
             },
             {
                 id: "5",
