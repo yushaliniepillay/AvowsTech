@@ -19,17 +19,17 @@ const Management = () => {
 
     const data =
         [
-            {
-                id: 0,
-                name: "DATUK SYED TAMIM MOHAMED",
-                position: "Director of Strategy",
-                position1:"Director of Strategy",
-                image: require('../images/management/Dato.jpg'),
-                description1: "Datuk Syed Tamim Mohamed is the Director of Strategy and Development for Avows Technologies. He has been working for the past 44 years in various capacities, both in the public and the private sectors. He began his career in the Prime Minister's Department in 1972 after graduating with a Bachelor of Economics (Honours) degree. He left the civil service to join the private sector in 1981, after obtaining his MBA. He was also trained at Harvard Business School and Mt Eliza, Australia. He is also a member of the Japanese Kankeiren Group and the Korean Development Institute",
-                description2: "He served the PERNAS Group between 1981 and 1986 before joining Sime Darby Group in 1986. He retired from Sime Darby Group after serving more than 20 years.",
-                description3: "In 2007 he formed his management and financial consultancy company in which he is the Executive Chairman. He also served as independent non-executive Director of several public listed companies including Maybank Group, and Cycle & Carriage Bhd. He also served as a Non-Executive Group Country Chairman of Jardines operations in Malaysia from 2000 until he left in 2016. Currently, he is serving as an independent Non-Executive Board member of FGV Plantation, a cluster division of FGV Berhad. He provides management services to a Japanese and an American group.",
-                description4: "In Sime Darby Group, he had served as CEO in various divisions. His exposure in Trade and Tourism, Oil and Gas, IT, Insurance Broking, Manufacturing, Health Services, Golf Club, and Plantation is invaluable. Before he retired in 2007, he headed the team that wrote the Northern Corridor Economic Report for the government."
-            },
+            // {
+            //     id: 0,
+            //     name: "DATUK SYED TAMIM MOHAMED",
+            //     position: "Director of Strategy",
+            //     position1:"Director of Strategy",
+            //     image: require('../images/management/Dato.jpg'),
+            //     description1: "Datuk Syed Tamim Mohamed is the Director of Strategy and Development for Avows Technologies. He has been working for the past 44 years in various capacities, both in the public and the private sectors. He began his career in the Prime Minister's Department in 1972 after graduating with a Bachelor of Economics (Honours) degree. He left the civil service to join the private sector in 1981, after obtaining his MBA. He was also trained at Harvard Business School and Mt Eliza, Australia. He is also a member of the Japanese Kankeiren Group and the Korean Development Institute",
+            //     description2: "He served the PERNAS Group between 1981 and 1986 before joining Sime Darby Group in 1986. He retired from Sime Darby Group after serving more than 20 years.",
+            //     description3: "In 2007 he formed his management and financial consultancy company in which he is the Executive Chairman. He also served as independent non-executive Director of several public listed companies including Maybank Group, and Cycle & Carriage Bhd. He also served as a Non-Executive Group Country Chairman of Jardines operations in Malaysia from 2000 until he left in 2016. Currently, he is serving as an independent Non-Executive Board member of FGV Plantation, a cluster division of FGV Berhad. He provides management services to a Japanese and an American group.",
+            //     description4: "In Sime Darby Group, he had served as CEO in various divisions. His exposure in Trade and Tourism, Oil and Gas, IT, Insurance Broking, Manufacturing, Health Services, Golf Club, and Plantation is invaluable. Before he retired in 2007, he headed the team that wrote the Northern Corridor Economic Report for the government."
+            // },
             {
                 id: 1,
                 name: "PH CHEW",
@@ -157,7 +157,7 @@ const Management = () => {
     return (
         <>
             <Container className='ml-auto'>
-                <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'left' }}>
                     {data.map((data, index) => (
                         <Card key={data.id} style={{ width: '16rem', margin: '5px' }}>
                             <Card.Img style={{ width: '16rem', height: '20rem' }} variant="top" src={data.image} onClick={() => handleShow(index)} />
