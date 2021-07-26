@@ -660,6 +660,14 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#pageHeader11 {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/background/bribery.jpg);
+    position: relative;
+    padding-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .vc-parent {
     width: 100%;
@@ -881,7 +889,7 @@ p {
 
 #about {
     position: relative;
-    padding: 0 0 45px;
+    padding: 0 0 40px;
     background-color: #f8f8f8;
     border-style: solid;
     border-width: 1px 0;
@@ -897,7 +905,10 @@ p {
 
 /* BLOG */
 
-#blog,
+.cs_about{
+    margin-top: -3em;
+}
+
 #domainPricing {
     padding: 0 0 100px
 }
@@ -1337,7 +1348,7 @@ p {
 
 /* case studies */
 .cs_about {
-    margin-bottom: 50px;;
+    margin-bottom: 20px;
 }
 .cs_about h4 {
     color: var(--mainDark);

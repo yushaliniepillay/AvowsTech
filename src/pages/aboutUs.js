@@ -110,8 +110,15 @@ Avows strives to do more - for our customers, our associates and our communities
             </div>
           </div>
         </div>
+        
+        {/*Bribery link*/}
+        <div>
+        <h4><a href="/briberyCorruption" style={{color: 'Red'}} activeStyle={{color: 'White'}} > Our stance against Bribery and Corruption</a></h4>
+        </div>
+
       </div>
     </div>
+
 
   </Layout>
 )
