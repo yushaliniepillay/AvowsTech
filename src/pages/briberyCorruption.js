@@ -15,7 +15,7 @@ const briberyCorruption = () => {
                 <div className="vc-parent">
                     <div className="vc-child">
                         <Breadcrumb>
-                            <Breadcrumb.Item href="/aboutUS">ABOUT US</Breadcrumb.Item>
+                            <Breadcrumb.Item href="/aboutUs">ABOUT US</Breadcrumb.Item>
                             <Breadcrumb.Item active>OUR STANCE AGAINST BRIBERY AND CORRUPTION</Breadcrumb.Item>
                         </Breadcrumb>
                         <section className="page-title">
