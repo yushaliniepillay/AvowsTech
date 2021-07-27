@@ -475,9 +475,10 @@ p {
     color: black;
     padding: 12px 25px 12px 25px;
     float: right;
-    margin-top: 15px;
+    margin-top: 5px;
     border-radius: 2px;
 }
+
 /*.avowsLogo {
      image-resolution: 1000;
     height: 4rem;

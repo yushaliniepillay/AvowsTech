@@ -3,7 +3,7 @@ import Layout from "../components/layouts/layout"
 import SEO from "../components/seo"
 import "../components/header/header.css";
 import Carousel from '../components/slider/Management';
-import { Breadcrumb, Row, Col } from 'react-bootstrap';
+import { Breadcrumb, Row, Col, Button } from 'react-bootstrap';
 
 // var imageName = require('../images/our_ceo.jpg')
 
@@ -111,13 +111,30 @@ Avows strives to do more - for our customers, our associates and our communities
           </div>
         </div>
         
-        {/*Bribery link*/}
-        <div>
+       
+        {/* <div>
         <h4><a href="/briberyCorruption" style={{color: 'Red'}} activeStyle={{color: 'White'}} > Our stance against Bribery and Corruption</a></h4>
-        </div>
+        </div> */}
 
       </div>
     </div>
+ {/*Bribery link*/}
+        <div id="subscribe">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-9">
+                <section>
+                  <h2>OUR STANCE AGAINST BRIBERY AND CORRUPTION</h2>
+                </section>
+              </div>
+              <div className="col-sm-3">
+                <div data-form-validation="true">
+                  <Button className="join_us" variant="light" size="lg" type="submit" href="/briberyCorruption">FIND OUT MORE</Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
   </Layout>
