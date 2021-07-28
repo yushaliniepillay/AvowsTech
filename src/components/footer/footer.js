@@ -42,7 +42,7 @@ function footer() {
                                 <hr /></h4>
                                 <ul className="list-unstyled">
                                     <li><a href="/">SERVICES & SOLUTIONS</a></li>
-                                    <li><a href="/career">CAREER</a></li>
+                                    <li><a href="/careers">CAREERS</a></li>
                                     <li><a href="/contactUs">CONTACT</a></li>
                                 </ul>
                             </section>
