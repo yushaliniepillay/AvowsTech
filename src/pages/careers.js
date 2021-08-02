@@ -80,8 +80,8 @@ const Careers = () => (
                             <br/>
                             <p>If you think you have what it takes to stand out in the vast technology landscape, come show us what you've got!</p>
                             <p>Send us your resume at
-                                <tab> <Link href="mailto:info@avowstech.com">
-                                    info@avowstech.com
+                                <tab> <Link href="mailto:hr@avowstech.com">
+                                hr@avowstech.com
                                 </Link> </tab>
                                 and we'll contact you to set up an interview if you're selected.
                             </p>
