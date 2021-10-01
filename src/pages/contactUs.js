@@ -87,7 +87,7 @@ const ContactUs = () => {
                 title: "USA",
                 company: "Avows Technologies Inc.",
                 address: "4512 Legacy Drive #100 Plano, TX 75024",
-                number: "Tel: +1 214 390 7713"
+                number: "Tel: +1 214 390 7712"
             },
             {
                 id: "4",
