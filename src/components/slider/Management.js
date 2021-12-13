@@ -104,15 +104,15 @@ const Management = () => {
             //     description2: "Before becoming a part of the Avows team, Senthil honed his skills in leadership, communication and problem solving while working with some of the top brands in the business. He has served as next in CIO for one of the largest Health Insurance company. He also holds vast experience in delivery and implementation of large BFSI & Telco projects across various regions. Prior to that, he was leading teams on various projects while assuming senior roles in a few global IT services and  consulting company. ",
             //     description3: "Senthil holds a Master of Business Administration in System from the University of Madras and is passionate about strategizing the IT and Digital Strategy Roadmap in alignment with Avows business goals. He leads and guides the team’s science and technology efforts amidst an increasingly volatile and rapidly transforming business environment."
             // },
-            {
-                id: 8,
-                name: "KANESAN VELUPPILLAI",
-                position: "Corporate Advisor - Strategy",
-                position1:"Corporate Advisor – Strategy",
-                image: require('../images/management/Ganesan.jpg'),
-                description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of M&A, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
-                description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
-            },
+            // {
+            //     id: 8,
+            //     name: "KANESAN VELUPPILLAI",
+            //     position: "Corporate Advisor - Strategy",
+            //     position1:"Corporate Advisor – Strategy",
+            //     image: require('../images/management/Ganesan.jpg'),
+            //     description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of M&A, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
+            //     description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
+            // },
             {
                 id: 9,
                 name: "LEE HUI KIM",
