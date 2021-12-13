@@ -89,7 +89,7 @@ const Management = () => {
                 name: "SEETHARAM SUBRAMANYAM",
                 position: "Group CHRO ",
                 position1:"Chief Human Resource Officer",
-                image: require('../images/management/Seetharam.jpg'),
+                image: require('../images/management/Seetharam1.jpg'),
                 description1: "Seetharam comes with over three decades of industry experience – predominantly in the IT Human Resource space which includes a significant global stint with the North American region and the Middle East. He has worked with Deloitte in USA and India, Satyam Computers, Computer Sciences Corporation, Birlasoft, CSS Corporation – to name a few. ",
                 description2: "Seetharam is a thought leader and an enterprising professional in driving the people agenda to facilitate business targets. He has managed human capital function, talent acquisition, workforce management and talent development. He has strong hands-on experience and process expertise building and managing teams across regions. He has played lead roles in design, integration and implementation of the HR function throughout different business models, domains, competencies and geographies.",
                 description3: "He is currently based out of Hyderabad and is in the midst of establishing our business operations in India. With his vast experience, he is developing our Business Human Resource strategy in line with the overall business plan and strategic direction of the organization."
@@ -106,12 +106,12 @@ const Management = () => {
             // },
             // {
             //     id: 8,
-            //     name: "KANESAN VELUPPILLAI",
-            //     position: "Corporate Advisor - Strategy",
-            //     position1:"Corporate Advisor – Strategy",
-            //     image: require('../images/management/Ganesan.jpg'),
-            //     description1: "Kanesan Veluppillai is the Group Corporate Advisor for Avows Technologies. He was inducted on 1 November 2020 and has a vast amount of experience in advisory services that includes areas of M&A, Funding, Human Capital Transformation, Investor Relations, Strategic Communications and Crisis Management.",
-            //     description2: "As the Group Advisor for Avows, Kanesan oversees the business financial strategy and key business development aspects for the company."
+            //     name: "MARIANNE",
+            //     position: "test",
+            //     position1:"test",
+            //     image: require('../images/management/Marianne1.jpg'),
+            //     description1: "",
+            //     description2: ""
             // },
             {
                 id: 9,
