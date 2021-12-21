@@ -84,10 +84,10 @@ const ContactUs = () => {
             },
             {
                 id: "3",
-                title: "USA",
-                company: "Avows Technologies Inc.",
-                address: "4512 Legacy Drive #100 Plano, TX 75024",
-                number: "Tel: +1 214 390 7712"
+                title: "INDONESIA",
+                company: "PT Avows Technologies",
+                address: "Menara Rajawali, 24th Floor Jl. DR. Ide Anak Agung Gde Agung Kuningan, Setiabudi Jakarta Selatan 12950",
+                number: "Tel: +6221 5795 0609"
             },
             {
                 id: "4",
@@ -97,14 +97,21 @@ const ContactUs = () => {
                 number: ""
             },
             {
-                id: "4",
+                id: "5",
                 title: "INDIA",
                 company: "Avows IT Solutions Private Limited",
                 address: "Regus Business Center, Level 2, Oval Building, Plot No. 18, iLabs Hyderabad Technology Park, Inorbit Mall Rd, Hyderabad - 500081",
                 number: "Tel: 040 44334230"
             },
             {
-                id: "5",
+                id: "6",
+                title: "USA",
+                company: "Avows Technologies Inc.",
+                address: "4512 Legacy Drive #100 Plano, TX 75024",
+                number: "Tel: +1 214 390 7712"
+            },
+            {
+                id: "7",
                 title: "UAE",
                 company: "Avows Technologies DMCC",
                 address: "Unit No 1291, DMCC Business Centre, Level No. 1, Jewellery & Gemplex 3 UAE, United Arab Emirates",
