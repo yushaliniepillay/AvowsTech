@@ -11,6 +11,14 @@ const Blog = () => {
     [
       {
         id: "0",
+        title: "AVOWS RECOGNIZED FOR OPERATIONAL EXCELLENCE IN INFORMATION TECHNOLOGY",
+        date: "FRIDAY, 10/12/2021 ",
+        image: require('../pages/blog_details/image/avowsaward2021/GBSAA2021 Logo.png'),
+        descp: "Outsourcing Malaysia (OM) – A PIKOM Chapter had organized the 11th GBS Asia Awards 2021 to recognize the achievements of top companies and individuals in the field of Information Technology.",
+        link: "/blog_details/blog_04"
+      },
+      {
+        id: "1",
         title: "AVOWS wins Operational Excellence in IT - GBS Awards 2019",
         date: "THURSDAY, 03/10/2019",
         image: require('../pages/blog_details/image/blog00_thumbnail.jpeg'),
@@ -18,7 +26,7 @@ const Blog = () => {
         link: "/blog_details/blog_00"
       },
       {
-        id: "1",
+        id: "2",
         title: "Algo League– The next generation Coding Contest for University Students in Malaysia",
         date: "FRIDAY, 20/12/2019",
         image: require('../pages/blog_details/image/contest/3.jpg'),
@@ -26,7 +34,7 @@ const Blog = () => {
         link: "/blog_details/blog_01"
       },
       {
-        id: "2",
+        id: "3",
         title: "TechConnect 2020: Business Simplified by Technology",
         date: "FRIDAY, 20/12/2019",
         image: require('../pages/blog_details/image/techconnect.png'),
@@ -34,13 +42,14 @@ const Blog = () => {
         link: "/blog_details/blog_02"
       },
       {
-        id: "2",
+        id: "4",
         title: "Employees Engagement Activity",
         date: "",
         image: require('../pages/blog_details/image/annualDinner/HWT_4631.jpg'),
         descp: "",
         link: "/blog_details/blog_03"
       }
+      
     ]
   return (
 
@@ -79,7 +88,7 @@ const Blog = () => {
           <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
             {data.map(data => (
               <Card style={{ width: '20rem', margin: '10px' }} >
-                <Card.Img style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image} />
+                <Card.Img class="border-bottom border-dark rounded" style={{ width: '20rem', height: '14rem' }} variant="top" src={data.image} />
                 <Card.Body>
                   <Card.Title>
                     <section className="post-title">
