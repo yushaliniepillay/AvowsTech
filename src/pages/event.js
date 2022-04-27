@@ -5,17 +5,17 @@ import { Breadcrumb, Row, Col, Card } from 'react-bootstrap';
 
 const Event = () => {
 
-  const data =
-    [
-      {
-        id: "0",
-        title: "Techconnect 2021",
-        date: "",
-        image: require('../pages/blog_details/image/TechConnectDigitalBanking.png'),
-        descp: "",
-        link: "/blog_details/blog_01"
-      }
-    ]
+  // const data =
+  //   [
+  //     {
+  //       id: "0",
+  //       title: "Techconnect 2021",
+  //       date: "",
+  //       image: require('../pages/blog_details/image/TechConnectDigitalBanking.png'),
+  //       descp: "",
+  //       link: "/blog_details/blog_01"
+  //     }
+  //   ]
 
   return (
     <Layout>
@@ -55,24 +55,26 @@ const Event = () => {
               <div className="mdl-card mdl-shadow--2dp">
 
                 <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
-                  {data.map(data => (
+                  {/* {data.map(data => (
                     <Card style={{ width: '20rem', margin: '10px' }} >
                       <Card.Img style={{ width: '20rem' }} variant="top" src={data.image} />
                       <Card.Body>
                         <Card.Title>
                           <section className="post-title">
                             <h2>{data.title}</h2>
-                            {/* <a href={data.link}></a> */}
+                            {/* <a href={data.link}></a> 
                           </section>
                         </Card.Title>
                         <Card.Text>
                           <p>{data.date}</p>
                           <p>{data.descp}</p>
                         </Card.Text>
-                        {/* <Button variant="primary" href={data.link} >MORE</Button> */}
+                        {/* <Button variant="primary" href={data.link} >MORE</Button>
                       </Card.Body>
                     </Card>
-                  ))}
+                  ))} */}
+
+                  <h3 className="mb-5">Currently there is no events.</h3>
                 </div>
 
               </div>
