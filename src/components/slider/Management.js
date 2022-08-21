@@ -63,17 +63,17 @@ const Management = () => {
                 description3: "Ashok was recognised for his contribution to HR during the Asia’s Best Employer Brand awards in 2010. Ashok was also recognised as “CEO of the Year 2013”.",
                 description4: "An avid Golfer and a technocrat-turned-commerce post-graduate, Ashok is passionate in making Avows a strong player in the global technology industry."
             },
-            {
-                id: 4,
-                name: "VINOD KUMAR SINGH",
-                position: "Group COO ",
-                position1:"Chief Operations Officer",
-                image: require('../images/management/Vinod S.jpg'),
-                description1: "Vinod K. Singh joined Avows in April 2021 bringing with him over three decades worth of experience in Software Development and Consulting. He is responsible for Operation Excellence, Pre-sales and the Delivery Business Unit. ",
-                description2: "Vinod is a Technology Business Leader in user experiences, internet travel and e-commerce. He has served on the Board of leading IT companies.",
-                description3: "Prior to joining Avows, Vinod was the Senior Vice President for NTT Malaysia Digital Business Solutions Sdn Bhd where he was heading the pre-sales function in Malaysia and was responsible for identifying key market segments in providing relevant products and solutions.",
-                description4: "Vinod has experience in developing Software Products and Online solutions that reach large audiences. He has also held senior management positions with Refried Mouse Interactive, Times Internet Limited (TIL), and Ebookers PLC where he was responsible for global implementation programs, technology alliances, development team restructuring, technology road mapping for e-retail verticals and business process automation."
-            },
+            //{
+            //    id: 4,
+            //    name: "VINOD KUMAR SINGH",
+            //    position: "Group COO ",
+            //    position1:"Chief Operations Officer",
+            //    image: require('../images/management/Vinod S.jpg'),
+            //    description1: "Vinod K. Singh joined Avows in April 2021 bringing with him over three decades worth of experience in Software Development and Consulting. He is responsible for Operation Excellence, Pre-sales and the Delivery Business Unit. ",
+            //    description2: "Vinod is a Technology Business Leader in user experiences, internet travel and e-commerce. He has served on the Board of leading IT companies.",
+            //    description3: "Prior to joining Avows, Vinod was the Senior Vice President for NTT Malaysia Digital Business Solutions Sdn Bhd where he was heading the pre-sales function in Malaysia and was responsible for identifying key market segments in providing relevant products and solutions.",
+            //    description4: "Vinod has experience in developing Software Products and Online solutions that reach large audiences. He has also held senior management positions with Refried Mouse Interactive, Times Internet Limited (TIL), and Ebookers PLC where he was responsible for global implementation programs, technology alliances, development team restructuring, technology road mapping for e-retail verticals and business process automation."
+            //},
             {
                 id: 5,
                 name: "RAMESH KUMAR RAGHAVAN",
@@ -84,16 +84,16 @@ const Management = () => {
                 description2: "Ramesh has a breadth of industry expertise with proficiency building new capabilities and internal processes from working with leading global organisations in the past",
                 description3: "He partners with sales to nurture client relationships and ensures highest quality of service to existing clients. He is as instrumental in advancing Avows’ innovative company culture as he is in fostering new talent. His passion is to develop and work on next-gen digital technologies to solve business problems faster and seamlessly."
             },
-            {
-                id: 6,
-                name: "SEETHARAM SUBRAMANYAM",
-                position: "Group CHRO ",
-                position1:"Chief Human Resource Officer",
-                image: require('../images/management/Seetharam.jpg'),
-                description1: "Seetharam comes with over three decades of industry experience – predominantly in the IT Human Resource space which includes a significant global stint with the North American region and the Middle East. He has worked with Deloitte in USA and India, Satyam Computers, Computer Sciences Corporation, Birlasoft, CSS Corporation – to name a few. ",
-                description2: "Seetharam is a thought leader and an enterprising professional in driving the people agenda to facilitate business targets. He has managed human capital function, talent acquisition, workforce management and talent development. He has strong hands-on experience and process expertise building and managing teams across regions. He has played lead roles in design, integration and implementation of the HR function throughout different business models, domains, competencies and geographies.",
-                description3: "He is currently based out of Hyderabad and is in the midst of establishing our business operations in India. With his vast experience, he is developing our Business Human Resource strategy in line with the overall business plan and strategic direction of the organization."
-            },
+            //{
+            //    id: 6,
+            //    name: "SEETHARAM SUBRAMANYAM",
+            //    position: "Group CHRO ",
+            //    position1:"Chief Human Resource Officer",
+            //    image: require('../images/management/Seetharam.jpg'),
+            //    description1: "Seetharam comes with over three decades of industry experience – predominantly in the IT Human Resource space which includes a significant global stint with the North American region and the Middle East. He has worked with Deloitte in USA and India, Satyam Computers, Computer Sciences Corporation, Birlasoft, CSS Corporation – to name a few. ",
+            //    description2: "Seetharam is a thought leader and an enterprising professional in driving the people agenda to facilitate business targets. He has managed human capital function, talent acquisition, workforce management and talent development. He has strong hands-on experience and process expertise building and managing teams across regions. He has played lead roles in design, integration and implementation of the HR function throughout different business models, domains, competencies and geographies.",
+            //    description3: "He is currently based out of Hyderabad and is in the midst of establishing our business operations in India. With his vast experience, he is developing our Business Human Resource strategy in line with the overall business plan and strategic direction of the organization."
+            //},
             // {
             //     id: 7,
             //     name: "SENTHIL KUMAR SUBRAMANIAN",
