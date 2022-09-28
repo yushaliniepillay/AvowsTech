@@ -216,7 +216,7 @@ const ContactUs = () => {
             {/* map */}
             <div className="container-fluid">
                 <div className="row">
-                    <iframe className="frame" title="Map of Avows Technologies" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.565025466968!2d101.73319691410663!3d3.2082799976640892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3838cd5d77e5%3A0xd16ea55181170490!2sAvowstech!5e0!3m2!1sen!2s!4v1537269981617" width="100%" height="500" frameBorder="0" allowFullScreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3983.9407359779048!2d101.66322381456072!3d3.1103827542576017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x31cc4a2a3a4057c9%3A0x4c7f54a3a3101bb2!2sAvows%20Technologies%20Sdn.%20Bhd.%20(803653-T)%2C%20Unit%2015-06%2C%20Tower%20A%2C%20The%20Vertical%20Business%20Suite%20Avenue%203%2C%20Bangsar%20South%2C%20No%2C%208%2C%20Jalan%20Kerinchi%2C%2059200%20Kuala%20Lumpur!3m2!1d3.1103774!2d101.6654125!5e0!3m2!1sen!2smy!4v1664359431272!5m2!1sen!2smy" width="100%" height="500" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
